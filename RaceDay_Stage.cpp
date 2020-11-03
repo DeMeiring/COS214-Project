@@ -1,5 +1,6 @@
 #include "RaceDay_stage.h"
 
+//test 1
 void RaceDay_Stage::generateConditions() {
 	// TODO - implement RaceDay_Stage::generateConditions
 	throw "Not yet implemented";
