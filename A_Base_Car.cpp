@@ -1,5 +1,7 @@
 #include "A_Base_Car.h"
 
+//test 2 of base
+
 BluePrint* A_Base_Car::CreateBluePrint() {
 	// TODO - implement A_Base_Car::CreateBluePrint
 	throw "Not yet implemented";
