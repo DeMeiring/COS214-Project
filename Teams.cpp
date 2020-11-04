@@ -9,3 +9,5 @@ Driver* Teams::getDriver(int index) {
 	// TODO - implement Teams::getDriver
 	throw "Not yet implemented";
 }
+
+Teams::~Teams() {}
