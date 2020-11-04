@@ -1,19 +1,21 @@
 #ifndef RACE_COMPUTATIONS_H
 #define RACE_COMPUTATIONS_H
 
+using namespace std;
+
 class Race_Computations {
 
 
 public:
-	boolean OvertakeSuccess(tuple<Driver*, Engineering*> ToBeOvertaken, tuple<Driver*, Engineering*> Overtaker);
+	bool OvertakeSuccess(tuple<Driver*, Engineering*> ToBeOvertaken, tuple<Driver*, Engineering*> Overtaker);
 
-	boolean ChanceOfCrash(Driver* driver, Engineering* car);
+	bool ChanceOfCrash(Driver* driver, Engineering* car);
+
+	bool ChanceOfPitOvertake(Driver* adam);
 
 private:
-	boolean ChanceOfRecovery(Driver* driver);
-
-public:
-	boolean ChanceOfPitOvertake(Driver* adam);
+	bool ChanceOfRecovery(Driver* driver);
+	
 };
 
 #endif

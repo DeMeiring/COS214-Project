@@ -1,6 +1,12 @@
 #ifndef COMMAND_H
 #define COMMAND_H
 
+#include "Radio_System.h"
+#include <string>
+
+class Race_Crew;
+
+using namespace std;
 class Command {
 
 private:
@@ -9,8 +15,7 @@ private:
 
 public:
 	void setReceiver(Radio_System* rec);
-
-	void ForwardCommand(Race_Crew* RaceMember);
+	void ForwardCommand(Race_Crew* RaceMember, string command);
 };
 
 #endif
