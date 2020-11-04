@@ -1,38 +1,45 @@
 #ifndef RACEDAY_STAGE_H
 #define RACEDAY_STAGE_H
 
-class RaceDay_Stage : Stage {
+#include "Stage.h"
+#include "Track.h"
+#include "Weather.h"
+#include "Race_Computations.h"
+#include "Radio_System.h"
+#include <vector>
+
+class RaceDay_Stage : public Stage {
 
 private:
-	boolean Diver_Pit;
+	bool Diver_Pit;
 	int lap_count;
-	vector<track*> tracks;
+	Track* tracks;
 	Weather* weather;
 	vector<string> OppDriverNames;
-	int tyre_strategy;
+	vector<string> Tracks;
+	int* tyre_degradation;
+	Race_Computations* RC;
+
+	void show_tracks();
+	Track* ChooseTrack(int index);
+	
+	void showWeatherOptions();
+	void randomizeWeather();
+	void chooseWeather(int index);
+
+	void generateConditions();
+
+	void generateRacers();
 
 public:
-	void generateConditions();
 
 	void Qualifying_Main();
 
 	void MainRace_Main();
 
-	void generateRacers();
+	RaceDay_Stage();
+	virtual ~RaceDay_Stage();
 
-private:
-	void ChooseTrack(int index);
-
-	void show_tracks();
-
-	void randomizeWeather();
-
-	void chooseWeather(int index);
-
-	void showWeatherOptions();
-
-public:
-	void operation();
 };
 
 #endif

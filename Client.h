@@ -1,15 +1,25 @@
 #ifndef CLIENT_H
 #define CLIENT_H
 
+#include "Stage.h"
+#include "Engineering.h"
+#include "Transport.h"
+#include "Driver_Management.h"
+#include "Statistics.h"
+
 class Client {
 
 private:
 	Stage* Stage;
 	Transport* Cars;
 	Statistics* car_stats;
-	Diver_Management* DriverManager;
+	Driver_Management* DriverManager;
 
 public:
+
+	Client();
+	virtual ~Client();
+
 	void SetStage();
 
 	void run();
@@ -18,7 +28,7 @@ public:
 
 	void setCars(Transport* Cars);
 
-	boolean Store_carStats(Statistics* stats);
+	bool Store_carStats(Statistics* stats);
 
 	Statistics* getCar_stats();
 
