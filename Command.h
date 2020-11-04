@@ -20,10 +20,10 @@ public:
 	Radio_System* getRec();
 	Race_Crew* getInvoker();
 	string getCommand();
-	virtual void ForwardCommand(Race_Crew* RaceMember, string command)=0;
+	virtual void ForwardCommand()=0;
 
 
-	virtual ~Command() {}; // this may break stuff
+	virtual ~Command(); // this may break stuff
 };
 
 #endif

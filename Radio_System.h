@@ -8,6 +8,11 @@ class Radio_System {
 
 public:
 	virtual void PushCommand(Race_Crew* RaceMember, Command* command)=0;
+
+	virtual ~Radio_System();
+
 };
+
+
 
 #endif

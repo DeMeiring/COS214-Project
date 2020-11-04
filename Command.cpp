@@ -20,3 +20,5 @@ Race_Crew* Command::getInvoker() {
 string Command::getCommand() {
 	return command_name;
 }
+
+Command::~Command() {}

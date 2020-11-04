@@ -19,6 +19,8 @@ public:
 	void SendCommand(int i);
 
 	void showAvailableCommands();
+
+	virtual ~Race_Crew();
 };
 
 #endif

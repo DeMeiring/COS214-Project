@@ -17,3 +17,5 @@ void Race_Crew::SendCommand(int i) {
 void Race_Crew::showAvailableCommands() {
 	// print list of relevant commands for choosing
 }
+
+Race_Crew::~Race_Crew() {};

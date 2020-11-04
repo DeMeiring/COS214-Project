@@ -23,3 +23,5 @@ void Conc_Radio_System::PushCommand(Race_Crew* RaceMember, Command* command) {
 		}
 	}	
 }
+
+Conc_Radio_System::~Conc_Radio_System() {}
