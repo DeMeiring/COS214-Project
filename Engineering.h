@@ -2,7 +2,7 @@
 #define ENGINEERING_H
 
 #include <string>
-#include "Engineering_Iterator.h"
+
 
 using namespace std;
 
@@ -13,15 +13,20 @@ private:
 	bool isDept;
 
 public:
+
+	Engineering(){};
+
+	Engineering(string, bool);
+
 	string getRnDName();
 
-	int getCostOfComponent(Engineering* Comp);
+	virtual int getCostOfComponent(Engineering* Comp);
 
 	int getTotalCost();
 
-	void addDepartment(Engineering* Dept);
+	virtual void addDepartment(Engineering* Dept) = 0;
 
-	Engineering_Iterator* createIterator();
+	// Engineering_Iterator* createIterator();
 
 	bool getIsDept();
 

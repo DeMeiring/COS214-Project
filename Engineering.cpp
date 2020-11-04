@@ -1,5 +1,11 @@
 #include "Engineering.h"
 
+Engineering::Engineering(string RNDName, bool isDept)
+{
+	this->RnD_Name = RNDName;
+	this->isDept = isDept;
+}
+
 string Engineering::getRnDName() {
 	// TODO - implement Engineering::getRnDName
 	throw "Not yet implemented";
@@ -15,15 +21,15 @@ int Engineering::getTotalCost() {
 	throw "Not yet implemented";
 }
 
-void Engineering::addDepartment(Engineering* Dept) {
-	// TODO - implement Engineering::addDepartment
-	throw "Not yet implemented";
-}
+// void Engineering::addDepartment(Engineering* Dept) {
+// 	// TODO - implement Engineering::addDepartment
+// 	throw "Not yet implemented";
+// }
 
-Engineering_Iterator* Engineering::createIterator() {
-	// TODO - implement Engineering::createIterator
-	throw "Not yet implemented";
-}
+// Engineering_Iterator* Engineering::createIterator() {
+// 	// TODO - implement Engineering::createIterator
+// 	throw "Not yet implemented";
+// }
 
 bool Engineering::getIsDept() {
 	return this->isDept;

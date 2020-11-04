@@ -3,7 +3,9 @@
 
 
 #include "Engineering.h"
-class Engineering_Iterator {
+
+class Engineering;
+class Engineering_Iterator{
 
 private:
 	Engineering* CurrDept;
@@ -16,7 +18,7 @@ public:
 
 	Engineering* CurrentDept();
 
-	Engineering* CurrComp();
+	Engineering* CurrentComp();
 
 	Engineering* LastDepartment();
 

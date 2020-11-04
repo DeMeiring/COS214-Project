@@ -9,8 +9,8 @@
 using namespace std;
 
 
-class Component : Engineering {
-
+class Component : public Engineering 
+{
 private:
 	int Cost;
 	Statistics* Stats;
@@ -18,6 +18,8 @@ private:
 	vector<Statistics*> Stat_Levels;
 
 public:
+	Component(string name, bool isDept);
+	void addDepartment(Engineering *Dept);
 	int getCost();
 
 	Statistics getStats();

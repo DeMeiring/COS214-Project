@@ -15,7 +15,7 @@ Engineering* Engineering_Iterator::CurrentDept() {
 	throw "Not yet implemented";
 }
 
-Engineering* Engineering_Iterator::CurrComp() {
+Engineering* Engineering_Iterator::CurrentComp() {
 	// TODO - implement Engineering_Iterator::CurrComp
 	throw "Not yet implemented";
 }
