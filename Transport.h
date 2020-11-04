@@ -1,6 +1,11 @@
 #ifndef TRANSPORT_H
 #define TRANSPORT_H
 
+#include <vector>
+#include <string>
+#include "BluePrint.h"
+using namespace std;
+
 class Transport {
 
 private:

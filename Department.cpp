@@ -10,7 +10,7 @@ void Department::addDepartment(Engineering* Dept) {
 	throw "Not yet implemented";
 }
 
-boolean Department::levelComponent(Engineering* Component, boolean upgrade) {
+bool Department::levelComponent(Engineering* Component, bool upgrade) {
 	// TODO - implement Department::levelComponent
 	throw "Not yet implemented";
 }

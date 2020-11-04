@@ -1,6 +1,8 @@
 #ifndef ENGINEERING_ITERATOR_H
 #define ENGINEERING_ITERATOR_H
 
+
+#include "Engineering.h"
 class Engineering_Iterator {
 
 private:

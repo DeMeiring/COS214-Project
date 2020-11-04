@@ -25,7 +25,7 @@ void A_Base_Car::updateComponents(Engineering* newComponents) {
 	throw "Not yet implemented";
 }
 
-Engineering_iterator* A_Base_Car::get_Iter() {
+Engineering_Iterator* A_Base_Car::get_Iter() {
 	// TODO - implement A_Base_Car::get_Iter
 	throw "Not yet implemented";
 }

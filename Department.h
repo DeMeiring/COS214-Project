@@ -1,6 +1,12 @@
 #ifndef DEPARTMENT_H
 #define DEPARTMENT_H
 
+#include <string>
+#include <vector>
+#include "Engineering.h"
+
+using namespace std;
+
 class Department : Engineering {
 
 private:
@@ -12,7 +18,7 @@ public:
 
 	void addDepartment(Engineering* Dept);
 
-	boolean levelComponent(Engineering* Component, boolean upgrade);
+	bool levelComponent(Engineering* Component, bool upgrade);
 
 	vector<string> getComponentList();
 };

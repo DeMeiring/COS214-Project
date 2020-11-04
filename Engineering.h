@@ -1,11 +1,16 @@
 #ifndef ENGINEERING_H
 #define ENGINEERING_H
 
+#include <string>
+#include "Engineering_Iterator.h"
+
+using namespace std;
+
 class Engineering {
 
 private:
 	string RnD_Name;
-	boolean isDept;
+	bool isDept;
 
 public:
 	string getRnDName();
@@ -18,9 +23,9 @@ public:
 
 	Engineering_Iterator* createIterator();
 
-	boolean getIsDept();
+	bool getIsDept();
 
-	void setIsDept(boolean isDept);
+	void setIsDept(bool isDept);
 };
 
 #endif

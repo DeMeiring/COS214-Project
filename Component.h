@@ -1,6 +1,14 @@
 #ifndef COMPONENT_H
 #define COMPONENT_H
 
+#include <stdlib.h>
+#include <vector>
+
+#include "Engineering.h"
+#include "Statistics.h"
+using namespace std;
+
+
 class Component : Engineering {
 
 private:
@@ -14,7 +22,7 @@ public:
 
 	Statistics getStats();
 
-	boolean ChangeLevel(int lvl);
+	bool ChangeLevel(int lvl);
 };
 
 #endif

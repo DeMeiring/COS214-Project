@@ -25,10 +25,10 @@ Engineering_Iterator* Engineering::createIterator() {
 	throw "Not yet implemented";
 }
 
-boolean Engineering::getIsDept() {
+bool Engineering::getIsDept() {
 	return this->isDept;
 }
 
-void Engineering::setIsDept(boolean isDept) {
+void Engineering::setIsDept(bool isDept) {
 	this->isDept = isDept;
 }

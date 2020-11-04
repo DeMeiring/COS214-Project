@@ -1,6 +1,10 @@
 #ifndef STATISTICS_H
 #define STATISTICS_H
 
+#include <tuple>
+#include <string>
+using namespace std;
+
 class Statistics {
 
 private:

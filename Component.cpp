@@ -10,7 +10,7 @@ Statistics Component::getStats() {
 	throw "Not yet implemented";
 }
 
-boolean Component::ChangeLevel(int lvl) {
+bool Component::ChangeLevel(int lvl) {
 	// TODO - implement Component::ChangeLevel
 	throw "Not yet implemented";
 }
