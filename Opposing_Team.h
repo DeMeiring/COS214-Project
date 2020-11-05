@@ -5,14 +5,6 @@
 #include "A_Opposing_Car.h"
 #include "A_Opposing_Driver.h"
 
-// this struct may need to be moved
-struct OpposingDriver {
-		string team;
-		string name;
-		Driver* driver;
-		Engineering* car;
-	};
-
 class Opposing_Team : public A_Opposing_Team {
 private:
     A_Opposing_Car *OppCarFact;

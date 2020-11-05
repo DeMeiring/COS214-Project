@@ -17,3 +17,7 @@ int Driver::getContractCost() {
 	// TODO - implement Driver::getContractCost
 	throw "Not yet implemented";
 }
+
+Driver::~Driver() {
+	
+}

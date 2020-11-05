@@ -12,19 +12,16 @@ using namespace std;
 class Teams {
 
 private:
+	A_Opposing_Team* OppTeamFact;
 	vector<OpposingDriver*> OpposingDrivers;
 
 public:
 
 	Teams();
 
-	vector<OpposingDriver*> GenDrivers
+	vector<OpposingDriver*> GenDrivers();
 
-	Driver* getDriverbyName(string name);
-
-	Driver* getDriver(int index);
-
-	void printDriverList();
+	vector<OpposingDriver*> getOpposingDrivers();
 
 	virtual ~Teams();
 

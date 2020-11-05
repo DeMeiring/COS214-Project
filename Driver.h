@@ -1,7 +1,12 @@
 #ifndef DRIVER_H
 #define DRIVER_H
 
-class Driver : Race_Crew {
+#include "Race_Crew.h"
+#include "Skill_Level.h"
+#include "Prepared.h"
+#include "RaceDay_Strat.h"
+
+class Driver : public Race_Crew {
 
 private:
 	Statistics* stats;
@@ -12,6 +17,8 @@ private:
 	int ContractCost;
 
 public:
+	Driver();
+
 	Statistics* getStats();
 
 	void setStats(Statistics* stats);
@@ -19,6 +26,8 @@ public:
 	Statistics* Stats_Modifier();
 
 	int getContractCost();
+
+	virtual ~Driver();
 };
 
 #endif

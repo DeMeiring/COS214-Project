@@ -2,11 +2,15 @@
 #define RACEDAY_STAGE_H
 
 #include "Stage.h"
-#include "Track.h"
+#include "Bahrain.h"
+#include "Monaco.h"
+#include "Monza.h"
 #include "Weather.h"
 #include "Race_Computations.h"
 #include "Radio_System.h"
+#include "Teams.h"
 #include <vector>
+#include <iostream>
 
 class RaceDay_Stage : public Stage {
 
@@ -15,9 +19,7 @@ private:
 	int lap_count;
 	Track* tracks;
 	Weather* weather;
-	vector<string> OppDriverNames;
-	vector<string> Tracks;
-	int* tyre_degradation;
+	vector<OpposingDriver*> OpposingDrivers;
 	Race_Computations* RC;
 
 	void show_tracks();
@@ -27,7 +29,7 @@ private:
 	void randomizeWeather();
 	void chooseWeather(int index);
 
-	void generateConditions();
+	void generateConditions(bool isRand);
 
 	void generateRacers();
 

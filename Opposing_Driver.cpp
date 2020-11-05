@@ -82,7 +82,25 @@ Driver* Opposing_Driver::GenDriver(int skills) {
 
     }
     else {
-        // Romain Grosjean 
+        stats->ChangeValue("racing_ability", 50, false);
+        rando = 1 + rand() % 20;
+        stats->ChangeValue("racing_ability", rando, true, true);
+
+        stats->ChangeValue("preparedness", 33, false);
+        stats->ChangeValue("dry", 65, false);
+        stats->ChangeValue("wet", 53, false);
+        stats->ChangeValue("raining", 50, false);
+
+        stats->ChangeValue("aggression", 35, false);
+        rando = 1 + rand() % 40;
+        stats->ChangeValue("aggression", rando, true, true);
+
+        stats->ChangeValue("conservation", 50, false);
+        stats->ChangeValue("conservation", rando, true, false);
     }
 
+    Driver *newDriver = new Driver();
+    newDriver->setStats(stats);
+
+    return newDriver;
 }
