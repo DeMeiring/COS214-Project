@@ -8,7 +8,7 @@ Engineering::Engineering(string RNDName, bool isDept)
 
 string Engineering::getRnDName() {
 	// TODO - implement Engineering::getRnDName
-	throw "Not yet implemented";
+	return RnD_Name;
 }
 
 int Engineering::getCostOfComponent(Engineering* Comp) {
@@ -31,10 +31,35 @@ int Engineering::getTotalCost() {
 // 	throw "Not yet implemented";
 // }
 
+vector<Engineering*> Engineering::getRnD()
+{
+	return RnD;
+}
+
 bool Engineering::getIsDept() {
 	return this->isDept;
 }
 
 void Engineering::setIsDept(bool isDept) {
 	this->isDept = isDept;
+}
+
+int Engineering::getCompIndex()
+{
+	return compIndex;
+}
+
+void Engineering::setCompIndex(int index)
+{
+	compIndex = index;
+}
+
+int Engineering::getDeptIndex()
+{
+	return deptIndex;
+}
+
+void Engineering::setDeptIndex(int index)
+{
+	deptIndex = index;
 }

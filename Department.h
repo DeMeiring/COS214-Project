@@ -1,13 +1,17 @@
 #ifndef DEPARTMENT_H
 #define DEPARTMENT_H
 #include "Engineering.h"
+#include "Engineering_Iterator.h"
 #include <string>
 #include <vector>
 
+using namespace std;
+
 class Department: public Engineering
 {
+
 private:
-	vector<Engineering*> RnD;
+	
 	vector<string> ListOfComponents;
 
 public:

@@ -1,17 +1,23 @@
 #ifndef ENGINEERING_ITERATOR_H
 #define ENGINEERING_ITERATOR_H
 
+#include <iostream>
+#include <string>
 
-#include "Engineering.h"
+using namespace std;
 
 class Engineering;
-class Engineering_Iterator{
 
+class Engineering_Iterator
+{
 private:
 	Engineering* CurrDept;
 	Engineering* CurrComp;
+	Engineering* First;
 
 public:
+	Engineering_Iterator(Engineering*);
+
 	Engineering* NextDept();
 
 	Engineering* NextComp();

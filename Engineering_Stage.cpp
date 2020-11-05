@@ -10,14 +10,14 @@ void Engineering_Stage::init()
 {
 	//create 4 Departments (to begin with) using addDepartment(Engineering* obj)
 
-	Engineering *ChassisDept = new Department("Body", true);
+	Engineering *ChassisDept = new Department("Chassis", true);
 	Engineering *AerodynamicsDept = new Department("Aerodynamics", true);
 	Engineering *EngineDept = new Department("Engine", true);
 	Engineering *ElectronicsDept = new Department("Electronics", true);
 
 	Engineering *Suspension = new Component("Suspension", false);
 	Engineering *Breaks = new Component("Breaks", false);
-	Engineering *SurvivalShell = new Component("Component", false);
+	Engineering *SurvivalShell = new Component("SurvivalShell", false);
 
 
 	//Aerodynamic Components
@@ -53,4 +53,24 @@ void Engineering_Stage::init()
 	ElectronicsDept->addDepartment(ERS);
 	ElectronicsDept->addDepartment(ECU);
 	ElectronicsDept->addDepartment(FFM);
+	ElectronicsDept->addDepartment(ChassisDept);
+
+	
+	cout <<"====================================="<<endl;
+	cout <<"====================================="<<endl;
+	Engineering_Iterator *iterator = new Engineering_Iterator(ChassisDept);
+	cout<<"Current Departments Initially 4:"<<endl;
+	cout <<"-------------------------------------"<<endl;
+	cout <<"-> "<<iterator->CurrentDept()->getRnDName()<< endl;
+	cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
+	cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
+	cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
+	// cout << iterator->NextDept()->getRnDName();
+	// cout << iterator->NextDept()->getRnDName();
+	cout <<"=====================================";
+	cout << endl;
+	cout<<"Current Components for Chassis:"<<endl;
+	cout <<"-------------------------------------"<<endl;
+	cout << "-> "<<iterator->CurrentComp()->getRnDName();
+
 }
