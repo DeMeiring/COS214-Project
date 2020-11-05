@@ -13,7 +13,9 @@ class Engineering_Iterator
 private:
 	Engineering* CurrDept;
 	Engineering* CurrComp;
+	Engineering *Current;
 	Engineering* First;
+	bool flag;
 
 public:
 	Engineering_Iterator(Engineering*);

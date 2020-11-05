@@ -53,11 +53,13 @@ void Engineering_Stage::init()
 	ElectronicsDept->addDepartment(ERS);
 	ElectronicsDept->addDepartment(ECU);
 	ElectronicsDept->addDepartment(FFM);
-	ElectronicsDept->addDepartment(ChassisDept);
+	
 
 	
 	cout <<"====================================="<<endl;
 	cout <<"====================================="<<endl;
+
+
 	Engineering_Iterator *iterator = new Engineering_Iterator(ChassisDept);
 	cout<<"Current Departments Initially 4:"<<endl;
 	cout <<"-------------------------------------"<<endl;
@@ -65,12 +67,46 @@ void Engineering_Stage::init()
 	cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
 	cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
 	cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
-	// cout << iterator->NextDept()->getRnDName();
-	// cout << iterator->NextDept()->getRnDName();
+	
+	cout << endl;
 	cout <<"=====================================";
+	cout << endl;
 	cout << endl;
 	cout<<"Current Components for Chassis:"<<endl;
 	cout <<"-------------------------------------"<<endl;
-	cout << "-> "<<iterator->CurrentComp()->getRnDName();
+	cout << "-> " << iterator->CurrentComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+
+	cout << endl;
+	cout <<"-------------------------------------"<<endl;
+	cout<<"Current Components for Aerodynamics:"<<endl;
+	cout <<"-------------------------------------"<<endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	
+	
+	cout << endl;
+	cout <<"-------------------------------------"<<endl;
+	cout<<"Current Components for Engine:"<<endl;
+	cout <<"-------------------------------------"<<endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	
+	
+	cout << endl;
+	cout <<"-------------------------------------"<<endl;
+	cout<<"Current Components for Electronics:"<<endl;
+	cout <<"-------------------------------------"<<endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	
+	
+	
+
+
 
 }
