@@ -8,11 +8,11 @@ Bahrain::~Bahrain() {
 }
 
 string Bahrain::getName() {
-
+    return "Bahrain";
 }
 
 string Bahrain::getCornerTypes() {
-
+    return "Hair-pins with long straights";
 }
 
 Statistics* Bahrain::getBuffs() {
@@ -24,5 +24,5 @@ Statistics* Bahrain::getDebuffs() {
 }
 
 string Bahrain::getFunFact() {
-
+    return "Bahrain is only the third race track to have taken place at night";
 }

@@ -10,7 +10,7 @@ Statistics::Statistics(bool isCar, bool isDriver, bool isComp, bool isOther) {
 		return;
 	}
 	else {
-		// weather and track stuff at Liam's discretion later
+		// do nothing
 	}
 }
 

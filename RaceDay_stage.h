@@ -18,7 +18,7 @@ private:
 	bool Diver_Pit;
 	int lap_count;
 	Track* tracks;
-	Weather* weather;
+	Weather_Selector* weather;
 	vector<OpposingDriver*> OpposingDrivers;
 	Race_Computations* RC;
 

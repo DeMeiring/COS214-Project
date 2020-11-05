@@ -2,6 +2,7 @@
 #include <cstdlib>
 
 RaceDay_Stage::RaceDay_Stage() {
+	weather = new Weather_Selector;
 }
 
 RaceDay_Stage::~RaceDay_Stage() {
@@ -45,20 +46,24 @@ void RaceDay_Stage::randomizeWeather() {
 	int i = 1 + rand() % 3;
 
 	if(i==1)
-		weather = new Dry();
+		return;
 	else if(i==2)
-		weather = new Wet();
-	else
-		weather = new Raining();
+		weather->nextState();
+	else {
+		weather->nextState();
+		weather->nextState();
+	}
 }
 
 void RaceDay_Stage::chooseWeather(int i) {
 	if(i==1)
-		weather = new Dry();
+		return;
 	else if(i==2)
-		weather = new Wet();
-	else
-		weather = new Raining();
+		weather->nextState();
+	else {
+		weather->nextState();
+		weather->nextState();
+	}
 }
 
 void RaceDay_Stage::showWeatherOptions() {

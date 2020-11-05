@@ -3,6 +3,13 @@
 
 #include "Statistics.h"
 
+class Weather_Selector {
+private:
+	Weather* weather_state = new Dry();
+public:
+	void setState(Weather*);
+};
+
 class Weather {
 
 private:
@@ -11,11 +18,10 @@ private:
 
 public:
 	Weather();
-
+	Weather_Selector* ws;
 	Statistics* getStats();
 	void setStats(Statistics* stats);
 	void setNextState(Weather* st);
-	Weather* nextState();
 
 	virtual ~Weather(); 
 
