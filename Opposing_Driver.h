@@ -9,7 +9,6 @@ public:
     virtual Driver* GenDriver(int skills);
 
     virtual ~Opposing_Driver();
-
 };
 
 #endif

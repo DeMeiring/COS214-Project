@@ -7,6 +7,7 @@ class Race_Computations {
 
 
 public:
+
 	bool OvertakeSuccess(tuple<Driver*, Engineering*> ToBeOvertaken, tuple<Driver*, Engineering*> Overtaker);
 
 	bool ChanceOfCrash(Driver* driver, Engineering* car);
