@@ -5,18 +5,20 @@
 #include <tuple>
 #include "Driver.h"
 #include "Engineering.h"
-#include "A_Opposing_Team.h"
+#include "Opposing_Team.h"
 
 using namespace std;
 
 class Teams {
 
 private:
-	vector<tuple<string, string, Driver*, Engineering*>> OpposingDrivers;
+	vector<OpposingDriver*> OpposingDrivers;
 
 public:
 
 	Teams();
+
+	vector<OpposingDriver*> GenDrivers
 
 	Driver* getDriverbyName(string name);
 

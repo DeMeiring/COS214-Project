@@ -36,7 +36,6 @@ void Statistics::init_driver_stats() {
 
 	addStat("conservation", 70);
 
-	addStat("racing_ability", 45);
 }
 
 void Statistics::init_car_stats(bool isCar) {
