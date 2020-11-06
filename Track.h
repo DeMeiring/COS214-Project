@@ -1,21 +1,31 @@
 #ifndef TRACK_H
 #define TRACK_H
 
+#include <string>
+#include "Statistics.h"
+
+using namespace std;
+
 class Track {
 
 private:
 	int number_of_laps;
 
 public:
-	string getName();
 
-	string getCornerTypes();
+	Track(int l) {number_of_laps=l;};
 
-	Statistics* getBuffs();
+	virtual string getName()=0;
 
-	Statistics* getDebuffs();
+	virtual string getCornerTypes()=0;
 
-	string getFunFact();
+	virtual Statistics* getBuffs()=0;
+
+	virtual Statistics* getDebuffs()=0;
+
+	virtual string getFunFact()=0;
+
+	int getNumLaps() {return number_of_laps;};
 };
 
 #endif

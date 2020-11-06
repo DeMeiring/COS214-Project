@@ -1,10 +1,80 @@
 #include "RaceDay_stage.h"
+#include <cstdlib>
 
-//test 1
-void RaceDay_Stage::generateConditions() {
-	// TODO - implement RaceDay_Stage::generateConditions
-	throw "Not yet implemented";
+RaceDay_Stage::RaceDay_Stage() {
+	weather = new Weather_Selector;
 }
+
+RaceDay_Stage::~RaceDay_Stage() {
+	delete tracks;
+}
+
+void RaceDay_Stage::generateConditions(bool isRand) {
+	if(isRand) {
+		randomizeWeather();
+		return;
+	}
+	else {
+		// generate here?
+	}
+}
+
+void RaceDay_Stage::generateRacers() {
+	Teams *teams = new Teams();
+	teams->GenDrivers();
+	OpposingDrivers = teams->getOpposingDrivers();
+	delete teams;
+}
+
+Track* RaceDay_Stage::ChooseTrack(int index) {
+	if(index==1)
+		tracks = new Bahrain();
+	else if(index==2)
+		tracks = new Monaco();
+	else if(index==3)
+		tracks = new Monza();
+}
+
+void RaceDay_Stage::show_tracks() {
+	cout << "Choose Tracks" << endl ;
+	cout << " 1 -> Bahrain " << endl ;
+	cout << " 2 -> Monaco " << endl ;
+	cout << " 3 -> Monza" << endl ;
+}
+
+void RaceDay_Stage::randomizeWeather() {
+	int i = 1 + rand() % 3;
+
+	if(i==1)
+		return;
+	else if(i==2)
+		weather->nextState();
+	else {
+		weather->nextState();
+		weather->nextState();
+	}
+}
+
+void RaceDay_Stage::chooseWeather(int i) {
+	if(i==1)
+		return;
+	else if(i==2)
+		weather->nextState();
+	else {
+		weather->nextState();
+		weather->nextState();
+	}
+}
+
+void RaceDay_Stage::showWeatherOptions() {
+	cout << "Weather Options:" << endl ;
+	cout << " 1 -> Dry " << endl ;
+	cout << " 2 -> Wet " << endl ;
+	cout << " 3 -> Raining" << endl ;
+}
+
+//=================================================
+
 
 void RaceDay_Stage::Qualifying_Main() {
 	// TODO - implement RaceDay_Stage::Qualifying_Main
@@ -13,40 +83,5 @@ void RaceDay_Stage::Qualifying_Main() {
 
 void RaceDay_Stage::MainRace_Main() {
 	// TODO - implement RaceDay_Stage::MainRace_Main
-	throw "Not yet implemented";
-}
-
-void RaceDay_Stage::generateRacers() {
-	// TODO - implement RaceDay_Stage::generateRacers
-	throw "Not yet implemented";
-}
-
-void RaceDay_Stage::ChooseTrack(int index) {
-	// TODO - implement RaceDay_Stage::ChooseTrack
-	throw "Not yet implemented";
-}
-
-void RaceDay_Stage::show_tracks() {
-	// TODO - implement RaceDay_Stage::show tracks
-	throw "Not yet implemented";
-}
-
-void RaceDay_Stage::randomizeWeather() {
-	// TODO - implement RaceDay_Stage::randomizeWeather
-	throw "Not yet implemented";
-}
-
-void RaceDay_Stage::chooseWeather(int index) {
-	// TODO - implement RaceDay_Stage::chooseWeather
-	throw "Not yet implemented";
-}
-
-void RaceDay_Stage::showWeatherOptions() {
-	// TODO - implement RaceDay_Stage::showWeatherOptions
-	throw "Not yet implemented";
-}
-
-void RaceDay_Stage::operation() {
-	// TODO - implement RaceDay_Stage::operation
 	throw "Not yet implemented";
 }

@@ -1,6 +1,11 @@
 #ifndef STAGE_H
 #define STAGE_H
 
+#include "Driver.h"
+#include "Engineering.h"
+
+class Client;
+
 class Stage {
 
 protected:
