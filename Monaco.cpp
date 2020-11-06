@@ -9,7 +9,7 @@ Monaco::~Monaco() {
 }
 
 string Monaco::getName() {
-    return "Monaco Grand-Prix"
+    return "Monaco Grand-Prix";
 }
 
 string Monaco::getCornerTypes() {
@@ -18,18 +18,18 @@ string Monaco::getCornerTypes() {
 
 Statistics* Monaco::getBuffs() {
     Statistics *newStats = new Statistics(false, false, false, true);
-    addStat("speed", 8);
-    addStat("acceleration", 5);
+    newStats->addStat("speed", 8);
+    newStats->addStat("acceleration", 5);
     newStats->ChangeValue("racing_ability", 5);
     newStats->ChangeValue("handling", 5);
-    setStats(newStats);
+    return newStats;
 }
 
 Statistics* Monaco::getDebuffs() {
     Statistics *newStats = new Statistics(false, false, false, true);
     newStats->ChangeValue("handling", 5);
     newStats->ChangeValue("failure", 3);
-    setStats(newStats);
+    return newStats;
 }
 
 string Monaco::getFunFact() {

@@ -72,16 +72,16 @@ bool Statistics::ChangeValue(string find, int value, bool append, bool inc) {
 		if((*iter)->name==find) {
 			if(append==false) {
 				(*iter)->stat = value;
-				return;
+				return false;
 			}
 			else if(append==true) {
 				if(inc==true) {
 					(*iter)->stat += value;
-					return;	
+					return false;
 				}
 				else {
 					(*iter)->stat -= value;
-					return;
+					return false;
 				}
 			}
 		}

@@ -14,11 +14,13 @@ private:
 public:
 	Race_Crew(Radio_System* rs);
 
-	void ReceiveCommand(Command* command);
+	virtual void ReceiveCommand(Command* command);
 
-	void SendCommand(int i);
+	virtual void SendCommand(Command* command);
 
-	void showAvailableCommands();
+	virtual void showAvailableCommands();
+
+	Radio_System* getRS();
 
 	virtual ~Race_Crew();
 };

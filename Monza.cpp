@@ -18,18 +18,18 @@ string Monza::getCornerTypes() {
 
 Statistics* Monza::getBuffs() {
     Statistics *newStats = new Statistics(false, false, false, true);
-    addStat("speed", 8);
-    addStat("acceleration", 5);
+    newStats->addStat("speed", 8);
+    newStats->addStat("acceleration", 5);
     newStats->ChangeValue("racing_ability", 5);
     newStats->ChangeValue("handling", 5);
-    setStats(newStats);
+    return newStats;
 }
 
 Statistics* Monza::getDebuffs() {
     Statistics *newStats = new Statistics(false, false, false, true);
     newStats->ChangeValue("handling", 2);
     newStats->ChangeValue("failure", 1);
-    setStats(newStats);
+    return newStats;
 }
 
 string Monza::getFunFact() {

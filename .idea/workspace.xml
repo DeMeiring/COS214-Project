@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="COS214_Project" targetName="COS214_Project" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -36,6 +38,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -49,11 +52,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="COS214_Project" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="COS214_Project" TARGET_NAME="COS214_Project" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="COS214_Project" RUN_TARGET_NAME="COS214_Project">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -66,7 +80,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604652748445</updated>
       <workItem from="1604652751307" duration="6986000" />
-      <workItem from="1604667772365" duration="25000" />
+      <workItem from="1604667772365" duration="164000" />
+      <workItem from="1604667955261" duration="4952000" />
     </task>
     <servers />
   </component>
@@ -83,6 +98,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="240" key="#Notifications" timestamp="1604667723423">
@@ -93,5 +109,9 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1604654521231" />
+    <state x="277" y="61" key="SettingsEditor" timestamp="1604667883620">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="277" y="61" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1604667883620" />
   </component>
 </project>

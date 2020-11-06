@@ -17,18 +17,18 @@ string Bahrain::getCornerTypes() {
 
 Statistics* Bahrain::getBuffs() {
     Statistics *newStats = new Statistics(false, false, false, true);
-    addStat("speed", 4);
-    addStat("acceleration", 3);
+    newStats->addStat("speed", 4);
+    newStats->addStat("acceleration", 3);
     newStats->ChangeValue("racing_ability", 2);
     newStats->ChangeValue("handling", 1);
-    setStats(newStats);
+    return newStats;
 }
 
 Statistics* Bahrain::getDebuffs() {
     Statistics *newStats = new Statistics(false, false, false, true);
     newStats->ChangeValue("handling", 5);
     newStats->ChangeValue("failure", 3);
-    setStats(newStats);
+    return newStats;
 }
 
 string Bahrain::getFunFact() {
