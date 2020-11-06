@@ -18,17 +18,17 @@ string Monaco::getCornerTypes() {
 
 Statistics* Monaco::getBuffs() {
     Statistics *newStats = new Statistics(false, false, false, true);
-    newStats->addStat("speed", 8);
-    newStats->addStat("acceleration", 5);
-    newStats->ChangeValue("racing_ability", 5);
-    newStats->ChangeValue("handling", 5);
+    newStats->addStat("speed", 2);
+    newStats->addStat("acceleration", 2);
+    newStats->ChangeValue("racing_ability", 1);
+    newStats->ChangeValue("handling", 4);
     return newStats;
 }
 
 Statistics* Monaco::getDebuffs() {
     Statistics *newStats = new Statistics(false, false, false, true);
-    newStats->ChangeValue("handling", 5);
-    newStats->ChangeValue("failure", 3);
+    newStats->ChangeValue("handling", 10);
+    newStats->ChangeValue("failure", 8);
     return newStats;
 }
 
