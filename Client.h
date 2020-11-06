@@ -5,6 +5,11 @@
 #include "Statistics.h"
 //#include "DriverManager.h"
 
+#include "Stage.h"
+#include "Engineering.h"
+#include "Transport.h"
+#include "Driver_Management.h"
+#include "Statistics.h"
 
 class Client {
 
@@ -12,9 +17,13 @@ private:
 	Stage* Stage;
 	Transport* Cars;
 	Statistics* car_stats;
-//	Diver_Management* DriverManager;
+	Driver_Management* DriverManager;
 
 public:
+
+	Client();
+	virtual ~Client();
+
 	void SetStage();
 
 	void run();
