@@ -17,7 +17,7 @@ Engineering *Engineering_Iterator::NextDept()
 	}
 	if(CurrDept->getRnD()[CurrDept->getDeptIndex() - 1]->getIsDept() == true)
 	CurrDept = CurrDept->getRnD()[CurrDept->getDeptIndex() - 1];
-	CurrDept->setDeptIndex(0);
+
 	return CurrDept;
 }
 
@@ -37,21 +37,14 @@ Engineering *Engineering_Iterator::NextComp(){
 		{
 			flag = true;
 			Current = Current->getRnD()[Current->getCompIndex()];
+			Current->setCompIndex(0);
 			CurrComp = Current->getRnD()[Current->getCompIndex()];
+		
 		}
 		
 	}
-	
-	return CurrComp;
 
-	
-	//currently on component
-	//check the next element in the tree to see if it is also a component
-	//if it is, change current to that component.
-	//if next is a department, then make CurrComponent = that Department;
-	//and then from there you can link to the next Component in the tree
-	
-	
+	return CurrComp;	
 }
 
 Engineering *Engineering_Iterator::CurrentDept()
@@ -63,12 +56,39 @@ Engineering* Engineering_Iterator::CurrentComp() {
 	return CurrComp;
 }
 
-Engineering* Engineering_Iterator::LastDepartment() {
-	// TODO - implement Engineering_Iterator::LastDepartment
-	throw "Not yet implemented";
+void Engineering_Iterator::resetCurrComp()
+{
+
+	this->Current = First;
+	
+	this->Current->setCompIndex(0);
+	this->CurrComp = Current->getRnD()[0];
 }
 
-Engineering* Engineering_Iterator::LastComp() {
-	// TODO - implement Engineering_Iterator::LastComp
-	throw "Not yet implemented";
+void Engineering_Iterator::resetCurrDept()
+{
+	this->CurrDept = First;
+	CurrDept->setDeptIndex(0);
 }
+
+// Engineering* Engineering_Iterator::LastComp() {
+// 	// TODO - implement Engineering_Iterator::LastComp
+// 	resetCurrComp();
+// 	Engineering *Temp = CurrComp;
+// 	while(CurrComp != NULL)
+// 	{
+// 		CurrComp = NextComp();
+// 		if(CurrComp != NULL)
+// 		{
+// 			Temp = CurrComp;
+// 		}
+// 	}
+// 	resetCurrComp();
+// 	return Temp;
+// }
+
+// Engineering* Engineering_Iterator::LastDepartment() {
+// 	// TODO - implement Engineering_Iterator::LastDepartment
+// 	throw "Not yet implemented";
+// }
+

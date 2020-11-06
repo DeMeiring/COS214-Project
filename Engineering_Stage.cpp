@@ -103,10 +103,38 @@ void Engineering_Stage::init()
 	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
 	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
 	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	
-	
-	
 
+	cout <<"=====================================";
+	cout << endl;
+	cout <<"-------------------------------------"<<endl;
+	cout<<"Reset Current Departments"<<endl;
+	cout <<"-------------------------------------"<<endl;
+	
+	cout << endl;
+	cout <<"=====================================";
+	iterator->resetCurrDept();
+	cout << iterator->CurrentDept()->getRnDName() << endl;
+	cout << iterator->NextDept()->getRnDName() << endl;
+	cout << iterator->NextDept()->getRnDName() << endl;
+	cout << iterator->NextDept()->getRnDName() << endl;
 
+	cout << endl;
+	cout <<"-------------------------------------"<<endl;
+	cout<<"Reset Current Components"<<endl;
+	cout <<"-------------------------------------"<<endl;
+	cout << endl;
 
+	iterator->resetCurrComp();
+	cout << iterator->CurrentComp()->getRnDName() << endl;
+	cout << iterator->NextComp()->getRnDName() << endl;
+	cout << iterator->NextComp()->getRnDName() << endl;
+	cout << iterator->NextComp()->getRnDName() << endl;
+	cout << iterator->NextComp()->getRnDName() << endl;
+	cout << iterator->NextComp()->getRnDName() << endl;
+	cout << iterator->NextComp()->getRnDName() << endl;
+	cout << iterator->NextComp()->getRnDName() << endl;
+	cout << iterator->NextComp()->getRnDName() << endl;
+	cout << iterator->NextComp()->getRnDName() << endl;
+	cout << iterator->NextComp()->getRnDName() << endl;
+	cout << iterator->NextComp()->getRnDName() << endl;
 }

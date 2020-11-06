@@ -41,7 +41,7 @@ public:
 
 	virtual void addDepartment(Engineering* Dept) = 0;
 
-	// Engineering_Iterator* createIterator();
+	Engineering_Iterator* createIterator();
 
 	bool getIsDept();
 

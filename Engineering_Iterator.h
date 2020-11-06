@@ -28,9 +28,13 @@ public:
 
 	Engineering* CurrentComp();
 
-	Engineering* LastDepartment();
+	// Engineering* LastDepartment();
 
-	Engineering* LastComp();
+	// Engineering* LastComp();
+
+	void resetCurrComp();
+
+	void resetCurrDept();
 };
 
 #endif

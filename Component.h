@@ -8,6 +8,11 @@
 #include "Statistics.h"
 using namespace std;
 
+struct component_values {
+	int level = 0;
+	string name;
+	int cost;
+};
 
 class Component : public Engineering 
 {

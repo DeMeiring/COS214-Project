@@ -26,10 +26,10 @@ int Engineering::getTotalCost() {
 // 	throw "Not yet implemented";
 // }
 
-// Engineering_Iterator* Engineering::createIterator() {
-// 	// TODO - implement Engineering::createIterator
-// 	throw "Not yet implemented";
-// }
+Engineering_Iterator* Engineering::createIterator() {
+	// TODO - implement Engineering::createIterator
+	throw "Not yet implemented";
+}
 
 vector<Engineering*> Engineering::getRnD()
 {
