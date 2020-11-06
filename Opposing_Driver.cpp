@@ -99,7 +99,7 @@ Driver* Opposing_Driver::GenDriver(int skills) {
         stats->ChangeValue("conservation", rando, true, false);
     }
 
-    Driver *newDriver = new Driver();
+    Driver *newDriver = new Driver(nullptr, nullptr, nullptr, nullptr, nullptr, nullptr);
     newDriver->setStats(stats);
 
     return newDriver;

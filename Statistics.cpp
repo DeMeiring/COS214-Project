@@ -66,7 +66,7 @@ void Statistics::init_car_stats(bool isCar) {
 
 }
 
-bool Statistics::ChangeValue(string find, int value, bool append, bool inc) {
+void Statistics::ChangeValue(string find, int value, bool append, bool inc) {
 	vector<single_stat*>::iterator iter;
 	for(iter = values.begin(); iter<values.end(); iter++) {
 		if((*iter)->name==find) {
