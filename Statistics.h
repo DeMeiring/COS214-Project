@@ -16,8 +16,6 @@ class Statistics {
 private:
 	vector<single_stat*> values;
 
-	void addStat(string name, int value);
-
     // base driver stats before modifying for presets
     void init_driver_stats();
 
@@ -28,6 +26,8 @@ private:
     void init_weather();
 
 public:
+
+    void addStat(string name, int value);
 
 	// set true the boolean which you are writing stats for
 	// a proper implementation would be each boolean as a class which inherits
