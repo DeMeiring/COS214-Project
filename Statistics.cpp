@@ -10,7 +10,7 @@ Statistics::Statistics(bool isCar, bool isDriver, bool isComp, bool isOther) {
 		return;
 	}
 	else {
-		// do nothing
+		init_weather();
 	}
 }
 
@@ -98,3 +98,12 @@ int Statistics::getValue(string find) {
 	}
 }
 
+void Statistics::init_weather() {
+
+    addStat("racing_ability", 0);
+
+    addStat("handling", 0);
+
+    addStat("failure", 0);
+
+}
