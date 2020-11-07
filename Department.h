@@ -17,6 +17,8 @@ private:
 public:
 	Department(string, bool);
 
+	void setCost(int cost);
+
 	void addDepartment(Engineering* Dept);
 
 	bool levelComponent(Engineering* Component, bool upgrade);

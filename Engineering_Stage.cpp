@@ -15,25 +15,24 @@ void Engineering_Stage::init()
 	Engineering *EngineDept = new Department("Engine", true);
 	Engineering *ElectronicsDept = new Department("Electronics", true);
 
-	Engineering *Suspension = new Component("Suspension", false);
-	Engineering *Breaks = new Component("Breaks", false);
-	Engineering *SurvivalShell = new Component("SurvivalShell", false);
-
+	Engineering *Suspension = new Component("Suspension", false, 0);
+	Engineering *Breaks = new Component("Breaks", false, 0);
+	Engineering *SurvivalShell = new Component("SurvivalShell", false, 0);
 
 	//Aerodynamic Components
-	Engineering *Diffuser = new Component("Diffuser", false);//this gives 50% of the F1 cars downforce
-	Engineering *FrontWing = new Component("FrontWing", false);//downforce for corner control
-	Engineering *RearWing = new Component("RearWing", false);//downforce for traction
+	Engineering *Diffuser = new Component("Diffuser", false, 0);//this gives 50% of the F1 cars downforce
+	Engineering *FrontWing = new Component("FrontWing", false, 0);//downforce for corner control
+	Engineering *RearWing = new Component("RearWing", false, 0);//downforce for traction
 
 	//Engine Components
-	Engineering *TurboCharger = new Component("TurboCharger", false);//Exhaust driven turbine to drive a comnpressor to increase the density of air intake
-	Engineering *WasteGate = new Component("WasteGate", false);//pushes excess exhaust gas to pass by the turbine
-	Engineering *DirectFuelInjection = new Component("DirectFuelInjection", false);//Fuel is sprayed directly into the combustion chamber
+	Engineering *TurboCharger = new Component("TurboCharger", false, 0);//Exhaust driven turbine to drive a comnpressor to increase the density of air intake
+	Engineering *WasteGate = new Component("WasteGate", false, 0);//pushes excess exhaust gas to pass by the turbine
+	Engineering *DirectFuelInjection = new Component("DirectFuelInjection", false, 0);//Fuel is sprayed directly into the combustion chamber
 
 	//Electronic Components
-	Engineering *ERS = new Component("ERS", false);//Harvests electrical energy from the heat and energy in the turbo and from breaks
-	Engineering *ECU = new Component("ECU", false);//Electronic Control Unit, Brain of the car
-	Engineering *FFM = new Component("FFM", false);//Fluid Flow Meter, analysis the vehicles fuel performance
+	Engineering *ERS = new Component("ERS", false, 0);//Harvests electrical energy from the heat and energy in the turbo and from breaks
+	Engineering *ECU = new Component("ECU", false, 0);//Electronic Control Unit, Brain of the car
+	Engineering *FFM = new Component("FFM", false, 0);//Fluid Flow Meter, analysis the vehicles fuel performance
 
 	ChassisDept->addDepartment(Suspension);
 	ChassisDept->addDepartment(Breaks);
@@ -103,38 +102,10 @@ void Engineering_Stage::init()
 	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
 	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
 	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "=====================================" << endl;
+	cout << "=====================================" << endl;
 
-	cout <<"=====================================";
-	cout << endl;
-	cout <<"-------------------------------------"<<endl;
-	cout<<"Reset Current Departments"<<endl;
-	cout <<"-------------------------------------"<<endl;
-	
-	cout << endl;
-	cout <<"=====================================";
-	iterator->resetCurrDept();
-	cout << iterator->CurrentDept()->getRnDName() << endl;
-	cout << iterator->NextDept()->getRnDName() << endl;
-	cout << iterator->NextDept()->getRnDName() << endl;
-	cout << iterator->NextDept()->getRnDName() << endl;
-
-	cout << endl;
-	cout <<"-------------------------------------"<<endl;
-	cout<<"Reset Current Components"<<endl;
-	cout <<"-------------------------------------"<<endl;
-	cout << endl;
-
-	iterator->resetCurrComp();
-	cout << iterator->CurrentComp()->getRnDName() << endl;
-	cout << iterator->NextComp()->getRnDName() << endl;
-	cout << iterator->NextComp()->getRnDName() << endl;
-	cout << iterator->NextComp()->getRnDName() << endl;
-	cout << iterator->NextComp()->getRnDName() << endl;
-	cout << iterator->NextComp()->getRnDName() << endl;
-	cout << iterator->NextComp()->getRnDName() << endl;
-	cout << iterator->NextComp()->getRnDName() << endl;
-	cout << iterator->NextComp()->getRnDName() << endl;
-	cout << iterator->NextComp()->getRnDName() << endl;
-	cout << iterator->NextComp()->getRnDName() << endl;
-	cout << iterator->NextComp()->getRnDName() << endl;
+	cout << iterator->CurrentComp()->getCost() << endl;
 }
+
+

@@ -16,6 +16,9 @@ private:
 	bool isDept;
 	int deptIndex;
 	int compIndex;
+	
+protected:
+	int Cost;
 
 public:
 	int getCompIndex();
@@ -26,12 +29,13 @@ public:
 
 	void setDeptIndex(int index);
 
-
 	Engineering();
 
 	Engineering(string, bool);
 
 	string getRnDName();
+
+	virtual int getCost();
 
 	virtual int getCostOfComponent(Engineering* Comp);
 

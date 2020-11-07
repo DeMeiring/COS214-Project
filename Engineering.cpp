@@ -16,11 +16,13 @@ int Engineering::getCostOfComponent(Engineering* Comp) {
 	throw "Not yet implemented";
 }
 
-int Engineering::getTotalCost() {
-	// TODO - implement Engineering::getTotalCost
-	throw "Not yet implemented";
+int Engineering::getCost()
+{
+	return Cost;
 }
-
+// int Engineering::getTotalCost() {
+	
+// }
 // void Engineering::addDepartment(Engineering* Dept) {
 // 	// TODO - implement Engineering::addDepartment
 // 	throw "Not yet implemented";

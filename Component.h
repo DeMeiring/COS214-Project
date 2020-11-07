@@ -8,24 +8,26 @@
 #include "Statistics.h"
 using namespace std;
 
-struct component_values {
-	int level = 0;
-	string name;
-	int cost;
-};
-
 class Component : public Engineering 
 {
 private:
-	int Cost;
-	Statistics* Stats;
-	int Level;
+	vector<int> Chas_Costs;
+	vector<int> Aero_Costs;
+	vector<int> Eng_Costs;
+	vector<int> Elec_Costs;
+	Statistics* stats;
+	int level;
 	vector<Statistics*> Stat_Levels;
+	int cost;
 
 public:
-	Component(string name, bool isDept);
-	void addDepartment(Engineering *Dept);
+	Component(string name, bool isDept, int level);
+
+	void setCost(int cost);
+
 	int getCost();
+
+	void addDepartment(Engineering *);
 
 	Statistics getStats();
 

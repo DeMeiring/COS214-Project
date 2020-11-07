@@ -14,6 +14,11 @@ Department::Department(string RNDName, bool isDept): Engineering(RNDName, isDept
 
 }
 
+void Department::setCost(int cost)
+{
+	
+}
+
 void Department::addDepartment(Engineering* Dept) {//pushes Engineering Objects to the Engineering vector
 	// TODO - implement Department::addDepartment
 	RnD.push_back(Dept);
