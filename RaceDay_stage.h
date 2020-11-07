@@ -2,13 +2,17 @@
 #define RACEDAY_STAGE_H
 
 #include "Stage.h"
+
 #include "Bahrain.h"
 #include "Monaco.h"
 #include "Monza.h"
+
 #include "Weather.h"
+
 #include "Race_Computations.h"
 #include "Radio_System.h"
 #include "Teams.h"
+#include "Pit_Crew.h"
 #include <vector>
 #include <iostream>
 
@@ -21,6 +25,9 @@ private:
 	Weather_Selector* weather;
 	vector<OpposingDriver*> OpposingDrivers;
 	Race_Computations* RC;
+	Pit_Crew *PitStop;
+
+	bool PIT;
 
 	void show_tracks();
 	Track* ChooseTrack(int index);
@@ -34,6 +41,8 @@ private:
 	void generateRacers();
 
 public:
+
+    void toPit(bool pit);
 
 	void Qualifying_Main();
 

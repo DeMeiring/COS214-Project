@@ -5,6 +5,7 @@
 #include "Skill_Level.h"
 #include "Prepared.h"
 #include "RaceDay_Strat.h"
+#include "Statistics.h"
 
 class Driver : public Race_Crew {
 
