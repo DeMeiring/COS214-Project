@@ -235,6 +235,33 @@ A_Opposing_Team.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\A_Opposing_Team.cpp.s
 .PHONY : A_Opposing_Team.cpp.s
 
+Aggressive.obj: Aggressive.cpp.obj
+
+.PHONY : Aggressive.obj
+
+# target to build an object file
+Aggressive.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Aggressive.cpp.obj
+.PHONY : Aggressive.cpp.obj
+
+Aggressive.i: Aggressive.cpp.i
+
+.PHONY : Aggressive.i
+
+# target to preprocess a source file
+Aggressive.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Aggressive.cpp.i
+.PHONY : Aggressive.cpp.i
+
+Aggressive.s: Aggressive.cpp.s
+
+.PHONY : Aggressive.s
+
+# target to generate assembly for a file
+Aggressive.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Aggressive.cpp.s
+.PHONY : Aggressive.cpp.s
+
 Bahrain.obj: Bahrain.cpp.obj
 
 .PHONY : Bahrain.obj
@@ -261,33 +288,6 @@ Bahrain.s: Bahrain.cpp.s
 Bahrain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Bahrain.cpp.s
 .PHONY : Bahrain.cpp.s
-
-Base_Car_Measurements.obj: Base_Car_Measurements.cpp.obj
-
-.PHONY : Base_Car_Measurements.obj
-
-# target to build an object file
-Base_Car_Measurements.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj
-.PHONY : Base_Car_Measurements.cpp.obj
-
-Base_Car_Measurements.i: Base_Car_Measurements.cpp.i
-
-.PHONY : Base_Car_Measurements.i
-
-# target to preprocess a source file
-Base_Car_Measurements.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.i
-.PHONY : Base_Car_Measurements.cpp.i
-
-Base_Car_Measurements.s: Base_Car_Measurements.cpp.s
-
-.PHONY : Base_Car_Measurements.s
-
-# target to generate assembly for a file
-Base_Car_Measurements.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.s
-.PHONY : Base_Car_Measurements.cpp.s
 
 BluePrint.obj: BluePrint.cpp.obj
 
@@ -451,32 +451,32 @@ Conc_Radio_System.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.s
 .PHONY : Conc_Radio_System.cpp.s
 
-Concrete_Base_Car_Measurements.obj: Concrete_Base_Car_Measurements.cpp.obj
+Conservative.obj: Conservative.cpp.obj
 
-.PHONY : Concrete_Base_Car_Measurements.obj
+.PHONY : Conservative.obj
 
 # target to build an object file
-Concrete_Base_Car_Measurements.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj
-.PHONY : Concrete_Base_Car_Measurements.cpp.obj
+Conservative.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Conservative.cpp.obj
+.PHONY : Conservative.cpp.obj
 
-Concrete_Base_Car_Measurements.i: Concrete_Base_Car_Measurements.cpp.i
+Conservative.i: Conservative.cpp.i
 
-.PHONY : Concrete_Base_Car_Measurements.i
+.PHONY : Conservative.i
 
 # target to preprocess a source file
-Concrete_Base_Car_Measurements.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.i
-.PHONY : Concrete_Base_Car_Measurements.cpp.i
+Conservative.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Conservative.cpp.i
+.PHONY : Conservative.cpp.i
 
-Concrete_Base_Car_Measurements.s: Concrete_Base_Car_Measurements.cpp.s
+Conservative.s: Conservative.cpp.s
 
-.PHONY : Concrete_Base_Car_Measurements.s
+.PHONY : Conservative.s
 
 # target to generate assembly for a file
-Concrete_Base_Car_Measurements.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.s
-.PHONY : Concrete_Base_Car_Measurements.cpp.s
+Conservative.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Conservative.cpp.s
+.PHONY : Conservative.cpp.s
 
 Department.obj: Department.cpp.obj
 
@@ -640,6 +640,60 @@ Engineering_Stage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.s
 .PHONY : Engineering_Stage.cpp.s
 
+Experienced.obj: Experienced.cpp.obj
+
+.PHONY : Experienced.obj
+
+# target to build an object file
+Experienced.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Experienced.cpp.obj
+.PHONY : Experienced.cpp.obj
+
+Experienced.i: Experienced.cpp.i
+
+.PHONY : Experienced.i
+
+# target to preprocess a source file
+Experienced.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Experienced.cpp.i
+.PHONY : Experienced.cpp.i
+
+Experienced.s: Experienced.cpp.s
+
+.PHONY : Experienced.s
+
+# target to generate assembly for a file
+Experienced.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Experienced.cpp.s
+.PHONY : Experienced.cpp.s
+
+Moderate.obj: Moderate.cpp.obj
+
+.PHONY : Moderate.obj
+
+# target to build an object file
+Moderate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Moderate.cpp.obj
+.PHONY : Moderate.cpp.obj
+
+Moderate.i: Moderate.cpp.i
+
+.PHONY : Moderate.i
+
+# target to preprocess a source file
+Moderate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Moderate.cpp.i
+.PHONY : Moderate.cpp.i
+
+Moderate.s: Moderate.cpp.s
+
+.PHONY : Moderate.s
+
+# target to generate assembly for a file
+Moderate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Moderate.cpp.s
+.PHONY : Moderate.cpp.s
+
 Monaco.obj: Monaco.cpp.obj
 
 .PHONY : Monaco.obj
@@ -775,60 +829,6 @@ Opposing_Team.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.s
 .PHONY : Opposing_Team.cpp.s
 
-Overall.obj: Overall.cpp.obj
-
-.PHONY : Overall.obj
-
-# target to build an object file
-Overall.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Overall.cpp.obj
-.PHONY : Overall.cpp.obj
-
-Overall.i: Overall.cpp.i
-
-.PHONY : Overall.i
-
-# target to preprocess a source file
-Overall.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Overall.cpp.i
-.PHONY : Overall.cpp.i
-
-Overall.s: Overall.cpp.s
-
-.PHONY : Overall.s
-
-# target to generate assembly for a file
-Overall.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Overall.cpp.s
-.PHONY : Overall.cpp.s
-
-Performance_Indicator.obj: Performance_Indicator.cpp.obj
-
-.PHONY : Performance_Indicator.obj
-
-# target to build an object file
-Performance_Indicator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj
-.PHONY : Performance_Indicator.cpp.obj
-
-Performance_Indicator.i: Performance_Indicator.cpp.i
-
-.PHONY : Performance_Indicator.i
-
-# target to preprocess a source file
-Performance_Indicator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.i
-.PHONY : Performance_Indicator.cpp.i
-
-Performance_Indicator.s: Performance_Indicator.cpp.s
-
-.PHONY : Performance_Indicator.s
-
-# target to generate assembly for a file
-Performance_Indicator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.s
-.PHONY : Performance_Indicator.cpp.s
-
 Pit_Crew.obj: Pit_Crew.cpp.obj
 
 .PHONY : Pit_Crew.obj
@@ -883,6 +883,33 @@ Pit_Stop.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Pit_Stop.cpp.s
 .PHONY : Pit_Stop.cpp.s
 
+Prepared.obj: Prepared.cpp.obj
+
+.PHONY : Prepared.obj
+
+# target to build an object file
+Prepared.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Prepared.cpp.obj
+.PHONY : Prepared.cpp.obj
+
+Prepared.i: Prepared.cpp.i
+
+.PHONY : Prepared.i
+
+# target to preprocess a source file
+Prepared.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Prepared.cpp.i
+.PHONY : Prepared.cpp.i
+
+Prepared.s: Prepared.cpp.s
+
+.PHONY : Prepared.s
+
+# target to generate assembly for a file
+Prepared.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Prepared.cpp.s
+.PHONY : Prepared.cpp.s
+
 Preparedness.obj: Preparedness.cpp.obj
 
 .PHONY : Preparedness.obj
@@ -909,6 +936,33 @@ Preparedness.s: Preparedness.cpp.s
 Preparedness.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Preparedness.cpp.s
 .PHONY : Preparedness.cpp.s
+
+Pro.obj: Pro.cpp.obj
+
+.PHONY : Pro.obj
+
+# target to build an object file
+Pro.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Pro.cpp.obj
+.PHONY : Pro.cpp.obj
+
+Pro.i: Pro.cpp.i
+
+.PHONY : Pro.i
+
+# target to preprocess a source file
+Pro.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Pro.cpp.i
+.PHONY : Pro.cpp.i
+
+Pro.s: Pro.cpp.s
+
+.PHONY : Pro.s
+
+# target to generate assembly for a file
+Pro.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Pro.cpp.s
+.PHONY : Pro.cpp.s
 
 RaceDay_Stage.obj: RaceDay_Stage.cpp.obj
 
@@ -1072,6 +1126,60 @@ Radio_System.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Radio_System.cpp.s
 .PHONY : Radio_System.cpp.s
 
+Risky.obj: Risky.cpp.obj
+
+.PHONY : Risky.obj
+
+# target to build an object file
+Risky.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Risky.cpp.obj
+.PHONY : Risky.cpp.obj
+
+Risky.i: Risky.cpp.i
+
+.PHONY : Risky.i
+
+# target to preprocess a source file
+Risky.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Risky.cpp.i
+.PHONY : Risky.cpp.i
+
+Risky.s: Risky.cpp.s
+
+.PHONY : Risky.s
+
+# target to generate assembly for a file
+Risky.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Risky.cpp.s
+.PHONY : Risky.cpp.s
+
+Rookie.obj: Rookie.cpp.obj
+
+.PHONY : Rookie.obj
+
+# target to build an object file
+Rookie.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Rookie.cpp.obj
+.PHONY : Rookie.cpp.obj
+
+Rookie.i: Rookie.cpp.i
+
+.PHONY : Rookie.i
+
+# target to preprocess a source file
+Rookie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Rookie.cpp.i
+.PHONY : Rookie.cpp.i
+
+Rookie.s: Rookie.cpp.s
+
+.PHONY : Rookie.s
+
+# target to generate assembly for a file
+Rookie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Rookie.cpp.s
+.PHONY : Rookie.cpp.s
+
 Skill_Level.obj: Skill_Level.cpp.obj
 
 .PHONY : Skill_Level.obj
@@ -1153,60 +1261,6 @@ Statistics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Statistics.cpp.s
 .PHONY : Statistics.cpp.s
 
-Strategy_Plan.obj: Strategy_Plan.cpp.obj
-
-.PHONY : Strategy_Plan.obj
-
-# target to build an object file
-Strategy_Plan.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.obj
-.PHONY : Strategy_Plan.cpp.obj
-
-Strategy_Plan.i: Strategy_Plan.cpp.i
-
-.PHONY : Strategy_Plan.i
-
-# target to preprocess a source file
-Strategy_Plan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.i
-.PHONY : Strategy_Plan.cpp.i
-
-Strategy_Plan.s: Strategy_Plan.cpp.s
-
-.PHONY : Strategy_Plan.s
-
-# target to generate assembly for a file
-Strategy_Plan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.s
-.PHONY : Strategy_Plan.cpp.s
-
-Strategy_Stage.obj: Strategy_Stage.cpp.obj
-
-.PHONY : Strategy_Stage.obj
-
-# target to build an object file
-Strategy_Stage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.obj
-.PHONY : Strategy_Stage.cpp.obj
-
-Strategy_Stage.i: Strategy_Stage.cpp.i
-
-.PHONY : Strategy_Stage.i
-
-# target to preprocess a source file
-Strategy_Stage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.i
-.PHONY : Strategy_Stage.cpp.i
-
-Strategy_Stage.s: Strategy_Stage.cpp.s
-
-.PHONY : Strategy_Stage.s
-
-# target to generate assembly for a file
-Strategy_Stage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.s
-.PHONY : Strategy_Stage.cpp.s
-
 Strategy_Team.obj: Strategy_Team.cpp.obj
 
 .PHONY : Strategy_Team.obj
@@ -1260,33 +1314,6 @@ Teams.s: Teams.cpp.s
 Teams.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Teams.cpp.s
 .PHONY : Teams.cpp.s
-
-Testing_Stage.obj: Testing_Stage.cpp.obj
-
-.PHONY : Testing_Stage.obj
-
-# target to build an object file
-Testing_Stage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj
-.PHONY : Testing_Stage.cpp.obj
-
-Testing_Stage.i: Testing_Stage.cpp.i
-
-.PHONY : Testing_Stage.i
-
-# target to preprocess a source file
-Testing_Stage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.i
-.PHONY : Testing_Stage.cpp.i
-
-Testing_Stage.s: Testing_Stage.cpp.s
-
-.PHONY : Testing_Stage.s
-
-# target to generate assembly for a file
-Testing_Stage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.s
-.PHONY : Testing_Stage.cpp.s
 
 Track.obj: Track.cpp.obj
 
@@ -1342,6 +1369,33 @@ Transport.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Transport.cpp.s
 .PHONY : Transport.cpp.s
 
+Unprepared.obj: Unprepared.cpp.obj
+
+.PHONY : Unprepared.obj
+
+# target to build an object file
+Unprepared.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj
+.PHONY : Unprepared.cpp.obj
+
+Unprepared.i: Unprepared.cpp.i
+
+.PHONY : Unprepared.i
+
+# target to preprocess a source file
+Unprepared.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Unprepared.cpp.i
+.PHONY : Unprepared.cpp.i
+
+Unprepared.s: Unprepared.cpp.s
+
+.PHONY : Unprepared.s
+
+# target to generate assembly for a file
+Unprepared.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Unprepared.cpp.s
+.PHONY : Unprepared.cpp.s
+
 Weather.obj: Weather.cpp.obj
 
 .PHONY : Weather.obj
@@ -1369,6 +1423,33 @@ Weather.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Weather.cpp.s
 .PHONY : Weather.cpp.s
 
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1390,12 +1471,12 @@ help:
 	@echo ... A_Opposing_Team.obj
 	@echo ... A_Opposing_Team.i
 	@echo ... A_Opposing_Team.s
+	@echo ... Aggressive.obj
+	@echo ... Aggressive.i
+	@echo ... Aggressive.s
 	@echo ... Bahrain.obj
 	@echo ... Bahrain.i
 	@echo ... Bahrain.s
-	@echo ... Base_Car_Measurements.obj
-	@echo ... Base_Car_Measurements.i
-	@echo ... Base_Car_Measurements.s
 	@echo ... BluePrint.obj
 	@echo ... BluePrint.i
 	@echo ... BluePrint.s
@@ -1414,9 +1495,9 @@ help:
 	@echo ... Conc_Radio_System.obj
 	@echo ... Conc_Radio_System.i
 	@echo ... Conc_Radio_System.s
-	@echo ... Concrete_Base_Car_Measurements.obj
-	@echo ... Concrete_Base_Car_Measurements.i
-	@echo ... Concrete_Base_Car_Measurements.s
+	@echo ... Conservative.obj
+	@echo ... Conservative.i
+	@echo ... Conservative.s
 	@echo ... Department.obj
 	@echo ... Department.i
 	@echo ... Department.s
@@ -1435,6 +1516,12 @@ help:
 	@echo ... Engineering_Stage.obj
 	@echo ... Engineering_Stage.i
 	@echo ... Engineering_Stage.s
+	@echo ... Experienced.obj
+	@echo ... Experienced.i
+	@echo ... Experienced.s
+	@echo ... Moderate.obj
+	@echo ... Moderate.i
+	@echo ... Moderate.s
 	@echo ... Monaco.obj
 	@echo ... Monaco.i
 	@echo ... Monaco.s
@@ -1450,21 +1537,21 @@ help:
 	@echo ... Opposing_Team.obj
 	@echo ... Opposing_Team.i
 	@echo ... Opposing_Team.s
-	@echo ... Overall.obj
-	@echo ... Overall.i
-	@echo ... Overall.s
-	@echo ... Performance_Indicator.obj
-	@echo ... Performance_Indicator.i
-	@echo ... Performance_Indicator.s
 	@echo ... Pit_Crew.obj
 	@echo ... Pit_Crew.i
 	@echo ... Pit_Crew.s
 	@echo ... Pit_Stop.obj
 	@echo ... Pit_Stop.i
 	@echo ... Pit_Stop.s
+	@echo ... Prepared.obj
+	@echo ... Prepared.i
+	@echo ... Prepared.s
 	@echo ... Preparedness.obj
 	@echo ... Preparedness.i
 	@echo ... Preparedness.s
+	@echo ... Pro.obj
+	@echo ... Pro.i
+	@echo ... Pro.s
 	@echo ... RaceDay_Stage.obj
 	@echo ... RaceDay_Stage.i
 	@echo ... RaceDay_Stage.s
@@ -1483,6 +1570,12 @@ help:
 	@echo ... Radio_System.obj
 	@echo ... Radio_System.i
 	@echo ... Radio_System.s
+	@echo ... Risky.obj
+	@echo ... Risky.i
+	@echo ... Risky.s
+	@echo ... Rookie.obj
+	@echo ... Rookie.i
+	@echo ... Rookie.s
 	@echo ... Skill_Level.obj
 	@echo ... Skill_Level.i
 	@echo ... Skill_Level.s
@@ -1492,30 +1585,27 @@ help:
 	@echo ... Statistics.obj
 	@echo ... Statistics.i
 	@echo ... Statistics.s
-	@echo ... Strategy_Plan.obj
-	@echo ... Strategy_Plan.i
-	@echo ... Strategy_Plan.s
-	@echo ... Strategy_Stage.obj
-	@echo ... Strategy_Stage.i
-	@echo ... Strategy_Stage.s
 	@echo ... Strategy_Team.obj
 	@echo ... Strategy_Team.i
 	@echo ... Strategy_Team.s
 	@echo ... Teams.obj
 	@echo ... Teams.i
 	@echo ... Teams.s
-	@echo ... Testing_Stage.obj
-	@echo ... Testing_Stage.i
-	@echo ... Testing_Stage.s
 	@echo ... Track.obj
 	@echo ... Track.i
 	@echo ... Track.s
 	@echo ... Transport.obj
 	@echo ... Transport.i
 	@echo ... Transport.s
+	@echo ... Unprepared.obj
+	@echo ... Unprepared.i
+	@echo ... Unprepared.s
 	@echo ... Weather.obj
 	@echo ... Weather.i
 	@echo ... Weather.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

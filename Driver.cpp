@@ -142,13 +142,6 @@ void Driver::setPrepared(Prepared *prepared) {
     this->preparedness=prepared;
 }
 
-// Stats for Overall
-
-void Driver::setOverallStats(Statistics* overStat)
-{
-    this->overStat = overStat;
-}
-
 // Apply the modifiers we have set
 
 Statistics* Driver::applyChanges()
@@ -163,9 +156,9 @@ Statistics* Driver::applyChanges()
     // false false = replace
 
     // Sets the stats using Statistics change value
-    this->stats->ChangeValue("prepardness", this->preparedness->getPreparedness(), true, true);
+    this->stats->ChangeValue("preparedness", this->preparedness->getPreparedness(), true, true);
     this->stats->ChangeValue("racing_ability", this->skill_level->getRacingAbility(), true, true);
-    this->stats->ChangeValue("agression",this->RaceDayStrat->getAggression(), true, true);
+    this->stats->ChangeValue("aggression",this->RaceDayStrat->getAggression(), true, true);
     this->stats->ChangeValue("conservative", this->RaceDayStrat->getConservative(), true, true);
 
     return this->stats;
