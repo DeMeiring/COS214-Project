@@ -15,21 +15,15 @@ add_executable(COS214_Project
         A_Opposing_Driver.h
         A_Opposing_Team.cpp
         A_Opposing_Team.h
+        Aggressive.cpp
         Aggressive.h
         Bahrain.cpp
         Bahrain.h
         Base_Car.h
-        Base_Car_Measurements.cpp
-        Base_Car_Measurements.h
         BluePrint.cpp
         BluePrint.h
         Car_factory.cpp
         Car_factory.h
-        Class.h
-        Class2.h
-        Class3.h
-        Class4.h
-        Class5.h
         Client.cpp
         Client.h
         Command.cpp
@@ -38,8 +32,7 @@ add_executable(COS214_Project
         Component.h
         Conc_Radio_System.cpp
         Conc_Radio_System.h
-        Concrete_Base_Car_Measurements.cpp
-        Concrete_Base_Car_Measurements.h
+        Conservative.cpp
         Conservative.h
         Department.cpp
         Department.h
@@ -53,12 +46,10 @@ add_executable(COS214_Project
         Engineering_Iterator.h
         Engineering_Stage.cpp
         Engineering_Stage.h
+        Experienced.cpp
         Experienced.h
-        Fast_Repair.h
-        Hard.h
-        Individual_Component.h
-        Main_race_tyres.h
-        Medium.h
+        main.cpp
+        Moderate.cpp
         Moderate.h
         Monaco.cpp
         Monaco.h
@@ -70,19 +61,16 @@ add_executable(COS214_Project
         Opposing_Driver.h
         Opposing_Team.cpp
         Opposing_Team.h
-        Overall.cpp
-        Overall.h
-        Performance_Indicator.cpp
-        Performance_Indicator.h
+        Pit_Crew.cpp
         Pit_Crew.h
         Pit_Stop.cpp
         Pit_Stop.h
-        Pit_Strategy.h
+        Prepared.cpp
         Prepared.h
         Preparedness.cpp
         Preparedness.h
+        Pro.cpp
         Pro.h
-        Qualifying_tyres.h
         Race_Command.cpp
         Race_Command.h
         Race_Computations.cpp
@@ -95,30 +83,27 @@ add_executable(COS214_Project
         RaceDay_Strat.h
         Radio_System.cpp
         Radio_System.h
+        Risky.cpp
         Risky.h
+        Rookie.cpp
         Rookie.h
         Skill_Level.cpp
         Skill_Level.h
-        Slow_Repair.h
-        Soft.h
         Stage.cpp
         Stage.h
         Statistics.cpp
         Statistics.h
-        Strategy_Plan.cpp
-        Strategy_Plan.h
-        Strategy_Stage.cpp
         Strategy_Stage.h
+        Strategy_Team.cpp
         Strategy_Team.h
         Teams.cpp
         Teams.h
-        Testing_Stage.cpp
         Testing_Stage.h
         Track.cpp
         Track.h
         Transport.cpp
         Transport.h
-        Tyres.h
+        Unprepared.cpp
         Unprepared.h
         Weather.cpp
-        Weather.h Pit_Crew.cpp Strategy_Team.cpp)
+        Weather.h)

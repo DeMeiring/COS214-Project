@@ -1,8 +1,34 @@
 #include "Weather.h"
 
+void Weather_Selector::nextState() {
+    weather_state->next_state();
+}
+
+void Weather::next_state() {
+    ws->setState(nextstate);
+}
+
+
+Weather_Selector::Weather_Selector() {
+    weather_state = new Dry();
+}
+
 Statistics* Weather::getStats() {
 	return stats;
 }
+
+void Weather_Selector::setState(Weather* set) {
+    weather_state = set;
+}
+
+void Weather::setStats(Statistics* stats) {
+    this->stats = stats;
+}
+
+void Weather::setNextState(Weather* st) {
+    nextstate = st;
+}
+
 
 Dry::Dry() {
 	setNextState(new Wet());
