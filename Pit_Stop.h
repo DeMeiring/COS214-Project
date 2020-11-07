@@ -28,12 +28,12 @@ private:
 
 public:
 
-    Pit_Stop(Race_Computations *rc);
+    Pit_Stop();
 
     void carDamged(bool state);
     void tyreSwap(int tyre_type);
     void fastPit(bool fast);
-	int Pit_stop_main();
+	int Pit_stop_main(Race_Computations *rc);
 };
 
 #endif

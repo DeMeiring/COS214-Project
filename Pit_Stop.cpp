@@ -33,7 +33,7 @@ void Pit_Stop::tyreSwap(int tyre_type) {
     }
 }
 
-int Pit_Stop::Pit_stop_main() {
+int Pit_Stop::Pit_stop_main(Race_Computations *rc) {
     int delay =0;
     cout << "The team car pulls in for a pit stop" << endl;
     cout << "The driver is waiting..." << endl;
@@ -63,5 +63,5 @@ int Pit_Stop::Pit_stop_main() {
     delete nextTyreSet;
     nextTyreSet = nullptr;
 
-    return ChanceOfPitOvertake(delay);
+    return rc->ChanceOfPitOvertake(delay);
 }
