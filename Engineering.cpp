@@ -1,8 +1,14 @@
 #include "Engineering.h"
 
+Engineering::Engineering(string RNDName, bool isDept)
+{
+	this->RnD_Name = RNDName;
+	this->isDept = isDept;
+}
+
 string Engineering::getRnDName() {
 	// TODO - implement Engineering::getRnDName
-	throw "Not yet implemented";
+	return RnD_Name;
 }
 
 int Engineering::getCostOfComponent(Engineering* Comp) {
@@ -10,25 +16,65 @@ int Engineering::getCostOfComponent(Engineering* Comp) {
 	throw "Not yet implemented";
 }
 
-int Engineering::getTotalCost() {
-	// TODO - implement Engineering::getTotalCost
-	throw "Not yet implemented";
+int Engineering::getCost()
+{
+	return Cost;
 }
 
-void Engineering::addDepartment(Engineering* Dept) {
-	// TODO - implement Engineering::addDepartment
-	throw "Not yet implemented";
+int Engineering::getLevel()
+{
+	return level;
 }
 
-Engineering_Iterator* Engineering::createIterator() {
+Statistics* Engineering::getStats()
+{
+	return stats;
+}
+
+// int Engineering::getTotalCost() {
+	
+// }
+// void Engineering::addDepartment(Engineering* Dept) {
+// 	// TODO - implement Engineering::addDepartment
+// 	throw "Not yet implemented";
+// }
+
+Engineering_Iterator* Engineering::createIterator(Engineering* Dept) {
 	// TODO - implement Engineering::createIterator
-	throw "Not yet implemented";
+	Engineering_Iterator* iterator = new Engineering_Iterator(Dept);
+	return iterator;
 }
 
-boolean Engineering::getIsDept() {
+vector<Engineering*> Engineering::getRnD()
+{
+	return RnD;
+}
+
+bool Engineering::getIsDept() {
 	return this->isDept;
 }
 
-void Engineering::setIsDept(boolean isDept) {
+void Engineering::setIsDept(bool isDept) {
 	this->isDept = isDept;
 }
+
+int Engineering::getCompIndex()
+{
+	return compIndex;
+}
+
+void Engineering::setCompIndex(int index)
+{
+	compIndex = index;
+}
+
+int Engineering::getDeptIndex()
+{
+	return deptIndex;
+}
+
+void Engineering::setDeptIndex(int index)
+{
+	deptIndex = index;
+}
+
