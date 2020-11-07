@@ -55,14 +55,19 @@
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="COS214_Project" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="COS214_Project" TARGET_NAME="COS214_Project" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="COS214_Project" RUN_TARGET_NAME="COS214_Project">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -78,6 +83,7 @@
       <workItem from="1604667772365" duration="164000" />
       <workItem from="1604667955261" duration="7052000" />
       <workItem from="1604687520018" duration="660000" />
+      <workItem from="1604730694771" duration="7382000" />
     </task>
     <servers />
   </component>
@@ -109,9 +115,14 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="277" y="61" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1604667883620" />
-    <state x="431" y="153" width="672" height="678" key="search.everywhere.popup" timestamp="1604685988577">
-      <screen x="0" y="0" width="1536" height="832" />
+    <state x="-1304" y="93" key="run.anything.popup" timestamp="1604735244834">
+      <screen x="-1920" y="-299" width="1920" height="1050" />
     </state>
+    <state x="-1304" y="93" key="run.anything.popup/0.0.1536.832/-1920.-299.1920.1050@-1920.-299.1920.1050" timestamp="1604735244834" />
+    <state x="-1381" y="-106" width="840" height="856" key="search.everywhere.popup" timestamp="1604735250232">
+      <screen x="-1920" y="-299" width="1920" height="1050" />
+    </state>
+    <state x="-1381" y="-106" width="840" height="856" key="search.everywhere.popup/0.0.1536.832/-1920.-299.1920.1050@-1920.-299.1920.1050" timestamp="1604735250232" />
     <state x="431" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1604685988577" />
   </component>
 </project>

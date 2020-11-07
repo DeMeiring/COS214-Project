@@ -121,4 +121,4 @@ add_executable(COS214_Project
         Tyres.h
         Unprepared.h
         Weather.cpp
-        Weather.h Pit_Crew.cpp)
+        Weather.h Pit_Crew.cpp Strategy_Team.cpp)

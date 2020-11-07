@@ -3,17 +3,15 @@
 
 #include "Race_Crew.h"
 #include "Pit_Stop.h"
-#include "Radio_System.h"
-#include <iostream>
 
-class RaceDay_stage;
+class RaceDay_Stage;
 
 class Pit_Crew : public Race_Crew {
 private:
     Pit_Stop* Pit;
-    RaceDay_stage *rds;
+    RaceDay_Stage *rds;
 public:
-    Pit_Crew(Radio_System* rs, RaceDay_stage* rstage);
+    Pit_Crew(Radio_System* rs, RaceDay_Stage* rstage);
     void runPit();
     virtual ~Pit_Crew();
 

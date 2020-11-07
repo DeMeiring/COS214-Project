@@ -1,7 +1,11 @@
 #ifndef PIT_STOP_H
 #define PIT_STOP_H
 
-#include "Tyres.h"
+#include "Soft.h"
+#include "Medium.h"
+#include "Hard.h"
+
+#include <iostream>
 #include <string>
 
 using namespace std;
@@ -15,16 +19,20 @@ private:
         Tyres* tyre;
     };
 
+    tyre_swap* nextTyreSet;
+
 	bool car_is_damaged;
-	bool tyre_swap;
-    int tyre_swaps = 2;
+    int tyre_swaps;
     bool fast_pit;
 
 public:
+
+    Pit_Stop();
+
     void carDamged(bool state);
-    void tyreSwap(bool swap, int tyre_type);
+    void tyreSwap(int tyre_type);
     void fastPit(bool fast);
-	void Pit_stop_main();
+	int Pit_stop_main();
 };
 
 #endif

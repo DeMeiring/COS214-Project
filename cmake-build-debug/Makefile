@@ -1207,6 +1207,33 @@ Strategy_Stage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.s
 .PHONY : Strategy_Stage.cpp.s
 
+Strategy_Team.obj: Strategy_Team.cpp.obj
+
+.PHONY : Strategy_Team.obj
+
+# target to build an object file
+Strategy_Team.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj
+.PHONY : Strategy_Team.cpp.obj
+
+Strategy_Team.i: Strategy_Team.cpp.i
+
+.PHONY : Strategy_Team.i
+
+# target to preprocess a source file
+Strategy_Team.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.i
+.PHONY : Strategy_Team.cpp.i
+
+Strategy_Team.s: Strategy_Team.cpp.s
+
+.PHONY : Strategy_Team.s
+
+# target to generate assembly for a file
+Strategy_Team.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.s
+.PHONY : Strategy_Team.cpp.s
+
 Teams.obj: Teams.cpp.obj
 
 .PHONY : Teams.obj
@@ -1471,6 +1498,9 @@ help:
 	@echo ... Strategy_Stage.obj
 	@echo ... Strategy_Stage.i
 	@echo ... Strategy_Stage.s
+	@echo ... Strategy_Team.obj
+	@echo ... Strategy_Team.i
+	@echo ... Strategy_Team.s
 	@echo ... Teams.obj
 	@echo ... Teams.i
 	@echo ... Teams.s
