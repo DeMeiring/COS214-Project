@@ -23,9 +23,11 @@ public:
 
 	bool levelComponent(Engineering* Component, bool upgrade);
 
-	vector<string> getComponentList();
+	vector<string> getComponentList(Engineering* Dept);
 
 	virtual ~Department();
+
+	bool ChangeLevel(int level){return false;};
 };
 
 #endif

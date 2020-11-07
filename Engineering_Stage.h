@@ -11,7 +11,7 @@
 
 class Engineering_Stage {
     private:
-        // Engineering_Iterator *car_iterator;
+        Engineering_Iterator *car_iterator;
         // A_Base_Car *Car;
     public:
         void Engineering_main();

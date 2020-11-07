@@ -15,7 +15,6 @@ private:
 	vector<int> Aero_Costs;
 	vector<int> Eng_Costs;
 	vector<int> Elec_Costs;
-	Statistics* stats;
 	int level;
 	vector<Statistics*> Stat_Levels;
 	int cost;
@@ -23,13 +22,13 @@ private:
 public:
 	Component(string name, bool isDept, int level);
 
+	vector<string> getComponentList(Engineering *Dept);
+
 	void setCost(int cost);
 
 	int getCost();
 
 	void addDepartment(Engineering *);
-
-	Statistics getStats();
 
 	bool ChangeLevel(int lvl);
 };

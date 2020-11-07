@@ -14,11 +14,6 @@ Department::Department(string RNDName, bool isDept): Engineering(RNDName, isDept
 
 }
 
-void Department::setCost(int cost)
-{
-	
-}
-
 void Department::addDepartment(Engineering* Dept) {//pushes Engineering Objects to the Engineering vector
 	// TODO - implement Department::addDepartment
 	RnD.push_back(Dept);
@@ -29,9 +24,16 @@ bool Department::levelComponent(Engineering* Component, bool upgrade) { //bool i
 	throw "Not yet implemented";
 }
 
-vector<string> Department::getComponentList() {
+vector<string> Department::getComponentList(Engineering* Dept) {
 	// TODO - implement Department::getComponentList
-	throw "Not yet implemented";
+	Engineering_Iterator *iterator = new Engineering_Iterator(Dept);
+	vector<string> componentList;
+	for (int i = 0; i < 3; i++)
+	{
+		componentList.push_back(iterator->CurrentComp()->getRnDName());
+		iterator->NextComp();
+	}
+	return componentList;
 }
 
 Department::~Department()

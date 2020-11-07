@@ -20,6 +20,17 @@ int Engineering::getCost()
 {
 	return Cost;
 }
+
+int Engineering::getLevel()
+{
+	return level;
+}
+
+Statistics* Engineering::getStats()
+{
+	return stats;
+}
+
 // int Engineering::getTotalCost() {
 	
 // }
@@ -28,9 +39,10 @@ int Engineering::getCost()
 // 	throw "Not yet implemented";
 // }
 
-Engineering_Iterator* Engineering::createIterator() {
+Engineering_Iterator* Engineering::createIterator(Engineering* Dept) {
 	// TODO - implement Engineering::createIterator
-	throw "Not yet implemented";
+	Engineering_Iterator* iterator = new Engineering_Iterator(Dept);
+	return iterator;
 }
 
 vector<Engineering*> Engineering::getRnD()
@@ -65,3 +77,4 @@ void Engineering::setDeptIndex(int index)
 {
 	deptIndex = index;
 }
+

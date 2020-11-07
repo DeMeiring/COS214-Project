@@ -2,7 +2,7 @@
 
 Statistics::Statistics(bool isCar, bool isDriver, bool isComp, bool isOther) {
 	if(isCar || isComp) {
-		init_car_stats(isComp);
+		init_car_stats(isComp,isCar);
 		return;
 	}
 	else if(isDriver){
@@ -38,9 +38,9 @@ void Statistics::init_driver_stats() {
 
 }
 
-void Statistics::init_car_stats(bool isCar) {
+void Statistics::init_car_stats(bool isComp,bool isCar) {
 	// base car
-	if(isCar) {
+	if(isCar && !isComp) {
 		addStat("speed", 50);
 
 		addStat("acceleration", 50);
@@ -66,7 +66,7 @@ void Statistics::init_car_stats(bool isCar) {
 
 }
 
-bool Statistics::ChangeValue(string find, int value, bool append, bool inc) {
+void Statistics::ChangeValue(string find, int value, bool append, bool inc) {
 	vector<single_stat*>::iterator iter;
 	for(iter = values.begin(); iter<values.end(); iter++) {
 		if((*iter)->name==find) {
@@ -96,5 +96,7 @@ int Statistics::getValue(string find) {
 			return (*iter)->stat;
 		}
 	}
+	return -1;
 }
+
 
