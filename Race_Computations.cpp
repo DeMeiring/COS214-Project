@@ -1,19 +1,24 @@
 #include "Race_Computations.h"
 #include "Driver.h"
 #include "Engineering.h"
-#include <tuple>
+#include <cstdlib>
 
 Race_Computations* Race_Computations:: GetComp() {
     if(instance==0)
         instance = new Race_Computations();
     else
         return instance;
-
 }
 
 bool Race_Computations::OvertakeSuccess(Racers ToBeOvertaken, Racers Overtaker, Conditions cond) {
-	// TODO - implement Race_Computations::OvertakeSuccess
-	throw "Not yet implemented";
+    // total
+    double calc =  0 + ToBeOvertaken.Racer->getStats()->getValue("aggression");
+    calc = calc / 100;
+    calc *= ToBeOvertaken.Racer->getStats()->getValue("racing_ability");
+    //acc
+    //spee
+    //weight
+    calc += cond.WeatherCond->getStats();
 }
 
 bool Race_Computations::ChanceOfCrash(Racers racer) {
@@ -35,4 +40,13 @@ int Race_Computations::ChanceOfPitOvertake(int delay) {
     } else if(delay < 12 && delay > 5) {
         return (2 + rand() % 5);
     }
+}
+
+int Race_Computations::DistributeValue(double value) {
+    int x = (int) value;
+    int range = 1+ rand() % 100;
+    if(range <= x)
+        return 1;
+    else
+        return 0;
 }

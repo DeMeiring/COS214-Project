@@ -27,6 +27,8 @@ private:
 
     bool ChanceOfRecovery(Driver* driver);
 
+    int DistributeValue(double value);
+
 protected:
 
     Race_Computations();
