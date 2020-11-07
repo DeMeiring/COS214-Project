@@ -1,10 +1,12 @@
 #include "Experienced.h"
 
-Experienced::Experienced(Statistics *skillModifier, Driver *driver) : Skill_Level(skillModifier, driver) {
+Experienced::Experienced(Statistics *skillModifier) : Skill_Level(skillModifier)
+{
     this->racing_ability=30;
 }
 
-int Experienced::getRacingAbility() {
+int Experienced::getRacingAbility()
+{
     return this->racing_ability;
 }
 

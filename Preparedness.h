@@ -12,6 +12,8 @@ public:
     Preparedness(Statistics* stats);
 	Statistics* getSkill_Modifier();
 	virtual ~Preparedness();
+
+	virtual int getPreparedness() = 0;
 };
 
 #endif

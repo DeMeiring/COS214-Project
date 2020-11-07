@@ -3,13 +3,14 @@
 
 #include "Preparedness.h"
 
-class Prepared :public Preparedness {
+class Prepared : public Preparedness {
 private:
     int prepared;
 public:
     Prepared(Statistics *stats);
-    int getPreparedness();
     virtual ~Prepared();
+    
+    int getPreparedness();
 };
 
 #endif

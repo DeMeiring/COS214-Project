@@ -16,6 +16,8 @@ public:
     virtual ~Skill_Level();
 	Statistics* getSkill_Modifier();
 	Driver* getDriver();
+
+	virtual int getRacingAbility() = 0;
 };
 
 #endif

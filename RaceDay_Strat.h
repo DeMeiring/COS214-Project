@@ -12,7 +12,10 @@ private:
 public:
     RaceDay_Strat(Statistics* stats);
 	Statistics* getSkill_Modifier();
-	virtual ~RaceDay_Strat()
+	virtual ~RaceDay_Strat();
+
+	virtual int getAggression() = 0;
+	virtual int getConservative() = 0;
 };
 
 #endif
