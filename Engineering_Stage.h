@@ -17,6 +17,7 @@ class Engineering_Stage {
         Engineering_Iterator *car_iterator;
         // A_Base_Car *Car;
     public:
+        Engineering_Iterator* getCarIterator();
         void Engineering_main();
         void init();
         void selectDepartment();

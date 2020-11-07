@@ -10,15 +10,19 @@ void Engineering_Stage::Engineering_main() {
 
 void Engineering_Stage::selectDepartment()
 {
-	cout << "Please Select a Department you would like to visit: " << endl;
-
-	
-}
-
-//select department 
+	//select department 
 //show budget 
 //iterate and pick levels to purchase
 //while(true) exit if exit is typed
+	cout << "Please Select a Department you would like to visit: " << endl;
+	cout << getCarIterator()->CurrentComp()->getRnDName() << endl;
+}
+
+Engineering_Iterator* Engineering_Stage::getCarIterator()
+{
+	return car_iterator;
+}
+
 
 void Engineering_Stage::init()
 {
@@ -70,136 +74,136 @@ void Engineering_Stage::init()
 
 	car_iterator = new Engineering_Iterator(ChassisDept);
 
-	// cout <<"====================================="<<endl;
-	// cout <<"====================================="<<endl;
+	cout <<"====================================="<<endl;
+	cout <<"====================================="<<endl;
 
 
-	// Engineering_Iterator *iterator = new Engineering_Iterator(ChassisDept);
-	// cout<<"Current Departments Initially 4:"<<endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout <<"-> "<<iterator->CurrentDept()->getRnDName()<< endl;
+	Engineering_Iterator *iterator = new Engineering_Iterator(ChassisDept);
+	cout<<"Current Departments Initially 4:"<<endl;
+	cout <<"-------------------------------------"<<endl;
+	cout <<"-> "<<iterator->CurrentDept()->getRnDName()<< endl;
 
 
-	// // cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
-	// // cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
+	// cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
+	// cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
 	
-	// cout << endl;
-	// cout <<"=====================================";
-	// cout << endl;
-	// cout << endl;
+	cout << endl;
+	cout <<"=====================================";
+	cout << endl;
+	cout << endl;
 
-	// int AVGlevel = 0;
-	// int cost = 0;
-	// int speed = 0;
-	// int acceleration = 0;
-	// int weight = 0;
-	// int handling = 0;
-	// int failure = 0;
+	int AVGlevel = 0;
+	int cost = 0;
+	int speed = 0;
+	int acceleration = 0;
+	int weight = 0;
+	int handling = 0;
+	int failure = 0;
 
-	// cout<<"Current Components Stats:"<<endl;
-	// for(int i =0;i<12;i++){
-	// cout <<"-------------------------------------"<<endl;
-	// cout << "-> " << iterator->CurrentComp()->getRnDName() << endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout <<"Cost: "<< iterator->CurrentComp()->getCost() << endl;
-	// cost += iterator->CurrentComp()->getCost();
-	// cout <<"Level: "<< iterator->CurrentComp()->getLevel()<<endl;
-	// AVGlevel += iterator->CurrentComp()->getLevel();
-	// cout <<"-------------------------------------"<<endl;
+	cout<<"Current Components Stats:"<<endl;
+	for(int i =0;i<12;i++){
+	cout <<"-------------------------------------"<<endl;
+	cout << "-> " << iterator->CurrentComp()->getRnDName() << endl;
+	cout <<"-------------------------------------"<<endl;
+	cout <<"Cost: "<< iterator->CurrentComp()->getCost() << endl;
+	cost += iterator->CurrentComp()->getCost();
+	cout <<"Level: "<< iterator->CurrentComp()->getLevel()<<endl;
+	AVGlevel += iterator->CurrentComp()->getLevel();
+	cout <<"-------------------------------------"<<endl;
 	
-	// cout <<"Speed: "<<iterator->CurrentComp()->getStats()->getValue("speed")<<endl;
-	// speed += iterator->CurrentComp()->getStats()->getValue("speed");
-	// cout <<"Acceleration: "<< iterator->CurrentComp()->getStats()->getValue("acceleration")<<endl;
-	// acceleration += iterator->CurrentComp()->getStats()->getValue("acceleration");
-	// cout <<"Weight: "<< iterator->CurrentComp()->getStats()->getValue("weight")<<endl;
-	// weight += iterator->CurrentComp()->getStats()->getValue("weight");
-	// cout <<"Handling: "<< iterator->CurrentComp()->getStats()->getValue("handling")<<endl;
-	// handling += iterator->CurrentComp()->getStats()->getValue("handling");
-	// cout <<"Failure: "<< iterator->CurrentComp()->getStats()->getValue("failure")<<endl;
-	// failure += iterator->CurrentComp()->getStats()->getValue("failure");
+	cout <<"Speed: "<<iterator->CurrentComp()->getStats()->getValue("speed")<<endl;
+	speed += iterator->CurrentComp()->getStats()->getValue("speed");
+	cout <<"Acceleration: "<< iterator->CurrentComp()->getStats()->getValue("acceleration")<<endl;
+	acceleration += iterator->CurrentComp()->getStats()->getValue("acceleration");
+	cout <<"Weight: "<< iterator->CurrentComp()->getStats()->getValue("weight")<<endl;
+	weight += iterator->CurrentComp()->getStats()->getValue("weight");
+	cout <<"Handling: "<< iterator->CurrentComp()->getStats()->getValue("handling")<<endl;
+	handling += iterator->CurrentComp()->getStats()->getValue("handling");
+	cout <<"Failure: "<< iterator->CurrentComp()->getStats()->getValue("failure")<<endl;
+	failure += iterator->CurrentComp()->getStats()->getValue("failure");
 
-	// if(i!=11)
-	// iterator->NextComp();
+	if(i!=11)
+	iterator->NextComp();
 
-	// }
-	// cout << endl;
-	// cout <<"=====================================";
-	// cout << endl;
-	// cout<<"The Total Stats of the Car"<<endl;
-	// cout<<"Speed: "<<speed<<endl;
-	// cout<<"Acceleration: "<<acceleration<<endl;
-	// cout<<"Weight: "<<weight<<endl;
-	// cout<<"Handling: "<<handling<<endl;
-	// cout<<"Failure: "<<failure<<endl;
+	}
+	cout << endl;
+	cout <<"=====================================";
+	cout << endl;
+	cout<<"The Total Stats of the Car"<<endl;
+	cout<<"Speed: "<<speed<<endl;
+	cout<<"Acceleration: "<<acceleration<<endl;
+	cout<<"Weight: "<<weight<<endl;
+	cout<<"Handling: "<<handling<<endl;
+	cout<<"Failure: "<<failure<<endl;
 
-	// cout << endl;
-	// cout <<"=====================================";
-	// cout << endl;
-	// cout<<"The Total Stats of the Car out of 100 which we need to divide by 6 "<<endl;
-	// cout<<"Speed: "<<speed/6<<" or -> "<<(speed/6)*10<<"KM/H"<<endl;
-	// cout<<"Acceleration: "<<acceleration/6<<endl;
-	// cout<<"Weight: "<<weight/6<<" or -> "<<(weight/6)*10<<"KG"<<endl;
-	// cout<<"Handling: "<<handling/6<<" or -> "<<(handling/6)<<"%"<<endl;
-	// cout<<"Failure: "<<failure/6<<" or -> "<<(failure/6)<<"%"<<endl;
+	cout << endl;
+	cout <<"=====================================";
+	cout << endl;
+	cout<<"The Total Stats of the Car out of 100 which we need to divide by 6 "<<endl;
+	cout<<"Speed: "<<speed/6<<" or -> "<<(speed/6)*10<<"KM/H"<<endl;
+	cout<<"Acceleration: "<<acceleration/6<<endl;
+	cout<<"Weight: "<<weight/6<<" or -> "<<(weight/6)*10<<"KG"<<endl;
+	cout<<"Handling: "<<handling/6<<" or -> "<<(handling/6)<<"%"<<endl;
+	cout<<"Failure: "<<failure/6<<" or -> "<<(failure/6)<<"%"<<endl;
 
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
 
-	// cout << endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout<<"Current Components for Aerodynamics:"<<endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	
-	
-	// cout << endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout<<"Current Components for Engine:"<<endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << endl;
+	cout <<"-------------------------------------"<<endl;
+	cout<<"Current Components for Aerodynamics:"<<endl;
+	cout <<"-------------------------------------"<<endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
 	
 	
-	// cout << endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout<<"Current Components for Electronics:"<<endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "=====================================" << endl;
-	// cout << "=====================================" << endl;
+	cout << endl;
+	cout <<"-------------------------------------"<<endl;
+	cout<<"Current Components for Engine:"<<endl;
+	cout <<"-------------------------------------"<<endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	
+	
+	cout << endl;
+	cout <<"-------------------------------------"<<endl;
+	cout<<"Current Components for Electronics:"<<endl;
+	cout <<"-------------------------------------"<<endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	cout << "=====================================" << endl;
+	cout << "=====================================" << endl;
 
-	// // cout << iterator->CurrentComp()->getCost() << endl;
+	// cout << iterator->CurrentComp()->getCost() << endl;
 
-	// for (int i = 0; i < 3; i++)
-	// 	cout << iterator->CurrentDept()->getComponentList(ChassisDept)[i] << endl;
+	for (int i = 0; i < 3; i++)
+		cout << iterator->CurrentDept()->getComponentList(ChassisDept)[i] << endl;
 
-	// cout << endl;
+	cout << endl;
 
-	// for (int i = 0; i < 3; i++)
-	// 	cout << iterator->CurrentDept()->getComponentList(AerodynamicsDept)[i] << endl;
-	// cout << endl;
+	for (int i = 0; i < 3; i++)
+		cout << iterator->CurrentDept()->getComponentList(AerodynamicsDept)[i] << endl;
+	cout << endl;
 
-	// for (int i = 0; i < 3; i++)
-	// 	cout << iterator->CurrentDept()->getComponentList(EngineDept)[i] << endl;
+	for (int i = 0; i < 3; i++)
+		cout << iterator->CurrentDept()->getComponentList(EngineDept)[i] << endl;
 
-	// cout << endl;
+	cout << endl;
 
-	// for (int i = 0; i < 3; i++){
-	// 	cout << iterator->CurrentDept()->getComponentList(ElectronicsDept)[i] << endl;
-	// }
+	for (int i = 0; i < 3; i++){
+		cout << iterator->CurrentDept()->getComponentList(ElectronicsDept)[i] << endl;
+	}
 
-	// cout << endl;
+	cout << endl;
 
 
-	// cout <<iterator->CurrentComp()->getStats()->getValue("acceleration")<< endl;
-	// iterator->CurrentComp()->ChangeLevel(2);
-	// iterator->CurrentComp()->ChangeLevel(2);
-	// cout <<iterator->CurrentComp()->getStats()->getValue("acceleration")<< endl;
+	cout <<iterator->CurrentComp()->getStats()->getValue("acceleration")<< endl;
+	iterator->CurrentComp()->ChangeLevel(2);
+	iterator->CurrentComp()->ChangeLevel(2);
+	cout <<iterator->CurrentComp()->getStats()->getValue("acceleration")<< endl;
 
 
 }
