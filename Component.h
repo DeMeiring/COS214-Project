@@ -15,7 +15,6 @@ private:
 	vector<int> Aero_Costs;
 	vector<int> Eng_Costs;
 	vector<int> Elec_Costs;
-	int level;
 	vector<Statistics*> Stat_Levels;
 	int cost;
 

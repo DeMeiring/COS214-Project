@@ -26,33 +26,12 @@ Component::Component(string name, bool isDept, int level) : Engineering(name, is
 	
 	if(name == "Suspension" || name == "Breaks" || name == "SurvivalShell")
 	{
-		if (level == 0)
-		{
-			Cost = Chas_Costs[0];
-			Engineering::stats = new Statistics(false,false,true,false);//initialized everything to 0 stats
-			Engineering::stats->ChangeValue("weight",1000,false,false);
-			Engineering::stats->ChangeValue("handling",0,false,false);
-		}
-		else if(level == 1)
+		if(level == 1)
 		{
 			Cost = Chas_Costs[1];
 			Engineering::stats = new Statistics(false,false,true,false);
 			Engineering::stats->ChangeValue("weight",100,false,false);
 			Engineering::stats->ChangeValue("handling",20,false,false);
-		}
-		else if(level = 2)
-		{
-			cout << "this is correct"<< endl;
-			Cost = Chas_Costs[2];
-			Engineering::stats = new Statistics(false,false,true,false);
-			Engineering::stats->ChangeValue("weight",70,false,false);//TODO: Ask liam if weight should be decemented or incremented
-			Engineering::stats->ChangeValue("handling",60,false,false);
-		}
-		else if(level =3){
-			Cost = Chas_Costs[3];
-			Engineering::stats = new Statistics(false,false,true,false);
-			Engineering::stats->ChangeValue("weight",40,false,false);
-			Engineering::stats->ChangeValue("handling",100,false,false);
 		}
 		else
 		{
@@ -65,15 +44,7 @@ Component::Component(string name, bool isDept, int level) : Engineering(name, is
 
 	if(name == "Diffuser"||name == "FrontWing"||name == "RearWing")
 	{
-		if (level == 0)
-		{
-			Cost = Aero_Costs[0];
-			Engineering::stats = new Statistics(false,false,true,false);
-			Engineering::stats->ChangeValue("speed",0,false,false);
-			Engineering::stats->ChangeValue("weight",1000,false,false);
-			Engineering::stats->ChangeValue("handling",0,false,false);
-		}
-		else if(level == 1)
+		if(level == 1)
 		{
 			Cost = Aero_Costs[1];
 			Engineering::stats = new Statistics(false,false,true,false);
@@ -81,21 +52,7 @@ Component::Component(string name, bool isDept, int level) : Engineering(name, is
 			Engineering::stats->ChangeValue("weight",100,false,false);
 			Engineering::stats->ChangeValue("handling",20,false,false);
 		}
-		else if(level = 2)
-		{
-			Cost = Aero_Costs[2];
-			Engineering::stats = new Statistics(false,false,true,false);
-			Engineering::stats->ChangeValue("speed",25,false,false);//250KM/H
-			Engineering::stats->ChangeValue("weight",50,false,false);
-			Engineering::stats->ChangeValue("handling",40,false,false);
-		}
-		else if(level =3){
-			Cost = Aero_Costs[3];
-			Engineering::stats = new Statistics(false,false,true,false);
-			Engineering::stats->ChangeValue("speed",35,false,false);//350KM/H
-			Engineering::stats->ChangeValue("weight",20,false,false);
-			Engineering::stats->ChangeValue("handling",80,false,false);
-		}
+
 		else
 		{
 			Cost = Aero_Costs[0];
@@ -107,36 +64,13 @@ Component::Component(string name, bool isDept, int level) : Engineering(name, is
 	}
 	if(name == "TurboCharger"||name=="WasteGate"||name=="DirectFuelInjection")
 	{
-		if (level == 0)
-		{
-			Cost = Eng_Costs[0];
-			Engineering::stats = new Statistics(false,false,true,false);
-			Engineering::stats->ChangeValue("speed",0,false,false);
-			Engineering::stats->ChangeValue("acceleration",0,false,false);
-			Engineering::stats->ChangeValue("failure",10000,false,false);
-		}
-		else if(level == 1)
+		if(level == 1)
 		{
 			Cost = Eng_Costs[1];
 			Engineering::stats = new Statistics(false,false,true,false);
 			Engineering::stats->ChangeValue("speed",10,false,false);
 			Engineering::stats->ChangeValue("acceleration",10,false,false);
 			Engineering::stats->ChangeValue("failure",8,false,false);
-		}
-		else if(level = 2)
-		{
-			Cost = Eng_Costs[2];
-			Engineering::stats = new Statistics(false,false,true,false);
-			Engineering::stats->ChangeValue("speed",40,false,false);
-			Engineering::stats->ChangeValue("acceleration",30,false,false);
-			Engineering::stats->ChangeValue("failure",3,false,false);
-		}
-		else if(level =3){
-			Cost = Eng_Costs[3];
-			Engineering::stats = new Statistics(false,false,true,false);
-			Engineering::stats->ChangeValue("speed",80,false,false);
-			Engineering::stats->ChangeValue("acceleration",60,false,false);
-			Engineering::stats->ChangeValue("failure",1,false,false);
 		}
 		else
 		{
@@ -150,32 +84,13 @@ Component::Component(string name, bool isDept, int level) : Engineering(name, is
 
 	if(name == "ERS"||name=="ECU"||name=="FFM")
 	{
-		if (level == 0)
-		{
-			Cost = Elec_Costs[0];
-			Engineering::stats = new Statistics(false,false,true,false);
-			Engineering::stats->ChangeValue("acceleration",0,false,false);
-			Engineering::stats->ChangeValue("failure",10000,false,false);
-		}
-		else if(level == 1)
+
+		if(level == 1)
 		{
 			Cost = Elec_Costs[1];
 			Engineering::stats = new Statistics(false,false,true,false);
 			Engineering::stats->ChangeValue("acceleration",20,false,false);
 			Engineering::stats->ChangeValue("failure",4,false,false);
-		}
-		else if(level = 2)
-		{
-			Cost = Elec_Costs[2];
-			Engineering::stats = new Statistics(false,false,true,false);
-			Engineering::stats->ChangeValue("acceleration",50,false,false);
-			Engineering::stats->ChangeValue("failure",2,false,false);
-		}
-		else if(level =3){
-			Cost = Elec_Costs[3];
-			Engineering::stats = new Statistics(false,false,true,false);
-			Engineering::stats->ChangeValue("acceleration",80,false,false);
-			Engineering::stats->ChangeValue("failure",1,false,false);
 		}
 		else
 		{
@@ -194,10 +109,9 @@ int Component::getCost(){
 }
 
 
-bool Component::ChangeLevel(int level) {
-	// TODO - implement Component::ChangeLevel
+bool Component::ChangeLevel(int lvl) {
 
-	Engineering::level = level;
+	Engineering::level = lvl;
 	
 	if(this->getRnDName() == "Suspension" || this->getRnDName() == "Breaks" || this->getRnDName() == "SurvivalShell")
 	{
@@ -215,7 +129,7 @@ bool Component::ChangeLevel(int level) {
 			Engineering::stats->ChangeValue("weight",100,false,false);
 			Engineering::stats->ChangeValue("handling",20,false,false);
 		}
-		else if(level== 2)
+		else if(level == 2)
 		{
 			cout << "this is correct"<< endl;
 			Cost = Chas_Costs[2];
@@ -223,7 +137,7 @@ bool Component::ChangeLevel(int level) {
 			Engineering::stats->ChangeValue("weight",70,false,false);//TODO: Ask liam if weight should be decemented or incremented
 			Engineering::stats->ChangeValue("handling",60,false,false);
 		}
-		else if(level ==3){
+		else if(level == 3){
 			Cost = Chas_Costs[3];
 			Engineering::stats = new Statistics(false,false,true,false);
 			Engineering::stats->ChangeValue("weight",40,false,false);
@@ -306,7 +220,7 @@ bool Component::ChangeLevel(int level) {
 			Engineering::stats->ChangeValue("acceleration",30,false,false);
 			Engineering::stats->ChangeValue("failure",3,false,false);
 		}
-		else if(level==3){
+		else if(level ==3){
 			Cost = Eng_Costs[3];
 			Engineering::stats = new Statistics(false,false,true,false);
 			Engineering::stats->ChangeValue("speed",80,false,false);
@@ -346,7 +260,7 @@ bool Component::ChangeLevel(int level) {
 			Engineering::stats->ChangeValue("acceleration",50,false,false);
 			Engineering::stats->ChangeValue("failure",2,false,false);
 		}
-		else if(level==3){
+		else if(level ==3){
 			Cost = Elec_Costs[3];
 			Engineering::stats = new Statistics(false,false,true,false);
 			Engineering::stats->ChangeValue("acceleration",80,false,false);
@@ -361,10 +275,6 @@ bool Component::ChangeLevel(int level) {
 		}
 	//create stats object in componenet to initialize the base
 	}
-
-
-
-
 	return true;
 }
 

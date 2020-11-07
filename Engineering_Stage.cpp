@@ -1,10 +1,24 @@
 #include "Engineering_Stage.h"
 
 void Engineering_Stage::Engineering_main() {
-	// TODO - implement Engineering_Stage::Engineering_main
+	//Initialize Engineering Departments and their Default Values
 	init();
-	cout << car_iterator->CurrentComp()->getRnDName();
+
+	cout << "Welcome to the Engineering Stage of Simulation!" << endl;
+	selectDepartment();
 }
+
+void Engineering_Stage::selectDepartment()
+{
+	cout << "Please Select a Department you would like to visit: " << endl;
+
+	
+}
+
+//select department 
+//show budget 
+//iterate and pick levels to purchase
+//while(true) exit if exit is typed
 
 void Engineering_Stage::init()
 {
@@ -15,24 +29,24 @@ void Engineering_Stage::init()
 	Engineering *EngineDept = new Department("Engine", true);
 	Engineering *ElectronicsDept = new Department("Electronics", true);
 
-	Engineering *Suspension = new Component("Suspension", false, 2);
-	Engineering *Breaks = new Component("Breaks", false, 2);
-	Engineering *SurvivalShell = new Component("SurvivalShell", false, 2);
+	Engineering *Suspension = new Component("Suspension", false, 1);
+	Engineering *Breaks = new Component("Breaks", false, 1);
+	Engineering *SurvivalShell = new Component("SurvivalShell", false, 1);
 
 	//Aerodynamic Components
-	Engineering *Diffuser = new Component("Diffuser", false, 2);//this gives 50% of the F1 cars downforce
-	Engineering *FrontWing = new Component("FrontWing", false, 2);//downforce for corner control
-	Engineering *RearWing = new Component("RearWing", false, 2);//downforce for traction
+	Engineering *Diffuser = new Component("Diffuser", false, 1);//this gives 50% of the F1 cars downforce
+	Engineering *FrontWing = new Component("FrontWing", false, 1);//downforce for corner control
+	Engineering *RearWing = new Component("RearWing", false, 1);//downforce for traction
 
 	//Engine Components
-	Engineering *TurboCharger = new Component("TurboCharger", false, 2);//Exhaust driven turbine to drive a comnpressor to increase the density of air intake
-	Engineering *WasteGate = new Component("WasteGate", false, 2);//pushes excess exhaust gas to pass by the turbine
-	Engineering *DirectFuelInjection = new Component("DirectFuelInjection", false, 2);//Fuel is sprayed directly into the combustion chamber
+	Engineering *TurboCharger = new Component("TurboCharger", false, 1);//Exhaust driven turbine to drive a comnpressor to increase the density of air intake
+	Engineering *WasteGate = new Component("WasteGate", false, 1);//pushes excess exhaust gas to pass by the turbine
+	Engineering *DirectFuelInjection = new Component("DirectFuelInjection", false, 1);//Fuel is sprayed directly into the combustion chamber
 
 	//Electronic Components
-	Engineering *ERS = new Component("ERS", false, 2);//Harvests electrical energy from the heat and energy in the turbo and from breaks
-	Engineering *ECU = new Component("ECU", false, 2);//Electronic Control Unit, Brain of the car
-	Engineering *FFM = new Component("FFM", false, 2);//Fluid Flow Meter, analysis the vehicles fuel performance
+	Engineering *ERS = new Component("ERS", false, 1);//Harvests electrical energy from the heat and energy in the turbo and from breaks
+	Engineering *ECU = new Component("ECU", false, 1);//Electronic Control Unit, Brain of the car
+	Engineering *FFM = new Component("FFM", false, 1);//Fluid Flow Meter, analysis the vehicles fuel performance
 
 	ChassisDept->addDepartment(Suspension);
 	ChassisDept->addDepartment(Breaks);
@@ -55,7 +69,6 @@ void Engineering_Stage::init()
 	ElectronicsDept->addDepartment(ChassisDept);
 
 	car_iterator = new Engineering_Iterator(ChassisDept);
-	cout << car_iterator->CurrentComp()->getRnDName() << endl;
 
 	// cout <<"====================================="<<endl;
 	// cout <<"====================================="<<endl;
@@ -93,7 +106,6 @@ void Engineering_Stage::init()
 	// cout <<"Level: "<< iterator->CurrentComp()->getLevel()<<endl;
 	// AVGlevel += iterator->CurrentComp()->getLevel();
 	// cout <<"-------------------------------------"<<endl;
-	// iterator->CurrentComp()->getStats()->ChangeValue("handling", 5, true, true);
 	
 	// cout <<"Speed: "<<iterator->CurrentComp()->getStats()->getValue("speed")<<endl;
 	// speed += iterator->CurrentComp()->getStats()->getValue("speed");
@@ -130,34 +142,34 @@ void Engineering_Stage::init()
 	// cout<<"Handling: "<<handling/6<<" or -> "<<(handling/6)<<"%"<<endl;
 	// cout<<"Failure: "<<failure/6<<" or -> "<<(failure/6)<<"%"<<endl;
 
-	// // cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// // cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
 
-	// // cout << endl;
-	// // cout <<"-------------------------------------"<<endl;
-	// // cout<<"Current Components for Aerodynamics:"<<endl;
-	// // cout <<"-------------------------------------"<<endl;
-	// // cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// // cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// // cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	// cout << endl;
+	// cout <<"-------------------------------------"<<endl;
+	// cout<<"Current Components for Aerodynamics:"<<endl;
+	// cout <<"-------------------------------------"<<endl;
+	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
 	
 	
-	// // cout << endl;
-	// // cout <<"-------------------------------------"<<endl;
-	// // cout<<"Current Components for Engine:"<<endl;
-	// // cout <<"-------------------------------------"<<endl;
-	// // cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// // cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// // cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	// cout << endl;
+	// cout <<"-------------------------------------"<<endl;
+	// cout<<"Current Components for Engine:"<<endl;
+	// cout <<"-------------------------------------"<<endl;
+	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
 	
 	
-	// // cout << endl;
-	// // cout <<"-------------------------------------"<<endl;
-	// // cout<<"Current Components for Electronics:"<<endl;
-	// // cout <<"-------------------------------------"<<endl;
-	// // cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// // cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// // cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	// cout << endl;
+	// cout <<"-------------------------------------"<<endl;
+	// cout<<"Current Components for Electronics:"<<endl;
+	// cout <<"-------------------------------------"<<endl;
+	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
+	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
 	// cout << "=====================================" << endl;
 	// cout << "=====================================" << endl;
 
@@ -185,7 +197,8 @@ void Engineering_Stage::init()
 
 
 	// cout <<iterator->CurrentComp()->getStats()->getValue("acceleration")<< endl;
-	// iterator->CurrentComp()->ChangeLevel(3);
+	// iterator->CurrentComp()->ChangeLevel(2);
+	// iterator->CurrentComp()->ChangeLevel(2);
 	// cout <<iterator->CurrentComp()->getStats()->getValue("acceleration")<< endl;
 
 

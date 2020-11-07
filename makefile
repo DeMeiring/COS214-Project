@@ -1,4 +1,4 @@
-ofiles = main.o Engineering_Stage.o Engineering.o Department.o Component.o Engineering_Iterator.o Statistics.o
+ofiles = main.o Engineering_Stage.o Engineering.o Department.o Component.o Engineering_Iterator.o Statistics.o 
 gpp_o = g++ -c -std=c++11 -static -g
 
 main: $(ofiles)
