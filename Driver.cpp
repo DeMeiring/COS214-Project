@@ -153,9 +153,16 @@ void Driver::setOverallStats(Statistics* overStat)
 
 Statistics* Driver::applyChanges()
 {
+    // Initializes the stats before we set them 
+    initPrepared();
+    initRaceDay();
+    initSkillLevel();
+
     // true true = add
     // true false = sub
     // false false = replace
+
+    // Sets the stats using Statistics change value
     this->stats->ChangeValue("prepardness", this->preparedness->getPreparedness(), true, true);
     this->stats->ChangeValue("racing_ability", this->skill_level->getRacingAbility(), true, true);
     this->stats->ChangeValue("agression",this->RaceDayStrat->getAggression(), true, true);
