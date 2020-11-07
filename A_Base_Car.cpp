@@ -1,5 +1,7 @@
 #include "A_Base_Car.h"
 
+//test 2 of base
+
 BluePrint* A_Base_Car::CreateBluePrint() {
 	// TODO - implement A_Base_Car::CreateBluePrint
 	throw "Not yet implemented";
@@ -25,7 +27,7 @@ void A_Base_Car::updateComponents(Engineering* newComponents) {
 	throw "Not yet implemented";
 }
 
-Engineering_iterator* A_Base_Car::get_Iter() {
+Engineering_Iterator* A_Base_Car::get_Iter() {
 	// TODO - implement A_Base_Car::get_Iter
 	throw "Not yet implemented";
 }

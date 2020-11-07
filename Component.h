@@ -1,20 +1,35 @@
 #ifndef COMPONENT_H
 #define COMPONENT_H
 
-class Component : Engineering {
+#include <stdlib.h>
+#include <vector>
 
+#include "Engineering.h"
+#include "Statistics.h"
+using namespace std;
+
+class Component : public Engineering 
+{
 private:
-	int Cost;
-	Statistics* Stats;
-	int Level;
+	vector<int> Chas_Costs;
+	vector<int> Aero_Costs;
+	vector<int> Eng_Costs;
+	vector<int> Elec_Costs;
 	vector<Statistics*> Stat_Levels;
+	int cost;
 
 public:
+	Component(string name, bool isDept, int level);
+
+	vector<string> getComponentList(Engineering *Dept);
+
+	void setCost(int cost);
+
 	int getCost();
 
-	Statistics getStats();
+	void addDepartment(Engineering *);
 
-	boolean ChangeLevel(int lvl);
+	bool ChangeLevel(int lvl);
 };
 
 #endif

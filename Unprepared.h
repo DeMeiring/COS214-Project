@@ -1,7 +1,15 @@
 #ifndef UNPREPARED_H
 #define UNPREPARED_H
 
-class Unprepared : Preparedness {
+#include "Preparedness.h"
+
+class Unprepared : public Preparedness {
+private:
+    int preparedness;
+public:
+    Unprepared(Statistics *stats);
+    int getPreparedness();
+    virtual ~Unprepared();
 };
 
 #endif
