@@ -1,13 +1,29 @@
 #ifndef RACE_CREW_H
 #define RACE_CREW_H
 
+#include "Race_Command.h"
+#include <iostream>
+
+class Radio_System;
+
 class Race_Crew {
 
+private:
+
+	Radio_System* rs;
 
 public:
-	void ReceiveCommand(Command* command);
+	Race_Crew(Radio_System* rs);
 
-	void SendCommand(Race_Crew* RaceMember, Command* command);
+	virtual void ReceiveCommand(Command* command);
+
+	virtual void SendCommand(Command* command);
+
+	virtual void showAvailableCommands();
+
+	Radio_System* getRS();
+
+	virtual ~Race_Crew();
 };
 
 #endif

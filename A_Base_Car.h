@@ -1,6 +1,10 @@
 #ifndef A_BASE_CAR_H
 #define A_BASE_CAR_H
 
+#include "Engineering.h"
+#include "Engineering_Iterator.h"
+#include "BluePrint.h"
+
 class A_Base_Car {
 
 private:
@@ -20,7 +24,7 @@ public:
 
 	void updateComponents(Engineering* newComponents);
 
-	Engineering_iterator* get_Iter();
+	Engineering_Iterator* get_Iter();
 };
 
 #endif

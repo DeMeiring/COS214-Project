@@ -1,20 +1,33 @@
 #ifndef DEPARTMENT_H
 #define DEPARTMENT_H
+#include "Engineering.h"
+#include "Engineering_Iterator.h"
+#include <string>
+#include <vector>
 
-class Department : Engineering {
+using namespace std;
+
+class Department: public Engineering
+{
 
 private:
-	vector<Engineering*> RnD;
+	
 	vector<string> ListOfComponents;
 
 public:
-	Department();
+	Department(string, bool);
+
+	void setCost(int cost);
 
 	void addDepartment(Engineering* Dept);
 
-	boolean levelComponent(Engineering* Component, boolean upgrade);
+	bool levelComponent(Engineering* Component, bool upgrade);
 
-	vector<string> getComponentList();
+	vector<string> getComponentList(Engineering* Dept);
+
+	virtual ~Department();
+
+	bool ChangeLevel(int level){return false;};
 };
 
 #endif

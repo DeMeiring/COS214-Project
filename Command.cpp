@@ -1,11 +1,24 @@
 #include "Command.h"
+#include "Race_Crew.h"
 
-void Command::setReceiver(Radio_System* rec) {
-	// TODO - implement Command::setReceiver
-	throw "Not yet implemented";
+Command::Command(string command, Radio_System* receiver, Race_Crew* rc) {
+
+	Comms = receiver;
+	command_name = command;
+	invoker = rc;
+
 }
 
-void Command::ForwardCommand(Race_Crew* RaceMember) {
-	// TODO - implement Command::ForwardCommand
-	throw "Not yet implemented";
+Radio_System* Command::getRec() {
+	return Comms;
 }
+
+Race_Crew* Command::getInvoker() {
+	return invoker;
+}
+
+string Command::getCommand() {
+	return command_name;
+}
+
+Command::~Command() {}

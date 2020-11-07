@@ -1,19 +1,51 @@
 #ifndef RACE_COMPUTATIONS_H
 #define RACE_COMPUTATIONS_H
 
-class Race_Computations {
+#include "Driver.h"
+#include "Engineering.h"
+#include "Weather.h"
+#include "Tyres.h"
+#include "Track.h"
 
+using namespace std;
 
-public:
-	boolean OvertakeSuccess(tuple<Driver*, Engineering*> ToBeOvertaken, tuple<Driver*, Engineering*> Overtaker);
-
-	boolean ChanceOfCrash(Driver* driver, Engineering* car);
-
-private:
-	boolean ChanceOfRecovery(Driver* driver);
-
-public:
-	boolean ChanceOfPitOvertake(Driver* adam);
+struct Racers {
+    Driver* Racer;
+    Engineering* Car;
+    Tyres* TyresOfCar;
 };
+
+struct Conditions {
+    Weather *WeatherCond;
+    Track *TrackCond;
+};
+
+class Race_Computations {
+private:
+
+    static Race_Computations* instance; //singleton
+
+    bool ChanceOfRecovery(Driver* driver);
+
+    int DistributeValue(double value);
+
+protected:
+
+    Race_Computations();
+
+public:
+
+    static Race_Computations* GetComp();
+
+	bool OvertakeSuccess(Racers ToBeOvertaken, Racers Overtaker, Conditions cond);
+
+	bool ChanceOfCrash(Racers racer);
+
+	int ChanceOfPitOvertake(int delay);
+	
+};
+
+Race_Computations* Race_Computations :: instance = 0;
+
 
 #endif
