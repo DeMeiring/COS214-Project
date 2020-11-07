@@ -20,8 +20,7 @@ private:
 	int ContractCost;
 
 public:
-	Driver(Conc_Radio_System *rs, Statistics *stats, Skill_Level *skillLevel, Prepared *preparedness,
-           RaceDay_Strat *raceDayStrat, Statistics *overstat,std::string name,int ContractCost);
+	Driver(Conc_Radio_System *rs, Statistics *stats,std::string name,int ContractCost);
 
 	Statistics* getStats();
 
@@ -32,6 +31,23 @@ public:
 	int getContractCost();
 
 	std::string getName();
+
+	//setters for raceday,overstat,preparedness,skill_level
+
+	void initRaceDay();
+
+	void initSkillLevel();
+
+	void initPrepared();
+
+
+	void setRaceDay(RaceDay_Strat* raceDayStrat);
+
+	void setSkillLevel(Skill_Level* skillLevel);
+
+	void setPrepared(Prepared* prepared);
+
+    void setOverallStats(Statistics* overStat);
 
 	virtual ~Driver();
 };

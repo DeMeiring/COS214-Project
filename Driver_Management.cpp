@@ -4,7 +4,6 @@
 #include <algorithm>
 
 void Driver_Management::showAvailableDrivers() {
-	// TODO - implement Driver_Management::showAvailableDrivers
 	std::vector<std::string>::iterator it = this->available_drivers.begin();
 	int count=0;
 	for(it = available_drivers.begin();it!=available_drivers.end();++it){
@@ -14,10 +13,10 @@ void Driver_Management::showAvailableDrivers() {
 }
 
 void Driver_Management::purchase_driver(int index, int budget) {
-    // TODO - implement Driver_Management::purchase_driver
     budget = budget - costPerDriver.at(index);
 
-    Driver *purchasedDriver = new Driver(new Conc_Radio_System(), new Statistics(), new Skill_Level(), new Prepared,
+    Driver *purchasedDriver = new Driver(new Conc_Radio_System(), new Statistics(), new Skill_Level(), new Prepared(
+            nullptr),
                                          new RaceDay_Strat(), new Statistics(), available_drivers.at(index),costPerDriver.at(index));
 
     hired_drivers.push_back(purchasedDriver);
