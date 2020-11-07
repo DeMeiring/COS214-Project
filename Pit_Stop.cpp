@@ -63,12 +63,5 @@ int Pit_Stop::Pit_stop_main() {
     delete nextTyreSet;
     nextTyreSet = nullptr;
 
-    //COMPUTE DELAY
-    if(delay > 12) {
-        return (4 + rand() % 8);
-    } else if(delay < 5) {
-        return (0+rand() % 2);
-    } else if(delay < 12 && delay > 5) {
-        return (2 + rand() % 5);
-    }
+    return ChanceOfPitOvertake(delay);
 }

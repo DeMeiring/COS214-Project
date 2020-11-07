@@ -4,6 +4,7 @@
 #include "Soft.h"
 #include "Medium.h"
 #include "Hard.h"
+#include "Race_Computations.h"
 
 #include <iostream>
 #include <string>
@@ -27,7 +28,7 @@ private:
 
 public:
 
-    Pit_Stop();
+    Pit_Stop(Race_Computations *rc);
 
     void carDamged(bool state);
     void tyreSwap(int tyre_type);

@@ -3,12 +3,20 @@
 #include "Engineering.h"
 #include <tuple>
 
-bool Race_Computations::OvertakeSuccess(tuple<Driver*, Engineering*> ToBeOvertaken, tuple<Driver*, Engineering*> Overtaker) {
+Race_Computations* Race_Computations:: GetComp() {
+    if(instance==0)
+        instance = new Race_Computations();
+    else
+        return instance;
+
+}
+
+bool Race_Computations::OvertakeSuccess(Racers ToBeOvertaken, Racers Overtaker, Conditions cond) {
 	// TODO - implement Race_Computations::OvertakeSuccess
 	throw "Not yet implemented";
 }
 
-bool Race_Computations::ChanceOfCrash(Driver* driver, Engineering* car) {
+bool Race_Computations::ChanceOfCrash(Racers racer) {
 	// TODO - implement Race_Computations::ChanceOfCrash
 	throw "Not yet implemented";
 }
@@ -18,7 +26,13 @@ bool Race_Computations::ChanceOfRecovery(Driver* driver) {
 	throw "Not yet implemented";
 }
 
-bool Race_Computations::ChanceOfPitOvertake(Driver* adam) {
-	// TODO - implement Race_Computations::ChanceOfPitOvertake
-	throw "Not yet implemented";
+int Race_Computations::ChanceOfPitOvertake(int delay) {
+    //COMPUTE DELAY
+    if(delay > 12) {
+        return (4 + rand() % 8);
+    } else if(delay < 5) {
+        return (0+rand() % 2);
+    } else if(delay < 12 && delay > 5) {
+        return (2 + rand() % 5);
+    }
 }
