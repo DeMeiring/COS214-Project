@@ -18,19 +18,22 @@ class Statistics {
 private:
 	vector<single_stat*> values;
 
-	void addStat(string name, int value);
+    // base driver stats before modifying for presets
+    void init_driver_stats();
+
+    // for base car before any components or upgrades, also creates component's stats variable
+    void init_car_stats(bool isComp);
+
+    // for weather in race_day
+    void init_weather();
 
 public:
+
+    void addStat(string name, int value);
 
 	// set true the boolean which you are writing stats for
 	// a proper implementation would be each boolean as a class which inherits
 	Statistics(bool isCar=false, bool isDriver=false, bool isComp=false, bool isOther=false);
-
-	// base driver stats before modifying for presets
-	void init_driver_stats();
-
-	// for base car before any components or upgrades, also creates component's stats variable
-	void init_car_stats(bool isComp, bool isCar);
 
 	// this class can do the searching for the correct stat and so
 	// on to make code more organized

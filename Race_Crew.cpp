@@ -5,13 +5,8 @@ void Race_Crew::ReceiveCommand(Command* command) {
 	// do stuff with command if applicable
 }
 
-void Race_Crew::SendCommand(int i) {
-	if(i==0) {
-		Command* rc = new Race_Command(rs, this, "Base_Command");
-		rc->ForwardCommand();
-		delete rc;
-	}
-
+void Race_Crew::SendCommand(Command* command) {
+	command->ForwardCommand();
 }
 
 void Race_Crew::showAvailableCommands() {
@@ -19,3 +14,7 @@ void Race_Crew::showAvailableCommands() {
 }
 
 Race_Crew::~Race_Crew() {};
+
+Radio_System* Race_Crew::getRS() {
+    return rs;
+}

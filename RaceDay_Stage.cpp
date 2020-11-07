@@ -1,4 +1,5 @@
 #include "RaceDay_stage.h"
+#include "Pit_Crew.h"
 #include <cstdlib>
 
 RaceDay_Stage::RaceDay_Stage() {

@@ -1,5 +1,5 @@
 #include "Bahrain.h"
-
+// medium
 Bahrain::Bahrain() : Track(55) {
 }
 
@@ -16,13 +16,21 @@ string Bahrain::getCornerTypes() {
 }
 
 Statistics* Bahrain::getBuffs() {
-    // gen and return
+    Statistics *newStats = new Statistics(false, false, false, true);
+    newStats->addStat("speed", 4);
+    newStats->addStat("acceleration", 3);
+    newStats->ChangeValue("racing_ability", 2);
+    newStats->ChangeValue("handling", 1);
+    return newStats;
 }
 
 Statistics* Bahrain::getDebuffs() {
-    // gen and return
+    Statistics *newStats = new Statistics(false, false, false, true);
+    newStats->ChangeValue("handling", 5);
+    newStats->ChangeValue("failure", 3);
+    return newStats;
 }
 
 string Bahrain::getFunFact() {
-    return "Bahrain is only the third race track to have taken place at night";
+    return "Bahrain is only the third F1 race track to have taken place at night";
 }
