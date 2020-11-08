@@ -5,7 +5,7 @@ Opposing_Driver::~Opposing_Driver() {
 
 }
 
-Driver* Opposing_Driver::GenDriver(int skills) {
+Statistics Opposing_Driver::GenDriver(int skills) {
     Statistics *stats = new Statistics(false, true);
     int rando;
     if(skills > 90) {
@@ -99,8 +99,5 @@ Driver* Opposing_Driver::GenDriver(int skills) {
         stats->ChangeValue("conservation", rando, true, false);
     }
 
-    Driver *newDriver = new Driver(nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, "",0);
-    newDriver->setStats(stats);
-
-    return newDriver;
+    return stats;
 }

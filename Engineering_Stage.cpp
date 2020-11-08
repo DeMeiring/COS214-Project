@@ -68,7 +68,7 @@ void Engineering_Stage::init()
 	ElectronicsDept->addDepartment(FFM);
 	ElectronicsDept->addDepartment(ChassisDept);
 
-	car_iterator = new Engineering_Iterator(ChassisDept);
+	//car_iterator = new Engineering_Iterator(ChassisDept);
 
 	// cout <<"====================================="<<endl;
 	// cout <<"====================================="<<endl;

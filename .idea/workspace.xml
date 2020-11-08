@@ -60,11 +60,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -91,6 +86,10 @@
       <workItem from="1604776125725" duration="1785000" />
       <workItem from="1604779972302" duration="13000" />
       <workItem from="1604780008895" duration="210000" />
+      <workItem from="1604780464524" duration="13000" />
+      <workItem from="1604780600897" duration="921000" />
+      <workItem from="1604784193186" duration="1041000" />
+      <workItem from="1604828142143" duration="3332000" />
     </task>
     <servers />
   </component>
@@ -114,6 +113,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="520" y="240" key="#Notifications/0.0.1536.832@0.0.1536.832" timestamp="1604667723423" />
+    <state x="498" y="218" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604781052572">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="498" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.832@0.0.1536.832" timestamp="1604781052572" />
     <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1604654521231">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
