@@ -1,4 +1,5 @@
 #include "RaceDay_stage.h"
+#include "Pit_Crew.h"
 #include <cstdlib>
 
 RaceDay_Stage::RaceDay_Stage() {
@@ -77,8 +78,7 @@ void RaceDay_Stage::showWeatherOptions() {
 
 
 void RaceDay_Stage::Qualifying_Main() {
-	// TODO - implement RaceDay_Stage::Qualifying_Main
-	throw "Not yet implemented";
+
 }
 
 void RaceDay_Stage::MainRace_Main() {

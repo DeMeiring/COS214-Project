@@ -2,7 +2,7 @@
 
 Statistics::Statistics(bool isCar, bool isDriver, bool isComp, bool isOther) {
 	if(isCar || isComp) {
-		init_car_stats(isComp);
+		init_car_stats(isComp,isCar);
 		return;
 	}
 	else if(isDriver){
@@ -10,7 +10,7 @@ Statistics::Statistics(bool isCar, bool isDriver, bool isComp, bool isOther) {
 		return;
 	}
 	else {
-		// do nothing
+		init_weather();
 	}
 }
 
@@ -38,9 +38,9 @@ void Statistics::init_driver_stats() {
 
 }
 
-void Statistics::init_car_stats(bool isCar) {
+void Statistics::init_car_stats(bool isComp,bool isCar) {
 	// base car
-	if(isCar) {
+	if(isCar && !isComp) {
 		addStat("speed", 50);
 
 		addStat("acceleration", 50);
@@ -72,16 +72,16 @@ void Statistics::ChangeValue(string find, int value, bool append, bool inc) {
 		if((*iter)->name==find) {
 			if(append==false) {
 				(*iter)->stat = value;
-				return;
+				return false;
 			}
 			else if(append==true) {
 				if(inc==true) {
 					(*iter)->stat += value;
-					return;	
+					return false;
 				}
 				else {
 					(*iter)->stat -= value;
-					return;
+					return false;
 				}
 			}
 		}
@@ -96,5 +96,15 @@ int Statistics::getValue(string find) {
 			return (*iter)->stat;
 		}
 	}
+	return -1;
 }
 
+void Statistics::init_weather() {
+
+    addStat("racing_ability", 0);
+
+    addStat("handling", 0);
+
+    addStat("failure", 0);
+
+}

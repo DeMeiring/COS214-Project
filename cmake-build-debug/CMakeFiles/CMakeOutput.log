@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 The system is: Windows - 10.0.19041 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: C:/MinGW/bin/gcc.exe 
+=======
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x86/cl.exe 
+>>>>>>> main
 Build flags: 
 Id flags:  
 
 The output was:
 0
+<<<<<<< HEAD
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
@@ -14,11 +21,33 @@ The C compiler identification is GNU, found in "C:/Users/Acer/Documents/COS214-P
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/MinGW/bin/g++.exe 
+=======
+Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29112 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.27.29112.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x86/cl.exe 
+>>>>>>> main
 Build flags: 
 Id flags:  
 
 The output was:
 0
+<<<<<<< HEAD
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
@@ -38,10 +67,39 @@ C:\Users\Acer\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.6397.106\bin\c
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_7326a.dir/objects.a @CMakeFiles\cmTC_7326a.dir\objects1.rsp
 C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_7326a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7326a.exe -Wl,--out-implib,libcmTC_7326a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7326a.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+=======
+Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29112 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.27.29112.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_70ad6\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_70ad6.dir\build.make /nologo -L                  CMakeFiles\cmTC_70ad6.dir\build
+Building C object CMakeFiles/cmTC_70ad6.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\liamb\AppData\Local\Temp\nmF08E.tmp
+testCCompiler.c
+Linking C executable cmTC_70ad6.exe
+	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_70ad6.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_70ad6.dir\objects1.rsp @C:\Users\liamb\AppData\Local\Temp\nmF244.tmp
+>>>>>>> main
 
 
 
 Detecting C compiler ABI info compiled with the following output:
+<<<<<<< HEAD
 Change Dir: C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_7cca3/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7cca3.dir\build.make CMakeFiles/cmTC_7cca3.dir/build
@@ -278,10 +336,33 @@ C:\Users\Acer\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.6397.106\bin\c
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_ee89a.dir/objects.a @CMakeFiles\cmTC_ee89a.dir\objects1.rsp
 C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_ee89a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ee89a.exe -Wl,--out-implib,libcmTC_ee89a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ee89a.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+=======
+Change Dir: C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_90b8c\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_90b8c.dir\build.make /nologo -L                  CMakeFiles\cmTC_90b8c.dir\build
+Building C object CMakeFiles/cmTC_90b8c.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\liamb\AppData\Local\Temp\nmF62B.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_90b8c.exe
+	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_90b8c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_90b8c.dir\objects1.rsp @C:\Users\liamb\AppData\Local\Temp\nmF67A.tmp
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_cedfa\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_cedfa.dir\build.make /nologo -L                  CMakeFiles\cmTC_cedfa.dir\build
+Building CXX object CMakeFiles/cmTC_cedfa.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\liamb\AppData\Local\Temp\nmFA23.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_cedfa.exe
+	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_cedfa.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_cedfa.dir\objects1.rsp @C:\Users\liamb\AppData\Local\Temp\nmFA72.tmp
+>>>>>>> main
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
+<<<<<<< HEAD
 Change Dir: C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_10808/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_10808.dir\build.make CMakeFiles/cmTC_10808.dir/build
@@ -524,5 +605,16 @@ Parsed CXX implicit link information from above output:
   implicit libs: [stdc++;mingw32;mingwex;mingw32;mingwex;gcc_s;gcc;moldname;advapi32;shell32;user32;kernel32;mingw32;mingwex;mingw32;mingwex;gcc_s;gcc;moldname]
   implicit dirs: [C:/MinGW/lib/gcc/mingw32/9.2.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib]
   implicit fwks: []
+=======
+Change Dir: C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_37f53\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_37f53.dir\build.make /nologo -L                  CMakeFiles\cmTC_37f53.dir\build
+Building CXX object CMakeFiles/cmTC_37f53.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\liamb\AppData\Local\Temp\nmFDBD.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_37f53.exe
+	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_37f53.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_37f53.dir\objects1.rsp @C:\Users\liamb\AppData\Local\Temp\nmFDFC.tmp
+
+>>>>>>> main
 
 

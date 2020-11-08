@@ -1,5 +1,9 @@
 #ifndef CLIENT_H
 #define CLIENT_H
+#include "Stage.h"
+#include "Transport.h"
+#include "Statistics.h"
+//#include "DriverManager.h"
 
 #include "Stage.h"
 #include "Engineering.h"

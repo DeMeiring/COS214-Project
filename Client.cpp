@@ -20,7 +20,7 @@ void Client::setCars(Transport* Cars) {
 	throw "Not yet implemented";
 }
 
-boolean Client::Store_carStats(Statistics* stats) {
+bool Client::Store_carStats(Statistics* stats) {
 	// TODO - implement Client::Store_carStats
 	throw "Not yet implemented";
 }

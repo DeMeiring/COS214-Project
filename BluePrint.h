@@ -1,5 +1,6 @@
 #ifndef BLUEPRINT_H
 #define BLUEPRINT_H
+#include "A_Base_Car.h"
 
 class BluePrint {
 
