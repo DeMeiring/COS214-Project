@@ -1,5 +1,13 @@
 #include "Client.h"
 
+Client::Client() {
+    stage = new Engineering_Stage();
+}
+
+Client::~Client() {
+
+}
+
 void Client::SetStage(Stage* set) {
 	stage = set;
 }

@@ -3,13 +3,17 @@
 #include "Stage.h"
 #include "Transport.h"
 #include "Statistics.h"
-//#include "DriverManager.h"
 
 #include "Stage.h"
 #include "Engineering.h"
 #include "Transport.h"
 #include "Driver.h"
 #include "Statistics.h"
+#include "Track.h"
+
+#include "Engineering_Stage.h"
+#include "RaceDay_stage.h"
+
 
 using namespace std;
 
@@ -19,8 +23,9 @@ private:
 	Stage* stage; // state
 
 	Transport* Cars; // momento for cars of custom drivers
-	Statistics* car_stats; // total stats
+	Statistics* car_stats; // total stats for user cars
 	vector<Driver*> hired; // has drivers
+    Track* selectedTrack; // track selected either randomly or by user
 
 	bool kill_switch;
 
