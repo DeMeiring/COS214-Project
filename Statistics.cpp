@@ -72,16 +72,16 @@ void Statistics::ChangeValue(string find, int value, bool append, bool inc) {
 		if((*iter)->name==find) {
 			if(append==false) {
 				(*iter)->stat = value;
-				return false;
+				return;
 			}
 			else if(append==true) {
 				if(inc==true) {
 					(*iter)->stat += value;
-					return false;
+					return;
 				}
 				else {
 					(*iter)->stat -= value;
-					return false;
+					return;
 				}
 			}
 		}
@@ -100,6 +100,8 @@ int Statistics::getValue(string find) {
 }
 
 void Statistics::init_weather() {
+
+    //addStat("weather_debuff", 0);
 
     addStat("racing_ability", 0);
 
