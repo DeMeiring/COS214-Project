@@ -1,12 +1,14 @@
 #ifndef CAR_FACTORY_H
 #define CAR_FACTORY_H
 #include "A_Car_Factory.h"
-#include "A_Base_Car.h"
+#include "Department.h"
+#include "Component.h"
 
-class Car_factory : A_Car_Factory {
+class Car_factory : public A_Car_Factory{
 
 public:
-	A_Base_Car* ConstructCar();
+	Engineering* ConstructCar();
+
 };
 
 #endif
