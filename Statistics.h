@@ -41,10 +41,11 @@ public:
 	// find is the name of the ability, look in the cpp for the names <3
 	// change the value, append = false CHANGES THE VALUE, append = true
 	// ADDS TO THE VALUE if inc = true
-	void ChangeValue(string find, int value, bool append=false, bool inc=true);
+	bool ChangeValue(string find, int value, bool append=false, bool inc=true);
 
 	int getValue(string find);
 
+	vector<int> getAllValues();
 };
 
 #endif

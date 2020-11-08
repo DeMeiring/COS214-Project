@@ -10,65 +10,37 @@ void Engineering_Stage::Engineering_main() {
 
 void Engineering_Stage::selectDepartment()
 {
-	cout << "Please Select a Department you would like to visit: " << endl;
-
-	
-}
-
-//select department 
+	//select department 
 //show budget 
 //iterate and pick levels to purchase
 //while(true) exit if exit is typed
+	cout << "Please Select a Department you would like to visit: " << endl;
+	
+}
+
+Engineering_Iterator* Engineering_Stage::getCarIterator()
+{
+	return car_iterator;
+}
+
+
+void Engineering_Stage::setEngineering_Iterator(Engineering_Iterator* iterator)
+{
+	car_iterator = iterator;
+}
 
 void Engineering_Stage::init()
 {
-	//create 4 Departments (to begin with) using addDepartment(Engineering* obj)
+	// create 4 Departments (to begin with) using addDepartment(Engineering* obj)
+	Car_factory *factory = new Car_factory();
 
-	Engineering *ChassisDept = new Department("Chassis", true);
-	Engineering *AerodynamicsDept = new Department("Aerodynamics", true);
-	Engineering *EngineDept = new Department("Engine", true);
-	Engineering *ElectronicsDept = new Department("Electronics", true);
+	Car = factory->ConstructCar();
 
-	Engineering *Suspension = new Component("Suspension", false, 1);
-	Engineering *Breaks = new Component("Breaks", false, 1);
-	Engineering *SurvivalShell = new Component("SurvivalShell", false, 1);
 
-	//Aerodynamic Components
-	Engineering *Diffuser = new Component("Diffuser", false, 1);//this gives 50% of the F1 cars downforce
-	Engineering *FrontWing = new Component("FrontWing", false, 1);//downforce for corner control
-	Engineering *RearWing = new Component("RearWing", false, 1);//downforce for traction
+	car_iterator = new Engineering_Iterator(Car);
 
-	//Engine Components
-	Engineering *TurboCharger = new Component("TurboCharger", false, 1);//Exhaust driven turbine to drive a comnpressor to increase the density of air intake
-	Engineering *WasteGate = new Component("WasteGate", false, 1);//pushes excess exhaust gas to pass by the turbine
-	Engineering *DirectFuelInjection = new Component("DirectFuelInjection", false, 1);//Fuel is sprayed directly into the combustion chamber
-
-	//Electronic Components
-	Engineering *ERS = new Component("ERS", false, 1);//Harvests electrical energy from the heat and energy in the turbo and from breaks
-	Engineering *ECU = new Component("ECU", false, 1);//Electronic Control Unit, Brain of the car
-	Engineering *FFM = new Component("FFM", false, 1);//Fluid Flow Meter, analysis the vehicles fuel performance
-
-	ChassisDept->addDepartment(Suspension);
-	ChassisDept->addDepartment(Breaks);
-	ChassisDept->addDepartment(SurvivalShell);
-	ChassisDept->addDepartment(AerodynamicsDept);
-
-	AerodynamicsDept->addDepartment(Diffuser);
-	AerodynamicsDept->addDepartment(FrontWing);
-	AerodynamicsDept->addDepartment(RearWing);
-	AerodynamicsDept->addDepartment(EngineDept);
-
-	EngineDept->addDepartment(TurboCharger);
-	EngineDept->addDepartment(WasteGate);
-	EngineDept->addDepartment(DirectFuelInjection);
-	EngineDept->addDepartment(ElectronicsDept);
-
-	ElectronicsDept->addDepartment(ERS);
-	ElectronicsDept->addDepartment(ECU);
-	ElectronicsDept->addDepartment(FFM);
-	ElectronicsDept->addDepartment(ChassisDept);
-
-	//car_iterator = new Engineering_Iterator(ChassisDept);
+	A_Base_Car *car = new A_Base_Car();
+	car->PrototypeCar(car_iterator->CurrentDept());
 
 	// cout <<"====================================="<<endl;
 	// cout <<"====================================="<<endl;
@@ -190,7 +162,7 @@ void Engineering_Stage::init()
 	// cout << endl;
 
 	// for (int i = 0; i < 3; i++){
-	// 	cout << iterator->CurrentDept()->getComponentList(ElectronicsDept)[i] << endl;
+	// 	cout << car_iterator->CurrentDept()->getComponentList(EngineDept)[i] << endl;
 	// }
 
 	// cout << endl;
@@ -201,6 +173,8 @@ void Engineering_Stage::init()
 	// iterator->CurrentComp()->ChangeLevel(2);
 	// cout <<iterator->CurrentComp()->getStats()->getValue("acceleration")<< endl;
 
+
+	//subject_iterator->
 
 }
 
