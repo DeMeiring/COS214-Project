@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="COS214_Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Acer/Documents/COS214-Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Acer/Documents/COS214-Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COS214_Project">
+				<Option output="C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/COS214_Project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Acer/Documents/COS214-Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Acer/Documents/COS214-Project/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 COS214_Project"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COS214_Project/fast">
+				<Option output="C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/COS214_Project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Acer/Documents/COS214-Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Acer/Documents/COS214-Project/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 COS214_Project/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Acer/Documents/COS214-Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/A_Base_Car.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/A_Base_Car.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/A_Car_Factory.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/A_Opposing_Car.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/A_Opposing_Car.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/A_Opposing_Driver.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/A_Opposing_Driver.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/A_Opposing_Team.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/A_Opposing_Team.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Aggressive.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Bahrain.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Bahrain.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Base_Car.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Base_Car_Measurements.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Base_Car_Measurements.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/BluePrint.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/BluePrint.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Car_factory.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Car_factory.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Class.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Class2.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Class3.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Class4.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Class5.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Client.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Client.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Command.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Command.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Component.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Component.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Conc_Radio_System.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Conc_Radio_System.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Concrete_Base_Car_Measurements.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Concrete_Base_Car_Measurements.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Conservative.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Department.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Department.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Driver.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Driver.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Driver_Management.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Driver_Management.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Engineering.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Engineering.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Engineering_Iterator.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Engineering_Iterator.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Engineering_Stage.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Engineering_Stage.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Experienced.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Experienced.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Fast_Repair.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Hard.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Individual_Component.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Main_race_tyres.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Medium.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Moderate.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Moderate.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Monaco.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Monaco.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Monza.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Monza.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Opposing_Car.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Opposing_Car.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Opposing_Driver.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Opposing_Driver.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Opposing_Team.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Opposing_Team.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Overall.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Overall.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Performance_Indicator.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Performance_Indicator.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Pit_Crew.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Pit_Stop.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Pit_Stop.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Pit_Strategy.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Prepared.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Prepared.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Preparedness.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Preparedness.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Pro.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Pro.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Qualifying_tyres.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/RaceDay_Stage.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/RaceDay_Stage.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/RaceDay_Strat.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/RaceDay_Strat.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/RaceDay_stage.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Race_Command.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Race_Command.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Race_Computations.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Race_Computations.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Race_Crew.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Race_Crew.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Radio_System.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Radio_System.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Risky.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Rookie.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Rookie.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Skill_Level.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Skill_Level.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Slow_Repair.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Soft.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Stage.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Stage.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Statistics.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Statistics.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Strategy_Plan.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Strategy_Plan.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Strategy_Stage.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Strategy_Stage.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Strategy_Team.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Teams.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Teams.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Testing_Stage.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Testing_Stage.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Track.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Track.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Transport.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Transport.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Tyres.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Unprepared.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Unprepared.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Weather.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Weather.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
