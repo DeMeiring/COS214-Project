@@ -1369,6 +1369,33 @@ Transport.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Transport.cpp.s
 .PHONY : Transport.cpp.s
 
+Tyres.obj: Tyres.cpp.obj
+
+.PHONY : Tyres.obj
+
+# target to build an object file
+Tyres.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Tyres.cpp.obj
+.PHONY : Tyres.cpp.obj
+
+Tyres.i: Tyres.cpp.i
+
+.PHONY : Tyres.i
+
+# target to preprocess a source file
+Tyres.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Tyres.cpp.i
+.PHONY : Tyres.cpp.i
+
+Tyres.s: Tyres.cpp.s
+
+.PHONY : Tyres.s
+
+# target to generate assembly for a file
+Tyres.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Tyres.cpp.s
+.PHONY : Tyres.cpp.s
+
 Unprepared.obj: Unprepared.cpp.obj
 
 .PHONY : Unprepared.obj
@@ -1597,6 +1624,9 @@ help:
 	@echo ... Transport.obj
 	@echo ... Transport.i
 	@echo ... Transport.s
+	@echo ... Tyres.obj
+	@echo ... Tyres.i
+	@echo ... Tyres.s
 	@echo ... Unprepared.obj
 	@echo ... Unprepared.i
 	@echo ... Unprepared.s

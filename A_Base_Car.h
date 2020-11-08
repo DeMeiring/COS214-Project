@@ -1,9 +1,9 @@
 #ifndef A_BASE_CAR_H
 #define A_BASE_CAR_H
-
 #include "Engineering.h"
-#include "Engineering_Iterator.h"
-#include "BluePrint.h"
+class Engineering_Stage;
+
+class BluePrint;
 
 class A_Base_Car {
 
@@ -13,13 +13,14 @@ private:
 	BluePrint* CarBluePrint;
 
 protected:
-	BluePrint* CreateBluePrint();
+	BluePrint* CreateBluePrint(Engineering* copy);
 
 	void RestoreCar(BluePrint* CarBP);
 
-	A_Base_Car* PrototypeCar();
-
 public:
+
+	Engineering* PrototypeCar(Engineering *composite);
+
 	Engineering* getComponents();
 
 	void updateComponents(Engineering* newComponents);

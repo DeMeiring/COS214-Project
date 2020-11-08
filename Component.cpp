@@ -99,7 +99,7 @@ Component::Component(string name, bool isDept, int level) : Engineering(name, is
 			Engineering::stats->ChangeValue("acceleration",0,false,false);
 			Engineering::stats->ChangeValue("failure",10000,false,false);
 		}
-	//create stats object in componenet to initialize the base
+	//create stats object in component to initialize the base
 	}
 }
 
@@ -107,7 +107,6 @@ int Component::getCost(){
 	// TODO - implement Component::getCost
 	return Engineering::Cost;
 }
-
 
 bool Component::ChangeLevel(int lvl) {
 
@@ -131,7 +130,7 @@ bool Component::ChangeLevel(int lvl) {
 		}
 		else if(level == 2)
 		{
-			cout << "this is correct"<< endl;
+			//cout << "this is correct"<< endl;
 			Cost = Chas_Costs[2];
 			Engineering::stats = new Statistics(false,false,true,false);
 			Engineering::stats->ChangeValue("weight",70,false,false);//TODO: Ask liam if weight should be decemented or incremented

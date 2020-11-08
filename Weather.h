@@ -12,6 +12,7 @@ public:
     Weather_Selector();
 	void setState(Weather*);
 	void nextState();
+	Weather* getState();
 };
 
 class Weather {
@@ -20,6 +21,7 @@ private:
 	Statistics* stats;
 	Weather* nextstate;
     Weather_Selector* ws;
+    string weather;
 
 public:
 	Weather();
@@ -27,6 +29,9 @@ public:
 	void setStats(Statistics* stats);
 	void setNextState(Weather* st);
 	void next_state();
+
+	string getName();
+	void setName(string set);
 
 	virtual ~Weather(); 
 

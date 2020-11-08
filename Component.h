@@ -16,6 +16,7 @@ private:
 	vector<int> Eng_Costs;
 	vector<int> Elec_Costs;
 	vector<Statistics*> Stat_Levels;
+	Statistics* statistics;
 	int cost;
 
 public:

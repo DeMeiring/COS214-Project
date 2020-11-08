@@ -10,7 +10,7 @@ Department::Department(string RNDName, bool isDept): Engineering(RNDName, isDept
 	//Add a department called (parameter::Engineering* aerodynamics)
 	//create a new department with engineering name aerodynamics and isDept = true;
 	//Department.h holds the vector of Engineering objects = {Aero, Chassis}
-	//
+	// Aero,
 
 }
 
