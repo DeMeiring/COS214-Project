@@ -1,7 +1,7 @@
 #ifndef A_BASE_CAR_H
 #define A_BASE_CAR_H
-
-#include "Engineering_Stage.h"
+#include "Engineering.h"
+class Engineering_Stage;
 
 class BluePrint;
 
@@ -17,9 +17,10 @@ protected:
 
 	void RestoreCar(BluePrint* CarBP);
 
+public:
+
 	Engineering* PrototypeCar(Engineering *composite);
 
-public:
 	Engineering* getComponents();
 
 	void updateComponents(Engineering* newComponents);

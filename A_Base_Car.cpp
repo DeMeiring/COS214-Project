@@ -1,6 +1,6 @@
 #include "A_Base_Car.h"
 #include "BluePrint.h"
-
+#include "Engineering_Stage.h"
 //test 2 of base
 
 BluePrint* A_Base_Car::CreateBluePrint(Engineering* copy) { //at the end of the main, copy constructor to make a copy
@@ -27,7 +27,8 @@ Engineering* A_Base_Car::PrototypeCar(Engineering* composite) {//recieves engine
 	copyCar = factory->ConstructCar();
 	Engineering_Iterator *copyIterator = new Engineering_Iterator(copyCar);
 
-	cout << copyIterator->CurrentComp() << endl;
+	cout << copyIterator->CurrentDept()->getRnDName() << endl;
+	cout << copyIterator->NextComp()->getRnDName() << endl;
 
 	return NULL;
 }

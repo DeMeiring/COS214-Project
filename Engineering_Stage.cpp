@@ -36,7 +36,11 @@ void Engineering_Stage::init()
 
 	Car = factory->ConstructCar();
 
+
 	car_iterator = new Engineering_Iterator(Car);
+
+	A_Base_Car *car = new A_Base_Car();
+	car->PrototypeCar(car_iterator->CurrentDept());
 
 	// cout <<"====================================="<<endl;
 	// cout <<"====================================="<<endl;
@@ -169,6 +173,8 @@ void Engineering_Stage::init()
 	// iterator->CurrentComp()->ChangeLevel(2);
 	// cout <<iterator->CurrentComp()->getStats()->getValue("acceleration")<< endl;
 
+
+	//subject_iterator->
 
 }
 

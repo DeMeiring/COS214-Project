@@ -45,6 +45,7 @@ public:
 
 	int getValue(string find);
 
+	vector<int> getAllValues();
 };
 
 #endif
