@@ -8,23 +8,28 @@
 #include "Stage.h"
 #include "Engineering.h"
 #include "Transport.h"
-#include "Driver_Management.h"
+#include "Driver.h"
 #include "Statistics.h"
+
+using namespace std;
 
 class Client {
 
 private:
-	Stage* Stage;
-	Transport* Cars;
-	Statistics* car_stats;
-	Driver_Management* DriverManager;
+	Stage* stage; // state
+
+	Transport* Cars; // momento for cars of custom drivers
+	Statistics* car_stats; // total stats
+	vector<Driver*> hired; // has drivers
+
+	bool kill_switch;
 
 public:
 
 	Client();
 	virtual ~Client();
 
-	void SetStage();
+	void SetStage(Stage* set);
 
 	void run();
 
@@ -32,11 +37,14 @@ public:
 
 	void setCars(Transport* Cars);
 
-	bool Store_carStats(Statistics* stats);
-
 	Statistics* getCar_stats();
 
 	void setCar_stats(Statistics* car_stats);
+
+	void setHired(vector<Driver*> hired);
+
+    vector<Driver*> getHired();
+
 };
 
 #endif

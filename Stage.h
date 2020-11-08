@@ -10,11 +10,17 @@ class Stage {
 
 protected:
 	Client* User;
+	Stage* curr_stage;
 
 public:
-	void ChangeStage(int Stage);
 
-	void RunStage();
+    void updateStage(Stage* set);
+
+    Stage* getStage();
+
+	virtual void ChangeStage(int Stage)=0;
+
+	virtual void RunStage()=0;
 };
 
 #endif

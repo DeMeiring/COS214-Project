@@ -1,28 +1,20 @@
 #include "Client.h"
 
-void Client::SetStage() {
-	// TODO - implement Client::SetStage
-	throw "Not yet implemented";
+void Client::SetStage(Stage* set) {
+	stage = set;
 }
 
 void Client::run() {
-	// TODO - implement Client::run
-	throw "Not yet implemented";
+	while(kill_switch)
+	    stage->RunStage();
 }
 
 Transport* Client::getCars() {
-	// TODO - implement Client::getCars
-	throw "Not yet implemented";
+	return Cars;
 }
 
 void Client::setCars(Transport* Cars) {
-	// TODO - implement Client::setCars
-	throw "Not yet implemented";
-}
-
-bool Client::Store_carStats(Statistics* stats) {
-	// TODO - implement Client::Store_carStats
-	throw "Not yet implemented";
+	this->Cars = Cars;
 }
 
 Statistics* Client::getCar_stats() {
@@ -31,4 +23,12 @@ Statistics* Client::getCar_stats() {
 
 void Client::setCar_stats(Statistics* car_stats) {
 	this->car_stats = car_stats;
+}
+
+void Client::setHired(vector<Driver*> hired) {
+    this->hired = hired;
+}
+
+vector<Driver*> Client::getHired() {
+    return this->hired;
 }
