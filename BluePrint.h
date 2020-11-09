@@ -11,6 +11,8 @@ public:
 	Engineering* getCarBluePrint();
 
 	void setCarBluePrint(Engineering* CarBluePrint);
+
+	virtual ~BluePrint();
 };
 
 #endif

@@ -2,68 +2,1132 @@
 #include "Client.h"
 
 Engineering_Stage::Engineering_Stage(Client* cl) : Stage(cl) {
-
     init();
 }
 
 Stage* Engineering_Stage::ChangeStage(int Stage) {
-    switch(Stage) {
-        case 1: {
-
-        }
-        case 2: {
-
-        }
-        case 3: {
-
-        }
-    }
+     Stage::getClient()->SetStage(Stage::getClient()->getStages()[1]);
+     return 0;
 }
 
 void Engineering_Stage::RunStage() {
+    Engineering_main();
+}
+Engineering_Stage::~Engineering_Stage()
+{
 
 }
 
 void Engineering_Stage::Engineering_main() {
 	//Initialize Engineering Departments and their Default Values
 	init();
+	system("clear");
+	cout << endl;
+	
+cout<<"########################################################################"<<endl;
+cout<<"#                                                                      #"<<endl;  
+cout<<"#        _            /'_'_/.-''/                             _______  #"<<endl;
+cout<<"#  <`../ |o_..__     / /__   / /  -= ENGINEERING STAGE =-   _<=.o.=>_  #"<<endl;
+cout<<"#`.,(_)______(_).>  / ___/  / /                             |_|_____|_|#"<<endl;
+cout<<"#~~~~~~~~~~~~~~~~~~/_/~~~~~/_/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#"<<endl;						                                           
+cout<<"########################################################################"<<endl;
+cout<<endl;
+cout<<"           Welcome to the Engineering Stage of Simulation!" << endl;
+cout<<"           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~            " << endl;
 
-	cout << "Welcome to the Engineering Stage of Simulation!" << endl;
-	selectDepartment();
+	Car = selectDepartment();
+	A_Base_Car *createdCar = new A_Base_Car();
+	
+	Transport *transport = new Transport();
+	transport->AddCar(createdCar->CreateBluePrint(Car));
+
+	createdCar->RestoreCar(transport->RemoveCar());
+
 }
 
-void Engineering_Stage::selectDepartment()
+Engineering* Engineering_Stage::selectDepartment()
 {
 	//select department 
 //show budget 
 //iterate and pick levels to purchase
 //while(true) exit if exit is typed
+int choice2;	
+	string convertedCost;
 	int_fast64_t decision;
-	
+	string tooExpensive = "You cannot afford this upgrade";
+
+	cout << endl;
+	cout<<"------------------------------------------------------------------------" << endl;
 	cout << "Please Select a Department you would like to visit: " << endl;
+	
 	cout << "1. Chassis Department" << endl;
 	cout << "2. Aerodynamics Department" << endl;
 	cout << "3. Engine Department" << endl;
 	cout << "4. Electronics Department" << endl;
-	cout << "5. Exit Program" << endl;
+	cout << "5. Return To Main Program" << endl;
 	cin >> decision;
 
-	switch(decision){
+	switch(decision){ //select the department
 		case 1:
+			car_iterator->resetCurrComp();
+			system("clear");
+			cout << endl;
+			cout<<"========================================================================" << endl;
 			cout << "Chassis Department: " << endl;
+			cout<<"========================================================================" << endl << endl;
+			
+			cout << "Current Budget: $" << convertCost(getBudget()) << endl <<"~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl <<endl;
+			cout << "Current Component Levels: " << endl;
+			cout<<"------------------------------------------------------------------------" << endl;
+			for(int i = 0; i < 3; i++)
+			{
+				cout << car_iterator->CurrentComp()->getRnDName() << ": Level " << car_iterator->CurrentComp()->getLevel() << endl;
+				car_iterator->NextComp();
+			}
+			car_iterator->resetCurrComp();
+			cout<<"------------------------------------------------------------------------" << endl;
+			cout << endl << "Which Component would you like to upgrade?" << endl;
+			cout << "1. Suspension" << endl;
+			cout << "2. Breaks" << endl;
+			cout << "3. SurvivalShell" << endl;
+			
+			cin >> choice2;
+			switch(choice2) //select the component
+			{
+				case 1:
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+				case 2: //Breaks;
+					car_iterator->resetCurrComp();
+					car_iterator->NextComp();
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+					case 3: //SurvivalShell;
+					car_iterator->resetCurrComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+				}
+
 		case 2:
+			system("clear");
+			cout << endl;
+			cout << "========================================================================" << endl;
 			cout << "Aerodynamics Department: " << endl;
+			cout << "========================================================================" << endl
+				 << endl;
+
+			cout << "Current Budget: $" << convertCost(getBudget()) << endl
+				 << "~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl
+				 << endl;
+			cout << "Current Component Levels: " << endl;
+			cout << "------------------------------------------------------------------------" << endl;
+			car_iterator->resetCurrComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			for (int i = 0; i < 3; i++)
+			{
+				cout << car_iterator->CurrentComp()->getRnDName() << ": Level " << car_iterator->CurrentComp()->getLevel() << endl;
+				car_iterator->NextComp();
+			}
+			car_iterator->resetCurrComp();
+			cout<<"------------------------------------------------------------------------" << endl;
+			cout << endl << "Which Component would you like to upgrade?" << endl;
+			cout << "1. Diffuser" << endl;
+			cout << "2. Front Wing" << endl;
+			cout << "3. Rear Wing" << endl;
+			
+			
+			cin >> choice2;
+			switch(choice2) //select the component
+			{
+				case 1:
+					car_iterator->resetCurrComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+				case 2: //Breaks;
+					car_iterator->resetCurrComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+				
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+					case 3: //SurvivalShell;
+					car_iterator->resetCurrComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+			}
 		case 3:
+		system("clear");
+			cout << endl;
+			cout << "========================================================================" << endl;
 			cout << "Engine Department: " << endl;
+			cout << "========================================================================" << endl
+				 << endl;
+
+			cout << "Current Budget: $" << convertCost(getBudget()) << endl
+				 << "~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl
+				 << endl;
+			cout << "Current Component Levels: " << endl;
+			cout << "------------------------------------------------------------------------" << endl;
+			car_iterator->resetCurrComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			for (int i = 0; i < 3; i++)
+			{
+				cout << car_iterator->CurrentComp()->getRnDName() << ": Level " << car_iterator->CurrentComp()->getLevel() << endl;
+				car_iterator->NextComp();
+			}
+			car_iterator->resetCurrComp();
+			cout<<"------------------------------------------------------------------------" << endl;
+			cout << endl << "Which Component would you like to upgrade?" << endl;
+			cout << "1. Turbo Charger" << endl;
+			cout << "2. Waste Gate" << endl;
+			cout << "3. Direct Fuel Injection" << endl;
+			
+			
+			cin >> choice2;
+			switch(choice2) //select the component
+			{
+				case 1:
+					car_iterator->resetCurrComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+				case 2: //Breaks;
+					car_iterator->resetCurrComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+				
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+					case 3: //SurvivalShell;
+					car_iterator->resetCurrComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+			}
 
 		case 4:
+		system("clear");
+			cout << endl;
+			cout << "========================================================================" << endl;
 			cout << "Electronics Department: " << endl;
+			cout << "========================================================================" << endl
+				 << endl;
+
+			cout << "Current Budget: $" << convertCost(getBudget()) << endl
+				 << "~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl
+				 << endl;
+			cout << "Current Component Levels: " << endl;
+			cout << "------------------------------------------------------------------------" << endl;
+			car_iterator->resetCurrComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			car_iterator->NextComp();
+			for (int i = 0; i < 3; i++)
+			{
+				cout << car_iterator->CurrentComp()->getRnDName() << ": Level " << car_iterator->CurrentComp()->getLevel() << endl;
+				car_iterator->NextComp();
+			}
+			car_iterator->resetCurrComp();
+			cout<<"------------------------------------------------------------------------" << endl;
+			cout << endl << "Which Component would you like to upgrade?" << endl;
+			cout << "1. ERS" << endl;
+			cout << "2. ECU" << endl;
+			cout << "3. FFM" << endl;
+			
+			
+			cin >> choice2;
+			switch(choice2) //select the component
+			{
+				case 1:
+					car_iterator->resetCurrComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+				case 2: //Breaks;
+					car_iterator->resetCurrComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+				
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+					case 3: //SurvivalShell;
+					car_iterator->resetCurrComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					car_iterator->NextComp();
+					
+					car_iterator->CurrentComp()->ChangeLevel(2);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "1. Upgrade to Level 2  ($"<< convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(3);
+					convertedCost = convertCost(car_iterator->CurrentComp()->getCost());
+					cout << "2. Upgrade to Level 3  ($" << convertedCost << ")" << endl;
+					car_iterator->CurrentComp()->ChangeLevel(1);
+
+					cout << endl;
+					
+					cin >> choice3;
+					switch(choice3){ //select the level
+						case 1: //upgrade to Level 2
+							//first need to verify if currentBudget() will allow for upgrade. 
+						
+						if(car_iterator->CurrentComp()->getLevel() == 2){
+							cout << "This Component is already Level 2" << endl;
+						}
+						else{
+							car_iterator->CurrentComp()->ChangeLevel(2);
+							if(car_iterator->CurrentComp()->getCost() > getBudget())
+							{
+								cout << tooExpensive << endl;
+								car_iterator->CurrentComp()->ChangeLevel(1);
+							}
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+						}
+						selectDepartment();
+						
+						case 2://upgrade to Level 3
+							if(car_iterator->CurrentComp()->getLevel() == 3)
+							{
+								cout << "This Component is already level 3" << endl;
+								selectDepartment();
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 1)
+							{
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(1);
+								}
+								
+							}
+							else if(car_iterator->CurrentComp()->getLevel() == 2){
+								car_iterator->CurrentComp()->ChangeLevel(3);
+								if(car_iterator->CurrentComp()->getCost() > getBudget())
+								{
+									cout << tooExpensive << endl;
+									car_iterator->CurrentComp()->ChangeLevel(2);
+								}
+							}
+							if(car_iterator->CurrentComp()->getCost() < getBudget()){
+							setBudget(getBudget() - car_iterator->CurrentComp()->getCost());
+							}
+							cout << "Budget Remaining: $" << convertCost(getBudget()) << endl;
+							
+					
+					selectDepartment();
+					
+
+					default:
+						selectDepartment();
+					}
+			}
 
 		default:
+			car_iterator->resetCurrComp();
+			return car_iterator->CurrentDept();
 			break;
+			
 	}
 
 	
+}
+
+int Engineering_Stage::getBudget()
+{
+	return budget;
+}
+
+void Engineering_Stage::setBudget(int budget)
+{
+	this->budget = budget;
 }
 
 Engineering_Iterator* Engineering_Stage::getCarIterator()
@@ -75,6 +1139,20 @@ Engineering_Iterator* Engineering_Stage::getCarIterator()
 void Engineering_Stage::setEngineering_Iterator(Engineering_Iterator* iterator)
 {
 	car_iterator = iterator;
+}
+
+string Engineering_Stage::convertCost(int costToConvert)
+{
+	string cost;
+	int n;
+	cost = to_string(costToConvert);
+	n = cost.length() - 3;
+	while (n > 0)
+	{
+		cost.insert(n, ",");
+		n -= 3;
+	}
+	return cost;
 }
 
 void Engineering_Stage::init()
@@ -89,142 +1167,7 @@ void Engineering_Stage::init()
 
 	A_Base_Car *car = new A_Base_Car();
 
-	//second iterator to test prototype;
-	// Engineering_Iterator *iterator = new Engineering_Iterator(car->PrototypeCar(car_iterator->CurrentDept()));
-
-	// cout <<"====================================="<<endl;
-	// cout <<"====================================="<<endl;
-
-
-	// Engineering_Iterator *iterator = new Engineering_Iterator(ChassisDept);
-	// cout<<"Current Departments Initially 4:"<<endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout <<"-> "<<iterator->CurrentDept()->getRnDName()<< endl;
-
-
-	// // cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
-	// // cout <<"-> "<< iterator->NextDept()->getRnDName()<< endl;
-	
-	// cout << endl;
-	// cout <<"=====================================";
-	// cout << endl;
-	// cout << endl;
-
-	// int AVGlevel = 0;
-	// int cost = 0;
-	// int speed = 0;
-	// int acceleration = 0;
-	// int weight = 0;
-	// int handling = 0;
-	// int failure = 0;
-
-	// cout<<"Current Components Stats:"<<endl;
-	// for(int i =0;i<12;i++){
-	// cout <<"-------------------------------------"<<endl;
-	// cout << "-> " << iterator->CurrentComp()->getRnDName() << endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout <<"Cost: "<< iterator->CurrentComp()->getCost() << endl;
-	// cost += iterator->CurrentComp()->getCost();
-	// cout <<"Level: "<< iterator->CurrentComp()->getLevel()<<endl;
-	// AVGlevel += iterator->CurrentComp()->getLevel();
-	// cout <<"-------------------------------------"<<endl;
-	
-	// cout <<"Speed: "<<iterator->CurrentComp()->getStats()->getValue("speed")<<endl;
-	// speed += iterator->CurrentComp()->getStats()->getValue("speed");
-	// cout <<"Acceleration: "<< iterator->CurrentComp()->getStats()->getValue("acceleration")<<endl;
-	// acceleration += iterator->CurrentComp()->getStats()->getValue("acceleration");
-	// cout <<"Weight: "<< iterator->CurrentComp()->getStats()->getValue("weight")<<endl;
-	// weight += iterator->CurrentComp()->getStats()->getValue("weight");
-	// cout <<"Handling: "<< iterator->CurrentComp()->getStats()->getValue("handling")<<endl;
-	// handling += iterator->CurrentComp()->getStats()->getValue("handling");
-	// cout <<"Failure: "<< iterator->CurrentComp()->getStats()->getValue("failure")<<endl;
-	// failure += iterator->CurrentComp()->getStats()->getValue("failure");
-
-	// if(i!=11)
-	// iterator->NextComp();
-
-	// }
-	// cout << endl;
-	// cout <<"=====================================";
-	// cout << endl;
-	// cout<<"The Total Stats of the Car"<<endl;
-	// cout<<"Speed: "<<speed<<endl;
-	// cout<<"Acceleration: "<<acceleration<<endl;
-	// cout<<"Weight: "<<weight<<endl;
-	// cout<<"Handling: "<<handling<<endl;
-	// cout<<"Failure: "<<failure<<endl;
-
-	// cout << endl;
-	// cout <<"=====================================";
-	// cout << endl;
-	// cout<<"The Total Stats of the Car out of 100 which we need to divide by 6 "<<endl;
-	// cout<<"Speed: "<<speed/6<<" or -> "<<(speed/6)*10<<"KM/H"<<endl;
-	// cout<<"Acceleration: "<<acceleration/6<<endl;
-	// cout<<"Weight: "<<weight/6<<" or -> "<<(weight/6)*10<<"KG"<<endl;
-	// cout<<"Handling: "<<handling/6<<" or -> "<<(handling/6)<<"%"<<endl;
-	// cout<<"Failure: "<<failure/6<<" or -> "<<(failure/6)<<"%"<<endl;
-
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-
-	// cout << endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout<<"Current Components for Aerodynamics:"<<endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	
-	
-	// cout << endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout<<"Current Components for Engine:"<<endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	
-	
-	// cout << endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout<<"Current Components for Electronics:"<<endl;
-	// cout <<"-------------------------------------"<<endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "-> " << iterator->NextComp()->getRnDName() << endl;
-	// cout << "=====================================" << endl;
-	// cout << "=====================================" << endl;
-
-	// // cout << iterator->CurrentComp()->getCost() << endl;
-
-	// for (int i = 0; i < 3; i++)
-	// 	cout << iterator->CurrentDept()->getComponentList(ChassisDept)[i] << endl;
-
-	// cout << endl;
-
-	// for (int i = 0; i < 3; i++)
-	// 	cout << iterator->CurrentDept()->getComponentList(AerodynamicsDept)[i] << endl;
-	// cout << endl;
-
-	// for (int i = 0; i < 3; i++)
-	// 	cout << iterator->CurrentDept()->getComponentList(EngineDept)[i] << endl;
-
-	// cout << endl;
-
-	// for (int i = 0; i < 3; i++){
-	// 	cout << car_iterator->CurrentDept()->getComponentList(EngineDept)[i] << endl;
-	// }
-
-	// cout << endl;
-
-
-	// cout <<iterator->CurrentComp()->getStats()->getValue("acceleration")<< endl;
-	// iterator->CurrentComp()->ChangeLevel(2);
-	// iterator->CurrentComp()->ChangeLevel(2);
-	// cout <<iterator->CurrentComp()->getStats()->getValue("acceleration")<< endl;
-
-
-	//subject_iterator->
+	setBudget(70000000); //budget is initialized to 70,000,000
 
 }
 

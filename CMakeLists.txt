@@ -54,6 +54,7 @@ add_executable(COS214_Project
         Engineering_Stage.h
         Experienced.cpp
         Experienced.h
+        Individual_Component.cpp
         Individual_Component.h
         main.cpp
         Moderate.cpp
@@ -89,7 +90,7 @@ add_executable(COS214_Project
         Race_Crew.cpp
         Race_Crew.h
         RaceDay_Stage.cpp
-        RaceDay_Stage.h
+        RaceDay_stage.h
         RaceDay_Strat.cpp
         RaceDay_Strat.h
         Radio_System.cpp
@@ -109,13 +110,15 @@ add_executable(COS214_Project
         Strategy_Team.h
         Teams.cpp
         Teams.h
+        Testing_Stage.cpp
         Testing_Stage.h
         Track.cpp
         Track.h
         Transport.cpp
         Transport.h
+        Tyres.cpp
         Tyres.h
         Unprepared.cpp
         Unprepared.h
         Weather.cpp
-        Weather.h Testing_Stage.cpp)
+        Weather.h)

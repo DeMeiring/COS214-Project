@@ -29,7 +29,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60b97c5-b98c-495f-8f74-7ea391dced06" name="Default Changelist" comment="" />
+    <list default="true" id="f60b97c5-b98c-495f-8f74-7ea391dced06" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base_Car_Measurements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Base_Car_Measurements.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base_Car_Measurements.h" beforeDir="false" afterPath="$PROJECT_DIR$/Base_Car_Measurements.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concrete_Base_Car_Measurements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Concrete_Base_Car_Measurements.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver_Management.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Driver_Management.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Individual_Component.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Individual_Component.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Individual_Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/Individual_Component.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Overall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Overall.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Overall.h" beforeDir="false" afterPath="$PROJECT_DIR$/Overall.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance_Indicator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Performance_Indicator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance_Indicator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Performance_Indicator.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +63,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
@@ -64,9 +82,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -90,6 +108,7 @@
       <workItem from="1604776125725" duration="1785000" />
       <workItem from="1604779972302" duration="13000" />
       <workItem from="1604780008895" duration="210000" />
+<<<<<<< HEAD
       <workItem from="1604780464524" duration="13000" />
       <workItem from="1604780600897" duration="921000" />
       <workItem from="1604784193186" duration="1041000" />
@@ -106,6 +125,10 @@
       <workItem from="1604917522621" duration="409000" />
       <workItem from="1604917974034" duration="3000" />
       <workItem from="1604917991109" duration="2878000" />
+=======
+      <workItem from="1604830812331" duration="336000" />
+      <workItem from="1604831155628" duration="8552000" />
+>>>>>>> matt_div
     </task>
     <servers />
   </component>
@@ -129,25 +152,50 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="520" y="240" key="#Notifications/0.0.1536.832@0.0.1536.832" timestamp="1604667723423" />
+<<<<<<< HEAD
     <state x="498" y="218" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604781052572">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="498" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.832@0.0.1536.832" timestamp="1604781052572" />
     <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1604654521231">
       <screen x="0" y="0" width="1536" height="832" />
+=======
+    <state x="137" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604830979322">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="137" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1604830979322" />
+    <state x="488" y="158" key="FileChooserDialogImpl" timestamp="1604831142167">
+      <screen x="0" y="0" width="1366" height="768" />
+>>>>>>> matt_div
+    </state>
+    <state x="488" y="158" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604831142167" />
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1604654521231" />
+    <state width="640" height="201" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1604831151709">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="640" height="201" key="ImportCMakeProjectWizard.bottomPanel/0.0.1366.768@0.0.1366.768" timestamp="1604831151709" />
+    <state width="640" height="470" key="ImportCMakeProjectWizard.topPanel" timestamp="1604831151709">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="640" height="470" key="ImportCMakeProjectWizard.topPanel/0.0.1366.768@0.0.1366.768" timestamp="1604831151709" />
     <state x="277" y="61" key="SettingsEditor" timestamp="1604667883620">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="277" y="61" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1604667883620" />
-    <state x="-1304" y="93" key="run.anything.popup" timestamp="1604735244834">
-      <screen x="-1920" y="-299" width="1920" height="1050" />
+    <state x="438" y="287" key="run.anything.popup" timestamp="1604919830316">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="438" y="287" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1604919830316" />
     <state x="-1304" y="93" key="run.anything.popup/0.0.1536.832/-1920.-299.1920.1050@-1920.-299.1920.1050" timestamp="1604735244834" />
+<<<<<<< HEAD
     <state x="431" y="153" width="672" height="678" key="search.everywhere.popup" timestamp="1604833057175">
       <screen x="0" y="0" width="1536" height="832" />
+=======
+    <state x="383" y="141" width="672" height="627" key="search.everywhere.popup" timestamp="1604918883649">
+      <screen x="0" y="0" width="1366" height="768" />
+>>>>>>> matt_div
     </state>
+    <state x="383" y="141" width="672" height="627" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1604918883649" />
     <state x="-1381" y="-106" width="840" height="856" key="search.everywhere.popup/0.0.1536.832/-1920.-299.1920.1050@-1920.-299.1920.1050" timestamp="1604735250232" />
     <state x="431" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1604833057175" />
   </component>

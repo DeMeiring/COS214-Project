@@ -45,7 +45,9 @@ public:
 
 	int getValue(string find);
 
+	//gets all component values in the dept
 	vector<int> getAllValues();
+
 };
 
 #endif

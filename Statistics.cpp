@@ -101,12 +101,12 @@ int Statistics::getValue(string find) {
 }
 
 vector<int> Statistics::getAllValues(){
-	vector<int> allStats;
-	vector<single_stat *>::iterator iter;
-	for (iter = values.begin(); iter < values.end(); iter++){
-		allStats.push_back((*iter)->stat);
-	}
-	return allStats;
+    vector<int> allStats;
+    vector<single_stat*>::iterator iter;
+    for (iter = values.begin(); iter < values.end(); iter++){
+        allStats.push_back((*iter)->stat);
+    }
+    return allStats;
 }
 
 void Statistics::init_weather() {

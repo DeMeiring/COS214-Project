@@ -16,7 +16,7 @@ public:
 	Statistics* getSkill_Modifier();
 	//Driver* getDriver();
 
-	virtual int getRacingAbility() = 0;
+	virtual int getRacingAbility() = 0; // Pro, Rookie, Experienced
 };
 
 #endif

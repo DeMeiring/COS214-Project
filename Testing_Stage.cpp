@@ -22,3 +22,15 @@ void Testing_Stage::pushOverall() {
     // get overall
 
 }
+
+Stage* Testing_Stage::ChangeStage(int Stage) {
+    if(Stage==1)
+        Stage::getClient()->SetStage(Stage::getClient()->getStages()[1]);
+    else
+        Stage::getClient()->SetStage(Stage::getClient()->getStages()[3]);
+    return nullptr;
+}
+
+void Testing_Stage::RunStage() {
+    TestingStage_main();
+}

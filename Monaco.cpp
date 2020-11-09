@@ -33,5 +33,5 @@ Statistics* Monaco::getDebuffs() {
 }
 
 string Monaco::getFunFact() {
-    "The circuit boasts the slowest corner in F1; turn six";
+    return "The circuit boasts the slowest corner in F1; turn six";
 }

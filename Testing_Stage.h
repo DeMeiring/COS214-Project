@@ -5,7 +5,7 @@
 #include "Driver_Management.h"
 #include "Concrete_Base_Car_Measurements.h"
 
-class Testing_Stage : Stage {
+class Testing_Stage : public Stage {
 private:
     Driver_Management* Manager;
 
@@ -15,6 +15,10 @@ public:
 	void TestingStage_main();
 	void pushDrivers();
 	void pushOverall();
+
+    virtual Stage* ChangeStage(int Stage);
+
+    virtual void RunStage();
 };
 
 #endif

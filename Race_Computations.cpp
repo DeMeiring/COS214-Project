@@ -2,12 +2,13 @@
 #include <cstdlib>
 #include <time.h>
 
-Race_Computations* Race_Computations:: GetComp() {
-    if(instance==0)
-        instance = new Race_Computations();
-    else
-        return instance;
-}
+//Race_Computations* Race_Computations :: instance = 0;
+
+//Race_Computations* Race_Computations:: GetComp() {
+//    if(instance==0)
+//        instance = new Race_Computations();
+//    return instance;
+//}
 
 double weightAverage(int t1, int t2) {
     float hold = t1+t2;
@@ -113,7 +114,7 @@ int Race_Computations::ChanceOfPitOvertake(int delay) {
         return (4 + rand() % 8);
     } else if(delay < 5) {
         return (0+rand() % 2);
-    } else if(delay < 12 && delay > 5) {
+    } else {
         return (2 + rand() % 5);
     }
 }

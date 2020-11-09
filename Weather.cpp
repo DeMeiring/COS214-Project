@@ -1,5 +1,12 @@
 #include "Weather.h"
 
+Weather::Weather() {
+
+}
+Weather::~Weather() {
+
+}
+
 void Weather_Selector::nextState() {
     weather_state->next_state();
 }
@@ -34,7 +41,7 @@ Weather* Weather_Selector::getState() {
 }
 
 
-Dry::Dry() {
+Dry::Dry() : Weather() {
     setName("dry");
 	setNextState(new Wet());
 	Statistics *newStats = new Statistics(false, false, false, true);
@@ -45,7 +52,7 @@ Dry::Dry() {
     setStats(newStats);
 }
 
-Wet::Wet() {
+Wet::Wet() : Weather() {
     setName("wet");
 	setNextState(new Raining());
     Statistics *newStats = new Statistics(false, false, false, true);
@@ -56,7 +63,7 @@ Wet::Wet() {
     setStats(newStats);
 }
 
-Raining::Raining() {
+Raining::Raining() : Weather() {
     setName("raining");
 	setNextState(new Dry());
     Statistics *newStats = new Statistics(false, false, false, true);
@@ -73,5 +80,9 @@ string Weather::getName() {
 void Weather::setName(string set) {
     weather = set;
 }
+
+Dry::~Dry() {}
+Wet::~Wet() {}
+Raining::~Raining(){}
 
 

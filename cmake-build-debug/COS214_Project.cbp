@@ -228,6 +228,9 @@
 		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Experienced.h">
 			<Option target="COS214_Project"/>
 		</Unit>
+		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Individual_Component.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
 		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Individual_Component.h">
 			<Option target="COS214_Project"/>
 		</Unit>
@@ -321,6 +324,9 @@
 		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h">
 			<Option target="COS214_Project"/>
 		</Unit>
+		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_stage.h">
+			<Option target="COS214_Project"/>
+		</Unit>
 		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.cpp">
 			<Option target="COS214_Project"/>
 		</Unit>
@@ -406,6 +412,9 @@
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Transport.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Tyres.cpp">
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Tyres.h">

@@ -40,6 +40,8 @@ private:
 
 public:
 	Driver(Conc_Radio_System *rs, Statistics *stats,std::string name,int ContractCost);
+
+	Driver();
 	virtual ~Driver();
 
 	Statistics* getStats();

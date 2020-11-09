@@ -6,6 +6,7 @@ class Engineering_Stage;
 class BluePrint;
 
 class A_Base_Car {
+	friend Engineering_Stage;
 
 private:
 	Engineering* Components;
@@ -26,6 +27,9 @@ public:
 	// void updateComponents(Engineering* newComponents);
 
 	// Engineering_Iterator* get_Iter();
+
+	virtual ~A_Base_Car();
+
 };
 
 #endif

@@ -9,7 +9,7 @@ Pit_Crew::Pit_Crew(Radio_System* rs, RaceDay_Stage* rstage) : Race_Crew(rs) {
 }
 
 void Pit_Crew::runPit() {
-    Pit->Pit_stop_main();
+    Pit->Pit_stop_main(Race_Computations::GetComp());
 }
 
 Pit_Crew::~Pit_Crew() {

@@ -6,6 +6,10 @@ void Transport::AddCar(BluePrint* car) {
 }
 
 BluePrint* Transport::RemoveCar() {
-	// TODO - implement Transport::RemoveCar
-	throw "Not yet implemented";
+	BluePrint *bluePrint = new BluePrint();
+
+	if(Transport.empty() != true)
+		bluePrint = Transport[0];
+
+	return bluePrint;
 }

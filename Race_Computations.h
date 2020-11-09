@@ -26,15 +26,15 @@ private:
 
     static Race_Computations* instance; //singleton
 
-    bool ChanceOfRecovery(Racers* driver);
-
     int DistributeValue(double value);
 
-protected:
+//protected:
 
-    Race_Computations();
+    //Race_Computations();
 
 public:
+
+    Race_Computations();
 
     static Race_Computations* GetComp();
 
@@ -43,10 +43,10 @@ public:
 	bool ChanceOfCrash(Racers* racer, Conditions* cond);
 
 	int ChanceOfPitOvertake(int delay);
+
+    bool ChanceOfRecovery(Racers* driver);
 	
 };
-
-Race_Computations* Race_Computations :: instance = 0;
 
 
 #endif

@@ -30,6 +30,7 @@ CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.obj: ..\Rookie.h
 CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.obj: ..\Skill_Level.h
 CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.obj: ..\Stage.h
 CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.obj: ..\Statistics.h
+CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.obj: ..\Transport.h
 CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.obj: ..\Unprepared.h
 
 CMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.obj: ..\A_Car_Factory.cpp
@@ -110,6 +111,10 @@ CMakeFiles\COS214_Project.dir\Base_Car.cpp.obj: ..\Statistics.h
 
 CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj: ..\Base_Car_Measurements.cpp
 CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj: ..\Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj: ..\Engineering.h
+CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj: ..\Engineering_Iterator.h
+CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj: ..\Performance_Indicator.h
+CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj: ..\Statistics.h
 
 CMakeFiles\COS214_Project.dir\BluePrint.cpp.obj: ..\A_Base_Car.h
 CMakeFiles\COS214_Project.dir\BluePrint.cpp.obj: ..\BluePrint.cpp
@@ -134,6 +139,7 @@ CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\A_Opposing_Driver.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\A_Opposing_Team.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Aggressive.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Bahrain.h
+CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Base_Car_Measurements.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\BluePrint.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Car_factory.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Client.cpp
@@ -141,9 +147,11 @@ CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Client.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Command.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Component.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Conc_Radio_System.h
+CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Concrete_Base_Car_Measurements.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Conservative.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Department.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Driver.h
+CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Driver_Management.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Engineering.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Engineering_Iterator.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Engineering_Stage.h
@@ -152,6 +160,7 @@ CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Moderate.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Monaco.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Monza.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Opposing_Team.h
+CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Performance_Indicator.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Pit_Crew.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Pit_Stop.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Prepared.h
@@ -169,6 +178,7 @@ CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Skill_Level.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Stage.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Statistics.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Teams.h
+CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Testing_Stage.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Track.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Transport.h
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Tyres.h
@@ -193,8 +203,13 @@ CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.obj: ..\Race_Command.h
 CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.obj: ..\Race_Crew.h
 CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.obj: ..\Radio_System.h
 
+CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj: ..\Base_Car_Measurements.h
 CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj: ..\Concrete_Base_Car_Measurements.cpp
 CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj: ..\Concrete_Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj: ..\Engineering.h
+CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj: ..\Engineering_Iterator.h
+CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj: ..\Performance_Indicator.h
+CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj: ..\Statistics.h
 
 CMakeFiles\COS214_Project.dir\Conservative.cpp.obj: ..\Conservative.cpp
 CMakeFiles\COS214_Project.dir\Conservative.cpp.obj: ..\Conservative.h
@@ -268,15 +283,18 @@ CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\A_Opposing_Driver.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\A_Opposing_Team.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Aggressive.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Bahrain.h
+CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Base_Car_Measurements.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\BluePrint.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Car_factory.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Client.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Command.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Component.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Conc_Radio_System.h
+CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Concrete_Base_Car_Measurements.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Conservative.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Department.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Driver.h
+CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Driver_Management.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Engineering.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Engineering_Iterator.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Engineering_Stage.cpp
@@ -286,6 +304,7 @@ CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Moderate.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Monaco.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Monza.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Opposing_Team.h
+CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Performance_Indicator.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Pit_Crew.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Pit_Stop.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Prepared.h
@@ -303,6 +322,7 @@ CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Skill_Level.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Stage.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Statistics.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Teams.h
+CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Testing_Stage.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Track.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Transport.h
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Tyres.h
@@ -313,6 +333,15 @@ CMakeFiles\COS214_Project.dir\Experienced.cpp.obj: ..\Experienced.cpp
 CMakeFiles\COS214_Project.dir\Experienced.cpp.obj: ..\Experienced.h
 CMakeFiles\COS214_Project.dir\Experienced.cpp.obj: ..\Skill_Level.h
 CMakeFiles\COS214_Project.dir\Experienced.cpp.obj: ..\Statistics.h
+
+CMakeFiles\COS214_Project.dir\Individual_Component.cpp.obj: ..\Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\Individual_Component.cpp.obj: ..\Concrete_Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\Individual_Component.cpp.obj: ..\Engineering.h
+CMakeFiles\COS214_Project.dir\Individual_Component.cpp.obj: ..\Engineering_Iterator.h
+CMakeFiles\COS214_Project.dir\Individual_Component.cpp.obj: ..\Individual_Component.cpp
+CMakeFiles\COS214_Project.dir\Individual_Component.cpp.obj: ..\Individual_Component.h
+CMakeFiles\COS214_Project.dir\Individual_Component.cpp.obj: ..\Performance_Indicator.h
+CMakeFiles\COS214_Project.dir\Individual_Component.cpp.obj: ..\Statistics.h
 
 CMakeFiles\COS214_Project.dir\Moderate.cpp.obj: ..\Moderate.cpp
 CMakeFiles\COS214_Project.dir\Moderate.cpp.obj: ..\Moderate.h
@@ -389,19 +418,32 @@ CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.obj: ..\Statistics.h
 CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.obj: ..\Tyres.h
 CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.obj: ..\Unprepared.h
 
+CMakeFiles\COS214_Project.dir\Overall.cpp.obj: ..\Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\Overall.cpp.obj: ..\Concrete_Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\Overall.cpp.obj: ..\Engineering.h
+CMakeFiles\COS214_Project.dir\Overall.cpp.obj: ..\Engineering_Iterator.h
 CMakeFiles\COS214_Project.dir\Overall.cpp.obj: ..\Overall.cpp
 CMakeFiles\COS214_Project.dir\Overall.cpp.obj: ..\Overall.h
+CMakeFiles\COS214_Project.dir\Overall.cpp.obj: ..\Performance_Indicator.h
+CMakeFiles\COS214_Project.dir\Overall.cpp.obj: ..\Statistics.h
 
+CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj: ..\Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj: ..\Concrete_Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj: ..\Engineering.h
+CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj: ..\Engineering_Iterator.h
 CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj: ..\Performance_Indicator.cpp
 CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj: ..\Performance_Indicator.h
+CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj: ..\Statistics.h
 
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\A_Opposing_Car.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\A_Opposing_Driver.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\A_Opposing_Team.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Aggressive.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Bahrain.h
+CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Base_Car_Measurements.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Command.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Conc_Radio_System.h
+CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Concrete_Base_Car_Measurements.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Conservative.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Driver.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Engineering.h
@@ -411,6 +453,7 @@ CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Moderate.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Monaco.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Monza.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Opposing_Team.h
+CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Performance_Indicator.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Pit_Crew.cpp
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Pit_Crew.h
 CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Pit_Stop.h
@@ -476,30 +519,44 @@ CMakeFiles\COS214_Project.dir\Pro.cpp.obj: ..\Pro.h
 CMakeFiles\COS214_Project.dir\Pro.cpp.obj: ..\Skill_Level.h
 CMakeFiles\COS214_Project.dir\Pro.cpp.obj: ..\Statistics.h
 
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\A_Base_Car.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\A_Car_Factory.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\A_Opposing_Car.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\A_Opposing_Driver.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\A_Opposing_Team.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Aggressive.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Bahrain.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\BluePrint.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Car_factory.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Client.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Command.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Component.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Conc_Radio_System.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Concrete_Base_Car_Measurements.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Conservative.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Department.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Driver.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Driver_Management.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Engineering.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Engineering_Iterator.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Engineering_Stage.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Experienced.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Moderate.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Monaco.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Monza.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Opposing_Car.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Opposing_Driver.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Opposing_Team.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Performance_Indicator.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Pit_Crew.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Pit_Stop.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Prepared.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Preparedness.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Pro.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\RaceDay_Stage.cpp
-CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\RaceDay_Stage.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\RaceDay_Strat.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\RaceDay_stage.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Race_Command.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Race_Computations.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Race_Crew.h
@@ -510,7 +567,9 @@ CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Skill_Level.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Stage.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Statistics.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Teams.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Testing_Stage.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Track.h
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Transport.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Tyres.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Unprepared.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Weather.h
@@ -594,20 +653,43 @@ CMakeFiles\COS214_Project.dir\Skill_Level.cpp.obj: ..\Skill_Level.cpp
 CMakeFiles\COS214_Project.dir\Skill_Level.cpp.obj: ..\Skill_Level.h
 CMakeFiles\COS214_Project.dir\Skill_Level.cpp.obj: ..\Statistics.h
 
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\A_Base_Car.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\A_Car_Factory.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\A_Opposing_Car.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\A_Opposing_Driver.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\A_Opposing_Team.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Aggressive.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Bahrain.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\BluePrint.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Car_factory.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Client.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Command.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Component.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Conc_Radio_System.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Concrete_Base_Car_Measurements.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Conservative.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Department.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Driver.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Driver_Management.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Engineering.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Engineering_Iterator.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Engineering_Stage.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Experienced.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Moderate.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Monaco.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Monza.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Opposing_Team.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Performance_Indicator.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Pit_Crew.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Pit_Stop.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Prepared.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Preparedness.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Pro.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\RaceDay_Strat.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\RaceDay_stage.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Race_Command.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Race_Computations.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Race_Crew.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Radio_System.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Risky.h
@@ -616,7 +698,13 @@ CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Skill_Level.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Stage.cpp
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Stage.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Statistics.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Teams.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Testing_Stage.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Track.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Transport.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Tyres.h
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Unprepared.h
+CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Weather.h
 
 CMakeFiles\COS214_Project.dir\Statistics.cpp.obj: ..\Statistics.cpp
 CMakeFiles\COS214_Project.dir\Statistics.cpp.obj: ..\Statistics.h
@@ -657,6 +745,59 @@ CMakeFiles\COS214_Project.dir\Teams.cpp.obj: ..\Teams.h
 CMakeFiles\COS214_Project.dir\Teams.cpp.obj: ..\Tyres.h
 CMakeFiles\COS214_Project.dir\Teams.cpp.obj: ..\Unprepared.h
 
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\A_Base_Car.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\A_Car_Factory.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\A_Opposing_Car.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\A_Opposing_Driver.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\A_Opposing_Team.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Aggressive.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Bahrain.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\BluePrint.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Car_factory.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Client.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Command.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Component.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Conc_Radio_System.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Concrete_Base_Car_Measurements.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Conservative.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Department.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Driver.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Driver_Management.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Engineering.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Engineering_Iterator.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Engineering_Stage.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Experienced.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Moderate.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Monaco.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Monza.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Opposing_Team.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Performance_Indicator.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Pit_Crew.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Pit_Stop.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Prepared.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Preparedness.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Pro.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\RaceDay_Strat.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\RaceDay_stage.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Race_Command.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Race_Computations.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Race_Crew.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Radio_System.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Risky.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Rookie.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Skill_Level.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Stage.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Statistics.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Teams.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Testing_Stage.cpp
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Testing_Stage.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Track.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Transport.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Tyres.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Unprepared.h
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Weather.h
+
 CMakeFiles\COS214_Project.dir\Track.cpp.obj: ..\Track.cpp
 
 CMakeFiles\COS214_Project.dir\Transport.cpp.obj: ..\A_Base_Car.h
@@ -666,6 +807,9 @@ CMakeFiles\COS214_Project.dir\Transport.cpp.obj: ..\Engineering_Iterator.h
 CMakeFiles\COS214_Project.dir\Transport.cpp.obj: ..\Statistics.h
 CMakeFiles\COS214_Project.dir\Transport.cpp.obj: ..\Transport.cpp
 CMakeFiles\COS214_Project.dir\Transport.cpp.obj: ..\Transport.h
+
+CMakeFiles\COS214_Project.dir\Tyres.cpp.obj: ..\Tyres.cpp
+CMakeFiles\COS214_Project.dir\Tyres.cpp.obj: ..\Tyres.h
 
 CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj: ..\Preparedness.h
 CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj: ..\Statistics.h
@@ -678,14 +822,9 @@ CMakeFiles\COS214_Project.dir\Weather.cpp.obj: ..\Weather.h
 
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\A_Base_Car.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\A_Car_Factory.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\A_Opposing_Car.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\A_Opposing_Driver.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\A_Opposing_Team.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Aggressive.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Bahrain.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\BluePrint.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Car_factory.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Client.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Command.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Component.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Conc_Radio_System.h
@@ -697,18 +836,11 @@ CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Engineering_Iterator.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Engineering_Stage.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Experienced.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Moderate.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Monaco.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Monza.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Opposing_Team.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Pit_Crew.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Pit_Stop.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Prepared.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Preparedness.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Pro.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\RaceDay_Strat.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\RaceDay_stage.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Race_Command.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Race_Computations.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Race_Crew.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Radio_System.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Risky.h
@@ -716,11 +848,7 @@ CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Rookie.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Skill_Level.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Stage.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Statistics.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Teams.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Track.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Transport.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Tyres.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Unprepared.h
-CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\Weather.h
 CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\main.cpp
 

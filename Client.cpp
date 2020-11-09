@@ -1,7 +1,9 @@
 #include "Client.h"
 
 Client::Client() {
-    stage = new Engineering_Stage(this);
+    Stages.push_back(new Engineering_Stage(this));
+    Stages.push_back(new Testing_Stage(this));
+    Stages.push_back(new RaceDay_Stage(this));
 }
 
 Client::~Client() {
@@ -12,8 +14,12 @@ void Client::SetStage(Stage* set) {
 	stage = set;
 }
 
+void Client::Kill() {
+    kill_switch = false;
+}
+
 void Client::run() {
-    cout << "Welcome to team The Raikkoning is coming's interactive F1 Sim" << endl;
+    cout << "Welcome to The Raikkoning is coming's interactive F1 Sim" << endl;
     cout << "Please enter a team name" << endl;
     getline(cin, teamName);
 
@@ -47,4 +53,8 @@ vector<Driver*> Client::getHired() {
 
 string Client::getTeamName() {
     return teamName;
+}
+
+vector<Stage*> Client::getStages() {
+    return Stages;
 }

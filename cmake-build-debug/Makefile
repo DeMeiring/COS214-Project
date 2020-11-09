@@ -775,6 +775,33 @@ Experienced.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Experienced.cpp.s
 .PHONY : Experienced.cpp.s
 
+Individual_Component.obj: Individual_Component.cpp.obj
+
+.PHONY : Individual_Component.obj
+
+# target to build an object file
+Individual_Component.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Individual_Component.cpp.obj
+.PHONY : Individual_Component.cpp.obj
+
+Individual_Component.i: Individual_Component.cpp.i
+
+.PHONY : Individual_Component.i
+
+# target to preprocess a source file
+Individual_Component.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Individual_Component.cpp.i
+.PHONY : Individual_Component.cpp.i
+
+Individual_Component.s: Individual_Component.cpp.s
+
+.PHONY : Individual_Component.s
+
+# target to generate assembly for a file
+Individual_Component.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Individual_Component.cpp.s
+.PHONY : Individual_Component.cpp.s
+
 Moderate.obj: Moderate.cpp.obj
 
 .PHONY : Moderate.obj
@@ -1558,6 +1585,33 @@ Transport.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Transport.cpp.s
 .PHONY : Transport.cpp.s
 
+Tyres.obj: Tyres.cpp.obj
+
+.PHONY : Tyres.obj
+
+# target to build an object file
+Tyres.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Tyres.cpp.obj
+.PHONY : Tyres.cpp.obj
+
+Tyres.i: Tyres.cpp.i
+
+.PHONY : Tyres.i
+
+# target to preprocess a source file
+Tyres.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Tyres.cpp.i
+.PHONY : Tyres.cpp.i
+
+Tyres.s: Tyres.cpp.s
+
+.PHONY : Tyres.s
+
+# target to generate assembly for a file
+Tyres.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Tyres.cpp.s
+.PHONY : Tyres.cpp.s
+
 Unprepared.obj: Unprepared.cpp.obj
 
 .PHONY : Unprepared.obj
@@ -1720,6 +1774,9 @@ help:
 	@echo ... Experienced.obj
 	@echo ... Experienced.i
 	@echo ... Experienced.s
+	@echo ... Individual_Component.obj
+	@echo ... Individual_Component.i
+	@echo ... Individual_Component.s
 	@echo ... Moderate.obj
 	@echo ... Moderate.i
 	@echo ... Moderate.s
@@ -1807,6 +1864,9 @@ help:
 	@echo ... Transport.obj
 	@echo ... Transport.i
 	@echo ... Transport.s
+	@echo ... Tyres.obj
+	@echo ... Tyres.i
+	@echo ... Tyres.s
 	@echo ... Unprepared.obj
 	@echo ... Unprepared.i
 	@echo ... Unprepared.s
