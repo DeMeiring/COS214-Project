@@ -7,7 +7,7 @@
 class Opposing_Driver : public A_Opposing_Driver {
 public:
     // gen a driver based on skills
-    virtual Driver* GenDriver(int skills);
+    virtual Statistics* GenDriver(int skills);
 
     virtual ~Opposing_Driver();
 };

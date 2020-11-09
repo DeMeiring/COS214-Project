@@ -111,6 +111,8 @@ vector<int> Statistics::getAllValues(){
 
 void Statistics::init_weather() {
 
+    //addStat("weather_debuff", 0);
+
     addStat("racing_ability", 0);
 
     addStat("handling", 0);

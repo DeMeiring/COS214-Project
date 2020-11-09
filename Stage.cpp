@@ -1,11 +1,18 @@
 #include "Stage.h"
 
-void Stage::ChangeStage(int Stage) {
-	// TODO - implement Stage::ChangeStage
-	throw "Not yet implemented";
+Stage::Stage(Client* cl) {
+    User = cl;
 }
 
-void Stage::RunStage() {
-	// TODO - implement Stage::RunStage
-	throw "Not yet implemented";
+Client* Stage::getClient() {
+    return User;
 }
+
+void Stage::updateStage(Stage* set) {
+    curr_stage = set;
+}
+
+Stage* Stage::getStage() {
+    return curr_stage;
+}
+

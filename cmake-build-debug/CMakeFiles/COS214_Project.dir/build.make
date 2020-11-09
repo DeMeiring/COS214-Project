@@ -80,9 +80,28 @@ CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\A_Base_Car.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\A_Base_Car.cpp
 <<
 
+CMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.obj: ..\A_Car_Factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COS214_Project.dir/A_Car_Factory.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\A_Car_Factory.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/A_Car_Factory.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\A_Car_Factory.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/A_Car_Factory.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\A_Car_Factory.cpp
+<<
+
 CMakeFiles\COS214_Project.dir\A_Opposing_Car.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\A_Opposing_Car.cpp.obj: ..\A_Opposing_Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\A_Opposing_Car.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\A_Opposing_Car.cpp
 <<
@@ -101,7 +120,7 @@ CMakeFiles\COS214_Project.dir\A_Opposing_Car.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\A_Opposing_Driver.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\A_Opposing_Driver.cpp.obj: ..\A_Opposing_Driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\A_Opposing_Driver.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\A_Opposing_Driver.cpp
 <<
@@ -120,7 +139,7 @@ CMakeFiles\COS214_Project.dir\A_Opposing_Driver.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\A_Opposing_Team.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\A_Opposing_Team.cpp.obj: ..\A_Opposing_Team.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\A_Opposing_Team.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\A_Opposing_Team.cpp
 <<
@@ -137,9 +156,28 @@ CMakeFiles\COS214_Project.dir\A_Opposing_Team.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\A_Opposing_Team.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\A_Opposing_Team.cpp
 <<
 
+CMakeFiles\COS214_Project.dir\Aggressive.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Aggressive.cpp.obj: ..\Aggressive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/COS214_Project.dir/Aggressive.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Aggressive.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Aggressive.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Aggressive.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Aggressive.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Aggressive.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Aggressive.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Aggressive.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Aggressive.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Aggressive.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Aggressive.cpp
+<<
+
 CMakeFiles\COS214_Project.dir\Bahrain.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Bahrain.cpp.obj: ..\Bahrain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COS214_Project.dir/Bahrain.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/COS214_Project.dir/Bahrain.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Bahrain.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Bahrain.cpp
 <<
@@ -156,9 +194,28 @@ CMakeFiles\COS214_Project.dir\Bahrain.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Bahrain.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Bahrain.cpp
 <<
 
+CMakeFiles\COS214_Project.dir\Base_Car.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Base_Car.cpp.obj: ..\Base_Car.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/COS214_Project.dir/Base_Car.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Base_Car.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Base_Car.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Base_Car.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Base_Car.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Base_Car.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Base_Car.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Base_Car.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Base_Car.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Base_Car.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Base_Car.cpp
+<<
+
 CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj: ..\Base_Car_Measurements.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Base_Car_Measurements.cpp
 <<
@@ -177,7 +234,7 @@ CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\BluePrint.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\BluePrint.cpp.obj: ..\BluePrint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/COS214_Project.dir/BluePrint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/COS214_Project.dir/BluePrint.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\BluePrint.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\BluePrint.cpp
 <<
@@ -196,7 +253,7 @@ CMakeFiles\COS214_Project.dir\BluePrint.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Car_factory.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Car_factory.cpp.obj: ..\Car_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/COS214_Project.dir/Car_factory.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/COS214_Project.dir/Car_factory.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Car_factory.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Car_factory.cpp
 <<
@@ -215,7 +272,7 @@ CMakeFiles\COS214_Project.dir\Car_factory.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Client.cpp.obj: ..\Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/COS214_Project.dir/Client.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/COS214_Project.dir/Client.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Client.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Client.cpp
 <<
@@ -234,7 +291,7 @@ CMakeFiles\COS214_Project.dir\Client.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Command.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Command.cpp.obj: ..\Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/COS214_Project.dir/Command.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/COS214_Project.dir/Command.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Command.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Command.cpp
 <<
@@ -253,7 +310,7 @@ CMakeFiles\COS214_Project.dir\Command.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Component.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Component.cpp.obj: ..\Component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/COS214_Project.dir/Component.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/COS214_Project.dir/Component.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Component.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Component.cpp
 <<
@@ -272,7 +329,7 @@ CMakeFiles\COS214_Project.dir\Component.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.obj: ..\Conc_Radio_System.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Conc_Radio_System.cpp
 <<
@@ -291,7 +348,7 @@ CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj: ..\Concrete_Base_Car_Measurements.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/COS214_Project.dir/Concrete_Base_Car_Measurements.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/COS214_Project.dir/Concrete_Base_Car_Measurements.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Concrete_Base_Car_Measurements.cpp
 <<
@@ -308,9 +365,28 @@ CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Concrete_Base_Car_Measurements.cpp
 <<
 
+CMakeFiles\COS214_Project.dir\Conservative.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Conservative.cpp.obj: ..\Conservative.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/COS214_Project.dir/Conservative.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Conservative.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Conservative.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Conservative.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Conservative.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Conservative.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Conservative.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Conservative.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Conservative.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Conservative.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Conservative.cpp
+<<
+
 CMakeFiles\COS214_Project.dir\Department.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Department.cpp.obj: ..\Department.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/COS214_Project.dir/Department.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/COS214_Project.dir/Department.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Department.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Department.cpp
 <<
@@ -329,7 +405,7 @@ CMakeFiles\COS214_Project.dir\Department.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Driver.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Driver.cpp.obj: ..\Driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/COS214_Project.dir/Driver.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/COS214_Project.dir/Driver.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Driver.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Driver.cpp
 <<
@@ -348,7 +424,7 @@ CMakeFiles\COS214_Project.dir\Driver.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Driver_Management.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Driver_Management.cpp.obj: ..\Driver_Management.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/COS214_Project.dir/Driver_Management.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/COS214_Project.dir/Driver_Management.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Driver_Management.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Driver_Management.cpp
 <<
@@ -367,7 +443,7 @@ CMakeFiles\COS214_Project.dir\Driver_Management.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Engineering.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Engineering.cpp.obj: ..\Engineering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/COS214_Project.dir/Engineering.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/COS214_Project.dir/Engineering.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Engineering.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Engineering.cpp
 <<
@@ -386,7 +462,7 @@ CMakeFiles\COS214_Project.dir\Engineering.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Engineering_Iterator.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Engineering_Iterator.cpp.obj: ..\Engineering_Iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Engineering_Iterator.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Engineering_Iterator.cpp
 <<
@@ -405,7 +481,7 @@ CMakeFiles\COS214_Project.dir\Engineering_Iterator.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj: ..\Engineering_Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Engineering_Stage.cpp
 <<
@@ -422,9 +498,66 @@ CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Engineering_Stage.cpp
 <<
 
+CMakeFiles\COS214_Project.dir\Experienced.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Experienced.cpp.obj: ..\Experienced.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/COS214_Project.dir/Experienced.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Experienced.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Experienced.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Experienced.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Experienced.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Experienced.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Experienced.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Experienced.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Experienced.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Experienced.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Experienced.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\main.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\main.cpp.obj: ..\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/COS214_Project.dir/main.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\main.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\main.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/main.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\main.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/main.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\main.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\main.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Moderate.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Moderate.cpp.obj: ..\Moderate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/COS214_Project.dir/Moderate.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Moderate.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Moderate.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Moderate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Moderate.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Moderate.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Moderate.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Moderate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Moderate.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Moderate.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Moderate.cpp
+<<
+
 CMakeFiles\COS214_Project.dir\Monaco.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Monaco.cpp.obj: ..\Monaco.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/COS214_Project.dir/Monaco.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/COS214_Project.dir/Monaco.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Monaco.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Monaco.cpp
 <<
@@ -443,7 +576,7 @@ CMakeFiles\COS214_Project.dir\Monaco.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Monza.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Monza.cpp.obj: ..\Monza.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/COS214_Project.dir/Monza.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/COS214_Project.dir/Monza.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Monza.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Monza.cpp
 <<
@@ -462,7 +595,7 @@ CMakeFiles\COS214_Project.dir\Monza.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Opposing_Car.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Opposing_Car.cpp.obj: ..\Opposing_Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Opposing_Car.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Opposing_Car.cpp
 <<
@@ -481,7 +614,7 @@ CMakeFiles\COS214_Project.dir\Opposing_Car.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Opposing_Driver.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Opposing_Driver.cpp.obj: ..\Opposing_Driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Opposing_Driver.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Opposing_Driver.cpp
 <<
@@ -500,7 +633,7 @@ CMakeFiles\COS214_Project.dir\Opposing_Driver.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.obj: ..\Opposing_Team.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Opposing_Team.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Opposing_Team.cpp
 <<
@@ -519,7 +652,7 @@ CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Overall.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Overall.cpp.obj: ..\Overall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/COS214_Project.dir/Overall.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/COS214_Project.dir/Overall.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Overall.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Overall.cpp
 <<
@@ -538,7 +671,7 @@ CMakeFiles\COS214_Project.dir\Overall.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj: ..\Performance_Indicator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Performance_Indicator.cpp
 <<
@@ -555,9 +688,28 @@ CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Performance_Indicator.cpp
 <<
 
+CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Pit_Crew.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Pit_Crew.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Pit_Crew.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Pit_Crew.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Pit_Crew.cpp
+<<
+
 CMakeFiles\COS214_Project.dir\Pit_Stop.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Pit_Stop.cpp.obj: ..\Pit_Stop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Pit_Stop.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Pit_Stop.cpp
 <<
@@ -574,9 +726,28 @@ CMakeFiles\COS214_Project.dir\Pit_Stop.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Pit_Stop.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Pit_Stop.cpp
 <<
 
+CMakeFiles\COS214_Project.dir\Prepared.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Prepared.cpp.obj: ..\Prepared.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/COS214_Project.dir/Prepared.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Prepared.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Prepared.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Prepared.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Prepared.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Prepared.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Prepared.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Prepared.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Prepared.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Prepared.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Prepared.cpp
+<<
+
 CMakeFiles\COS214_Project.dir\Preparedness.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Preparedness.cpp.obj: ..\Preparedness.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/COS214_Project.dir/Preparedness.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/COS214_Project.dir/Preparedness.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Preparedness.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Preparedness.cpp
 <<
@@ -593,9 +764,28 @@ CMakeFiles\COS214_Project.dir\Preparedness.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Preparedness.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Preparedness.cpp
 <<
 
+CMakeFiles\COS214_Project.dir\Pro.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Pro.cpp.obj: ..\Pro.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/COS214_Project.dir/Pro.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Pro.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Pro.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Pro.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Pro.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Pro.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Pro.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Pro.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Pro.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Pro.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Pro.cpp
+<<
+
 CMakeFiles\COS214_Project.dir\Race_Command.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Race_Command.cpp.obj: ..\Race_Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/COS214_Project.dir/Race_Command.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/COS214_Project.dir/Race_Command.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Race_Command.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Race_Command.cpp
 <<
@@ -614,7 +804,7 @@ CMakeFiles\COS214_Project.dir\Race_Command.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Race_Computations.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Race_Computations.cpp.obj: ..\Race_Computations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Race_Computations.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Race_Computations.cpp
 <<
@@ -633,7 +823,7 @@ CMakeFiles\COS214_Project.dir\Race_Computations.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Race_Crew.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Race_Crew.cpp.obj: ..\Race_Crew.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Race_Crew.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Race_Crew.cpp
 <<
@@ -652,7 +842,7 @@ CMakeFiles\COS214_Project.dir\Race_Crew.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\RaceDay_Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\RaceDay_Stage.cpp
 <<
@@ -671,7 +861,7 @@ CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\RaceDay_Strat.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\RaceDay_Strat.cpp.obj: ..\RaceDay_Strat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\RaceDay_Strat.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\RaceDay_Strat.cpp
 <<
@@ -690,7 +880,7 @@ CMakeFiles\COS214_Project.dir\RaceDay_Strat.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Radio_System.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Radio_System.cpp.obj: ..\Radio_System.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Radio_System.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Radio_System.cpp
 <<
@@ -707,9 +897,47 @@ CMakeFiles\COS214_Project.dir\Radio_System.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Radio_System.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Radio_System.cpp
 <<
 
+CMakeFiles\COS214_Project.dir\Risky.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Risky.cpp.obj: ..\Risky.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/COS214_Project.dir/Risky.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Risky.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Risky.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Risky.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Risky.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Risky.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Risky.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Risky.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Risky.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Risky.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Risky.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Rookie.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Rookie.cpp.obj: ..\Rookie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/COS214_Project.dir/Rookie.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Rookie.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Rookie.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Rookie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Rookie.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Rookie.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Rookie.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Rookie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Rookie.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Rookie.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Rookie.cpp
+<<
+
 CMakeFiles\COS214_Project.dir\Skill_Level.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Skill_Level.cpp.obj: ..\Skill_Level.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Skill_Level.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Skill_Level.cpp
 <<
@@ -728,7 +956,7 @@ CMakeFiles\COS214_Project.dir\Skill_Level.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Stage.cpp.obj: ..\Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/COS214_Project.dir/Stage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/COS214_Project.dir/Stage.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Stage.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Stage.cpp
 <<
@@ -747,7 +975,7 @@ CMakeFiles\COS214_Project.dir\Stage.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Statistics.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Statistics.cpp.obj: ..\Statistics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/COS214_Project.dir/Statistics.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/COS214_Project.dir/Statistics.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Statistics.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Statistics.cpp
 <<
@@ -764,47 +992,28 @@ CMakeFiles\COS214_Project.dir\Statistics.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Statistics.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Statistics.cpp
 <<
 
-CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
-CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.obj: ..\Strategy_Plan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj"
+CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj: ..\Strategy_Team.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Plan.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Team.cpp
 <<
 
-CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Plan.cpp
+CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Team.cpp
 <<
 
-CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.s"
+CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Plan.cpp
-<<
-
-CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
-CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.obj: ..\Strategy_Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Stage.cpp
-<<
-
-CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Stage.cpp
-<<
-
-CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Stage.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Strategy_Team.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Team.cpp
 <<
 
 CMakeFiles\COS214_Project.dir\Teams.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Teams.cpp.obj: ..\Teams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/COS214_Project.dir/Teams.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/COS214_Project.dir/Teams.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Teams.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Teams.cpp
 <<
@@ -821,28 +1030,9 @@ CMakeFiles\COS214_Project.dir\Teams.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Teams.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Teams.cpp
 <<
 
-CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
-CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Testing_Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Testing_Stage.cpp
-<<
-
-CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Testing_Stage.cpp
-<<
-
-CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Testing_Stage.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Testing_Stage.cpp
-<<
-
 CMakeFiles\COS214_Project.dir\Track.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Track.cpp.obj: ..\Track.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/COS214_Project.dir/Track.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/COS214_Project.dir/Track.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Track.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Track.cpp
 <<
@@ -861,7 +1051,7 @@ CMakeFiles\COS214_Project.dir\Track.cpp.s: cmake_force
 
 CMakeFiles\COS214_Project.dir\Transport.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Transport.cpp.obj: ..\Transport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/COS214_Project.dir/Transport.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/COS214_Project.dir/Transport.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Transport.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Transport.cpp
 <<
@@ -878,9 +1068,47 @@ CMakeFiles\COS214_Project.dir\Transport.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Transport.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Transport.cpp
 <<
 
+CMakeFiles\COS214_Project.dir\Tyres.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Tyres.cpp.obj: ..\Tyres.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/COS214_Project.dir/Tyres.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Tyres.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Tyres.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Tyres.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Tyres.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Tyres.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Tyres.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Tyres.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Tyres.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Tyres.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Tyres.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj: ..\Unprepared.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Unprepared.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Unprepared.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Unprepared.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Unprepared.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Unprepared.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Unprepared.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Unprepared.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Unprepared.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Unprepared.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Unprepared.cpp
+<<
+
 CMakeFiles\COS214_Project.dir\Weather.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
 CMakeFiles\COS214_Project.dir\Weather.cpp.obj: ..\Weather.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/COS214_Project.dir/Weather.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/COS214_Project.dir/Weather.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Weather.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Weather.cpp
 <<
@@ -897,51 +1125,16 @@ CMakeFiles\COS214_Project.dir\Weather.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Weather.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Weather.cpp
 <<
 
-CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
-CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj: ..\Pit_Crew.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Pit_Crew.cpp
-<<
-
-CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Pit_Crew.cpp
-<<
-
-CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Pit_Crew.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Pit_Crew.cpp
-<<
-
-CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
-CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj: ..\Strategy_Team.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Team.cpp
-<<
-
-CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Team.cpp
-<<
-
-CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Strategy_Team.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Strategy_Team.cpp
-<<
-
 # Object files for target COS214_Project
 COS214_Project_OBJECTS = \
 "CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\A_Opposing_Car.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\A_Opposing_Driver.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\A_Opposing_Team.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Aggressive.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Bahrain.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Base_Car.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\BluePrint.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Car_factory.cpp.obj" \
@@ -950,12 +1143,16 @@ COS214_Project_OBJECTS = \
 "CMakeFiles\COS214_Project.dir\Component.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Conservative.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Department.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Driver.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Driver_Management.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Engineering.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Engineering_Iterator.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Experienced.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\main.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Moderate.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Monaco.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Monza.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Opposing_Car.cpp.obj" \
@@ -963,35 +1160,41 @@ COS214_Project_OBJECTS = \
 "CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Overall.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Pit_Stop.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Prepared.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Preparedness.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Pro.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Race_Command.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Race_Computations.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Race_Crew.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\RaceDay_Strat.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Radio_System.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Risky.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Rookie.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Skill_Level.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Stage.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Statistics.cpp.obj" \
-"CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.obj" \
-"CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Teams.cpp.obj" \
-"CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Track.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Transport.cpp.obj" \
-"CMakeFiles\COS214_Project.dir\Weather.cpp.obj" \
-"CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj" \
-"CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj"
+"CMakeFiles\COS214_Project.dir\Tyres.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Weather.cpp.obj"
 
 # External object files for target COS214_Project
 COS214_Project_EXTERNAL_OBJECTS =
 
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\A_Opposing_Car.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\A_Opposing_Driver.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\A_Opposing_Team.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Aggressive.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Bahrain.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Base_Car.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\BluePrint.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Car_factory.cpp.obj
@@ -1000,12 +1203,16 @@ COS214_Project.exe: CMakeFiles\COS214_Project.dir\Command.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Component.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Conservative.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Department.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Driver.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Driver_Management.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Engineering.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Engineering_Iterator.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Experienced.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\main.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Moderate.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Monaco.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Monza.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Opposing_Car.cpp.obj
@@ -1013,29 +1220,32 @@ COS214_Project.exe: CMakeFiles\COS214_Project.dir\Opposing_Driver.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Overall.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Pit_Stop.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Prepared.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Preparedness.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Pro.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Race_Command.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Race_Computations.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Race_Crew.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\RaceDay_Strat.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Radio_System.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Risky.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Rookie.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Skill_Level.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Stage.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Statistics.cpp.obj
-COS214_Project.exe: CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.obj
-COS214_Project.exe: CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Teams.cpp.obj
-COS214_Project.exe: CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Track.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Transport.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Tyres.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Weather.cpp.obj
-COS214_Project.exe: CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj
-COS214_Project.exe: CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\build.make
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable COS214_Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking CXX executable COS214_Project.exe"
 	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\COS214_Project.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\COS214_Project.dir\objects1.rsp @<<
  /out:COS214_Project.exe /implib:COS214_Project.lib /pdb:C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\COS214_Project.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

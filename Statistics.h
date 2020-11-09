@@ -22,7 +22,7 @@ private:
     void init_driver_stats();
 
     // for base car before any components or upgrades, also creates component's stats variable
-    void init_car_stats(bool isComp, bool isCar);
+    void init_car_stats(bool isComp,bool isCar=false);
 
     // for weather in race_day
     void init_weather();

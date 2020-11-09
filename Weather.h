@@ -3,25 +3,35 @@
 
 #include "Statistics.h"
 
+class Weather;
+
 class Weather_Selector {
 private:
-	Weather* weather_state = new Dry();
+	Weather* weather_state;
 public:
+    Weather_Selector();
 	void setState(Weather*);
+	void nextState();
+	Weather* getState();
 };
 
 class Weather {
 
 private:
 	Statistics* stats;
-	Weather* nextState;
+	Weather* nextstate;
+    Weather_Selector* ws;
+    string weather;
 
 public:
 	Weather();
-	Weather_Selector* ws;
 	Statistics* getStats();
 	void setStats(Statistics* stats);
 	void setNextState(Weather* st);
+	void next_state();
+
+	string getName();
+	void setName(string set);
 
 	virtual ~Weather(); 
 

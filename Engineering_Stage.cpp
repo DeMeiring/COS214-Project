@@ -1,4 +1,28 @@
 #include "Engineering_Stage.h"
+#include "Client.h"
+
+Engineering_Stage::Engineering_Stage(Client* cl) : Stage(cl) {
+
+    init();
+}
+
+Stage* Engineering_Stage::ChangeStage(int Stage) {
+    switch(Stage) {
+        case 1: {
+
+        }
+        case 2: {
+
+        }
+        case 3: {
+
+        }
+    }
+}
+
+void Engineering_Stage::RunStage() {
+
+}
 
 void Engineering_Stage::Engineering_main() {
 	//Initialize Engineering Departments and their Default Values

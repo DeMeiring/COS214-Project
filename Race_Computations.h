@@ -6,17 +6,18 @@
 #include "Weather.h"
 #include "Tyres.h"
 #include "Track.h"
+#include "Statistics.h"
 
 using namespace std;
 
 struct Racers {
-    Driver* Racer;
-    Engineering* Car;
+    Statistics* Racer;
+    Statistics* Car;
     Tyres* TyresOfCar;
 };
 
 struct Conditions {
-    Weather *WeatherCond;
+    Weather_Selector *WeatherCond;
     Track *TrackCond;
 };
 
@@ -25,7 +26,7 @@ private:
 
     static Race_Computations* instance; //singleton
 
-    bool ChanceOfRecovery(Driver* driver);
+    bool ChanceOfRecovery(Racers* driver);
 
     int DistributeValue(double value);
 
@@ -37,9 +38,9 @@ public:
 
     static Race_Computations* GetComp();
 
-	bool OvertakeSuccess(Racers ToBeOvertaken, Racers Overtaker, Conditions cond);
+	bool OvertakeSuccess(Racers* ToBeOvertaken, Racers* Overtaker);
 
-	bool ChanceOfCrash(Racers racer);
+	bool ChanceOfCrash(Racers* racer, Conditions* cond);
 
 	int ChanceOfPitOvertake(int delay);
 	
