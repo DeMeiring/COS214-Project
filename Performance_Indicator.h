@@ -10,14 +10,14 @@ protected:
 
 public:
 	Performance_Indicator(Concrete_Base_Car_Measurements* subj);
-
-	void observeStats();
+	virtual ~Performance_Indicator();
 
 	Statistics* getStats();
 
-	virtual void UpdateOverall_Stats(Statistics* stats)=0;
+	virtual void observeStats() = 0; // virtual 'update' for individual components
+	
+	virtual void UpdateOverall_Stats(Statistics* stats) = 0; // virtual update for over all components
 
-	virtual ~Performance_Indicator();
 };
 
 #endif
