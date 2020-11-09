@@ -1,7 +1,7 @@
 #include "Client.h"
 
 Client::Client() {
-    stage = new Engineering_Stage();
+    stage = new Engineering_Stage(this);
 }
 
 Client::~Client() {

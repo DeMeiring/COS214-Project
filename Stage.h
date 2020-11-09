@@ -14,11 +14,15 @@ protected:
 
 public:
 
+    Stage(Client* cl);
+
+    Client* getClient();
+
     void updateStage(Stage* set);
 
     Stage* getStage();
 
-	virtual void ChangeStage(int Stage)=0;
+	virtual Stage* ChangeStage(int Stage)=0;
 
 	virtual void RunStage()=0;
 };

@@ -2,20 +2,19 @@
 #define SKILL_LEVEL_H
 
 #include <functional>
-
 #include "Statistics.h"
-#include "Driver.h"
+//#include "Driver.h"
 
 class Skill_Level {
 
 private:
 	Statistics* skill_modifier;
-
+    //Driver* missing;
 public:
     Skill_Level(Statistics* skill_modifier);
     virtual ~Skill_Level();
 	Statistics* getSkill_Modifier();
-	Driver* getDriver();
+	//Driver* getDriver();
 
 	virtual int getRacingAbility() = 0;
 };
