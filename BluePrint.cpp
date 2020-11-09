@@ -7,3 +7,7 @@ Engineering* BluePrint::getCarBluePrint() {
 void BluePrint::setCarBluePrint(Engineering* CarBluePrint) {
 	this->CarBluePrint = CarBluePrint;
 }
+
+BluePrint::~BluePrint() {
+
+}

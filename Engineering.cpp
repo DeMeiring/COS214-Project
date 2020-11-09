@@ -1,5 +1,7 @@
 #include "Engineering.h"
 
+Engineering::~Engineering() {}
+
 Engineering::Engineering(string RNDName, bool isDept)
 {
 	this->RnD_Name = RNDName;

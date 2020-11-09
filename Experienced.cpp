@@ -1,5 +1,7 @@
 #include "Experienced.h"
 
+Experienced::~Experienced() {}
+
 Experienced::Experienced(Statistics *skillModifier) : Skill_Level(skillModifier)
 {
     this->racing_ability=30;

@@ -35,6 +35,8 @@ public:
 
 	Engineering();
 
+	virtual ~Engineering();
+
 	Engineering(string, bool);
 
 	string getRnDName();//engineering

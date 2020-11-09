@@ -1,5 +1,8 @@
 #include "Engineering_Iterator.h"
 #include "Department.h"
+
+Engineering_Iterator::~Engineering_Iterator() {}
+
 Engineering_Iterator::Engineering_Iterator(Engineering *first){
 	this->First = first;
 	this->CurrDept = first;

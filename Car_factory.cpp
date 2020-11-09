@@ -49,3 +49,7 @@ Engineering* Car_factory::ConstructCar() {
 
 	return ChassisDept;
 }
+
+Car_factory::~Car_factory() {
+
+}

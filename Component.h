@@ -31,6 +31,8 @@ public:
 	void addDepartment(Engineering *);
 
 	bool ChangeLevel(int lvl);
+
+	virtual ~Component();
 };
 
 #endif

@@ -1,4 +1,8 @@
 #include "Component.h"
+Component::~Component() {
+
+}
+
 
 Component::Component(string name, bool isDept, int level) : Engineering(name, isDept)
 {
