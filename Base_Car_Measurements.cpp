@@ -2,6 +2,10 @@
 
 using namespace std;
 
+Base_Car_Measurements::~Base_Car_Measurements() {
+
+}
+
 Base_Car_Measurements::Base_Car_Measurements(Engineering* car)
 {
 	this->Test_Subject = car;

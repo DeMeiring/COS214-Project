@@ -13,6 +13,11 @@ private:
 	Radio_System* rs;
 
 public:
+
+    Race_Crew();
+
+    virtual ~Race_Crew();
+
 	Race_Crew(Radio_System* rs);
 
 	virtual void ReceiveCommand(Command* command);
@@ -23,7 +28,6 @@ public:
 
 	Radio_System* getRS();
 
-	virtual ~Race_Crew();
 };
 
 #endif

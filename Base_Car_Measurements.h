@@ -23,6 +23,9 @@ public:
 	Engineering* getTestSubject();
 
 	vector<Performance_Indicator*> getIndicators();
+
+	virtual ~Base_Car_Measurements();
+
 };
 
 #endif

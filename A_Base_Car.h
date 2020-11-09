@@ -27,6 +27,9 @@ public:
 	// void updateComponents(Engineering* newComponents);
 
 	// Engineering_Iterator* get_Iter();
+
+	virtual ~A_Base_Car();
+
 };
 
 #endif

@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Base_Car.cpp
+A_Base_Car.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Base_Car.h
+BluePrint.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/BluePrint.h
+Engineering_Stage.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Stage.h
+
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Base_Car.h
 Engineering.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
@@ -22,9 +30,17 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/E
 tuple
 -
 
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.cpp
+A_Opposing_Driver.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.h
+
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.h
 Driver.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
+
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.cpp
+A_Opposing_Team.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.h
 tuple
@@ -100,6 +116,12 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/R
 Testing_Stage.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Testing_Stage.h
 
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.cpp
+Command.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
+Race_Crew.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
+
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
 string
 -
@@ -113,6 +135,10 @@ Engineering.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
+
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.cpp
+Conc_Radio_System.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
 Radio_System.h
@@ -143,6 +169,12 @@ string
 -
 vector
 -
+
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.cpp
+Driver.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
+Statistics.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
 Race_Crew.h
@@ -177,6 +209,16 @@ Risky.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
 Conservative.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
+
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver_Management.cpp
+iostream
+-
+Driver_Management.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver_Management.h
+Radio_System.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
+algorithm
+-
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver_Management.h
 Driver.h
@@ -252,11 +294,21 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/D
 Component.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Component.h
 
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.cpp
+Opposing_Driver.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
+cstdlib
+-
+
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
 A_Opposing_Driver.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.h
+
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.cpp
+Opposing_Team.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
 A_Opposing_Team.h
@@ -328,6 +380,14 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/O
 Opposing_Driver.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
 
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.cpp
+RaceDay_Strat.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
+Driver.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
+Statistics.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
+
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
@@ -360,6 +420,12 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/C
 Concrete_Base_Car_Measurements.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Concrete_Base_Car_Measurements.h
 
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.cpp
+Race_Command.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
+Radio_System.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
+
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
 Command.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
@@ -386,11 +452,19 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/T
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
 
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.cpp
+Race_Crew.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
+
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
 Race_Command.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
 iostream
 -
+
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.cpp
+Radio_System.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
 Race_Command.h
@@ -431,6 +505,20 @@ vector
 -
 string
 -
+
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Strategy_Team.cpp
+Strategy_Team.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Strategy_Team.h
+Radio_System.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
+
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Strategy_Team.h
+Race_Crew.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
+
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.cpp
+Teams.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
 vector
@@ -481,4 +569,8 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/P
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Weather.h
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
+
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/main.cpp
+Engineering_Stage.h
+C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Stage.h
 

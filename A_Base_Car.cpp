@@ -39,3 +39,7 @@ Engineering* A_Base_Car::PrototypeCar(Engineering* composite) {//recieves engine
 	return copyIterator->FirstDept();
 }
 
+A_Base_Car::~A_Base_Car() {
+
+}
+

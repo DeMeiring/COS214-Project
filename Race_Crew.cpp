@@ -1,5 +1,7 @@
 #include "Race_Crew.h"
 
+Race_Crew::Race_Crew() {}
+
 void Race_Crew::ReceiveCommand(Command* command) {
 	string interpret = command->getCommand();
 	// do stuff with command if applicable
