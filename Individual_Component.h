@@ -8,13 +8,13 @@ class Individual_Component : public Performance_Indicator {
 
     private:
         Statistics* component_stats; //local stats that have to be updated
-        Performance_Indicator* pI; // performance indicator
+        Performance_Indicator pi;
         Concrete_Base_Car_Measurements* component_subject;
 
     public:
         Individual_Component(Concrete_Base_Car_Measurements *subj);
         virtual ~Individual_Component();
-        
+        void UpdateOverall_Stats(Statistics* component_stats);
         void observeStats();
 
 };

@@ -20,7 +20,7 @@ Concrete_Base_Car_Measurements::~Concrete_Base_Car_Measurements()
     component_subject = nullptr;
 }
 
-void Concrete_Base_Car_Measurements::Observe_car(){
+Statistics* Concrete_Base_Car_Measurements::Observe_car(){
 
     string attributename;
     int compValue;
@@ -52,13 +52,14 @@ void Concrete_Base_Car_Measurements::Observe_car(){
     set(this->component_subject);
 }
 
-void Concrete_Base_Car_Measurements::set(Engineering* component)
+Statistics* Concrete_Base_Car_Measurements::set(Engineering* component)
 {
     vector<Performance_Indicator*> indicators = getIndicators();
     vector<Performance_Indicator*>::iterator iter = indicators.begin();
     for(iter=indicators.begin();iter!=indicators.end();++iter){
-        (*iter)->UpdateOverall_Stats(component->getStats());
+        Statistics* retStats=(*iter)->UpdateOverall_Stats(component->getStats());
     }
+    return;
 }
 
 

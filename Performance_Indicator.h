@@ -18,7 +18,7 @@ public:
 
 	virtual void observeStats() = 0; // virtual 'update' for individual components
 	
-	virtual void UpdateOverall_Stats(Statistics* stats) = 0; // virtual update for over all components
+	virtual Statistics* UpdateOverall_Stats(Statistics* stats) = 0; // virtual update for over all components
 
 };
 

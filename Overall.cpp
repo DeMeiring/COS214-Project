@@ -7,12 +7,14 @@ Overall::Overall(Concrete_Base_Car_Measurements *subj) : Performance_Indicator(s
 
 Overall::~Overall()
 {
-
+    delete this->Overall_Stats;
+    Overall_Stats= nullptr;
 }
 
-void Overall::UpdateOverall_Stats(Statistics* Stats)
+Statistics* Overall::UpdateOverall_Stats(Statistics* Stats)
 {
     setStats(Stats);
+    return this->updatedStats;
 }
 
 Statistics *Overall::getStats() {

@@ -10,7 +10,7 @@ private:
 public:
     Overall(Concrete_Base_Car_Measurements *subj);
     void ObserveStats();//update method
-	void UpdateOverall_Stats(Statistics* Stats);//apply new updates to overallstats
+	Statistics* UpdateOverall_Stats(Statistics* Stats);//apply new updates to overallstats
 	Statistics* getOverallStats();
 	Statistics* getStats();
 	virtual ~Overall();

@@ -9,6 +9,7 @@ using namespace std;
 Individual_Component::Individual_Component(Concrete_Base_Car_Measurements *subj) : Performance_Indicator(subj)
 {
     this->component_subject = subj;
+    this->pi = new Performance_Indicator()
 }
 
 void Individual_Component::observeStats()
@@ -28,4 +29,8 @@ Individual_Component::~Individual_Component()
     delete component_stats;
 
     component_stats = nullptr;
+}
+
+void Individual_Component::UpdateOverall_Stats(Statistics *component_stats) {
+    this->component_stats = component_stats;
 }

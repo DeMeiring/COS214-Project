@@ -15,9 +15,9 @@ public:
     Concrete_Base_Car_Measurements(Engineering *car);
 	virtual ~Concrete_Base_Car_Measurements();
 
-	void Observe_car();
+	Statistics* Observe_car();
 	
-	void set(Engineering* component);
+	Statistics* set(Engineering* component);
 
 };
 
