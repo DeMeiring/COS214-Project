@@ -52,7 +52,6 @@ add_executable(COS214_Project
         Engineering_Stage.h
         Experienced.cpp
         Experienced.h
-        Individual_Component.h
         main.cpp
         Moderate.cpp
         Moderate.h
@@ -115,4 +114,4 @@ add_executable(COS214_Project
         Unprepared.cpp
         Unprepared.h
         Weather.cpp
-        Weather.h Individual_Component.cpp)
+        Weather.h)

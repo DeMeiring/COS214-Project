@@ -49,17 +49,18 @@ Statistics* Concrete_Base_Car_Measurements::Observe_car(){
         this->component_subject= this->subject_iterator->NextDept();
 
     }
-    set(this->component_subject);
+    return set(this->component_subject);
 }
 
 Statistics* Concrete_Base_Car_Measurements::set(Engineering* component)
 {
+    Statistics* retStats;
     vector<Performance_Indicator*> indicators = getIndicators();
     vector<Performance_Indicator*>::iterator iter = indicators.begin();
     for(iter=indicators.begin();iter!=indicators.end();++iter){
-        Statistics* retStats=(*iter)->UpdateOverall_Stats(component->getStats());
+        retStats=(*iter)->UpdateOverall_Stats(component->getStats());
     }
-    return;
+    return retStats;
 }
 
 

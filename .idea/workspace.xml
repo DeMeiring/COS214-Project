@@ -31,13 +31,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f60b97c5-b98c-495f-8f74-7ea391dced06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Concrete_Base_Car_Measurements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Concrete_Base_Car_Measurements.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concrete_Base_Car_Measurements.h" beforeDir="false" afterPath="$PROJECT_DIR$/Concrete_Base_Car_Measurements.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual_Component.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Individual_Component.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual_Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/Individual_Component.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Overall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Overall.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Overall.h" beforeDir="false" afterPath="$PROJECT_DIR$/Overall.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Performance_Indicator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Performance_Indicator.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
