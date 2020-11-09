@@ -14,7 +14,31 @@ void Engineering_Stage::selectDepartment()
 //show budget 
 //iterate and pick levels to purchase
 //while(true) exit if exit is typed
+	int_fast64_t decision;
+	
 	cout << "Please Select a Department you would like to visit: " << endl;
+	cout << "1. Chassis Department" << endl;
+	cout << "2. Aerodynamics Department" << endl;
+	cout << "3. Engine Department" << endl;
+	cout << "4. Electronics Department" << endl;
+	cout << "5. Exit Program" << endl;
+	cin >> decision;
+
+	switch(decision){
+		case 1:
+			cout << "Chassis Department: " << endl;
+		case 2:
+			cout << "Aerodynamics Department: " << endl;
+		case 3:
+			cout << "Engine Department: " << endl;
+
+		case 4:
+			cout << "Electronics Department: " << endl;
+
+		default:
+			break;
+	}
+
 	
 }
 

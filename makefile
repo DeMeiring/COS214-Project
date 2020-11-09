@@ -1,10 +1,10 @@
-ofiles = main.o Engineering_Stage.o Engineering.o Department.o Component.o Engineering_Iterator.o Statistics.o A_Base_Car.o A_Car_Factory.o Base_Car.o Car_Factory.o BluePrint.o
+ofiles = main.o Engineering_Stage.o Engineering.o Department.o Component.o Engineering_Iterator.o Statistics.o A_Base_Car.o A_Car_Factory.o Base_Car.o Car_Factory.o BluePrint.o Transport.o
 gpp_o = g++ -c -std=c++11 -static -g
 
 main: $(ofiles)
 	g++ -std=c++11 -static $(ofiles) -o main -g
 
-main.o: main.cpp Engineering_Stage.h Engineering.h Department.h Component.h Engineering_Iterator.h Statistics.h A_Base_Car.h A_Car_Factory.h Base_Car.h Car_Factory.h BluePrint.h
+main.o: main.cpp Engineering_Stage.h Engineering.h Department.h Component.h Engineering_Iterator.h Statistics.h A_Base_Car.h A_Car_Factory.h Base_Car.h Car_Factory.h BluePrint.h Transport.h
 
 Engineering_Stage.o: Engineering_Stage.cpp Engineering_Stage.h
 	$(gpp_o) Engineering_Stage.cpp
@@ -38,6 +38,9 @@ Car_Factory.o: Car_Factory.cpp Car_Factory.h
 
 BluePrint.o: BluePrint.cpp BluePrint.h
 	$(gpp_o) BluePrint.cpp
+
+Transport.o: Transport.cpp Transport.h
+	$(gpp_o) Transport.cpp
 
 run: main
 	./main
