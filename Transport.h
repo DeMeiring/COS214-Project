@@ -15,6 +15,8 @@ public:
 	void AddCar(BluePrint* car);
 
 	BluePrint* RemoveCar();
+
+	virtual ~Transport();
 };
 
 #endif

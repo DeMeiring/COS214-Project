@@ -27,6 +27,7 @@ private:
 public:
 
     Pit_Stop();
+    virtual ~Pit_Stop();
 
     void carDamged(bool state);
     void tyreSwap(int tyre_type);

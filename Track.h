@@ -14,7 +14,8 @@ private:
 public:
 
 	Track(int l) {number_of_laps=l;};
-
+	virtual ~Track();
+	
 	virtual string getName()=0;
 
 	virtual string getCornerTypes()=0;

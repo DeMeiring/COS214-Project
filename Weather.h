@@ -10,6 +10,8 @@ private:
 	Weather* weather_state;
 public:
     Weather_Selector();
+	virtual ~Weather_Selector();
+
 	void setState(Weather*);
 	void nextState();
 	Weather* getState();
@@ -25,6 +27,8 @@ private:
 
 public:
 	Weather();
+	virtual ~Weather(); 
+	
 	Statistics* getStats();
 	void setStats(Statistics* stats);
 	void setNextState(Weather* st);
@@ -33,7 +37,6 @@ public:
 	string getName();
 	void setName(string set);
 
-	virtual ~Weather(); 
 
 };
 

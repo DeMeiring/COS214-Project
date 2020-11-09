@@ -6,8 +6,11 @@
 class Strategy_Team : Race_Crew {
 public:
     Strategy_Team(Radio_System* rs);
+    virtual ~Strategy_Team();
+
     virtual void ReceiveCommand(Command* command);
     virtual void SendCommand(int i);
+
 };
 
 #endif
