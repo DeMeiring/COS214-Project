@@ -1,12 +1,17 @@
 #ifndef OVERALL_H
 #define OVERALL_H
 
-class Overall : Performance_Indicator {
+#include "Performance_Indicator.h"
+
+class Overall : public Performance_Indicator {
 
 private:
 	Statistics* Overall_Stats;
-
-	void UpdateOverall_Stats(Statistics* Stats);
+public:
+    Overall(Concrete_Base_Car_Measurements *subj);
+    void ObserveStats();//update method
+	void UpdateOverall_Stats(Statistics* Stats);//apply new updates to overallstats
+	virtual ~Overall();
 };
 
 #endif
