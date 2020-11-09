@@ -76,66 +76,10 @@ include CMakeFiles/COS214_Project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/COS214_Project.dir/flags.make
 
-CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../A_Base_Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\A_Base_Car.cpp
-
-CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\A_Base_Car.cpp > CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.i
-
-CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\A_Base_Car.cpp -o CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.s
-
-CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.obj: ../A_Opposing_Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\A_Opposing_Car.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\A_Opposing_Car.cpp
-
-CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\A_Opposing_Car.cpp > CMakeFiles\COS214_Project.dir\A_Opposing_Car.cpp.i
-
-CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\A_Opposing_Car.cpp -o CMakeFiles\COS214_Project.dir\A_Opposing_Car.cpp.s
-
-CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../A_Opposing_Driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\A_Opposing_Driver.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\A_Opposing_Driver.cpp
-
-CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\A_Opposing_Driver.cpp > CMakeFiles\COS214_Project.dir\A_Opposing_Driver.cpp.i
-
-CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\A_Opposing_Driver.cpp -o CMakeFiles\COS214_Project.dir\A_Opposing_Driver.cpp.s
-
-CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../A_Opposing_Team.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\A_Opposing_Team.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\A_Opposing_Team.cpp
-
-CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\A_Opposing_Team.cpp > CMakeFiles\COS214_Project.dir\A_Opposing_Team.cpp.i
-
-CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\A_Opposing_Team.cpp -o CMakeFiles\COS214_Project.dir\A_Opposing_Team.cpp.s
-
 CMakeFiles/COS214_Project.dir/Aggressive.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Aggressive.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Aggressive.cpp.obj: ../Aggressive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COS214_Project.dir/Aggressive.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COS214_Project.dir/Aggressive.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Aggressive.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Aggressive.cpp
 
 CMakeFiles/COS214_Project.dir/Aggressive.cpp.i: cmake_force
@@ -146,24 +90,10 @@ CMakeFiles/COS214_Project.dir/Aggressive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Aggressive.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Aggressive.cpp -o CMakeFiles\COS214_Project.dir\Aggressive.cpp.s
 
-CMakeFiles/COS214_Project.dir/Bahrain.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Bahrain.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Bahrain.cpp.obj: ../Bahrain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/COS214_Project.dir/Bahrain.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Bahrain.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Bahrain.cpp
-
-CMakeFiles/COS214_Project.dir/Bahrain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Bahrain.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Bahrain.cpp > CMakeFiles\COS214_Project.dir\Bahrain.cpp.i
-
-CMakeFiles/COS214_Project.dir/Bahrain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Bahrain.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Bahrain.cpp -o CMakeFiles\COS214_Project.dir\Bahrain.cpp.s
-
 CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.obj: ../Base_Car_Measurements.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Base_Car_Measurements.cpp
 
 CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.i: cmake_force
@@ -174,66 +104,10 @@ CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Base_Car_Measurements.cpp -o CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.s
 
-CMakeFiles/COS214_Project.dir/BluePrint.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/BluePrint.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/BluePrint.cpp.obj: ../BluePrint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/COS214_Project.dir/BluePrint.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\BluePrint.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\BluePrint.cpp
-
-CMakeFiles/COS214_Project.dir/BluePrint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/BluePrint.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\BluePrint.cpp > CMakeFiles\COS214_Project.dir\BluePrint.cpp.i
-
-CMakeFiles/COS214_Project.dir/BluePrint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/BluePrint.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\BluePrint.cpp -o CMakeFiles\COS214_Project.dir\BluePrint.cpp.s
-
-CMakeFiles/COS214_Project.dir/Car_factory.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Car_factory.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Car_factory.cpp.obj: ../Car_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/COS214_Project.dir/Car_factory.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Car_factory.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Car_factory.cpp
-
-CMakeFiles/COS214_Project.dir/Car_factory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Car_factory.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Car_factory.cpp > CMakeFiles\COS214_Project.dir\Car_factory.cpp.i
-
-CMakeFiles/COS214_Project.dir/Car_factory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Car_factory.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Car_factory.cpp -o CMakeFiles\COS214_Project.dir\Car_factory.cpp.s
-
-CMakeFiles/COS214_Project.dir/Client.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Client.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Client.cpp.obj: ../Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/COS214_Project.dir/Client.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Client.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Client.cpp
-
-CMakeFiles/COS214_Project.dir/Client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Client.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Client.cpp > CMakeFiles\COS214_Project.dir\Client.cpp.i
-
-CMakeFiles/COS214_Project.dir/Client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Client.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Client.cpp -o CMakeFiles\COS214_Project.dir\Client.cpp.s
-
-CMakeFiles/COS214_Project.dir/Command.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Command.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Command.cpp.obj: ../Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/COS214_Project.dir/Command.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Command.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Command.cpp
-
-CMakeFiles/COS214_Project.dir/Command.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Command.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Command.cpp > CMakeFiles\COS214_Project.dir\Command.cpp.i
-
-CMakeFiles/COS214_Project.dir/Command.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Command.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Command.cpp -o CMakeFiles\COS214_Project.dir\Command.cpp.s
-
 CMakeFiles/COS214_Project.dir/Component.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Component.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Component.cpp.obj: ../Component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/COS214_Project.dir/Component.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COS214_Project.dir/Component.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Component.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Component.cpp
 
 CMakeFiles/COS214_Project.dir/Component.cpp.i: cmake_force
@@ -244,24 +118,10 @@ CMakeFiles/COS214_Project.dir/Component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Component.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Component.cpp -o CMakeFiles\COS214_Project.dir\Component.cpp.s
 
-CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.obj: ../Conc_Radio_System.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Conc_Radio_System.cpp
-
-CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Conc_Radio_System.cpp > CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.i
-
-CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Conc_Radio_System.cpp -o CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.s
-
 CMakeFiles/COS214_Project.dir/Concrete_Base_Car_Measurements.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Concrete_Base_Car_Measurements.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Concrete_Base_Car_Measurements.cpp.obj: ../Concrete_Base_Car_Measurements.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/COS214_Project.dir/Concrete_Base_Car_Measurements.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COS214_Project.dir/Concrete_Base_Car_Measurements.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Concrete_Base_Car_Measurements.cpp
 
 CMakeFiles/COS214_Project.dir/Concrete_Base_Car_Measurements.cpp.i: cmake_force
@@ -275,7 +135,7 @@ CMakeFiles/COS214_Project.dir/Concrete_Base_Car_Measurements.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Conservative.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Conservative.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Conservative.cpp.obj: ../Conservative.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/COS214_Project.dir/Conservative.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COS214_Project.dir/Conservative.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Conservative.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Conservative.cpp
 
 CMakeFiles/COS214_Project.dir/Conservative.cpp.i: cmake_force
@@ -286,24 +146,10 @@ CMakeFiles/COS214_Project.dir/Conservative.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Conservative.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Conservative.cpp -o CMakeFiles\COS214_Project.dir\Conservative.cpp.s
 
-CMakeFiles/COS214_Project.dir/Department.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Department.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Department.cpp.obj: ../Department.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/COS214_Project.dir/Department.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Department.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Department.cpp
-
-CMakeFiles/COS214_Project.dir/Department.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Department.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Department.cpp > CMakeFiles\COS214_Project.dir\Department.cpp.i
-
-CMakeFiles/COS214_Project.dir/Department.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Department.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Department.cpp -o CMakeFiles\COS214_Project.dir\Department.cpp.s
-
 CMakeFiles/COS214_Project.dir/Driver.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Driver.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Driver.cpp.obj: ../Driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/COS214_Project.dir/Driver.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/COS214_Project.dir/Driver.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Driver.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Driver.cpp
 
 CMakeFiles/COS214_Project.dir/Driver.cpp.i: cmake_force
@@ -317,7 +163,7 @@ CMakeFiles/COS214_Project.dir/Driver.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Driver_Management.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Driver_Management.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Driver_Management.cpp.obj: ../Driver_Management.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/COS214_Project.dir/Driver_Management.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/COS214_Project.dir/Driver_Management.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Driver_Management.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Driver_Management.cpp
 
 CMakeFiles/COS214_Project.dir/Driver_Management.cpp.i: cmake_force
@@ -331,7 +177,7 @@ CMakeFiles/COS214_Project.dir/Driver_Management.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Engineering.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Engineering.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Engineering.cpp.obj: ../Engineering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/COS214_Project.dir/Engineering.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/COS214_Project.dir/Engineering.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Engineering.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Engineering.cpp
 
 CMakeFiles/COS214_Project.dir/Engineering.cpp.i: cmake_force
@@ -345,7 +191,7 @@ CMakeFiles/COS214_Project.dir/Engineering.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.obj: ../Engineering_Iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Engineering_Iterator.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Engineering_Iterator.cpp
 
 CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.i: cmake_force
@@ -356,52 +202,10 @@ CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Engineering_Iterator.cpp -o CMakeFiles\COS214_Project.dir\Engineering_Iterator.cpp.s
 
-CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj: ../Engineering_Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Engineering_Stage.cpp
-
-CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Engineering_Stage.cpp > CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.i
-
-CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Engineering_Stage.cpp -o CMakeFiles\COS214_Project.dir\Engineering_Stage.cpp.s
-
-CMakeFiles/COS214_Project.dir/Experienced.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Experienced.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Experienced.cpp.obj: ../Experienced.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/COS214_Project.dir/Experienced.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Experienced.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Experienced.cpp
-
-CMakeFiles/COS214_Project.dir/Experienced.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Experienced.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Experienced.cpp > CMakeFiles\COS214_Project.dir\Experienced.cpp.i
-
-CMakeFiles/COS214_Project.dir/Experienced.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Experienced.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Experienced.cpp -o CMakeFiles\COS214_Project.dir\Experienced.cpp.s
-
-CMakeFiles/COS214_Project.dir/main.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/main.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/COS214_Project.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\main.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\main.cpp
-
-CMakeFiles/COS214_Project.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\main.cpp > CMakeFiles\COS214_Project.dir\main.cpp.i
-
-CMakeFiles/COS214_Project.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\main.cpp -o CMakeFiles\COS214_Project.dir\main.cpp.s
-
 CMakeFiles/COS214_Project.dir/Moderate.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Moderate.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Moderate.cpp.obj: ../Moderate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/COS214_Project.dir/Moderate.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/COS214_Project.dir/Moderate.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Moderate.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Moderate.cpp
 
 CMakeFiles/COS214_Project.dir/Moderate.cpp.i: cmake_force
@@ -412,80 +216,10 @@ CMakeFiles/COS214_Project.dir/Moderate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Moderate.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Moderate.cpp -o CMakeFiles\COS214_Project.dir\Moderate.cpp.s
 
-CMakeFiles/COS214_Project.dir/Monaco.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Monaco.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Monaco.cpp.obj: ../Monaco.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/COS214_Project.dir/Monaco.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Monaco.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Monaco.cpp
-
-CMakeFiles/COS214_Project.dir/Monaco.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Monaco.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Monaco.cpp > CMakeFiles\COS214_Project.dir\Monaco.cpp.i
-
-CMakeFiles/COS214_Project.dir/Monaco.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Monaco.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Monaco.cpp -o CMakeFiles\COS214_Project.dir\Monaco.cpp.s
-
-CMakeFiles/COS214_Project.dir/Monza.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Monza.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Monza.cpp.obj: ../Monza.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/COS214_Project.dir/Monza.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Monza.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Monza.cpp
-
-CMakeFiles/COS214_Project.dir/Monza.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Monza.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Monza.cpp > CMakeFiles\COS214_Project.dir\Monza.cpp.i
-
-CMakeFiles/COS214_Project.dir/Monza.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Monza.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Monza.cpp -o CMakeFiles\COS214_Project.dir\Monza.cpp.s
-
-CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.obj: ../Opposing_Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Opposing_Car.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Opposing_Car.cpp
-
-CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Opposing_Car.cpp > CMakeFiles\COS214_Project.dir\Opposing_Car.cpp.i
-
-CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Opposing_Car.cpp -o CMakeFiles\COS214_Project.dir\Opposing_Car.cpp.s
-
-CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Opposing_Driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Opposing_Driver.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Opposing_Driver.cpp
-
-CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Opposing_Driver.cpp > CMakeFiles\COS214_Project.dir\Opposing_Driver.cpp.i
-
-CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Opposing_Driver.cpp -o CMakeFiles\COS214_Project.dir\Opposing_Driver.cpp.s
-
-CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Opposing_Team.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Opposing_Team.cpp
-
-CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Opposing_Team.cpp > CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.i
-
-CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Opposing_Team.cpp -o CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.s
-
 CMakeFiles/COS214_Project.dir/Overall.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Overall.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Overall.cpp.obj: ../Overall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/COS214_Project.dir/Overall.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/COS214_Project.dir/Overall.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Overall.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Overall.cpp
 
 CMakeFiles/COS214_Project.dir/Overall.cpp.i: cmake_force
@@ -499,7 +233,7 @@ CMakeFiles/COS214_Project.dir/Overall.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.obj: ../Performance_Indicator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Performance_Indicator.cpp
 
 CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.i: cmake_force
@@ -510,38 +244,10 @@ CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Performance_Indicator.cpp -o CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.s
 
-CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: ../Pit_Crew.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Pit_Crew.cpp
-
-CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Pit_Crew.cpp > CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.i
-
-CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Pit_Crew.cpp -o CMakeFiles\COS214_Project.dir\Pit_Crew.cpp.s
-
-CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Pit_Stop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Pit_Stop.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Pit_Stop.cpp
-
-CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Pit_Stop.cpp > CMakeFiles\COS214_Project.dir\Pit_Stop.cpp.i
-
-CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Pit_Stop.cpp -o CMakeFiles\COS214_Project.dir\Pit_Stop.cpp.s
-
 CMakeFiles/COS214_Project.dir/Prepared.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Prepared.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Prepared.cpp.obj: ../Prepared.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/COS214_Project.dir/Prepared.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/COS214_Project.dir/Prepared.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Prepared.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Prepared.cpp
 
 CMakeFiles/COS214_Project.dir/Prepared.cpp.i: cmake_force
@@ -555,7 +261,7 @@ CMakeFiles/COS214_Project.dir/Prepared.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Preparedness.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Preparedness.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Preparedness.cpp.obj: ../Preparedness.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/COS214_Project.dir/Preparedness.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/COS214_Project.dir/Preparedness.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Preparedness.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Preparedness.cpp
 
 CMakeFiles/COS214_Project.dir/Preparedness.cpp.i: cmake_force
@@ -569,7 +275,7 @@ CMakeFiles/COS214_Project.dir/Preparedness.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Pro.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Pro.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Pro.cpp.obj: ../Pro.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/COS214_Project.dir/Pro.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/COS214_Project.dir/Pro.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Pro.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Pro.cpp
 
 CMakeFiles/COS214_Project.dir/Pro.cpp.i: cmake_force
@@ -580,66 +286,10 @@ CMakeFiles/COS214_Project.dir/Pro.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Pro.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Pro.cpp -o CMakeFiles\COS214_Project.dir\Pro.cpp.s
 
-CMakeFiles/COS214_Project.dir/Race_Command.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Race_Command.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Race_Command.cpp.obj: ../Race_Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/COS214_Project.dir/Race_Command.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Race_Command.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Race_Command.cpp
-
-CMakeFiles/COS214_Project.dir/Race_Command.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Race_Command.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Race_Command.cpp > CMakeFiles\COS214_Project.dir\Race_Command.cpp.i
-
-CMakeFiles/COS214_Project.dir/Race_Command.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Race_Command.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Race_Command.cpp -o CMakeFiles\COS214_Project.dir\Race_Command.cpp.s
-
-CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Race_Computations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Race_Computations.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Race_Computations.cpp
-
-CMakeFiles/COS214_Project.dir/Race_Computations.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Race_Computations.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Race_Computations.cpp > CMakeFiles\COS214_Project.dir\Race_Computations.cpp.i
-
-CMakeFiles/COS214_Project.dir/Race_Computations.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Race_Computations.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Race_Computations.cpp -o CMakeFiles\COS214_Project.dir\Race_Computations.cpp.s
-
-CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj: ../Race_Crew.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Race_Crew.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Race_Crew.cpp
-
-CMakeFiles/COS214_Project.dir/Race_Crew.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Race_Crew.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Race_Crew.cpp > CMakeFiles\COS214_Project.dir\Race_Crew.cpp.i
-
-CMakeFiles/COS214_Project.dir/Race_Crew.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Race_Crew.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Race_Crew.cpp -o CMakeFiles\COS214_Project.dir\Race_Crew.cpp.s
-
-CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: ../RaceDay_Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\RaceDay_Stage.cpp
-
-CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\RaceDay_Stage.cpp > CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.i
-
-CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\RaceDay_Stage.cpp -o CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.s
-
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../RaceDay_Strat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\RaceDay_Strat.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\RaceDay_Strat.cpp
 
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.i: cmake_force
@@ -650,24 +300,10 @@ CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\RaceDay_Strat.cpp -o CMakeFiles\COS214_Project.dir\RaceDay_Strat.cpp.s
 
-CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj: ../Radio_System.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Radio_System.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Radio_System.cpp
-
-CMakeFiles/COS214_Project.dir/Radio_System.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Radio_System.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Radio_System.cpp > CMakeFiles\COS214_Project.dir\Radio_System.cpp.i
-
-CMakeFiles/COS214_Project.dir/Radio_System.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Radio_System.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Radio_System.cpp -o CMakeFiles\COS214_Project.dir\Radio_System.cpp.s
-
 CMakeFiles/COS214_Project.dir/Risky.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Risky.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Risky.cpp.obj: ../Risky.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/COS214_Project.dir/Risky.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/COS214_Project.dir/Risky.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Risky.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Risky.cpp
 
 CMakeFiles/COS214_Project.dir/Risky.cpp.i: cmake_force
@@ -681,7 +317,7 @@ CMakeFiles/COS214_Project.dir/Risky.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Rookie.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Rookie.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Rookie.cpp.obj: ../Rookie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/COS214_Project.dir/Rookie.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/COS214_Project.dir/Rookie.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Rookie.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Rookie.cpp
 
 CMakeFiles/COS214_Project.dir/Rookie.cpp.i: cmake_force
@@ -695,7 +331,7 @@ CMakeFiles/COS214_Project.dir/Rookie.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj: ../Skill_Level.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Skill_Level.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Skill_Level.cpp
 
 CMakeFiles/COS214_Project.dir/Skill_Level.cpp.i: cmake_force
@@ -709,7 +345,7 @@ CMakeFiles/COS214_Project.dir/Skill_Level.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Stage.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Stage.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Stage.cpp.obj: ../Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/COS214_Project.dir/Stage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/COS214_Project.dir/Stage.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Stage.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Stage.cpp
 
 CMakeFiles/COS214_Project.dir/Stage.cpp.i: cmake_force
@@ -723,7 +359,7 @@ CMakeFiles/COS214_Project.dir/Stage.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Statistics.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Statistics.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Statistics.cpp.obj: ../Statistics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/COS214_Project.dir/Statistics.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/COS214_Project.dir/Statistics.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Statistics.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Statistics.cpp
 
 CMakeFiles/COS214_Project.dir/Statistics.cpp.i: cmake_force
@@ -734,94 +370,10 @@ CMakeFiles/COS214_Project.dir/Statistics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Statistics.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Statistics.cpp -o CMakeFiles\COS214_Project.dir\Statistics.cpp.s
 
-CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: ../Strategy_Team.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Strategy_Team.cpp
-
-CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Strategy_Team.cpp > CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.i
-
-CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Strategy_Team.cpp -o CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.s
-
-CMakeFiles/COS214_Project.dir/Teams.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Teams.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Teams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/COS214_Project.dir/Teams.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Teams.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Teams.cpp
-
-CMakeFiles/COS214_Project.dir/Teams.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Teams.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Teams.cpp > CMakeFiles\COS214_Project.dir\Teams.cpp.i
-
-CMakeFiles/COS214_Project.dir/Teams.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Teams.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Teams.cpp -o CMakeFiles\COS214_Project.dir\Teams.cpp.s
-
-CMakeFiles/COS214_Project.dir/Track.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Track.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Track.cpp.obj: ../Track.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/COS214_Project.dir/Track.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Track.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Track.cpp
-
-CMakeFiles/COS214_Project.dir/Track.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Track.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Track.cpp > CMakeFiles\COS214_Project.dir\Track.cpp.i
-
-CMakeFiles/COS214_Project.dir/Track.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Track.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Track.cpp -o CMakeFiles\COS214_Project.dir\Track.cpp.s
-
-CMakeFiles/COS214_Project.dir/Transport.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Transport.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Transport.cpp.obj: ../Transport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/COS214_Project.dir/Transport.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Transport.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Transport.cpp
-
-CMakeFiles/COS214_Project.dir/Transport.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Transport.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Transport.cpp > CMakeFiles\COS214_Project.dir\Transport.cpp.i
-
-CMakeFiles/COS214_Project.dir/Transport.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Transport.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Transport.cpp -o CMakeFiles\COS214_Project.dir\Transport.cpp.s
-
-CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj: ../Unprepared.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Unprepared.cpp
-
-CMakeFiles/COS214_Project.dir/Unprepared.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Unprepared.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Unprepared.cpp > CMakeFiles\COS214_Project.dir\Unprepared.cpp.i
-
-CMakeFiles/COS214_Project.dir/Unprepared.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Unprepared.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Unprepared.cpp -o CMakeFiles\COS214_Project.dir\Unprepared.cpp.s
-
-CMakeFiles/COS214_Project.dir/Weather.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Weather.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Weather.cpp.obj: ../Weather.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/COS214_Project.dir/Weather.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Weather.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Weather.cpp
-
-CMakeFiles/COS214_Project.dir/Weather.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Weather.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Weather.cpp > CMakeFiles\COS214_Project.dir\Weather.cpp.i
-
-CMakeFiles/COS214_Project.dir/Weather.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Weather.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Weather.cpp -o CMakeFiles\COS214_Project.dir\Weather.cpp.s
-
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Testing_Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Testing_Stage.cpp
 
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.i: cmake_force
@@ -832,125 +384,77 @@ CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Testing_Stage.cpp -o CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.s
 
+CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
+CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
+CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj: ../Unprepared.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Unprepared.cpp
+
+CMakeFiles/COS214_Project.dir/Unprepared.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Unprepared.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Unprepared.cpp > CMakeFiles\COS214_Project.dir\Unprepared.cpp.i
+
+CMakeFiles/COS214_Project.dir/Unprepared.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Unprepared.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Unprepared.cpp -o CMakeFiles\COS214_Project.dir\Unprepared.cpp.s
+
 # Object files for target COS214_Project
 COS214_Project_OBJECTS = \
-"CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Aggressive.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Bahrain.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/BluePrint.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Car_factory.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Client.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Command.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Component.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Concrete_Base_Car_Measurements.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Conservative.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Department.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Driver.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Driver_Management.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Engineering.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Experienced.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/main.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Moderate.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Monaco.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Monza.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Overall.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Prepared.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Preparedness.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Pro.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Race_Command.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Risky.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Rookie.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Stage.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Statistics.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Teams.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Track.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Transport.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Weather.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"
+"CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj" \
+"CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj"
 
 # External object files for target COS214_Project
 COS214_Project_EXTERNAL_OBJECTS =
 
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/A_Opposing_Car.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Aggressive.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Bahrain.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/BluePrint.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Car_factory.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Client.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Command.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Component.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Concrete_Base_Car_Measurements.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Conservative.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Department.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Driver.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Driver_Management.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Engineering.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Experienced.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/main.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Moderate.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Monaco.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Monza.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Overall.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Performance_Indicator.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Prepared.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Preparedness.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Pro.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Race_Command.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Risky.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Rookie.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Stage.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Statistics.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Teams.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Track.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Transport.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Weather.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj
+COS214_Project.exe: CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/build.make
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/linklibs.rsp
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/objects1.rsp
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Linking CXX executable COS214_Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable COS214_Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\COS214_Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
