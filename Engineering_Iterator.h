@@ -28,6 +28,8 @@ public:
 
 	Engineering* CurrentComp();
 
+	Engineering *FirstDept();
+
 	// Engineering* LastDepartment();
 
 	// Engineering* LastComp();

@@ -131,7 +131,6 @@ bool Component::ChangeLevel(int lvl) {
 		}
 		else if(level == 2)
 		{
-			cout << "this is correct"<< endl;
 			Cost = Chas_Costs[2];
 			Engineering::stats = new Statistics(false,false,true,false);
 			Engineering::stats->ChangeValue("weight",70,false,false);//TODO: Ask liam if weight should be decemented or incremented

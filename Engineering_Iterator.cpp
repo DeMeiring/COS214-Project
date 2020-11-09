@@ -71,6 +71,11 @@ void Engineering_Iterator::resetCurrDept()
 	CurrDept->setDeptIndex(0);
 }
 
+Engineering* Engineering_Iterator::FirstDept()
+{
+	return First;
+}
+
 // Engineering* Engineering_Iterator::LastComp() {
 // 	// TODO - implement Engineering_Iterator::LastComp
 // 	resetCurrComp();

@@ -40,7 +40,9 @@ void Engineering_Stage::init()
 	car_iterator = new Engineering_Iterator(Car);
 
 	A_Base_Car *car = new A_Base_Car();
-	car->PrototypeCar(car_iterator->CurrentDept());
+
+	//second iterator to test prototype;
+	// Engineering_Iterator *iterator = new Engineering_Iterator(car->PrototypeCar(car_iterator->CurrentDept()));
 
 	// cout <<"====================================="<<endl;
 	// cout <<"====================================="<<endl;

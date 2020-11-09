@@ -21,16 +21,26 @@ Engineering* A_Base_Car::PrototypeCar(Engineering* composite) {//recieves engine
 
 
 
-	Engineering* copyCar = new Department("Chassis", true);
+	
 
+//original iterator
 	Engineering_Iterator *iterator = new Engineering_Iterator(composite);
-	copyCar = factory->ConstructCar();
+	
+	
+
+//copy iterator
+	Engineering* copyCar = new Department("Chassis", true);
+	copyCar = factory->ConstructCar();	
 	Engineering_Iterator *copyIterator = new Engineering_Iterator(copyCar);
 
-	cout << copyIterator->CurrentDept()->getRnDName() << endl;
-	cout << copyIterator->NextComp()->getRnDName() << endl;
-
-	return NULL;
+	for (int i = 0; i < 12; i ++)
+	{
+		copyIterator->CurrentComp()->ChangeLevel(iterator->CurrentComp()->getLevel());
+		copyIterator->NextComp();
+		iterator->NextComp();
+	}
+	copyIterator->resetCurrComp();
+	return copyIterator->FirstDept();
 }
 
 Engineering* A_Base_Car::getComponents() {
