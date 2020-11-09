@@ -1,28 +1,17 @@
 #include "Engineering_Stage.h"
-// #include "Client.h"
+#include "Client.h"
 
-Engineering_Stage::Engineering_Stage() {
-
+Engineering_Stage::Engineering_Stage(Client* cl) : Stage(cl) {
     init();
 }
 
-// Stage* Engineering_Stage::ChangeStage(int Stage) {
-//     switch(Stage) {
-//         case 1: {
+Stage* Engineering_Stage::ChangeStage(int Stage) {
+     Stage::getClient()->SetStage(Stage::getClient()->getStages()[1]);
+}
 
-//         }
-//         case 2: {
-
-//         }
-//         case 3: {
-
-//         }
-//     }
-// }
-
-// void Engineering_Stage::RunStage() {
-
-// }
+void Engineering_Stage::RunStage() {
+    Engineering_main();
+}
 Engineering_Stage::~Engineering_Stage()
 {
 

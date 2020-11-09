@@ -14,7 +14,7 @@
 
 class Client;
 
-class Engineering_Stage{
+class Engineering_Stage : public Stage {
     private:
         Engineering_Iterator *car_iterator;
         Engineering *Car;
@@ -23,7 +23,7 @@ class Engineering_Stage{
     public:
         int choice3;
         int choice2;
-        Engineering_Stage();
+        Engineering_Stage(Client* cl);
         string convertCost(int cost);
         void setBudget(int budget);
         int getBudget();
