@@ -40,7 +40,6 @@ Statistics* Engineering::getStats()
 // }
 
 Engineering_Iterator* Engineering::createIterator(Engineering* Dept) {
-	// TODO - implement Engineering::createIterator
 	Engineering_Iterator* iterator = new Engineering_Iterator(Dept);
 	return iterator;
 }

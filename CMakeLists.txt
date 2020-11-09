@@ -118,4 +118,8 @@ add_executable(COS214_Project
         Unprepared.cpp
         Unprepared.h
         Weather.cpp
+<<<<<<< HEAD
         Weather.h Testing_Stage.cpp)
+=======
+        Weather.h Individual_Component.cpp)
+>>>>>>> matt_div

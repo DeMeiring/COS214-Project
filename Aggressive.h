@@ -15,7 +15,6 @@ class Aggressive : public RaceDay_Strat {
 
         int getAggression();
         int getConservative();
-
 };
 
 #endif
