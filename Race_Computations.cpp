@@ -2,13 +2,13 @@
 #include <cstdlib>
 #include <time.h>
 
-//Race_Computations* Race_Computations :: instance = 0;
+Race_Computations* Race_Computations :: instance = 0;
 
-//Race_Computations* Race_Computations:: GetComp() {
-//    if(instance==0)
-//        instance = new Race_Computations();
-//    return instance;
-//}
+Race_Computations* Race_Computations:: GetComp() {
+    if(instance==0)
+        instance = new Race_Computations();
+    return instance;
+}
 Race_Computations::~Race_Computations()
 {
 

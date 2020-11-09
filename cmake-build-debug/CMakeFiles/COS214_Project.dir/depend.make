@@ -9,7 +9,6 @@ CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../BluePrint.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Car_factory.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Command.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Component.h
-CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Conc_Radio_System.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Conservative.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Department.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Driver.h
@@ -24,7 +23,6 @@ CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Pro.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../RaceDay_Strat.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Race_Crew.h
-CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Radio_System.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Risky.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj: ../Skill_Level.h
@@ -49,7 +47,6 @@ CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../A_Opposing_Driver.cp
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../A_Opposing_Driver.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Aggressive.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Command.h
-CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Conc_Radio_System.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Conservative.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Driver.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Experienced.h
@@ -60,7 +57,6 @@ CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Pro.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../RaceDay_Strat.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Race_Crew.h
-CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Radio_System.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Risky.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj: ../Skill_Level.h
@@ -71,7 +67,6 @@ CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../A_Opposing_Team.cpp
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../A_Opposing_Team.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Aggressive.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Command.h
-CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Conc_Radio_System.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Conservative.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Driver.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Engineering.h
@@ -84,7 +79,6 @@ CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Pro.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../RaceDay_Strat.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Race_Crew.h
-CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Radio_System.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Risky.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj: ../Skill_Level.h
@@ -370,7 +364,6 @@ CMakeFiles/COS214_Project.dir/Opposing_Car.cpp.obj: ../Statistics.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../A_Opposing_Driver.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Aggressive.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Command.h
-CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Conc_Radio_System.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Conservative.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Driver.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Experienced.h
@@ -383,7 +376,6 @@ CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Pro.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../RaceDay_Strat.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Race_Crew.h
-CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Radio_System.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Risky.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj: ../Skill_Level.h
@@ -395,7 +387,6 @@ CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../A_Opposing_Driver.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../A_Opposing_Team.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Aggressive.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Command.h
-CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Conc_Radio_System.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Conservative.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Driver.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Engineering.h
@@ -410,7 +401,6 @@ CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Pro.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../RaceDay_Strat.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Race_Crew.h
-CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Radio_System.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Risky.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj: ../Skill_Level.h
@@ -479,7 +469,6 @@ CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: ../Weather.h
 
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Aggressive.h
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Command.h
-CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Conc_Radio_System.h
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Conservative.h
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Driver.h
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Engineering.h
@@ -495,7 +484,6 @@ CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../RaceDay_Strat.h
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Race_Computations.h
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Race_Crew.h
-CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Radio_System.h
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Risky.h
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj: ../Skill_Level.h
@@ -576,7 +564,6 @@ CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: ../Weather.h
 
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Aggressive.h
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Command.h
-CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Conc_Radio_System.h
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Conservative.h
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Driver.h
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Experienced.h
@@ -588,7 +575,6 @@ CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../RaceDay_Strat.cpp
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../RaceDay_Strat.h
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Race_Crew.h
-CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Radio_System.h
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Risky.h
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj: ../Skill_Level.h
@@ -603,7 +589,6 @@ CMakeFiles/COS214_Project.dir/Race_Command.cpp.obj: ../Radio_System.h
 
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Aggressive.h
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Command.h
-CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Conc_Radio_System.h
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Conservative.h
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Driver.h
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Engineering.h
@@ -618,7 +603,6 @@ CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Race_Computations.cpp
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Race_Computations.h
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Race_Crew.h
-CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Radio_System.h
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Risky.h
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj: ../Skill_Level.h
@@ -632,6 +616,7 @@ CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj: ../Command.h
 CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj: ../Race_Crew.cpp
 CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj: ../Race_Crew.h
+CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj: ../Radio_System.h
 
 CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj: ../Command.h
 CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj: ../Race_Command.h
@@ -721,7 +706,6 @@ CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../A_Opposing_Driver.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../A_Opposing_Team.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Aggressive.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Command.h
-CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Conc_Radio_System.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Conservative.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Driver.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Engineering.h
@@ -735,7 +719,6 @@ CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Pro.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../RaceDay_Strat.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Race_Crew.h
-CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Radio_System.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Risky.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Skill_Level.h
@@ -798,7 +781,9 @@ CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Tyres.h
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Unprepared.h
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Weather.h
 
+CMakeFiles/COS214_Project.dir/Track.cpp.obj: ../Statistics.h
 CMakeFiles/COS214_Project.dir/Track.cpp.obj: ../Track.cpp
+CMakeFiles/COS214_Project.dir/Track.cpp.obj: ../Track.h
 
 CMakeFiles/COS214_Project.dir/Transport.cpp.obj: ../A_Base_Car.h
 CMakeFiles/COS214_Project.dir/Transport.cpp.obj: ../BluePrint.h
@@ -827,7 +812,6 @@ CMakeFiles/COS214_Project.dir/main.cpp.obj: ../BluePrint.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Car_factory.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Command.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Component.h
-CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Conc_Radio_System.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Conservative.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Department.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Driver.h
@@ -842,7 +826,6 @@ CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Pro.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../RaceDay_Strat.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Race_Crew.h
-CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Radio_System.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Risky.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Skill_Level.h

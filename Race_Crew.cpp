@@ -1,6 +1,11 @@
 #include "Race_Crew.h"
+#include "Radio_System.h"
 
 Race_Crew::Race_Crew() {}
+
+Race_Crew::Race_Crew(Radio_System* rs) {
+    this->rs = rs;
+}
 
 void Race_Crew::ReceiveCommand(Command* command) {
 	string interpret = command->getCommand();

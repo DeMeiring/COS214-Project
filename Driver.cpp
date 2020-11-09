@@ -1,9 +1,9 @@
 #include "Driver.h"
-#include "Statistics.h"
+#include "Conc_Radio_System.h"
 
 using namespace std;
 
-Driver::Driver(Conc_Radio_System *rs, Statistics *stats,std::string name,int contractCost) : Race_Crew(rs) {
+Driver::Driver(Radio_System *rs, Statistics *stats,std::string name, int contractCost) : Race_Crew(rs) {
     this->stats = stats;
     this->preparedness = preparedness;
     this->name = name;

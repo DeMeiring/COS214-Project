@@ -10,7 +10,6 @@ CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Car_factory.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Component.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Department.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
@@ -25,7 +24,6 @@ CMakeFiles/COS214_Project.dir/A_Base_Car.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Rookie.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
@@ -50,7 +48,6 @@ CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Aggressive.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Experienced.h
@@ -61,7 +58,6 @@ CMakeFiles/COS214_Project.dir/A_Opposing_Driver.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Rookie.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
@@ -72,7 +68,6 @@ CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Aggressive.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
@@ -85,7 +80,6 @@ CMakeFiles/COS214_Project.dir/A_Opposing_Team.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Rookie.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
@@ -371,7 +365,6 @@ CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Aggressive.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Experienced.h
@@ -384,7 +377,6 @@ CMakeFiles/COS214_Project.dir/Opposing_Driver.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Rookie.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
@@ -396,7 +388,6 @@ CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Aggressive.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
@@ -411,7 +402,6 @@ CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Rookie.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
@@ -480,7 +470,6 @@ CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj
 CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Aggressive.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
@@ -496,7 +485,6 @@ CMakeFiles/COS214_Project.dir/Pit_Stop.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Computations.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Rookie.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
@@ -577,7 +565,6 @@ CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj
 CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Aggressive.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Experienced.h
@@ -589,7 +576,6 @@ CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Rookie.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
@@ -604,7 +590,6 @@ CMakeFiles/COS214_Project.dir/Race_Command.cpp.obj
 CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Aggressive.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
@@ -619,7 +604,6 @@ CMakeFiles/COS214_Project.dir/Race_Computations.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Computations.cpp
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Computations.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Rookie.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
@@ -633,6 +617,7 @@ CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.cpp
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
 CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
@@ -722,7 +707,6 @@ CMakeFiles/COS214_Project.dir/Teams.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Aggressive.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
@@ -736,7 +720,6 @@ CMakeFiles/COS214_Project.dir/Teams.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Rookie.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
@@ -799,7 +782,9 @@ CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Unprepared.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Weather.h
 CMakeFiles/COS214_Project.dir/Track.cpp.obj
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Track.cpp
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Track.h
 CMakeFiles/COS214_Project.dir/Transport.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Base_Car.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/BluePrint.h
@@ -828,7 +813,6 @@ CMakeFiles/COS214_Project.dir/main.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Car_factory.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Component.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Department.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
@@ -843,7 +827,6 @@ CMakeFiles/COS214_Project.dir/main.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Rookie.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
