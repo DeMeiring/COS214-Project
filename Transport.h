@@ -10,7 +10,6 @@ class Transport {
 
 private:
 	vector<BluePrint*> Transport;
-	int NoCars;
 
 public:
 	void AddCar(BluePrint* car);

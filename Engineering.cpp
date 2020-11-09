@@ -11,11 +11,6 @@ string Engineering::getRnDName() {
 	return RnD_Name;
 }
 
-int Engineering::getCostOfComponent(Engineering* Comp) {
-	// TODO - implement Engineering::getCostOfComponent
-	throw "Not yet implemented";
-}
-
 int Engineering::getCost()
 {
 	return Cost;

@@ -1,9 +1,7 @@
 #ifndef PIT_STOP_H
 #define PIT_STOP_H
 
-#include "Soft.h"
-#include "Medium.h"
-#include "Hard.h"
+#include "Tyres.h"
 #include "Race_Computations.h"
 
 #include <iostream>

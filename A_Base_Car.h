@@ -6,6 +6,7 @@ class Engineering_Stage;
 class BluePrint;
 
 class A_Base_Car {
+	friend Engineering_Stage;
 
 private:
 	Engineering* Components;

@@ -25,7 +25,7 @@ protected:
 	Statistics* stats;
 
 public:
-	int getCompIndex();
+	int getCompIndex();//eng
 
 	int getDeptIndex();
 
@@ -37,31 +37,28 @@ public:
 
 	Engineering(string, bool);
 
-	string getRnDName();
+	string getRnDName();//engineering
 
-	virtual int getCost();
+	virtual int getCost();//comp
 
-	virtual int getLevel();
+	virtual int getLevel();//comp
 
-	virtual Statistics* getStats();
+	virtual Statistics* getStats();//comp
 
 	virtual vector<string> getComponentList(Engineering *Dept) = 0;
 
-	virtual int getCostOfComponent(Engineering* Comp);
-
-	int getTotalCost();
-
-	vector<Engineering*> getRnD();
+	vector<Engineering*> getRnD();//dept
 
 	virtual void addDepartment(Engineering* Dept) = 0;
 	
 	Engineering_Iterator* createIterator(Engineering *Dept);
 
-	bool getIsDept();
+//iterator
+	bool getIsDept();//isself
 
 	void setIsDept(bool isDept);
 
-	virtual bool ChangeLevel(int level)=0;
+	virtual bool ChangeLevel(int level)=0;//comp
 };
 
 #endif

@@ -8,27 +8,35 @@
 #include "Engineering_Iterator.h"
 #include "Department.h"
 #include "Component.h"
+#include "Transport.h"
+#include "BluePrint.h"
 #include "Car_factory.h"
 
 class Client;
 
-class Engineering_Stage : public Stage {
+class Engineering_Stage{
     private:
         Engineering_Iterator *car_iterator;
         Engineering *Car;
+        int budget;
+        
     public:
-
-        Engineering_Stage(Client* cl);
-
+        int choice3;
+        int choice2;
+        Engineering_Stage();
+        string convertCost(int cost);
+        void setBudget(int budget);
+        int getBudget();
         Engineering_Iterator* getCarIterator();
         void Engineering_main();
         void init();
-        void selectDepartment();
+        Engineering* selectDepartment();
         void setEngineering_Iterator(Engineering_Iterator*);
+        virtual ~Engineering_Stage();
 
-        virtual Stage* ChangeStage(int Stage);
+        // virtual Stage* ChangeStage(int Stage);
 
-        virtual void RunStage();
+        // virtual void RunStage();
 
         //EngineeringStage -> create 4 Departments (of type Engineering, because they are all engineering departments), and from there we add leaves/Components to the Departments.
 };
