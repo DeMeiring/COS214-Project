@@ -54,6 +54,7 @@ add_executable(COS214_Project
         Engineering_Stage.h
         Experienced.cpp
         Experienced.h
+        Individual_Component.cpp
         Individual_Component.h
         main.cpp
         Moderate.cpp
@@ -109,6 +110,7 @@ add_executable(COS214_Project
         Strategy_Team.h
         Teams.cpp
         Teams.h
+        Testing_Stage.cpp
         Testing_Stage.h
         Track.cpp
         Track.h
@@ -118,8 +120,4 @@ add_executable(COS214_Project
         Unprepared.cpp
         Unprepared.h
         Weather.cpp
-<<<<<<< HEAD
-        Weather.h Testing_Stage.cpp)
-=======
-        Weather.h Individual_Component.cpp)
->>>>>>> matt_div
+        Weather.h)

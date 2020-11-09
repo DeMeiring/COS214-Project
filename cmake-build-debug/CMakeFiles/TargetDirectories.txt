@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/CMakeFiles/COS214_Project.dir
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/CMakeFiles/edit_cache.dir
-=======
-C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/CMakeFiles/COS214_Project.dir
-C:/Users/Acer/Documents/COS214-Project/cmake-build-debug/CMakeFiles/edit_cache.dir
->>>>>>> matt_div

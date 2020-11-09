@@ -6,6 +6,7 @@
 #include "Driver.h"
 #include "Engineering.h"
 #include "Tyres.h"
+#include "Statistics.h"
 
 using namespace std;
 
@@ -16,6 +17,7 @@ struct OpposingDriver {
 		Driver* driver;
 		Engineering* car;
 		Tyres* tyre;
+		Statistics* overall;
 	};
 
 class A_Opposing_Team {

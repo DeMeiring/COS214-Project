@@ -16,10 +16,12 @@
 #include <vector>
 #include <iostream>
 #include "Conc_Radio_System.h"
+#include "Concrete_Base_Car_Measurements.h"
 
 class RaceDay_Stage : protected Stage {
 
 private:
+
 	bool Diver_Pit;
 	int lap_count;
 	Track* tracks;
@@ -28,20 +30,21 @@ private:
 	Race_Computations* RC;
 	Pit_Crew *PitStop;
 	Radio_System* rs;
+	Statistics *overall;
+
+    Concrete_Base_Car_Measurements* BCM;
 
 	bool PIT;
 
+	//===================================
 	void show_tracks();
 	Track* ChooseTrack(int index);
 	
 	void showWeatherOptions();
 	void randomizeWeather();
 	void chooseWeather(int index);
-
 	void generateConditions(bool isRand);
-
 	void generateRacers();
-
 	void TrackInfo();
 
 public:

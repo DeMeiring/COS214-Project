@@ -13,14 +13,32 @@ RaceDay_Stage::RaceDay_Stage(Client* cl) : Stage(cl) {
     TrackInfo();
     generateRacers();
 
-    Engineering *teamCar= User->getCars()->RemoveCar()->getCarBluePrint();
-
     OpposingDriver *hold = new OpposingDriver();
     hold->driver = User->getHired()[0];
-    hold.
+    hold->car  = User->getCars()->RemoveCar()->getCarBluePrint();
+    hold->name = hold->driver->getName();
+    hold->team = User->getTeamName();
+    OpposingDrivers.push_back(hold);
+
+    hold->driver = User->getHired()[1];
+    hold->car  = User->getCars()->RemoveCar()->getCarBluePrint();
+    hold->name = hold->driver->getName();
+    hold->team = User->getTeamName();
+    OpposingDrivers.push_back(hold);
+
+    overall = User->getCar_stats();
+
+    BCM = new Concrete_Base_Car_Measurements(nullptr);
+
+    vector<OpposingDriver*>::iterator iter;
+
+    for(iter= OpposingDrivers.begin(); iter < OpposingDrivers.end(); iter++) {
+        BCM->set((*iter)->car);
+        (*iter)->overall = BCM->Observe_car();
+    }
 
 
-    OpposingDrivers.push_back()
+
 }
 
 RaceDay_Stage::~RaceDay_Stage() {
@@ -106,13 +124,72 @@ void RaceDay_Stage::TrackInfo() {
     cout << tracks->getFunFact() << endl;
     cout << tracks->getName() << "is known for " << tracks->getCornerTypes() << endl;
     lap_count = tracks->getNumLaps();
+    cout << "The race is " << lap_count << "laps" << endl;
+}
+
+bool CompareOverall(Statistics *one, Statistics* two) {
+    int ione, itwo;
+    ione = itwo =0;
+
+    if(one->getValue("speed") > two->getValue("speed")) {
+        ione++;
+    }
+    else
+        itwo++;
+
+    if(one->getValue("acceleration") > two->getValue("acceleration")) {
+        ione++;
+    }
+    else
+        itwo++;
+
+    if(one->getValue("weight") > two->getValue("weight")) {
+        ione++;
+    }
+    else
+        itwo++;
+
+    if(one->getValue("handling") > two->getValue("handling")) {
+        ione++;
+    }
+    else
+        itwo++;
+
+    if(one->getValue("failure") > two->getValue("failure")) {
+        ione++;
+    }
+    else
+        itwo++;
+
+    return (ione > itwo);
+
 }
 
 void RaceDay_Stage::Qualifying_Main() {
     cout << "The cars warmup to begin qualifying" << endl;
+    // sorting algorithm
+    // bubble or selection sort
+    OpposingDriver* hold;
+    int j=0;
+
+    for(int i=0; i<4; i++) {
+        cout << "Heat " << i+1 << " of qualifying" <<endl;
+        for(int j = 20 - i*5, k=0; k<(j-1); k++) {
+            if(!CompareOverall(OpposingDrivers[k]->overall, OpposingDrivers[k+1]->overall)) {
+                cout << OpposingDrivers[k+1]->name << " overtakes " << OpposingDrivers[k]->name << " in the pole" << endl;
+                hold = OpposingDrivers[k];
+                OpposingDrivers[k] = OpposingDrivers[k+1];
+                OpposingDrivers[k+1] = hold;
+            }
+        }
+    }
+    cout << "Qualifying completed" << endl;
+    cout << "Results: " << endl;
+    for(int i=0; i<20; i++) {
+        cout << i << ": " << OpposingDrivers[i]->name << endl;
+    }
 }
 
 void RaceDay_Stage::MainRace_Main() {
-	// TODO - implement RaceDay_Stage::MainRace_Main
-	throw "Not yet implemented";
+    cout << << endl;
 }
