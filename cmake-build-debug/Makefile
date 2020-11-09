@@ -1477,6 +1477,33 @@ Teams.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Teams.cpp.s
 .PHONY : Teams.cpp.s
 
+Testing_Stage.obj: Testing_Stage.cpp.obj
+
+.PHONY : Testing_Stage.obj
+
+# target to build an object file
+Testing_Stage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj
+.PHONY : Testing_Stage.cpp.obj
+
+Testing_Stage.i: Testing_Stage.cpp.i
+
+.PHONY : Testing_Stage.i
+
+# target to preprocess a source file
+Testing_Stage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.i
+.PHONY : Testing_Stage.cpp.i
+
+Testing_Stage.s: Testing_Stage.cpp.s
+
+.PHONY : Testing_Stage.s
+
+# target to generate assembly for a file
+Testing_Stage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.s
+.PHONY : Testing_Stage.cpp.s
+
 Track.obj: Track.cpp.obj
 
 .PHONY : Track.obj
@@ -1771,6 +1798,9 @@ help:
 	@echo ... Teams.obj
 	@echo ... Teams.i
 	@echo ... Teams.s
+	@echo ... Testing_Stage.obj
+	@echo ... Testing_Stage.i
+	@echo ... Testing_Stage.s
 	@echo ... Track.obj
 	@echo ... Track.i
 	@echo ... Track.s

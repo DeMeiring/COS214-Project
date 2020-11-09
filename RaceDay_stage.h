@@ -17,7 +17,7 @@
 #include <iostream>
 #include "Conc_Radio_System.h"
 
-class RaceDay_Stage : public Stage {
+class RaceDay_Stage : protected Stage {
 
 private:
 	bool Diver_Pit;
@@ -42,8 +42,11 @@ private:
 
 	void generateRacers();
 
+	void TrackInfo();
+
 public:
 
+    RaceDay_Stage();
     RaceDay_Stage(Client* cl);
 
     void toPit(bool pit);
@@ -52,7 +55,6 @@ public:
 
 	void MainRace_Main();
 
-	RaceDay_Stage();
 	virtual ~RaceDay_Stage();
 
 };

@@ -1,26 +1,45 @@
 #include "RaceDay_stage.h"
 #include "Pit_Crew.h"
 #include <cstdlib>
+#include "Client.h"
 
 RaceDay_Stage::RaceDay_Stage(Client* cl) : Stage(cl) {
     rs = new Conc_Radio_System();
 	weather = new Weather_Selector;
 	PitStop = new Pit_Crew(rs, this);
+    RC = Race_Computations::GetComp();
 
+    generateConditions(false);
+    TrackInfo();
+    generateRacers();
+
+    Engineering *teamCar= User->getCars()->RemoveCar()->getCarBluePrint();
+
+    OpposingDriver *hold = new OpposingDriver();
+    hold->driver = User->getHired()[0];
+    hold.
+
+
+    OpposingDrivers.push_back()
 }
 
 RaceDay_Stage::~RaceDay_Stage() {
 	delete tracks;
+	delete weather;
+	delete rs;
 }
 
 void RaceDay_Stage::generateConditions(bool isRand) {
-	if(isRand) {
-		randomizeWeather();
-		return;
-	}
-	else {
-		// generate here?
-	}
+    // choose track
+    show_tracks();
+    int decision = 1;
+    cin >> decision;
+    tracks = ChooseTrack(decision);
+
+    // choose weather
+    showWeatherOptions();
+    cin >> decision;
+    chooseWeather(decision);
 }
 
 void RaceDay_Stage::generateRacers() {
@@ -40,10 +59,11 @@ Track* RaceDay_Stage::ChooseTrack(int index) {
 }
 
 void RaceDay_Stage::show_tracks() {
-	cout << "Choose Tracks" << endl ;
+	cout << "Choose Track" << endl ;
 	cout << " 1 -> Bahrain " << endl ;
 	cout << " 2 -> Monaco " << endl ;
 	cout << " 3 -> Monza" << endl ;
+	cout << "4 -> randomize" << endl;
 }
 
 void RaceDay_Stage::randomizeWeather() {
@@ -64,10 +84,12 @@ void RaceDay_Stage::chooseWeather(int i) {
 		return;
 	else if(i==2)
 		weather->nextState();
-	else {
+	else if(i==3) {
 		weather->nextState();
 		weather->nextState();
 	}
+	else
+	    randomizeWeather();
 }
 
 void RaceDay_Stage::showWeatherOptions() {
@@ -79,9 +101,15 @@ void RaceDay_Stage::showWeatherOptions() {
 
 //=================================================
 
+void RaceDay_Stage::TrackInfo() {
+    cout << "Welcome to: " << tracks->getName() << endl;
+    cout << tracks->getFunFact() << endl;
+    cout << tracks->getName() << "is known for " << tracks->getCornerTypes() << endl;
+    lap_count = tracks->getNumLaps();
+}
 
 void RaceDay_Stage::Qualifying_Main() {
-
+    cout << "The cars warmup to begin qualifying" << endl;
 }
 
 void RaceDay_Stage::MainRace_Main() {

@@ -1106,6 +1106,25 @@ CMakeFiles\COS214_Project.dir\Weather.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Weather.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Weather.cpp
 <<
 
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: CMakeFiles\COS214_Project.dir\flags.make
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj: ..\Testing_Stage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj /FdCMakeFiles\COS214_Project.dir\ /FS -c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Testing_Stage.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Testing_Stage.cpp
+<<
+
+CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\COS214_Project.dir\Testing_Stage.cpp.s /c C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\Testing_Stage.cpp
+<<
+
 # Object files for target COS214_Project
 COS214_Project_OBJECTS = \
 "CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.obj" \
@@ -1162,7 +1181,8 @@ COS214_Project_OBJECTS = \
 "CMakeFiles\COS214_Project.dir\Track.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Transport.cpp.obj" \
 "CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj" \
-"CMakeFiles\COS214_Project.dir\Weather.cpp.obj"
+"CMakeFiles\COS214_Project.dir\Weather.cpp.obj" \
+"CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj"
 
 # External object files for target COS214_Project
 COS214_Project_EXTERNAL_OBJECTS =
@@ -1222,9 +1242,10 @@ COS214_Project.exe: CMakeFiles\COS214_Project.dir\Track.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Transport.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\Weather.cpp.obj
+COS214_Project.exe: CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\build.make
 COS214_Project.exe: CMakeFiles\COS214_Project.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking CXX executable COS214_Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking CXX executable COS214_Project.exe"
 	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\COS214_Project.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\COS214_Project.dir\objects1.rsp @<<
  /out:COS214_Project.exe /implib:COS214_Project.lib /pdb:C:\Users\liamb\OneDrive\Documents\University\COS214\Project\Git\COS214-Project\cmake-build-debug\COS214_Project.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

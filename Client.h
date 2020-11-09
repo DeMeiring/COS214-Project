@@ -21,13 +21,12 @@ class Client {
 
 private:
 	Stage* stage; // state
-
 	Transport* Cars; // momento for cars of custom drivers
 	Statistics* car_stats; // total stats for user cars
 	vector<Driver*> hired; // has drivers
-    Track* selectedTrack; // track selected either randomly or by user
-
 	bool kill_switch;
+
+	string teamName; // team name
 
 public:
 
@@ -49,6 +48,8 @@ public:
 	void setHired(vector<Driver*> hired);
 
     vector<Driver*> getHired();
+
+    string getTeamName();
 
 };
 

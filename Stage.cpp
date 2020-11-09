@@ -1,4 +1,5 @@
 #include "Stage.h"
+#include "Client.h"
 
 Stage::Stage(Client* cl) {
     User = cl;

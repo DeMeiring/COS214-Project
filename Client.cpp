@@ -13,6 +13,10 @@ void Client::SetStage(Stage* set) {
 }
 
 void Client::run() {
+    cout << "Welcome to team The Raikkoning is coming's interactive F1 Sim" << endl;
+    cout << "Please enter a team name" << endl;
+    getline(cin, teamName);
+
 	while(kill_switch)
 	    stage->RunStage();
 }
@@ -39,4 +43,8 @@ void Client::setHired(vector<Driver*> hired) {
 
 vector<Driver*> Client::getHired() {
     return this->hired;
+}
+
+string Client::getTeamName() {
+    return teamName;
 }
