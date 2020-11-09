@@ -1,7 +1,8 @@
 #include "Skill_Level.h"
 
-Skill_Level::Skill_Level(Statistics *skill_modifier) {
+Skill_Level::Skill_Level(Driver* driver,Statistics *skill_modifier) {
     this->skill_modifier = skill_modifier;
+    this->driver=driver;
 }
 
 Skill_Level::~Skill_Level() {

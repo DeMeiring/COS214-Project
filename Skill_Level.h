@@ -10,12 +10,12 @@ class Skill_Level {
 
 private:
 	Statistics* skill_modifier;
-
+	Driver* driver;
 public:
-    Skill_Level(Statistics* skill_modifier);
+    Skill_Level(Driver* driver,Statistics* skill_modifier);
     virtual ~Skill_Level();
 	Statistics* getSkill_Modifier();
-	Driver* getDriver();
+	virtual Driver* getDriver();
 
 	virtual int getRacingAbility() = 0;
 };

@@ -818,19 +818,19 @@ CMakeFiles/COS214_Project.dir/Weather.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Weather.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Weather.cpp -o CMakeFiles\COS214_Project.dir\Weather.cpp.s
 
-CMakeFiles/COS214_Project.dir/Individual_Component.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
-CMakeFiles/COS214_Project.dir/Individual_Component.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
-CMakeFiles/COS214_Project.dir/Individual_Component.cpp.obj: ../Individual_Component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/COS214_Project.dir/Individual_Component.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Individual_Component.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Individual_Component.cpp
+CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
+CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
+CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Testing_Stage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Acer\Documents\COS214-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj -c C:\Users\Acer\Documents\COS214-Project\Testing_Stage.cpp
 
-CMakeFiles/COS214_Project.dir/Individual_Component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Individual_Component.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Individual_Component.cpp > CMakeFiles\COS214_Project.dir\Individual_Component.cpp.i
+CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Acer\Documents\COS214-Project\Testing_Stage.cpp > CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.i
 
-CMakeFiles/COS214_Project.dir/Individual_Component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Individual_Component.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Individual_Component.cpp -o CMakeFiles\COS214_Project.dir\Individual_Component.cpp.s
+CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Acer\Documents\COS214-Project\Testing_Stage.cpp -o CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.s
 
 # Object files for target COS214_Project
 COS214_Project_OBJECTS = \
@@ -887,7 +887,7 @@ COS214_Project_OBJECTS = \
 "CMakeFiles/COS214_Project.dir/Transport.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Weather.cpp.obj" \
-"CMakeFiles/COS214_Project.dir/Individual_Component.cpp.obj"
+"CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"
 
 # External object files for target COS214_Project
 COS214_Project_EXTERNAL_OBJECTS =
@@ -945,7 +945,7 @@ COS214_Project.exe: CMakeFiles/COS214_Project.dir/Track.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Transport.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Weather.cpp.obj
-COS214_Project.exe: CMakeFiles/COS214_Project.dir/Individual_Component.cpp.obj
+COS214_Project.exe: CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/build.make
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/linklibs.rsp
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/objects1.rsp
