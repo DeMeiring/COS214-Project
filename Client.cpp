@@ -1,7 +1,9 @@
 #include "Client.h"
 
 Client::Client() {
-    stage = new Engineering_Stage(this);
+    Stages.push_back(new Engineering_Stage(this));
+    Stages.push_back(new Testing_Stage(this));
+    Stages.push_back(new RaceDay_Stage(this));
 }
 
 Client::~Client() {
@@ -47,4 +49,8 @@ vector<Driver*> Client::getHired() {
 
 string Client::getTeamName() {
     return teamName;
+}
+
+vector<Stage*> Client::getStages() {
+    return Stages;
 }

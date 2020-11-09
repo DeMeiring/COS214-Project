@@ -13,6 +13,7 @@
 
 #include "Engineering_Stage.h"
 #include "RaceDay_stage.h"
+#include "Testing_Stage.h"
 
 
 using namespace std;
@@ -25,6 +26,8 @@ private:
 	Statistics* car_stats; // total stats for user cars
 	vector<Driver*> hired; // has drivers
 	bool kill_switch;
+
+	vector<Stage*> Stages;
 
 	string teamName; // team name
 
@@ -50,6 +53,8 @@ public:
     vector<Driver*> getHired();
 
     string getTeamName();
+
+    vector<Stage*> getStages();
 
 };
 

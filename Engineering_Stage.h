@@ -34,9 +34,8 @@ class Engineering_Stage{
         void setEngineering_Iterator(Engineering_Iterator*);
         virtual ~Engineering_Stage();
 
-        // virtual Stage* ChangeStage(int Stage);
-
-        // virtual void RunStage();
+        virtual Stage* ChangeStage(int Stage);
+        virtual void RunStage();
 
         //EngineeringStage -> create 4 Departments (of type Engineering, because they are all engineering departments), and from there we add leaves/Components to the Departments.
 };
