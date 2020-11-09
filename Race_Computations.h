@@ -45,6 +45,8 @@ public:
 	int ChanceOfPitOvertake(int delay);
 
     bool ChanceOfRecovery(Racers* driver);
+
+    virtual ~Race_Computations();
 	
 };
 

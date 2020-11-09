@@ -11,6 +11,7 @@ private:
 	A_Opposing_Driver *OppDrivFact;
 public:
     tuple<OpposingDriver*, OpposingDriver*> GenerateTeam(string DriverName1, string DriverName2, int difficulty, bool lowDiff=false);
+    virtual ~Opposing_Team();
 };
 
 #endif

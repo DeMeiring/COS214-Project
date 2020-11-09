@@ -9,6 +9,7 @@ private:
 public:
 
     Tyres(int deg) {degradation = deg;}
+    virtual ~Tyres();
 
     int getDeg() {return degradation;};
 
@@ -28,6 +29,8 @@ public:
         setDeg(getDeg()-rate);
         return (getDeg()>0);
     }
+
+    virtual ~Softs();
 };
 
 class Medium : public Tyres {
@@ -40,6 +43,8 @@ public:
         setDeg(getDeg() - rate);
         return (getDeg() > 0);
     };
+
+    virtual ~Medium();
 };
 
 class Hard : public Tyres {
@@ -52,6 +57,7 @@ public:
         setDeg(getDeg()-rate);
         return (getDeg()>0);
     }
+    virtual ~Hard();
 };
 
 

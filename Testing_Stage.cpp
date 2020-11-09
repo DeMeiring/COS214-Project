@@ -6,7 +6,11 @@ Testing_Stage::Testing_Stage(Client *cl) : Stage(cl)  {
 }
 
 Testing_Stage::~Testing_Stage() {
-
+    if(Manager != nullptr)
+    {
+        delete Manager;
+        Manager = nullptr;
+    }
 }
 
 void Testing_Stage::TestingStage_main() {

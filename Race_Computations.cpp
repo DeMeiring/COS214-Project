@@ -9,6 +9,10 @@
 //        instance = new Race_Computations();
 //    return instance;
 //}
+Race_Computations::~Race_Computations()
+{
+
+}
 
 double weightAverage(int t1, int t2) {
     float hold = t1+t2;
