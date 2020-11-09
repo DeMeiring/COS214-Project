@@ -67,6 +67,10 @@ public:
 
 	virtual ~RaceDay_Stage();
 
+    virtual Stage* ChangeStage(int Stage);
+
+    virtual void RunStage();
+
 };
 
 #endif

@@ -56,6 +56,8 @@ public:
 
     vector<Stage*> getStages();
 
+    void Kill();
+
 };
 
 #endif

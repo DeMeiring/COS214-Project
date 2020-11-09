@@ -15,6 +15,10 @@ public:
 	void TestingStage_main();
 	void pushDrivers();
 	void pushOverall();
+
+    virtual Stage* ChangeStage(int Stage);
+
+    virtual void RunStage();
 };
 
 #endif

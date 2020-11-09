@@ -1,4 +1,5 @@
 #include "Performance_Indicator.h"
+#include "Concrete_Base_Car_Measurements.h"
 
 Performance_Indicator::Performance_Indicator(Concrete_Base_Car_Measurements* subj)
 {

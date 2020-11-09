@@ -14,8 +14,12 @@ void Client::SetStage(Stage* set) {
 	stage = set;
 }
 
+void Client::Kill() {
+    kill_switch = false;
+}
+
 void Client::run() {
-    cout << "Welcome to team The Raikkoning is coming's interactive F1 Sim" << endl;
+    cout << "Welcome to The Raikkoning is coming's interactive F1 Sim" << endl;
     cout << "Please enter a team name" << endl;
     getline(cin, teamName);
 

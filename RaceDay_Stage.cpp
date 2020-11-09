@@ -46,6 +46,16 @@ RaceDay_Stage::RaceDay_Stage(Client* cl) : Stage(cl) {
 
 }
 
+Stage* RaceDay_Stage::ChangeStage(int Stage) {
+    Stage::getClient()->Kill();
+}
+
+void RaceDay_Stage::RunStage() {
+    Qualifying_Main();
+    MainRace_Main();
+    ChangeStage(555);
+}
+
 void RaceDay_Stage::toPit(bool pit) {
     Driver_Pit[0] =true;
     Driver_Pit[1] = true;
@@ -429,6 +439,7 @@ void RaceDay_Stage::MainRace_Main() {
             }
         }
     }
+    final_grid();
 }
 
 void RaceDay_Stage::final_grid() {

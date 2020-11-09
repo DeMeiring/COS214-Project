@@ -1,4 +1,5 @@
 #include "Overall.h"
+#include "Concrete_Base_Car_Measurements.h"
 
 Overall::Overall(Concrete_Base_Car_Measurements *subj) : Performance_Indicator(subj)
 {

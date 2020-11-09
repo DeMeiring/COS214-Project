@@ -1,7 +1,9 @@
 #ifndef PERFORMANCE_INDICATOR_H
 #define PERFORMANCE_INDICATOR_H
-#include "Concrete_Base_Car_Measurements.h"
 #include "Statistics.h"
+
+
+class Concrete_Base_Car_Measurements;
 
 class Performance_Indicator {
 
