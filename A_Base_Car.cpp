@@ -4,14 +4,15 @@
 //test 2 of base
 
 BluePrint* A_Base_Car::CreateBluePrint(Engineering* copy) { //at the end of the main, copy constructor to make a copy
-	//makes duplicate composite
-	//base car will send the blue print
-	return NULL;
+	BluePrint *blueprint = new BluePrint();
+	blueprint->setCarBluePrint(PrototypeCar(copy));
+	CarBluePrint = blueprint;
+	return CarBluePrint;
 }
 
 void A_Base_Car::RestoreCar(BluePrint* CarBP) {
 	// TODO - implement A_Base_Car::RestoreCar
-	throw "Not yet implemented";
+	
 }
 
 Engineering* A_Base_Car::PrototypeCar(Engineering* composite) {//recieves engineering, iterate through components, return a new Engineering
@@ -19,15 +20,9 @@ Engineering* A_Base_Car::PrototypeCar(Engineering* composite) {//recieves engine
 	//iterate through all components+departments an copy over to new Engineering objects
 	A_Car_Factory* factory = new Car_factory();
 
-
-
-	
-
 //original iterator
 	Engineering_Iterator *iterator = new Engineering_Iterator(composite);
 	
-	
-
 //copy iterator
 	Engineering* copyCar = new Department("Chassis", true);
 	copyCar = factory->ConstructCar();	
@@ -40,20 +35,7 @@ Engineering* A_Base_Car::PrototypeCar(Engineering* composite) {//recieves engine
 		iterator->NextComp();
 	}
 	copyIterator->resetCurrComp();
+	iterator->resetCurrComp();
 	return copyIterator->FirstDept();
 }
 
-Engineering* A_Base_Car::getComponents() {
-	// TODO - implement A_Base_Car::getComponents
-	throw "Not yet implemented";
-}
-
-void A_Base_Car::updateComponents(Engineering* newComponents) {
-	// TODO - implement A_Base_Car::updateComponents
-	throw "Not yet implemented";
-}
-
-Engineering_Iterator* A_Base_Car::get_Iter() {
-	// TODO - implement A_Base_Car::get_Iter
-	throw "Not yet implemented";
-}

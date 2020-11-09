@@ -1,11 +1,11 @@
 #include "BluePrint.h"
 
-A_Base_Car* BluePrint::getCarBluePrint() {
+Engineering* BluePrint::getCarBluePrint() {
 	// TODO - implement BluePrint::getCarBluePrint
-	throw "Not yet implemented";
+	return CarBluePrint;
 }
 
-void BluePrint::setCarBluePrint(A_Base_Car* CarBluePrint) {
+void BluePrint::setCarBluePrint(Engineering* CarBluePrint) {
 	// TODO - implement BluePrint::setCarBluePrint
-	throw "Not yet implemented";
+	this->CarBluePrint = CarBluePrint;
 }

@@ -13,7 +13,7 @@ private:
 	BluePrint* CarBluePrint;
 
 protected:
-	BluePrint* CreateBluePrint(Engineering* copy);
+ 	BluePrint* CreateBluePrint(Engineering* copy);
 
 	void RestoreCar(BluePrint* CarBP);
 
@@ -21,11 +21,11 @@ public:
 
 	Engineering* PrototypeCar(Engineering *composite);
 
-	Engineering* getComponents();
+	// Engineering* getComponents();
 
-	void updateComponents(Engineering* newComponents);
+	// void updateComponents(Engineering* newComponents);
 
-	Engineering_Iterator* get_Iter();
+	// Engineering_Iterator* get_Iter();
 };
 
 #endif

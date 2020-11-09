@@ -1,8 +1,8 @@
 #include "Transport.h"
 
 void Transport::AddCar(BluePrint* car) {
-	// TODO - implement Transport::AddCar
-	throw "Not yet implemented";
+	Transport.clear();
+	Transport.push_back(car);
 }
 
 BluePrint* Transport::RemoveCar() {

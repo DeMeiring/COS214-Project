@@ -5,12 +5,12 @@
 class BluePrint {
 
 private:
-	A_Base_Car* CarBluePrint;
+Engineering* CarBluePrint;
 
 public:
-	A_Base_Car* getCarBluePrint();
+	Engineering* getCarBluePrint();
 
-	void setCarBluePrint(A_Base_Car* CarBluePrint);
+	void setCarBluePrint(Engineering* CarBluePrint);
 };
 
 #endif
