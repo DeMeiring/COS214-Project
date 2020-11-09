@@ -27,8 +27,9 @@ private:
 public:
 
     Pit_Stop();
+    virtual ~Pit_Stop();
 
-    void carDamged(bool state);
+    void carDamaged(bool state);
     void tyreSwap(int tyre_type);
     void fastPit(bool fast);
 	int Pit_stop_main(Race_Computations *rc);

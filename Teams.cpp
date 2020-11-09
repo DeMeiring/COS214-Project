@@ -10,9 +10,9 @@ string teams[] = {"Mercedes", "Red-Bull Racing", "Renault", "Ferrari", "McLaren"
 
 // create a bunch of drivers
 Teams::Teams() {
-	OppTeamFact = new Opposing_Team();
+    OppTeamFact = new Opposing_Team();
 
-	tuple<OpposingDriver*, OpposingDriver*> rec;
+    tuple<OpposingDriver*, OpposingDriver*> rec;
 
     // alphatauri
     rec = OppTeamFact->GenerateTeam(names[10], names [11], 72, false);
@@ -41,12 +41,12 @@ Teams::Teams() {
     get<1>(rec)->team = teams[0];
     OpposingDrivers.push_back(get<1>(rec));
 
-	// rp
-	rec = OppTeamFact->GenerateTeam(names[12], names [13], 70, true);
-	get<0>(rec)->team = teams[6];
-	OpposingDrivers.push_back(get<0>(rec));
-	get<1>(rec)->team = teams[6];
-	OpposingDrivers.push_back(get<1>(rec));
+    // rp
+    rec = OppTeamFact->GenerateTeam(names[12], names [13], 70, true);
+    get<0>(rec)->team = teams[6];
+    OpposingDrivers.push_back(get<0>(rec));
+    get<1>(rec)->team = teams[6];
+    OpposingDrivers.push_back(get<1>(rec));
 
     // mclaren
     rec = OppTeamFact->GenerateTeam(names[8], names [9], 75, true);
@@ -55,12 +55,12 @@ Teams::Teams() {
     get<1>(rec)->team = teams[4];
     OpposingDrivers.push_back(get<1>(rec));
 
-	// ar
-	rec = OppTeamFact->GenerateTeam(names[14], names [15], 55, true);
-	get<0>(rec)->team = teams[7];
-	OpposingDrivers.push_back(get<0>(rec));
-	get<1>(rec)->team = teams[7];
-	OpposingDrivers.push_back(get<1>(rec));
+    // ar
+    rec = OppTeamFact->GenerateTeam(names[14], names [15], 55, true);
+    get<0>(rec)->team = teams[7];
+    OpposingDrivers.push_back(get<0>(rec));
+    get<1>(rec)->team = teams[7];
+    OpposingDrivers.push_back(get<1>(rec));
 
     rec = OppTeamFact->GenerateTeam(names[2], names [3], 88, false);
     get<0>(rec)->team = teams[1];
@@ -86,4 +86,8 @@ Teams::~Teams() {
 	for(iter = OpposingDrivers.begin(); iter < OpposingDrivers.end(); iter++)
 		delete (*iter);
 	OpposingDrivers.clear();
+}
+
+vector<OpposingDriver*> Teams::GenDrivers() {
+    return getOpposingDrivers();
 }

@@ -28,13 +28,13 @@ private:
 
     int DistributeValue(double value);
 
-//protected:
+protected:
 
-    //Race_Computations();
+    Race_Computations();
 
 public:
 
-    Race_Computations();
+    //Race_Computations();
 
     static Race_Computations* GetComp();
 
@@ -45,6 +45,8 @@ public:
 	int ChanceOfPitOvertake(int delay);
 
     bool ChanceOfRecovery(Racers* driver);
+
+    virtual ~Race_Computations();
 	
 };
 

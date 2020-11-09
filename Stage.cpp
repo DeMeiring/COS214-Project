@@ -17,3 +17,8 @@ Stage* Stage::getStage() {
     return curr_stage;
 }
 
+Stage::~Stage()
+{
+    
+}
+

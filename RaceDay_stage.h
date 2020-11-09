@@ -18,6 +18,9 @@
 #include "Conc_Radio_System.h"
 #include "Concrete_Base_Car_Measurements.h"
 
+#include <unistd.h>
+//usleep(10)
+
 class RaceDay_Stage : public Stage {
 
 private:
@@ -37,7 +40,7 @@ private:
 
     Concrete_Base_Car_Measurements* BCM;
 
-    void RaceDay_Stage::MovetoEnd(int i);
+    void MovetoEnd(int i);
 
 	bool PIT;
 

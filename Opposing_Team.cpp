@@ -19,3 +19,8 @@ tuple<OpposingDriver*, OpposingDriver*> Opposing_Team::GenerateTeam(string Drive
     toRet = make_tuple(one, two);
     return toRet;
 }
+
+Opposing_Team::~Opposing_Team()
+{
+    
+}

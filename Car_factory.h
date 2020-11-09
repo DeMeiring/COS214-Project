@@ -9,6 +9,8 @@ class Car_factory : public A_Car_Factory{
 public:
 	Engineering* ConstructCar();
 
+	virtual ~Car_factory();
+
 };
 
 #endif

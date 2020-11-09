@@ -1,13 +1,12 @@
 #ifndef DRIVER_H
 #define DRIVER_H
 
-#include "Race_Crew.h"
 #include "Skill_Level.h"
 #include "Prepared.h"
 #include "RaceDay_Strat.h"
 #include "Statistics.h"
-#include "Conc_Radio_System.h"
 #include <iostream>
+#include "Race_Crew.h"
 
 // Skill level
 #include "Rookie.h"
@@ -39,7 +38,7 @@ private:
 	Radio_System* RadioSystem;
 
 public:
-	Driver(Conc_Radio_System *rs, Statistics *stats,std::string name,int ContractCost);
+	Driver(Radio_System *rs, Statistics *stats,std::string name,int ContractCost);
 
 	Driver();
 	virtual ~Driver();

@@ -81,6 +81,7 @@ void Weather::setName(string set) {
     weather = set;
 }
 
+Weather_Selector::~Weather_Selector() {}
 Dry::~Dry() {}
 Wet::~Wet() {}
 Raining::~Raining(){}

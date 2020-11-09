@@ -7,3 +7,5 @@ Rookie::Rookie(Statistics *skillModifier) : Skill_Level(skillModifier) {
 int Rookie::getRacingAbility() {
     return this->racing_ability;
 }
+
+Rookie::~Rookie() {}

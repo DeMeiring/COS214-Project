@@ -18,6 +18,8 @@ public:
 	int release_driver(Driver* release);
 
 	vector<Driver*> getVector();
+
+	~Driver_Management();
 };
 
 #endif

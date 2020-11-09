@@ -66,7 +66,7 @@ void Pit_Crew::ReceiveCommand(Command* command) {
         Pit->fastPit(true);
         SendCommand(2);
     } else if(command->getCommand()=="car_damaged") {
-        Pit->carDamged(true);
+        Pit->carDamaged(true);
         SendCommand(-1);
     } else if(command->getCommand()=="no_soft") {
         SendCommand(3);

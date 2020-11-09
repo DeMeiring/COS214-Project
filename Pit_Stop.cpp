@@ -6,6 +6,16 @@ Pit_Stop::Pit_Stop() {
     tyre_swaps = 4;
 }
 
+Pit_Stop::~Pit_Stop() {}
+
+void Pit_Stop::carDamaged(bool state) {
+    car_is_damaged=state;
+}
+
+void Pit_Stop::fastPit(bool fast) {
+    fast_pit=fast;
+}
+
 void Pit_Stop::tyreSwap(int tyre_type) {
     if(tyre_swaps>0 && nextTyreSet==nullptr) {
         tyre_swaps--;

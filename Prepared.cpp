@@ -7,3 +7,8 @@ Prepared::Prepared(Statistics *stats) : Preparedness(stats) {
 int Prepared::getPreparedness() {
     return this->prepared;
 }
+
+Prepared::~Prepared()
+{
+
+}

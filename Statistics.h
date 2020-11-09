@@ -48,6 +48,8 @@ public:
 	//gets all component values in the dept
 	vector<int> getAllValues();
 
+	virtual ~Statistics();
+
 };
 
 #endif

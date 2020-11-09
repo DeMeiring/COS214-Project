@@ -9,9 +9,13 @@ using namespace std;
 class Transport {
 
 private:
-	vector<BluePrint*> Transport;
+	vector<BluePrint*> transport;
 
 public:
+    Transport();
+
+    virtual ~Transport();
+
 	void AddCar(BluePrint* car);
 
 	BluePrint* RemoveCar();

@@ -15,6 +15,7 @@ protected:
 public:
 
     Stage(Client* cl);
+    virtual ~Stage();
 
     Client* getClient();
 

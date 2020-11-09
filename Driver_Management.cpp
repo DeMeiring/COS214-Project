@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Driver_Management.h"
-#include "Radio_System.h"
+#include "Conc_Radio_System.h"
 #include <algorithm>
 
 void Driver_Management::showAvailableDrivers() {
@@ -32,4 +32,8 @@ int Driver_Management::release_driver(Driver* release) {
 
 vector<Driver *> Driver_Management::getVector() {
     return this->hired_drivers;
+}
+
+Driver_Management::~Driver_Management() {
+
 }

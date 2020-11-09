@@ -1,12 +1,10 @@
-// #include "Client.h"
-#include "Engineering_Stage.h"
+#include "Client.h"
 
 using namespace std;
 
 int main()
 {
-    // Client *client = new Client();
-    // client->run();
-    //Engineering_Stage *stage = new Engineering_Stage();
-    //stage->Engineering_main();
+    Client* cl = new Client();
+    cl->run();
+    return 0;
 }

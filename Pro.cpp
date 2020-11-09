@@ -10,3 +10,8 @@ int Pro::getRacingAbility()
 {
     return racing_ability;
 }
+
+Pro::~Pro()
+{
+    
+}

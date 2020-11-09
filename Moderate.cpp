@@ -7,3 +7,5 @@ Moderate::Moderate(Statistics *stats) : Preparedness(stats) {
 int Moderate::getPreparedness() {
     return this->preparedness;
 }
+
+Moderate::~Moderate() {}

@@ -59,8 +59,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/COS214_Project.dir/main.cpp.obj"
   "COS214_Project.exe"
   "COS214_Project.exe.manifest"
-  "COS214_Project.lib"
   "COS214_Project.pdb"
+  "libCOS214_Project.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

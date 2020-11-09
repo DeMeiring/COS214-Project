@@ -37,6 +37,8 @@ public:
 	void resetCurrComp();
 
 	void resetCurrDept();
+
+	virtual ~Engineering_Iterator();
 };
 
 #endif
