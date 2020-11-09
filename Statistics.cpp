@@ -14,6 +14,10 @@ Statistics::Statistics(bool isCar, bool isDriver, bool isComp, bool isOther) {
 	}
 }
 
+Statistics::~Statistics() {
+
+}
+
 void Statistics::addStat(string name, int value) {
 	single_stat *n = new single_stat;
 	n->name = name;

@@ -55,3 +55,7 @@ void Strategy_Team::SendCommand(int i) {
         }
     }
 }
+Strategy_Team::~Strategy_Team() {
+
+}
+

@@ -8,3 +8,7 @@ int Unprepared::getPreparedness() {
     return this->preparedness;
 }
 
+Unprepared::~Unprepared() {
+
+}
+

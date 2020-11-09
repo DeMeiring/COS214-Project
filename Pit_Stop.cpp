@@ -6,6 +6,8 @@ Pit_Stop::Pit_Stop() {
     tyre_swaps = 4;
 }
 
+Pit_Stop::~Pit_Stop() {}
+
 void Pit_Stop::carDamaged(bool state) {
     car_is_damaged=state;
 }

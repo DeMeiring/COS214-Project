@@ -25,7 +25,7 @@ class A_Opposing_Team {
 
 
 public:
-	tuple<OpposingDriver*, OpposingDriver*> GenerateTeam(string DriverName1, string DriverName2, int difficulty, bool lowDiff=false);
+	virtual tuple<OpposingDriver*, OpposingDriver*> GenerateTeam(string DriverName1, string DriverName2, int difficulty, bool lowDiff=false)=0;
 	~A_Opposing_Team();
 };
 
