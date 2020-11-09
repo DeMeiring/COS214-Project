@@ -10,8 +10,12 @@ add_executable(COS214_Project
         Aggressive.h
         Base_Car_Measurements.cpp
         Base_Car_Measurements.h
+        Command.cpp
+        Command.h
         Component.cpp
         Component.h
+        Conc_Radio_System.cpp
+        Conc_Radio_System.h
         Concrete_Base_Car_Measurements.cpp
         Concrete_Base_Car_Measurements.h
         Conservative.cpp
@@ -24,6 +28,8 @@ add_executable(COS214_Project
         Engineering.h
         Engineering_Iterator.cpp
         Engineering_Iterator.h
+        Experienced.cpp
+        Experienced.h
         Moderate.cpp
         Moderate.h
         Overall.cpp
@@ -36,8 +42,14 @@ add_executable(COS214_Project
         Preparedness.h
         Pro.cpp
         Pro.h
+        Race_Command.cpp
+        Race_Command.h
+        Race_Crew.cpp
+        Race_Crew.h
         RaceDay_Strat.cpp
         RaceDay_Strat.h
+        Radio_System.cpp
+        Radio_System.h
         Risky.cpp
         Risky.h
         Rookie.cpp

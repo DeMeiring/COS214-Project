@@ -94,10 +94,22 @@
 		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Base_Car_Measurements.h">
 			<Option target="COS214_Project"/>
 		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Command.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Command.h">
+			<Option target="COS214_Project"/>
+		</Unit>
 		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Component.cpp">
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Component.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Conc_Radio_System.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Conc_Radio_System.h">
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Concrete_Base_Car_Measurements.cpp">
@@ -134,6 +146,12 @@
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Engineering_Iterator.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Experienced.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Experienced.h">
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Moderate.cpp">
@@ -176,6 +194,24 @@
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Acer/Documents/COS214-Project/RaceDay_Strat.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Race_Command.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Race_Command.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Race_Crew.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Race_Crew.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Radio_System.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Radio_System.h">
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Acer/Documents/COS214-Project/Risky.cpp">

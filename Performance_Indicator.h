@@ -6,7 +6,7 @@
 class Performance_Indicator {
 
 protected:
-	Concrete_Base_Car_Measurements* Car_Measurements;
+    Concrete_Base_Car_Measurements* Car_Measurements;
     Statistics* updatedStats;
 public:
 	Performance_Indicator(Concrete_Base_Car_Measurements* subj);

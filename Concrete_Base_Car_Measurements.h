@@ -5,7 +5,7 @@
 #include "Engineering_Iterator.h"
 #include "Base_Car_Measurements.h"
 
-class Concrete_Base_Car_Measurements : public Base_Car_Measurements{
+class Concrete_Base_Car_Measurements : public Base_Car_Measurement{
 
 private:
 	Engineering_Iterator* subject_iterator;  //car iterator

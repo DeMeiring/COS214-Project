@@ -196,6 +196,33 @@ Base_Car_Measurements.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.s
 .PHONY : Base_Car_Measurements.cpp.s
 
+Command.obj: Command.cpp.obj
+
+.PHONY : Command.obj
+
+# target to build an object file
+Command.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Command.cpp.obj
+.PHONY : Command.cpp.obj
+
+Command.i: Command.cpp.i
+
+.PHONY : Command.i
+
+# target to preprocess a source file
+Command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Command.cpp.i
+.PHONY : Command.cpp.i
+
+Command.s: Command.cpp.s
+
+.PHONY : Command.s
+
+# target to generate assembly for a file
+Command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Command.cpp.s
+.PHONY : Command.cpp.s
+
 Component.obj: Component.cpp.obj
 
 .PHONY : Component.obj
@@ -222,6 +249,33 @@ Component.s: Component.cpp.s
 Component.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Component.cpp.s
 .PHONY : Component.cpp.s
+
+Conc_Radio_System.obj: Conc_Radio_System.cpp.obj
+
+.PHONY : Conc_Radio_System.obj
+
+# target to build an object file
+Conc_Radio_System.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.obj
+.PHONY : Conc_Radio_System.cpp.obj
+
+Conc_Radio_System.i: Conc_Radio_System.cpp.i
+
+.PHONY : Conc_Radio_System.i
+
+# target to preprocess a source file
+Conc_Radio_System.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.i
+.PHONY : Conc_Radio_System.cpp.i
+
+Conc_Radio_System.s: Conc_Radio_System.cpp.s
+
+.PHONY : Conc_Radio_System.s
+
+# target to generate assembly for a file
+Conc_Radio_System.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Conc_Radio_System.cpp.s
+.PHONY : Conc_Radio_System.cpp.s
 
 Concrete_Base_Car_Measurements.obj: Concrete_Base_Car_Measurements.cpp.obj
 
@@ -384,6 +438,33 @@ Engineering_Iterator.s: Engineering_Iterator.cpp.s
 Engineering_Iterator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Engineering_Iterator.cpp.s
 .PHONY : Engineering_Iterator.cpp.s
+
+Experienced.obj: Experienced.cpp.obj
+
+.PHONY : Experienced.obj
+
+# target to build an object file
+Experienced.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Experienced.cpp.obj
+.PHONY : Experienced.cpp.obj
+
+Experienced.i: Experienced.cpp.i
+
+.PHONY : Experienced.i
+
+# target to preprocess a source file
+Experienced.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Experienced.cpp.i
+.PHONY : Experienced.cpp.i
+
+Experienced.s: Experienced.cpp.s
+
+.PHONY : Experienced.s
+
+# target to generate assembly for a file
+Experienced.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Experienced.cpp.s
+.PHONY : Experienced.cpp.s
 
 Moderate.obj: Moderate.cpp.obj
 
@@ -573,6 +654,87 @@ RaceDay_Strat.s: RaceDay_Strat.cpp.s
 RaceDay_Strat.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/RaceDay_Strat.cpp.s
 .PHONY : RaceDay_Strat.cpp.s
+
+Race_Command.obj: Race_Command.cpp.obj
+
+.PHONY : Race_Command.obj
+
+# target to build an object file
+Race_Command.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Race_Command.cpp.obj
+.PHONY : Race_Command.cpp.obj
+
+Race_Command.i: Race_Command.cpp.i
+
+.PHONY : Race_Command.i
+
+# target to preprocess a source file
+Race_Command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Race_Command.cpp.i
+.PHONY : Race_Command.cpp.i
+
+Race_Command.s: Race_Command.cpp.s
+
+.PHONY : Race_Command.s
+
+# target to generate assembly for a file
+Race_Command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Race_Command.cpp.s
+.PHONY : Race_Command.cpp.s
+
+Race_Crew.obj: Race_Crew.cpp.obj
+
+.PHONY : Race_Crew.obj
+
+# target to build an object file
+Race_Crew.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Race_Crew.cpp.obj
+.PHONY : Race_Crew.cpp.obj
+
+Race_Crew.i: Race_Crew.cpp.i
+
+.PHONY : Race_Crew.i
+
+# target to preprocess a source file
+Race_Crew.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Race_Crew.cpp.i
+.PHONY : Race_Crew.cpp.i
+
+Race_Crew.s: Race_Crew.cpp.s
+
+.PHONY : Race_Crew.s
+
+# target to generate assembly for a file
+Race_Crew.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Race_Crew.cpp.s
+.PHONY : Race_Crew.cpp.s
+
+Radio_System.obj: Radio_System.cpp.obj
+
+.PHONY : Radio_System.obj
+
+# target to build an object file
+Radio_System.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Radio_System.cpp.obj
+.PHONY : Radio_System.cpp.obj
+
+Radio_System.i: Radio_System.cpp.i
+
+.PHONY : Radio_System.i
+
+# target to preprocess a source file
+Radio_System.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Radio_System.cpp.i
+.PHONY : Radio_System.cpp.i
+
+Radio_System.s: Radio_System.cpp.s
+
+.PHONY : Radio_System.s
+
+# target to generate assembly for a file
+Radio_System.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Radio_System.cpp.s
+.PHONY : Radio_System.cpp.s
 
 Risky.obj: Risky.cpp.obj
 
@@ -778,9 +940,15 @@ help:
 	@echo ... Base_Car_Measurements.obj
 	@echo ... Base_Car_Measurements.i
 	@echo ... Base_Car_Measurements.s
+	@echo ... Command.obj
+	@echo ... Command.i
+	@echo ... Command.s
 	@echo ... Component.obj
 	@echo ... Component.i
 	@echo ... Component.s
+	@echo ... Conc_Radio_System.obj
+	@echo ... Conc_Radio_System.i
+	@echo ... Conc_Radio_System.s
 	@echo ... Concrete_Base_Car_Measurements.obj
 	@echo ... Concrete_Base_Car_Measurements.i
 	@echo ... Concrete_Base_Car_Measurements.s
@@ -799,6 +967,9 @@ help:
 	@echo ... Engineering_Iterator.obj
 	@echo ... Engineering_Iterator.i
 	@echo ... Engineering_Iterator.s
+	@echo ... Experienced.obj
+	@echo ... Experienced.i
+	@echo ... Experienced.s
 	@echo ... Moderate.obj
 	@echo ... Moderate.i
 	@echo ... Moderate.s
@@ -820,6 +991,15 @@ help:
 	@echo ... RaceDay_Strat.obj
 	@echo ... RaceDay_Strat.i
 	@echo ... RaceDay_Strat.s
+	@echo ... Race_Command.obj
+	@echo ... Race_Command.i
+	@echo ... Race_Command.s
+	@echo ... Race_Crew.obj
+	@echo ... Race_Crew.i
+	@echo ... Race_Crew.s
+	@echo ... Radio_System.obj
+	@echo ... Radio_System.i
+	@echo ... Radio_System.s
 	@echo ... Risky.obj
 	@echo ... Risky.i
 	@echo ... Risky.s
