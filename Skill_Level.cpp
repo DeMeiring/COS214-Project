@@ -15,8 +15,3 @@ Statistics* Skill_Level::getSkill_Modifier() {
 //Driver* Skill_Level::getDriver() {
     //return this->driver;
 //}
-
-Skill_Level::~Skill_Level()
-{
-    
-}

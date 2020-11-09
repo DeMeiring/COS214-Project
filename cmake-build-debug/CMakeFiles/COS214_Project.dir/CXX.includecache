@@ -6,29 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Base_Car.cpp
-A_Base_Car.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Base_Car.h
-BluePrint.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/BluePrint.h
-Engineering_Stage.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Stage.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Base_Car.h
 Engineering.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Car_Factory.cpp
-A_Car_Factory.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Car_Factory.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Car_Factory.h
 Engineering.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Car.cpp
-A_Opposing_Car.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Car.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Car.h
 Statistics.h
@@ -38,17 +22,9 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/E
 tuple
 -
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.cpp
-A_Opposing_Driver.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.h
 Driver.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.cpp
-A_Opposing_Team.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.h
 tuple
@@ -74,18 +50,6 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/B
 Track.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Track.h
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Base_Car.cpp
-Base_Car.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Base_Car.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Base_Car.h
-A_Base_Car.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Base_Car.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Base_Car_Measurements.cpp
-Base_Car_Measurements.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Base_Car_Measurements.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Base_Car_Measurements.h
 Engineering.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
@@ -94,17 +58,9 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/P
 string
 -
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/BluePrint.cpp
-BluePrint.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/BluePrint.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/BluePrint.h
 A_Base_Car.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Base_Car.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Car_factory.cpp
-Car_factory.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Car_factory.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Car_factory.h
 A_Car_Factory.h
@@ -148,10 +104,6 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/C
 string
 -
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Component.cpp
-Component.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Component.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Component.h
 stdlib.h
 -
@@ -168,14 +120,6 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/R
 vector
 -
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Concrete_Base_Car_Measurements.cpp
-Concrete_Base_Car_Measurements.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Concrete_Base_Car_Measurements.h
-iostream
--
-string
--
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Concrete_Base_Car_Measurements.h
 Engineering.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
@@ -190,10 +134,6 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/R
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Department.cpp
-Department.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Department.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Department.h
 Engineering.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
@@ -203,12 +143,6 @@ string
 -
 vector
 -
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.cpp
-Driver.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
-Statistics.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
 Race_Crew.h
@@ -244,23 +178,9 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/R
 Conservative.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver_Management.cpp
-iostream
--
-Driver_Management.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver_Management.h
-Radio_System.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
-algorithm
--
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver_Management.h
 Driver.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.cpp
-Engineering.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
 string
@@ -271,12 +191,6 @@ Engineering_Iterator.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Iterator.h
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Iterator.cpp
-Engineering_Iterator.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Iterator.h
-Department.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Department.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Iterator.h
 iostream
@@ -312,35 +226,11 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/B
 Car_factory.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Car_factory.h
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Experienced.cpp
-Experienced.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Experienced.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Experienced.h
 Skill_Level.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Individual_Component.cpp
-Individual_Component.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Individual_Component.h
-Performance_Indicator.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
-iostream
--
-string
--
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Individual_Component.h
-Performance_Indicator.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
-Concrete_Base_Car_Measurements.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Concrete_Base_Car_Measurements.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.cpp
-Moderate.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.h
 Preparedness.h
@@ -354,10 +244,6 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/M
 Track.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Track.h
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Car.cpp
-Opposing_Car.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Car.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Car.h
 A_Opposing_Car.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Car.h
@@ -366,21 +252,11 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/D
 Component.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Component.h
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.cpp
-Opposing_Driver.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
-cstdlib
--
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
 A_Opposing_Driver.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.cpp
-Opposing_Team.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
 A_Opposing_Team.h
@@ -389,22 +265,6 @@ A_Opposing_Car.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Car.h
 A_Opposing_Driver.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Overall.cpp
-Overall.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Overall.h
-Concrete_Base_Car_Measurements.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Concrete_Base_Car_Measurements.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Overall.h
-Performance_Indicator.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.cpp
-Performance_Indicator.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
-Concrete_Base_Car_Measurements.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Concrete_Base_Car_Measurements.h
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
 Statistics.h
@@ -425,12 +285,6 @@ Pit_Stop.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Stop.h
 Race_Computations.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Computations.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Stop.cpp
-Pit_Stop.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Stop.h
-cstdlib
--
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Stop.h
 Tyres.h
@@ -468,14 +322,6 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/O
 Opposing_Driver.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.cpp
-RaceDay_Strat.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
-Driver.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
-Statistics.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
@@ -511,14 +357,6 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/C
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
 Command.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Computations.cpp
-Race_Computations.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Computations.h
-cstdlib
--
-time.h
--
 
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Computations.h
 Driver.h
@@ -580,10 +418,6 @@ vector
 string
 -
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.cpp
-Teams.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
 vector
 -
@@ -616,10 +450,6 @@ string
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
 
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Transport.cpp
-Transport.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Transport.h
-
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Transport.h
 vector
 -
@@ -637,8 +467,4 @@ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/P
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Weather.h
 Statistics.h
 C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
-
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/main.cpp
-Engineering_Stage.h
-C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Stage.h
 

@@ -63,7 +63,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Weather.cpp" "C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/CMakeFiles/COS214_Project.dir/Weather.cpp.obj"
   "C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/main.cpp" "C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/CMakeFiles/COS214_Project.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
