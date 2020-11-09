@@ -31,17 +31,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f60b97c5-b98c-495f-8f74-7ea391dced06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/COS214_Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/COS214_Project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concrete_Base_Car_Measurements.h" beforeDir="false" afterPath="$PROJECT_DIR$/Concrete_Base_Car_Measurements.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +47,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -73,12 +70,12 @@
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
-    <configuration name="COS214_Project" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="COS214_Project" TARGET_NAME="COS214_Project" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="COS214_Project" RUN_TARGET_NAME="COS214_Project">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="COS214_Project" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="COS214_Project" TARGET_NAME="COS214_Project" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="COS214_Project" RUN_TARGET_NAME="COS214_Project">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -113,6 +110,8 @@
       <workItem from="1604831155628" duration="8552000" />
       <workItem from="1604937786747" duration="174000" />
       <workItem from="1604937963306" duration="35000" />
+      <workItem from="1604937999973" duration="72000" />
+      <workItem from="1604938073371" duration="494000" />
     </task>
     <servers />
   </component>
@@ -136,23 +135,23 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="520" y="240" key="#Notifications/0.0.1536.832@0.0.1536.832" timestamp="1604667723423" />
-    <state x="137" y="30" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604937769599">
+    <state x="137" y="30" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604938084323">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="137" y="30" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1604937769599" />
-    <state x="488" y="158" key="FileChooserDialogImpl" timestamp="1604937986851">
+    <state x="137" y="30" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1604938084323" />
+    <state x="488" y="158" key="FileChooserDialogImpl" timestamp="1604938563610">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="488" y="158" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604937986851" />
+    <state x="488" y="158" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604938563610" />
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1604654521231" />
-    <state width="640" height="201" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1604937995830">
+    <state width="640" height="201" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1604938069733">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="640" height="201" key="ImportCMakeProjectWizard.bottomPanel/0.0.1366.768@0.0.1366.768" timestamp="1604937995830" />
-    <state width="640" height="470" key="ImportCMakeProjectWizard.topPanel" timestamp="1604937995830">
+    <state width="640" height="201" key="ImportCMakeProjectWizard.bottomPanel/0.0.1366.768@0.0.1366.768" timestamp="1604938069733" />
+    <state width="640" height="470" key="ImportCMakeProjectWizard.topPanel" timestamp="1604938069733">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="640" height="470" key="ImportCMakeProjectWizard.topPanel/0.0.1366.768@0.0.1366.768" timestamp="1604937995830" />
+    <state width="640" height="470" key="ImportCMakeProjectWizard.topPanel/0.0.1366.768@0.0.1366.768" timestamp="1604938069733" />
     <state x="277" y="61" key="SettingsEditor" timestamp="1604667883620">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
