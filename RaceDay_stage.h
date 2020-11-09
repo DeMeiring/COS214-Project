@@ -22,7 +22,7 @@ class RaceDay_Stage : protected Stage {
 
 private:
 
-	bool Diver_Pit;
+	bool *Driver_Pit;
 	int lap_count;
 	Track* tracks;
 	Weather_Selector* weather;
@@ -32,7 +32,12 @@ private:
 	Radio_System* rs;
 	Statistics *overall;
 
+	int IN_one=18, IN_two=19;
+    vector<OpposingDriver*> UserDrivers;
+
     Concrete_Base_Car_Measurements* BCM;
+
+    void RaceDay_Stage::MovetoEnd(int i);
 
 	bool PIT;
 
@@ -57,6 +62,8 @@ public:
 	void Qualifying_Main();
 
 	void MainRace_Main();
+
+	void final_grid();
 
 	virtual ~RaceDay_Stage();
 

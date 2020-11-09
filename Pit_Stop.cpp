@@ -13,19 +13,19 @@ void Pit_Stop::tyreSwap(int tyre_type) {
         switch (tyre_type) {
             case 1: {
                 nextTyreSet->type = "Softs";
-                nextTyreSet->tyre = new Soft();
+                nextTyreSet->tyre = new Softs(15);
                 nextTyreSet->delay = 2;
                 break;
             }
             case 2: {
                 nextTyreSet->type = "Medium";
-                nextTyreSet->tyre = new Medium();
+                nextTyreSet->tyre = new Medium(10);
                 nextTyreSet->delay = 2;
                 break;
             }
             case 3: {
                 nextTyreSet->type = "Hard";
-                nextTyreSet->tyre = new Hard();
+                nextTyreSet->tyre = new Hard(5);
                 nextTyreSet->delay = 2;
                 break;
             }

@@ -18,6 +18,7 @@ struct OpposingDriver {
 		Engineering* car;
 		Tyres* tyre;
 		Statistics* overall;
+		bool crashed = false;
 	};
 
 class A_Opposing_Team {

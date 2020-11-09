@@ -26,8 +26,6 @@ private:
 
     static Race_Computations* instance; //singleton
 
-    bool ChanceOfRecovery(Racers* driver);
-
     int DistributeValue(double value);
 
 protected:
@@ -43,6 +41,8 @@ public:
 	bool ChanceOfCrash(Racers* racer, Conditions* cond);
 
 	int ChanceOfPitOvertake(int delay);
+
+    bool ChanceOfRecovery(Racers* driver);
 	
 };
 

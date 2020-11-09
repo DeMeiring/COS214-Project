@@ -3,6 +3,7 @@
 
 #include "Race_Crew.h"
 #include "Pit_Stop.h"
+#include "Race_Computations.h"
 
 class RaceDay_Stage;
 
