@@ -21,6 +21,8 @@ public:
 	void ComponentChange(); //this will be notifier(update call)
 
 	Engineering* getTestSubject();
+
+	vector<Performance_Indicator*> getIndicators();
 };
 
 #endif

@@ -47,13 +47,18 @@ void Concrete_Base_Car_Measurements::Observe_car(){
 
         //get next department
         this->component_subject= this->subject_iterator->NextDept();
+
     }
+    set(this->component_subject);
 }
 
 void Concrete_Base_Car_Measurements::set(Engineering* component)
 {
-	this->component_subject = component;
-    ComponentChange();
+    vector<Performance_Indicator*> indicators = getIndicators();
+    vector<Performance_Indicator*>::iterator iter = indicators.begin();
+    for(iter=indicators.begin();iter!=indicators.end();++iter){
+        (*iter)->UpdateOverall_Stats(component->getStats());
+    }
 }
 
 

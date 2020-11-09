@@ -7,11 +7,15 @@ Performance_Indicator::Performance_Indicator(Concrete_Base_Car_Measurements* sub
 
 Statistics* Performance_Indicator::getStats()
 {   
-    return Car_Measurements->getTestSubject()->getStats();
+    return this->updatedStats;
 }
 
 Performance_Indicator::~Performance_Indicator()
 {
     delete this->Car_Measurements;
     this->Car_Measurements= nullptr;
+}
+
+void Performance_Indicator::setStats(Statistics *stats) {
+    this->updatedStats=new Statistics;
 }

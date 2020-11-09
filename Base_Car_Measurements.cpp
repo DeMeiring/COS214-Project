@@ -24,3 +24,7 @@ Engineering* Base_Car_Measurements::getTestSubject()
 {
     return this->Test_Subject;
 }
+
+vector<Performance_Indicator *> Base_Car_Measurements::getIndicators() {
+    return vector<Performance_Indicator *>();
+}

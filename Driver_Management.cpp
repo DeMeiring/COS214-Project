@@ -29,5 +29,5 @@ int Driver_Management::release_driver(Driver* release) {
 }
 
 vector<Driver *> Driver_Management::getVector() {
-    return vector<Driver*>();
+    return this->hired_drivers;
 }

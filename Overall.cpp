@@ -12,6 +12,13 @@ Overall::~Overall()
 
 void Overall::UpdateOverall_Stats(Statistics* Stats)
 {
-	
+    setStats(Stats);
 }
+
+Statistics *Overall::getStats() {
+    return Performance_Indicator::getStats();
+}
+
+
+
 
