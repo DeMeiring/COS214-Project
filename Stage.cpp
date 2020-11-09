@@ -1,5 +1,13 @@
 #include "Stage.h"
 
+Stage::Stage(Client* cl) {
+    User = cl;
+}
+
+Client* Stage::getClient() {
+    return User;
+}
+
 void Stage::updateStage(Stage* set) {
     curr_stage = set;
 }

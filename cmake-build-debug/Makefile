@@ -154,6 +154,33 @@ A_Base_Car.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\A_Base_Car.cpp.s
 .PHONY : A_Base_Car.cpp.s
 
+A_Car_Factory.obj: A_Car_Factory.cpp.obj
+
+.PHONY : A_Car_Factory.obj
+
+# target to build an object file
+A_Car_Factory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.obj
+.PHONY : A_Car_Factory.cpp.obj
+
+A_Car_Factory.i: A_Car_Factory.cpp.i
+
+.PHONY : A_Car_Factory.i
+
+# target to preprocess a source file
+A_Car_Factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.i
+.PHONY : A_Car_Factory.cpp.i
+
+A_Car_Factory.s: A_Car_Factory.cpp.s
+
+.PHONY : A_Car_Factory.s
+
+# target to generate assembly for a file
+A_Car_Factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\A_Car_Factory.cpp.s
+.PHONY : A_Car_Factory.cpp.s
+
 A_Opposing_Car.obj: A_Opposing_Car.cpp.obj
 
 .PHONY : A_Opposing_Car.obj
@@ -288,6 +315,60 @@ Bahrain.s: Bahrain.cpp.s
 Bahrain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Bahrain.cpp.s
 .PHONY : Bahrain.cpp.s
+
+Base_Car.obj: Base_Car.cpp.obj
+
+.PHONY : Base_Car.obj
+
+# target to build an object file
+Base_Car.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Base_Car.cpp.obj
+.PHONY : Base_Car.cpp.obj
+
+Base_Car.i: Base_Car.cpp.i
+
+.PHONY : Base_Car.i
+
+# target to preprocess a source file
+Base_Car.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Base_Car.cpp.i
+.PHONY : Base_Car.cpp.i
+
+Base_Car.s: Base_Car.cpp.s
+
+.PHONY : Base_Car.s
+
+# target to generate assembly for a file
+Base_Car.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Base_Car.cpp.s
+.PHONY : Base_Car.cpp.s
+
+Base_Car_Measurements.obj: Base_Car_Measurements.cpp.obj
+
+.PHONY : Base_Car_Measurements.obj
+
+# target to build an object file
+Base_Car_Measurements.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.obj
+.PHONY : Base_Car_Measurements.cpp.obj
+
+Base_Car_Measurements.i: Base_Car_Measurements.cpp.i
+
+.PHONY : Base_Car_Measurements.i
+
+# target to preprocess a source file
+Base_Car_Measurements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.i
+.PHONY : Base_Car_Measurements.cpp.i
+
+Base_Car_Measurements.s: Base_Car_Measurements.cpp.s
+
+.PHONY : Base_Car_Measurements.s
+
+# target to generate assembly for a file
+Base_Car_Measurements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Base_Car_Measurements.cpp.s
+.PHONY : Base_Car_Measurements.cpp.s
 
 BluePrint.obj: BluePrint.cpp.obj
 
@@ -450,6 +531,33 @@ Conc_Radio_System.s: Conc_Radio_System.cpp.s
 Conc_Radio_System.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Conc_Radio_System.cpp.s
 .PHONY : Conc_Radio_System.cpp.s
+
+Concrete_Base_Car_Measurements.obj: Concrete_Base_Car_Measurements.cpp.obj
+
+.PHONY : Concrete_Base_Car_Measurements.obj
+
+# target to build an object file
+Concrete_Base_Car_Measurements.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.obj
+.PHONY : Concrete_Base_Car_Measurements.cpp.obj
+
+Concrete_Base_Car_Measurements.i: Concrete_Base_Car_Measurements.cpp.i
+
+.PHONY : Concrete_Base_Car_Measurements.i
+
+# target to preprocess a source file
+Concrete_Base_Car_Measurements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.i
+.PHONY : Concrete_Base_Car_Measurements.cpp.i
+
+Concrete_Base_Car_Measurements.s: Concrete_Base_Car_Measurements.cpp.s
+
+.PHONY : Concrete_Base_Car_Measurements.s
+
+# target to generate assembly for a file
+Concrete_Base_Car_Measurements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Concrete_Base_Car_Measurements.cpp.s
+.PHONY : Concrete_Base_Car_Measurements.cpp.s
 
 Conservative.obj: Conservative.cpp.obj
 
@@ -828,6 +936,60 @@ Opposing_Team.s: Opposing_Team.cpp.s
 Opposing_Team.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Opposing_Team.cpp.s
 .PHONY : Opposing_Team.cpp.s
+
+Overall.obj: Overall.cpp.obj
+
+.PHONY : Overall.obj
+
+# target to build an object file
+Overall.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Overall.cpp.obj
+.PHONY : Overall.cpp.obj
+
+Overall.i: Overall.cpp.i
+
+.PHONY : Overall.i
+
+# target to preprocess a source file
+Overall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Overall.cpp.i
+.PHONY : Overall.cpp.i
+
+Overall.s: Overall.cpp.s
+
+.PHONY : Overall.s
+
+# target to generate assembly for a file
+Overall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Overall.cpp.s
+.PHONY : Overall.cpp.s
+
+Performance_Indicator.obj: Performance_Indicator.cpp.obj
+
+.PHONY : Performance_Indicator.obj
+
+# target to build an object file
+Performance_Indicator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.obj
+.PHONY : Performance_Indicator.cpp.obj
+
+Performance_Indicator.i: Performance_Indicator.cpp.i
+
+.PHONY : Performance_Indicator.i
+
+# target to preprocess a source file
+Performance_Indicator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.i
+.PHONY : Performance_Indicator.cpp.i
+
+Performance_Indicator.s: Performance_Indicator.cpp.s
+
+.PHONY : Performance_Indicator.s
+
+# target to generate assembly for a file
+Performance_Indicator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\COS214_Project.dir\Performance_Indicator.cpp.s
+.PHONY : Performance_Indicator.cpp.s
 
 Pit_Crew.obj: Pit_Crew.cpp.obj
 
@@ -1489,6 +1651,9 @@ help:
 	@echo ... A_Base_Car.obj
 	@echo ... A_Base_Car.i
 	@echo ... A_Base_Car.s
+	@echo ... A_Car_Factory.obj
+	@echo ... A_Car_Factory.i
+	@echo ... A_Car_Factory.s
 	@echo ... A_Opposing_Car.obj
 	@echo ... A_Opposing_Car.i
 	@echo ... A_Opposing_Car.s
@@ -1504,6 +1669,12 @@ help:
 	@echo ... Bahrain.obj
 	@echo ... Bahrain.i
 	@echo ... Bahrain.s
+	@echo ... Base_Car.obj
+	@echo ... Base_Car.i
+	@echo ... Base_Car.s
+	@echo ... Base_Car_Measurements.obj
+	@echo ... Base_Car_Measurements.i
+	@echo ... Base_Car_Measurements.s
 	@echo ... BluePrint.obj
 	@echo ... BluePrint.i
 	@echo ... BluePrint.s
@@ -1522,6 +1693,9 @@ help:
 	@echo ... Conc_Radio_System.obj
 	@echo ... Conc_Radio_System.i
 	@echo ... Conc_Radio_System.s
+	@echo ... Concrete_Base_Car_Measurements.obj
+	@echo ... Concrete_Base_Car_Measurements.i
+	@echo ... Concrete_Base_Car_Measurements.s
 	@echo ... Conservative.obj
 	@echo ... Conservative.i
 	@echo ... Conservative.s
@@ -1564,6 +1738,12 @@ help:
 	@echo ... Opposing_Team.obj
 	@echo ... Opposing_Team.i
 	@echo ... Opposing_Team.s
+	@echo ... Overall.obj
+	@echo ... Overall.i
+	@echo ... Overall.s
+	@echo ... Performance_Indicator.obj
+	@echo ... Performance_Indicator.i
+	@echo ... Performance_Indicator.s
 	@echo ... Pit_Crew.obj
 	@echo ... Pit_Crew.i
 	@echo ... Pit_Crew.s

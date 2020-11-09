@@ -8,6 +8,7 @@ include_directories(.)
 add_executable(COS214_Project
         A_Base_Car.cpp
         A_Base_Car.h
+        A_Car_Factory.cpp
         A_Car_Factory.h
         A_Opposing_Car.cpp
         A_Opposing_Car.h
@@ -19,7 +20,10 @@ add_executable(COS214_Project
         Aggressive.h
         Bahrain.cpp
         Bahrain.h
+        Base_Car.cpp
         Base_Car.h
+        Base_Car_Measurements.cpp
+        Base_Car_Measurements.h
         BluePrint.cpp
         BluePrint.h
         Car_factory.cpp
@@ -32,6 +36,8 @@ add_executable(COS214_Project
         Component.h
         Conc_Radio_System.cpp
         Conc_Radio_System.h
+        Concrete_Base_Car_Measurements.cpp
+        Concrete_Base_Car_Measurements.h
         Conservative.cpp
         Conservative.h
         Department.cpp
@@ -48,6 +54,7 @@ add_executable(COS214_Project
         Engineering_Stage.h
         Experienced.cpp
         Experienced.h
+        Individual_Component.h
         main.cpp
         Moderate.cpp
         Moderate.h
@@ -61,6 +68,10 @@ add_executable(COS214_Project
         Opposing_Driver.h
         Opposing_Team.cpp
         Opposing_Team.h
+        Overall.cpp
+        Overall.h
+        Performance_Indicator.cpp
+        Performance_Indicator.h
         Pit_Crew.cpp
         Pit_Crew.h
         Pit_Stop.cpp
@@ -103,7 +114,8 @@ add_executable(COS214_Project
         Track.h
         Transport.cpp
         Transport.h
+        Tyres.h
         Unprepared.cpp
         Unprepared.h
         Weather.cpp
-        Weather.h Tyres.cpp Tyres.h)
+        Weather.h)
