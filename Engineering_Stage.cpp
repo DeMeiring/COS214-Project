@@ -7,6 +7,7 @@ Engineering_Stage::Engineering_Stage(Client* cl) : Stage(cl) {
 
 Stage* Engineering_Stage::ChangeStage(int Stage) {
      Stage::getClient()->SetStage(Stage::getClient()->getStages()[1]);
+     return 0;
 }
 
 void Engineering_Stage::RunStage() {

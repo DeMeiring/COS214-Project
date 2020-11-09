@@ -15,16 +15,18 @@ void Driver_Management::showAvailableDrivers() {
 void Driver_Management::purchase_driver(int index, int budget) {
     budget = budget - costPerDriver.at(index);
 
-    Driver *purchasedDriver = new Driver(new Conc_Radio_System(), new Statistics(), new Skill_Level(), new Prepared(
-            nullptr),
-                                         new RaceDay_Strat(), new Statistics(), available_drivers.at(index),costPerDriver.at(index));
+    Driver *purchasedDriver = new Driver(new Conc_Radio_System(), new Statistics(), available_drivers.at(index),costPerDriver.at(index));
 
     hired_drivers.push_back(purchasedDriver);
 }
 
 int Driver_Management::release_driver(Driver* release) {
     int contractCost = release->getContractCost();
-    hired_drivers.erase(std::find(hired_drivers.begin(),hired_drivers.end(),name));
+    vector<Driver*>::iterator iter;
+    for(iter = hired_drivers.begin(); iter < hired_drivers.end(); iter++)
+        if((*iter)->getName()==release->getName())
+            break;
+    hired_drivers.erase(iter);
     return contractCost;
 }
 

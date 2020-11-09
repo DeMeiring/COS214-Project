@@ -39,15 +39,16 @@ RaceDay_Stage::RaceDay_Stage(Client* cl) : Stage(cl) {
     vector<OpposingDriver*>::iterator iter;
     Driver_Pit = new bool[2];
 
-    for(iter= OpposingDrivers.begin(); iter < OpposingDrivers.end(); iter++) {
-        BCM->set((*iter)->car);
-        (*iter)->overall = BCM->Observe_car();
-    }
+    //for(iter= OpposingDrivers.begin(); iter < OpposingDrivers.end(); iter++) {
+    //    BCM->set((*iter)->car);
+    //    (*iter)->overall = BCM->Observe_car();
+    //}
 
 }
 
 Stage* RaceDay_Stage::ChangeStage(int Stage) {
     Stage::getClient()->Kill();
+    return nullptr;
 }
 
 void RaceDay_Stage::RunStage() {
@@ -92,8 +93,9 @@ Track* RaceDay_Stage::ChooseTrack(int index) {
 		tracks = new Bahrain();
 	else if(index==2)
 		tracks = new Monaco();
-	else if(index==3)
+	else
 		tracks = new Monza();
+	return tracks;
 }
 
 void RaceDay_Stage::show_tracks() {
@@ -244,7 +246,7 @@ void RaceDay_Stage::MainRace_Main() {
         system("clear");
 
 
-        if(Driver_Pit[0]==true or Driver_Pit[1]==true) {
+        if((Driver_Pit[0]==true) || (Driver_Pit[1]==true)) {
             PitStop->runPit();
         }
         else if ((i % 5) == 0) {
@@ -258,12 +260,12 @@ void RaceDay_Stage::MainRace_Main() {
             Racers *OverTaken = new Racers;
 
             for (int i = 0; i < (1 + rand() + 3); i++) {
-                if (IN_one == IN_two - 1 or IN_two == IN_one - 1) {
+                if (IN_one == IN_two - 1 || IN_two == IN_one - 1) {
                     cout << "race order has been given to not overtake team mates" << endl;
                     break;
                 }
 
-                if (IN_one == 0 or UserDrivers[0]->crashed == false) {
+                if (IN_one == 0 || UserDrivers[0]->crashed == false) {
                     cout << UserDrivers[0]->name << " leads the race for now" << endl;
                     break;
                 } else if (UserDrivers[0]->crashed == false) {
@@ -288,7 +290,7 @@ void RaceDay_Stage::MainRace_Main() {
                     }
                 }
                 // =================================================
-                if (IN_two == 0 or UserDrivers[1]->crashed == false) {
+                if (IN_two == 0 || UserDrivers[1]->crashed == false) {
                     cout << UserDrivers[1]->name << " leads the race for now" << endl;
                     break;
                 } else if (UserDrivers[1]->crashed == false) {
@@ -315,7 +317,7 @@ void RaceDay_Stage::MainRace_Main() {
             }
             // =================================================
             for (int i = 0; i < (1 + rand() + 3); i++) {
-                if (IN_one == IN_two - 1 or IN_two == IN_one - 1) {
+                if (IN_one == IN_two - 1 || IN_two == IN_one - 1) {
                     cout << "race order has been given to not overtake team mates" << endl;
                     break;
                 }

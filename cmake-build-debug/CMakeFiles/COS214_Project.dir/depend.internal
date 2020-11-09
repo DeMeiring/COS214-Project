@@ -112,7 +112,6 @@ CMakeFiles/COS214_Project.dir/Base_Car.cpp.obj
 CMakeFiles/COS214_Project.dir/Base_Car_Measurements.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Base_Car_Measurements.cpp
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Base_Car_Measurements.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Concrete_Base_Car_Measurements.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Iterator.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
@@ -809,6 +808,9 @@ CMakeFiles/COS214_Project.dir/Transport.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Transport.cpp
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Transport.h
+CMakeFiles/COS214_Project.dir/Tyres.cpp.obj
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Tyres.cpp
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Tyres.h
 CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Preparedness.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
@@ -821,41 +823,25 @@ CMakeFiles/COS214_Project.dir/Weather.cpp.obj
 CMakeFiles/COS214_Project.dir/main.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Base_Car.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Car_Factory.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Car.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Driver.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Aggressive.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Bahrain.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Base_Car_Measurements.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/BluePrint.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Car_factory.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Client.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Component.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Concrete_Base_Car_Measurements.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Department.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver_Management.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Iterator.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Experienced.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monaco.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monza.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Crew.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Stop.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Prepared.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Preparedness.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pro.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Computations.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Risky.h
@@ -863,11 +849,6 @@ CMakeFiles/COS214_Project.dir/main.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Testing_Stage.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Track.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Transport.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Tyres.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Unprepared.h
- C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Weather.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/main.cpp

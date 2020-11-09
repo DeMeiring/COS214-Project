@@ -28,6 +28,7 @@ Stage* Testing_Stage::ChangeStage(int Stage) {
         Stage::getClient()->SetStage(Stage::getClient()->getStages()[1]);
     else
         Stage::getClient()->SetStage(Stage::getClient()->getStages()[3]);
+    return nullptr;
 }
 
 void Testing_Stage::RunStage() {

@@ -5,7 +5,7 @@ Opposing_Driver::~Opposing_Driver() {
 
 }
 
-Statistics Opposing_Driver::GenDriver(int skills) {
+Statistics* Opposing_Driver::GenDriver(int skills) {
     Statistics *stats = new Statistics(false, true);
     int rando;
     if(skills > 90) {

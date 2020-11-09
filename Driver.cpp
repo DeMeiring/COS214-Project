@@ -18,8 +18,8 @@ void Driver::setStats(Statistics* stats) {
 	this->stats = stats;
 }
 
-Statistics* Driver::Stats_Modifier()
-{
+Statistics* Driver::Stats_Modifier() {
+    return nullptr;
 }
 
 int Driver::getContractCost()

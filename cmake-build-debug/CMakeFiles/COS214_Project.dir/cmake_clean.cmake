@@ -53,6 +53,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"
   "CMakeFiles/COS214_Project.dir/Track.cpp.obj"
   "CMakeFiles/COS214_Project.dir/Transport.cpp.obj"
+  "CMakeFiles/COS214_Project.dir/Tyres.cpp.obj"
   "CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj"
   "CMakeFiles/COS214_Project.dir/Weather.cpp.obj"
   "CMakeFiles/COS214_Project.dir/main.cpp.obj"

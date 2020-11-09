@@ -46,7 +46,5 @@ public:
 	
 };
 
-Race_Computations* Race_Computations :: instance = 0;
-
 
 #endif

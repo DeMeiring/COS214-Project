@@ -18,7 +18,7 @@
 #include "Conc_Radio_System.h"
 #include "Concrete_Base_Car_Measurements.h"
 
-class RaceDay_Stage : protected Stage {
+class RaceDay_Stage : public Stage {
 
 private:
 

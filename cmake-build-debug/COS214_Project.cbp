@@ -414,6 +414,9 @@
 		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Transport.h">
 			<Option target="COS214_Project"/>
 		</Unit>
+		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Tyres.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
 		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Tyres.h">
 			<Option target="COS214_Project"/>
 		</Unit>
