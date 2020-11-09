@@ -89,7 +89,7 @@ add_executable(COS214_Project
         Race_Crew.cpp
         Race_Crew.h
         RaceDay_Stage.cpp
-        RaceDay_stage.h
+        RaceDay_Stage.h
         RaceDay_Strat.cpp
         RaceDay_Strat.h
         Radio_System.cpp

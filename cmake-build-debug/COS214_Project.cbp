@@ -321,9 +321,6 @@
 		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_Strat.h">
 			<Option target="COS214_Project"/>
 		</Unit>
-		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/RaceDay_stage.h">
-			<Option target="COS214_Project"/>
-		</Unit>
 		<Unit filename="C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.cpp">
 			<Option target="COS214_Project"/>
 		</Unit>

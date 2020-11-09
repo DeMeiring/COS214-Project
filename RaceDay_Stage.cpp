@@ -2,8 +2,11 @@
 #include "Pit_Crew.h"
 #include <cstdlib>
 
-RaceDay_Stage::RaceDay_Stage() {
+RaceDay_Stage::RaceDay_Stage(Client* cl) : Stage(cl) {
+    rs = new Conc_Radio_System();
 	weather = new Weather_Selector;
+	PitStop = new Pit_Crew(rs, this);
+
 }
 
 RaceDay_Stage::~RaceDay_Stage() {

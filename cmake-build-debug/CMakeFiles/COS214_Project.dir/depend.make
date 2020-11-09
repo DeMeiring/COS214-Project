@@ -498,8 +498,8 @@ CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Prepared.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Preparedness.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Pro.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\RaceDay_Stage.cpp
+CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\RaceDay_Stage.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\RaceDay_Strat.h
-CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\RaceDay_stage.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Race_Command.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Race_Computations.h
 CMakeFiles\COS214_Project.dir\RaceDay_Stage.cpp.obj: ..\Race_Crew.h

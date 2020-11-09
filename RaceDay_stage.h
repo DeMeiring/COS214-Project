@@ -15,6 +15,7 @@
 #include "Pit_Crew.h"
 #include <vector>
 #include <iostream>
+#include "Conc_Radio_System.h"
 
 class RaceDay_Stage : public Stage {
 
@@ -26,6 +27,7 @@ private:
 	vector<OpposingDriver*> OpposingDrivers;
 	Race_Computations* RC;
 	Pit_Crew *PitStop;
+	Radio_System* rs;
 
 	bool PIT;
 
@@ -41,6 +43,8 @@ private:
 	void generateRacers();
 
 public:
+
+    RaceDay_Stage(Client* cl);
 
     void toPit(bool pit);
 
