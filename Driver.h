@@ -7,6 +7,7 @@
 #include "RaceDay_Strat.h"
 #include "Statistics.h"
 #include "Conc_Radio_System.h"
+#include <iostream>
 
 // Skill level
 #include "Rookie.h"
@@ -23,6 +24,8 @@
 #include "Risky.h"
 #include "Conservative.h"
 
+using namespace std;
+
 class Driver : public Race_Crew {
 
 private:
@@ -33,6 +36,7 @@ private:
 	RaceDay_Strat* RaceDayStrat;
 	Statistics* overStat;
 	int ContractCost;
+	Radio_System* RadioSystem;
 
 public:
 	Driver(Conc_Radio_System *rs, Statistics *stats,std::string name,int ContractCost);
@@ -54,12 +58,15 @@ public:
 	void initSkillLevel();
 	void initPrepared();
 
+    virtual void ReceiveCommand(Command* command);
+    virtual void SendCommand(int i);
 
 	void setRaceDay(RaceDay_Strat* raceDayStrat);
 	void setSkillLevel(Skill_Level* skillLevel);
 	void setPrepared(Prepared* prepared);
     void setOverallStats(Statistics* overStat);
 
+    void setRadioSys(Radio_System *set);
 	Statistics* applyChanges();
 
 };

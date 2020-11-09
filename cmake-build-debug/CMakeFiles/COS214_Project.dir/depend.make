@@ -667,9 +667,6 @@ CMakeFiles\COS214_Project.dir\Transport.cpp.obj: ..\Statistics.h
 CMakeFiles\COS214_Project.dir\Transport.cpp.obj: ..\Transport.cpp
 CMakeFiles\COS214_Project.dir\Transport.cpp.obj: ..\Transport.h
 
-CMakeFiles\COS214_Project.dir\Tyres.cpp.obj: ..\Tyres.cpp
-CMakeFiles\COS214_Project.dir\Tyres.cpp.obj: ..\Tyres.h
-
 CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj: ..\Preparedness.h
 CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj: ..\Statistics.h
 CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj: ..\Unprepared.cpp

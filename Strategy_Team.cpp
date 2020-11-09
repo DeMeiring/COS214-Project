@@ -16,7 +16,7 @@ void Strategy_Team::ReceiveCommand(Command* command) {
         else
             SendCommand(5);
     } else if(command->getCommand()=="car_damaged") {
-        cout << "Car damage acknowledged" << endl;
+        cout << "Strategy Team: Car damage acknowledged" << endl;
     }
     delete command;
 }
