@@ -25,7 +25,7 @@ Statistics* Weather::getStats() {
 }
 
 void Weather_Selector::setState(Weather* set) {
-    weather_state = set;
+    //weather_state = set;
 }
 
 void Weather::setStats(Statistics* stats) {
@@ -65,7 +65,7 @@ Wet::Wet() : Weather() {
 
 Raining::Raining() : Weather() {
     setName("raining");
-	setNextState(new Dry());
+	//setNextState(new Dry());
     Statistics *newStats = new Statistics(false, false, false, true);
     newStats->ChangeValue("weather_debuff", 30);
     newStats->ChangeValue("racing_ability", 15);

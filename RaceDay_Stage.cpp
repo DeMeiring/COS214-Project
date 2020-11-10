@@ -72,12 +72,14 @@ void RaceDay_Stage::generateConditions(bool isRand) {
     // choose track
     show_tracks();
     int decision = 1;
-    cin >> decision;
+    //cin >> decision;
+    decision = 2;
     tracks = ChooseTrack(decision);
 
     // choose weather
     showWeatherOptions();
-    cin >> decision;
+    //cin >> decision;
+    decision = 2;
     chooseWeather(decision);
 }
 
