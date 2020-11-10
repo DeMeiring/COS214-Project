@@ -154,6 +154,8 @@ CMakeFiles/COS214_Project.dir/Client.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monaco.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monza.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Car.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Crew.h
@@ -298,6 +300,8 @@ CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monaco.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monza.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Car.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Crew.h
@@ -388,12 +392,16 @@ CMakeFiles/COS214_Project.dir/Opposing_Team.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Aggressive.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Component.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Department.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Iterator.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Experienced.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Car.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.cpp
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Prepared.h
@@ -433,9 +441,11 @@ CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Bahrain.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Base_Car_Measurements.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Component.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Concrete_Base_Car_Measurements.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Department.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Iterator.h
@@ -443,6 +453,8 @@ CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monaco.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monza.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Car.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Crew.cpp
@@ -665,6 +677,8 @@ CMakeFiles/COS214_Project.dir/Stage.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monaco.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monza.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Car.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Crew.h
@@ -707,12 +721,16 @@ CMakeFiles/COS214_Project.dir/Teams.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/A_Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Aggressive.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Component.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conservative.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Department.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Engineering_Iterator.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Experienced.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Car.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Prepared.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Preparedness.h
@@ -755,6 +773,8 @@ CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monaco.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monza.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Car.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Crew.h
@@ -832,6 +852,8 @@ CMakeFiles/COS214_Project.dir/main.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Moderate.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monaco.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Monza.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Car.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Driver.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Opposing_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Performance_Indicator.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Pit_Crew.h

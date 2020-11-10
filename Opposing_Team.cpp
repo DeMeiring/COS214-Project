@@ -1,5 +1,10 @@
 #include "Opposing_Team.h"
 
+Opposing_Team::Opposing_Team() {
+    OppCarFact = new Opposing_Car;
+    OppDrivFact = new Opposing_Driver;
+}
+
 tuple<OpposingDriver*, OpposingDriver*> Opposing_Team::GenerateTeam(string DriverName1, string DriverName2, int difficulty, bool lowDiff){
     OpposingDriver* one = new OpposingDriver;
     one->name = DriverName1;
@@ -7,7 +12,7 @@ tuple<OpposingDriver*, OpposingDriver*> Opposing_Team::GenerateTeam(string Drive
     one->driver = new Driver(nullptr,OppDrivFact->GenDriver(difficulty),DriverName1,0);
 
     OpposingDriver* two = new OpposingDriver;
-    two->name = DriverName1;
+    two->name = DriverName2;
     if(!lowDiff)
         difficulty -=25; // tweak
     else

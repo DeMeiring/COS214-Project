@@ -22,7 +22,7 @@ private:
 protected:
 	int Cost;
 	int level;
-	Statistics* stats;
+	Statistics* stats=nullptr;
 
 public:
 	int getCompIndex();//eng

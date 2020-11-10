@@ -14,35 +14,67 @@ RaceDay_Stage::RaceDay_Stage(Client* cl) : Stage(cl) {
     generateConditions(false);
     TrackInfo();
     generateRacers();
+    string test = OpposingDrivers[0]->name;
 
-    OpposingDriver *hold = new OpposingDriver();
+    //====================================================
+    // stub
+
+    Opposing_Car *oppCar = new Opposing_Car;
+    Opposing_Driver *oppDri = new Opposing_Driver;
+
+    OpposingDriver *hold = new OpposingDriver(); // do not remove
+    hold->name = "Liam";
+    hold->car = oppCar->GenCar(70);
+    hold->team = "Test";
+    hold->overall = oppDri->GenDriver(70);
+    hold->driver = new Driver(nullptr, nullptr, "Liam", 0);
+    hold->driver->setStats(new Statistics(false, true));
+    OpposingDrivers.push_back(hold);
+
+    hold = new OpposingDriver();
+    hold->name = "Liam-2";
+    hold->car = oppCar->GenCar(90);
+    hold->team = "Test";
+    hold->overall = oppDri->GenDriver(70);
+    hold->driver = new Driver(nullptr, nullptr, "Liam-2", 0);
+    hold->driver->setStats(new Statistics(false, true));
+    OpposingDrivers.push_back(hold);
+
+    test = OpposingDrivers[19]->name;
+
+
+
+/*
     hold->driver = User->getHired()[0];
     hold->car  = User->getCars()->RemoveCar()->getCarBluePrint();
     hold->name = hold->driver->getName();
     hold->team = User->getTeamName();
     OpposingDrivers.push_back(hold);
-
+*/
     UserDrivers.push_back(hold);
-
+/*
     hold->driver = User->getHired()[1];
     hold->car  = User->getCars()->RemoveCar()->getCarBluePrint();
     hold->name = hold->driver->getName();
     hold->team = User->getTeamName();
     OpposingDrivers.push_back(hold);
-
+*/
     UserDrivers.push_back(hold);
 
     overall = User->getCar_stats();
 
-    BCM = new Concrete_Base_Car_Measurements(nullptr);
+    //BCM = new Concrete_Base_Car_Measurements(nullptr);
 
-    vector<OpposingDriver*>::iterator iter;
     Driver_Pit = new bool[2];
 
-    //for(iter= OpposingDrivers.begin(); iter < OpposingDrivers.end(); iter++) {
-    //    BCM->set((*iter)->car);
-    //    (*iter)->overall = BCM->Observe_car();
+    //for(int i=0; i<20; i++) {
+    //    BCM->set(OpposingDrivers[i]->car);
+    //    BCM->Observe_car(); // how do I get the stats from this?
+        // call get stats
     //}
+
+    delete oppDri;
+    delete oppCar;
 
 }
 
@@ -66,6 +98,7 @@ RaceDay_Stage::~RaceDay_Stage() {
 	delete tracks;
 	delete weather;
 	delete rs;
+    delete team;
 }
 
 void RaceDay_Stage::generateConditions(bool isRand) {
@@ -84,10 +117,9 @@ void RaceDay_Stage::generateConditions(bool isRand) {
 }
 
 void RaceDay_Stage::generateRacers() {
-	Teams *teams = new Teams();
-	teams->GenDrivers();
-	OpposingDrivers = teams->getOpposingDrivers();
-	delete teams;
+	team= new Teams();
+	team->GenDrivers();
+	OpposingDrivers = team->getOpposingDrivers();
 }
 
 Track* RaceDay_Stage::ChooseTrack(int index) {
@@ -151,55 +183,22 @@ void RaceDay_Stage::TrackInfo() {
     cout << "The race is " << lap_count << "laps" << endl;
 }
 
-bool CompareOverall(Statistics *one, Statistics* two) {
-    int ione, itwo;
-    ione = itwo =0;
-
-    if(one->getValue("speed") > two->getValue("speed")) {
-        ione++;
-    }
-    else
-        itwo++;
-
-    if(one->getValue("acceleration") > two->getValue("acceleration")) {
-        ione++;
-    }
-    else
-        itwo++;
-
-    if(one->getValue("weight") > two->getValue("weight")) {
-        ione++;
-    }
-    else
-        itwo++;
-
-    if(one->getValue("handling") > two->getValue("handling")) {
-        ione++;
-    }
-    else
-        itwo++;
-
-    if(one->getValue("failure") > two->getValue("failure")) {
-        ione++;
-    }
-    else
-        itwo++;
-
-    return (ione > itwo);
-
-}
-
 void RaceDay_Stage::Qualifying_Main() {
+    system("clear");
     cout << "The cars warmup to begin qualifying" << endl;
     // sorting algorithm
     // bubble or selection sort
     OpposingDriver* hold;
     int j=0;
 
+    string test = OpposingDrivers[0]->name;
+
     for(int i=0; i<4; i++) {
+        cout.flush();
+        cout<<endl;
         cout << "Heat " << i+1 << " of qualifying" <<endl;
         for(int j = 20 - i*5, k=0; k<(j-1); k++) {
-            if(!CompareOverall(OpposingDrivers[k]->overall, OpposingDrivers[k+1]->overall)) {
+            if(!(RC->CompareOverall(OpposingDrivers[k]->overall, OpposingDrivers[k+1]->overall))) {
                 cout << OpposingDrivers[k+1]->name << " overtakes " << OpposingDrivers[k]->name << " in the pole" << endl;
                 hold = OpposingDrivers[k];
                 OpposingDrivers[k] = OpposingDrivers[k+1];
@@ -207,10 +206,11 @@ void RaceDay_Stage::Qualifying_Main() {
             }
         }
     }
+    cout<<endl;
     cout << "Qualifying completed" << endl;
     cout << "Results: " << endl;
     for(int i=0; i<20; i++) {
-        cout << i << ": " << OpposingDrivers[i]->name << endl;
+        cout << i+1 << ": " << OpposingDrivers[i]->name << endl;
         if(OpposingDrivers[i]==UserDrivers[0])
             IN_one=i;
         if(OpposingDrivers[i]==UserDrivers[1])
@@ -245,29 +245,29 @@ void RaceDay_Stage::MainRace_Main() {
     for (int i = 1; i < lap_count + 1; i++) {
         cout << "Lap " << i << "/" << lap_count << endl;
         _sleep(2);
-        system("clear");
+        //system("clear");
 
 
         if((Driver_Pit[0]==true) || (Driver_Pit[1]==true)) {
             PitStop->runPit();
         }
         else if ((i % 5) == 0) {
-            system("clear");
+            //system("clear");
             _sleep(5);
-            cout << "All the focus is on the new team:" << UserDrivers[0]->team << " as the race continues" << endl;
+            cout << "All the focus is on the new team: " << UserDrivers[0]->team << " as the race continues" << endl;
 
             // randomize number of chances to overtake
             // overtake forward
             Racers *OverTaker = new Racers;
             Racers *OverTaken = new Racers;
 
-            for (int i = 0; i < (1 + rand() + 3); i++) {
+            for (int i = 0; i < (1 + rand() % 3); i++) {
                 if (IN_one == IN_two - 1 || IN_two == IN_one - 1) {
                     cout << "race order has been given to not overtake team mates" << endl;
                     break;
                 }
 
-                if (IN_one == 0 || UserDrivers[0]->crashed == false) {
+                if (IN_one == 0 and UserDrivers[0]->crashed == false) {
                     cout << UserDrivers[0]->name << " leads the race for now" << endl;
                     break;
                 } else if (UserDrivers[0]->crashed == false) {
@@ -276,15 +276,19 @@ void RaceDay_Stage::MainRace_Main() {
                     OverTaken->Racer = OpposingDrivers[IN_one - 1]->driver->getStats();
                     OverTaken->TyresOfCar = OpposingDrivers[IN_one - 1]->tyre;
 
+                    OverTaken->Racer = new Statistics(false, true);
 
-                    OverTaken->Car = OpposingDrivers[IN_one]->car->getStats();
-                    OverTaken->Racer = OpposingDrivers[IN_one]->driver->getStats();
-                    OverTaken->TyresOfCar = OpposingDrivers[IN_one]->tyre;
+
+                    OverTaker->Car = OpposingDrivers[IN_one]->car->getStats();
+                    OverTaker->Racer = OpposingDrivers[IN_one]->driver->getStats();
+                    OverTaker->TyresOfCar = OpposingDrivers[IN_one]->tyre;
+
+                    OverTaker->Racer = new Statistics(false, true);
 
                     OpposingDriver *pass;
                     if (RC->OvertakeSuccess(OverTaken, OverTaker)) {
-                        cout << "An impressive overtake on" << OpposingDrivers[IN_one - 1]->name << " by "
-                             << OpposingDrivers[IN_one] << endl;
+                        cout << "An impressive overtake on " << OpposingDrivers[IN_one - 1]->name << " by "
+                             << OpposingDrivers[IN_one]->name << endl;
                         pass = OpposingDrivers[IN_one];
                         OpposingDrivers[IN_one] = OpposingDrivers[IN_one - 1];
                         OpposingDrivers[IN_one - 1] = pass;
@@ -292,7 +296,7 @@ void RaceDay_Stage::MainRace_Main() {
                     }
                 }
                 // =================================================
-                if (IN_two == 0 || UserDrivers[1]->crashed == false) {
+                if (IN_two == 0 and UserDrivers[1]->crashed == false) {
                     cout << UserDrivers[1]->name << " leads the race for now" << endl;
                     break;
                 } else if (UserDrivers[1]->crashed == false) {
@@ -302,14 +306,14 @@ void RaceDay_Stage::MainRace_Main() {
                     OverTaken->TyresOfCar = OpposingDrivers[IN_two - 1]->tyre;
 
                     Racers *OverTaker = new Racers;
-                    OverTaken->Car = OpposingDrivers[IN_two]->car->getStats();
-                    OverTaken->Racer = OpposingDrivers[IN_two]->driver->getStats();
-                    OverTaken->TyresOfCar = OpposingDrivers[IN_two]->tyre;
+                    OverTaker->Car = OpposingDrivers[IN_two]->car->getStats();
+                    OverTaker->Racer = OpposingDrivers[IN_two]->driver->getStats();
+                    OverTaker->TyresOfCar = OpposingDrivers[IN_two]->tyre;
 
                     OpposingDriver *pass;
                     if (RC->OvertakeSuccess(OverTaken, OverTaker)) {
-                        cout << "An impressive overtake on" << OpposingDrivers[IN_two - 1]->name << " by "
-                             << OpposingDrivers[IN_two] << endl;
+                        cout << "An impressive overtake on " << OpposingDrivers[IN_two - 1]->name << " by "
+                             << OpposingDrivers[IN_two]->name << endl;
                         pass = OpposingDrivers[IN_two];
                         OpposingDrivers[IN_two] = OpposingDrivers[IN_two - 1];
                         OpposingDrivers[IN_two - 1] = pass;
@@ -318,7 +322,7 @@ void RaceDay_Stage::MainRace_Main() {
                 // =================================================
             }
             // =================================================
-            for (int i = 0; i < (1 + rand() + 3); i++) {
+            for (int i = 0; i < (1 + rand() % 3); i++) {
                 if (IN_one == IN_two - 1 || IN_two == IN_one - 1) {
                     cout << "race order has been given to not overtake team mates" << endl;
                     break;
@@ -328,9 +332,9 @@ void RaceDay_Stage::MainRace_Main() {
                     cout << "Team " << UserDrivers[0]->team << "has a driver running last" << endl;
                 } else {
                     Racers *OverTaker = new Racers;
-                    OverTaken->Car = OpposingDrivers[IN_one + 1]->car->getStats();
-                    OverTaken->Racer = OpposingDrivers[IN_one + 1]->driver->getStats();
-                    OverTaken->TyresOfCar = OpposingDrivers[IN_one + 1]->tyre;
+                    OverTaker->Car = OpposingDrivers[IN_one + 1]->car->getStats();
+                    OverTaker->Racer = OpposingDrivers[IN_one + 1]->driver->getStats();
+                    OverTaker->TyresOfCar = OpposingDrivers[IN_one + 1]->tyre;
 
                     Racers *OverTaken = new Racers;
                     OverTaken->Car = OpposingDrivers[IN_one]->car->getStats();
@@ -339,8 +343,8 @@ void RaceDay_Stage::MainRace_Main() {
 
                     OpposingDriver *pass;
                     if (RC->OvertakeSuccess(OverTaken, OverTaker)) {
-                        cout << "An impressive overtake on" << OpposingDrivers[IN_one]->name << " by "
-                             << OpposingDrivers[IN_one + 1] << endl;
+                        cout << "An impressive overtake on " << OpposingDrivers[IN_one]->name << " by "
+                             << OpposingDrivers[IN_one + 1]->name << endl;
                         pass = OpposingDrivers[IN_one + 1];
                         OpposingDrivers[IN_one + 1] = OpposingDrivers[IN_one];
                         OpposingDrivers[IN_one] = pass;
@@ -351,9 +355,9 @@ void RaceDay_Stage::MainRace_Main() {
                     cout << "Team " << UserDrivers[1]->team << "has a driver running last" << endl;
                 } else {
                     Racers *OverTaker = new Racers;
-                    OverTaken->Car = OpposingDrivers[IN_two + 1]->car->getStats();
-                    OverTaken->Racer = OpposingDrivers[IN_two + 1]->driver->getStats();
-                    OverTaken->TyresOfCar = OpposingDrivers[IN_two + 1]->tyre;
+                    OverTaker->Car = OpposingDrivers[IN_two + 1]->car->getStats();
+                    OverTaker->Racer = OpposingDrivers[IN_two + 1]->driver->getStats();
+                    OverTaker->TyresOfCar = OpposingDrivers[IN_two + 1]->tyre;
 
                     Racers *OverTaken = new Racers;
                     OverTaken->Car = OpposingDrivers[IN_two]->car->getStats();
@@ -362,8 +366,8 @@ void RaceDay_Stage::MainRace_Main() {
 
                     OpposingDriver *pass;
                     if (RC->OvertakeSuccess(OverTaken, OverTaker)) {
-                        cout << "An impressive overtake on" << OpposingDrivers[IN_two]->name << " by "
-                             << OpposingDrivers[IN_one + 1] << endl;
+                        cout << "An impressive overtake on " << OpposingDrivers[IN_two]->name << " by "
+                             << OpposingDrivers[IN_one + 1]->name << endl;
                         pass = OpposingDrivers[IN_two + 1];
                         OpposingDrivers[IN_two + 1] = OpposingDrivers[IN_two];
                         OpposingDrivers[IN_two] = pass;
@@ -456,5 +460,5 @@ void RaceDay_Stage::final_grid() {
     cout << "The rest of the grid is as follows" <<endl;
     _sleep(2);
     for(int i=3; i<20; i++)
-        cout<< i << ": " << OpposingDrivers[i]->name << endl;
+        cout<< i+1 << ": " << OpposingDrivers[i]->name << endl;
 }

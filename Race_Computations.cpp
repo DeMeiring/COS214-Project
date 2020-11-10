@@ -21,6 +21,47 @@ double weightAverage(int t1, int t2) {
     return t1/hold; // avoid integer division
 }
 
+bool Race_Computations::CompareOverall(Statistics *one, Statistics* two) {
+    int ione, itwo;
+    ione = itwo =0;
+
+    if(one == nullptr or two == nullptr)
+        return (rand()%1)==1;
+
+    if(one->getValue("speed") > two->getValue("speed")) {
+        ione++;
+    }
+    else
+        itwo++;
+
+    if(one->getValue("acceleration") > two->getValue("acceleration")) {
+        ione++;
+    }
+    else
+        itwo++;
+
+    if(one->getValue("weight") > two->getValue("weight")) {
+        ione++;
+    }
+    else
+        itwo++;
+
+    if(one->getValue("handling") > two->getValue("handling")) {
+        ione++;
+    }
+    else
+        itwo++;
+
+    if(one->getValue("failure") > two->getValue("failure")) {
+        ione++;
+    }
+    else
+        itwo++;
+
+    return (ione > itwo);
+
+}
+
 // higher score wins
 bool Race_Computations::OvertakeSuccess(Racers* ToBeOvertaken, Racers* Overtaker) {
     double one, two;

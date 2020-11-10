@@ -25,6 +25,8 @@ int Engineering::getLevel()
 
 Statistics* Engineering::getStats()
 {
+    if(stats==nullptr)
+        return new Statistics(true);
 	return stats;
 }
 

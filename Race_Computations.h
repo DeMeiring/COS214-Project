@@ -11,8 +11,8 @@
 using namespace std;
 
 struct Racers {
-    Statistics* Racer;
-    Statistics* Car;
+    Statistics* Racer=nullptr;
+    Statistics* Car=nullptr;
     Tyres* TyresOfCar;
 };
 
@@ -45,6 +45,8 @@ public:
 	int ChanceOfPitOvertake(int delay);
 
     bool ChanceOfRecovery(Racers* driver);
+
+    bool CompareOverall(Statistics *one, Statistics* two);
 
     virtual ~Race_Computations();
 	

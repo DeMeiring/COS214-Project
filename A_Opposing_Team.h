@@ -17,7 +17,7 @@ struct OpposingDriver {
 		Driver* driver;
 		Engineering* car;
 		Tyres* tyre;
-		Statistics* overall;
+		Statistics* overall = nullptr;
 		bool crashed = false;
 	};
 

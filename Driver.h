@@ -29,7 +29,7 @@ class Driver : public Race_Crew {
 
 private:
     std::string name;
-	Statistics* stats;
+	Statistics* stats = nullptr;
 	Skill_Level* skill_level;
 	Preparedness* preparedness;
 	RaceDay_Strat* RaceDayStrat;

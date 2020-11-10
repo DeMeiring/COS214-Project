@@ -34,6 +34,7 @@ private:
 	Pit_Crew *PitStop;
 	Radio_System* rs;
 	Statistics *overall;
+	Teams* team;
 
 	int IN_one=18, IN_two=19;
     vector<OpposingDriver*> UserDrivers;

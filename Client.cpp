@@ -1,9 +1,9 @@
 #include "Client.h"
 
 Client::Client() {
-    Stages.push_back(new Engineering_Stage(this));
+    //Stages.push_back(new Engineering_Stage(this));
     //Stages.push_back(new Testing_Stage(this));
-    //Stages.push_back(new RaceDay_Stage(this));
+    Stages.push_back(new RaceDay_Stage(this));
     stage = Stages[0];
 }
 

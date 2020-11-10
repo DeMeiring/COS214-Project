@@ -11,7 +11,10 @@ Driver::Driver(Radio_System *rs, Statistics *stats,std::string name, int contrac
 }
 
 Statistics* Driver::getStats() {
-	return this->stats;
+    if(stats==nullptr)
+        return new Statistics(false, true);
+    else
+        return this->stats;
 }
 
 void Driver::setStats(Statistics* stats) {
