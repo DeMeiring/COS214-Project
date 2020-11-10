@@ -77,5 +77,5 @@ void Pit_Crew::ReceiveCommand(Command* command) {
         Pit->fastPit(false);
         SendCommand(1);
     }
-    delete command;
+    //delete command;
 }

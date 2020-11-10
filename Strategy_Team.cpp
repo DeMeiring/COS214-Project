@@ -1,5 +1,5 @@
 #include "Strategy_Team.h"
-#include "Radio_System.h"
+#include "Conc_Radio_System.h"
 
 Strategy_Team::Strategy_Team(Radio_System* rs) : Race_Crew(rs) {
 
@@ -18,7 +18,7 @@ void Strategy_Team::ReceiveCommand(Command* command) {
     } else if(command->getCommand()=="car_damaged") {
         cout << "Strategy Team: Car damage acknowledged" << endl;
     }
-    delete command;
+    //delete command;
 }
 
 void Strategy_Team::SendCommand(int i) {

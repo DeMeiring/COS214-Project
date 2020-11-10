@@ -174,6 +174,7 @@ CMakeFiles/COS214_Project.dir/Client.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Strategy_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Testing_Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Track.h
@@ -320,6 +321,7 @@ CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Strategy_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Testing_Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Track.h
@@ -474,6 +476,7 @@ CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Strategy_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Track.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Tyres.h
@@ -567,6 +570,7 @@ CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Strategy_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Testing_Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Track.h
@@ -698,6 +702,7 @@ CMakeFiles/COS214_Project.dir/Stage.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Stage.cpp
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Strategy_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Testing_Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Track.h
@@ -710,6 +715,7 @@ CMakeFiles/COS214_Project.dir/Statistics.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Command.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Conc_Radio_System.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Command.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Race_Crew.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Radio_System.h
@@ -793,6 +799,7 @@ CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Strategy_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Testing_Stage.cpp
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Testing_Stage.h
@@ -872,6 +879,7 @@ CMakeFiles/COS214_Project.dir/main.cpp.obj
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Skill_Level.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Statistics.h
+ C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Strategy_Team.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Teams.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Testing_Stage.h
  C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/Track.h

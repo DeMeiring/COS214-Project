@@ -173,6 +173,7 @@ CMakeFiles/COS214_Project.dir/Client.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/Client.cpp.obj: ../Skill_Level.h
 CMakeFiles/COS214_Project.dir/Client.cpp.obj: ../Stage.h
 CMakeFiles/COS214_Project.dir/Client.cpp.obj: ../Statistics.h
+CMakeFiles/COS214_Project.dir/Client.cpp.obj: ../Strategy_Team.h
 CMakeFiles/COS214_Project.dir/Client.cpp.obj: ../Teams.h
 CMakeFiles/COS214_Project.dir/Client.cpp.obj: ../Testing_Stage.h
 CMakeFiles/COS214_Project.dir/Client.cpp.obj: ../Track.h
@@ -319,6 +320,7 @@ CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj: ../Skill_Level.h
 CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj: ../Stage.h
 CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj: ../Statistics.h
+CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj: ../Strategy_Team.h
 CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj: ../Teams.h
 CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj: ../Testing_Stage.h
 CMakeFiles/COS214_Project.dir/Engineering_Stage.cpp.obj: ../Track.h
@@ -473,6 +475,7 @@ CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: ../Skill_Level.h
 CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: ../Stage.h
 CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: ../Statistics.h
+CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: ../Strategy_Team.h
 CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: ../Teams.h
 CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: ../Track.h
 CMakeFiles/COS214_Project.dir/Pit_Crew.cpp.obj: ../Tyres.h
@@ -566,6 +569,7 @@ CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: ../Skill_Level.h
 CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: ../Stage.h
 CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: ../Statistics.h
+CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: ../Strategy_Team.h
 CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: ../Teams.h
 CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: ../Testing_Stage.h
 CMakeFiles/COS214_Project.dir/RaceDay_Stage.cpp.obj: ../Track.h
@@ -697,6 +701,7 @@ CMakeFiles/COS214_Project.dir/Stage.cpp.obj: ../Skill_Level.h
 CMakeFiles/COS214_Project.dir/Stage.cpp.obj: ../Stage.cpp
 CMakeFiles/COS214_Project.dir/Stage.cpp.obj: ../Stage.h
 CMakeFiles/COS214_Project.dir/Stage.cpp.obj: ../Statistics.h
+CMakeFiles/COS214_Project.dir/Stage.cpp.obj: ../Strategy_Team.h
 CMakeFiles/COS214_Project.dir/Stage.cpp.obj: ../Teams.h
 CMakeFiles/COS214_Project.dir/Stage.cpp.obj: ../Testing_Stage.h
 CMakeFiles/COS214_Project.dir/Stage.cpp.obj: ../Track.h
@@ -709,6 +714,7 @@ CMakeFiles/COS214_Project.dir/Statistics.cpp.obj: ../Statistics.cpp
 CMakeFiles/COS214_Project.dir/Statistics.cpp.obj: ../Statistics.h
 
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: ../Command.h
+CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: ../Conc_Radio_System.h
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: ../Race_Crew.h
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: ../Radio_System.h
@@ -792,6 +798,7 @@ CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Skill_Level.h
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Stage.h
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Statistics.h
+CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Strategy_Team.h
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Teams.h
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Testing_Stage.cpp
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Testing_Stage.h
@@ -871,6 +878,7 @@ CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Rookie.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Skill_Level.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Stage.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Statistics.h
+CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Strategy_Team.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Teams.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Testing_Stage.h
 CMakeFiles/COS214_Project.dir/main.cpp.obj: ../Track.h

@@ -10,6 +10,9 @@ RaceDay_Stage::RaceDay_Stage(Client* cl) : Stage(cl) {
 	weather = new Weather_Selector;
 	PitStop = new Pit_Crew(rs, this);
     RC = Race_Computations::GetComp();
+    strat_team = new Strategy_Team(rs);
+    rs->addGroup(strat_team);
+    rs->addGroup(PitStop);
 
     generateConditions(false);
     TrackInfo();
@@ -27,7 +30,8 @@ RaceDay_Stage::RaceDay_Stage(Client* cl) : Stage(cl) {
     hold->car = oppCar->GenCar(70);
     hold->team = "Test";
     hold->overall = oppDri->GenDriver(70);
-    hold->driver = new Driver(nullptr, nullptr, "Liam", 0);
+    hold->driver = new Driver(rs, nullptr, "Liam", 0);
+    rs->addGroup(hold->driver);
     hold->driver->setStats(new Statistics(false, true));
     OpposingDrivers.push_back(hold);
 
@@ -36,7 +40,8 @@ RaceDay_Stage::RaceDay_Stage(Client* cl) : Stage(cl) {
     hold->car = oppCar->GenCar(90);
     hold->team = "Test";
     hold->overall = oppDri->GenDriver(70);
-    hold->driver = new Driver(nullptr, nullptr, "Liam-2", 0);
+    hold->driver = new Driver(rs, nullptr, "Liam-2", 0);
+    rs->addGroup(hold->driver);
     hold->driver->setStats(new Statistics(false, true));
     OpposingDrivers.push_back(hold);
 
@@ -416,7 +421,7 @@ void RaceDay_Stage::MainRace_Main() {
             // =================================================
             int car_choice = rand() % 2;
 
-            if (chance) {
+            if (!chance) {
                 Racers *RC_pass = new Racers;
                 RC_pass->TyresOfCar = UserDrivers[car_choice]->tyre;
                 RC_pass->Racer = UserDrivers[car_choice]->driver->getStats();
@@ -429,7 +434,7 @@ void RaceDay_Stage::MainRace_Main() {
                 if (RC->ChanceOfCrash(RC_pass, cond)) {
                     cout << UserDrivers[car_choice]->name << " slides wide on the corner, can they control the car? "
                          << endl;
-                    if (RC->ChanceOfRecovery(RC_pass)) {
+                    if (RC->ChanceOfRecovery(RC_pass)) { // needs balancing
                         cout << "The driver manages to recover from their mistake with minor damage to the car" << endl;
                         UserDrivers[car_choice]->driver->SendCommand(4);
                         Driver_Pit[car_choice] = true;

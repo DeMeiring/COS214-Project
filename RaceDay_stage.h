@@ -17,6 +17,7 @@
 #include <iostream>
 #include "Conc_Radio_System.h"
 #include "Concrete_Base_Car_Measurements.h"
+#include "Strategy_Team.h"
 
 #include <unistd.h>
 //usleep(10)
@@ -35,6 +36,8 @@ private:
 	Radio_System* rs;
 	Statistics *overall;
 	Teams* team;
+	Strategy_Team* strat_team;
+
 
 	int IN_one=18, IN_two=19;
     vector<OpposingDriver*> UserDrivers;

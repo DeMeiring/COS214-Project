@@ -198,7 +198,7 @@ void Driver::ReceiveCommand(Command* command) {
         getStats()->ChangeValue("aggression", 20, true, true);
         cout << "Strategy adjusted" << endl;
     }
-    delete command;
+    //delete command;
 
 }
 
@@ -206,31 +206,31 @@ void Driver::SendCommand(int i) {
     switch(i) {
         case 1: {
             Command *command = new Race_Command(Race_Crew::getRS(), this, "yes_soft");
-            cout << "Driver radios message:" << command->getCommand() << endl;
+            cout << "Driver radios message: " << command->getCommand() << endl;
             Race_Crew::SendCommand(command);
             break;
         }
         case 2: {
             Command *command = new Race_Command(Race_Crew::getRS(), this, "yes_medium");
-            cout << "Driver radios message:" << command->getCommand() << endl;
+            cout << "Driver radios message: " << command->getCommand() << endl;
             Race_Crew::SendCommand(command);
             break;
         }
         case 3: {
             Command *command = new Race_Command(Race_Crew::getRS(), this, "yes_hard");
-            cout << "Driver radios message:" << command->getCommand() << endl;
+            cout << "Driver radios message: " << command->getCommand() << endl;
             Race_Crew::SendCommand(command);
             break;
         }
         case 4: {
             Command *command = new Race_Command(Race_Crew::getRS(), this, "car_damaged");
-            cout << "Driver radios message:" << command->getCommand() << endl;
+            cout << "Driver radios message: " << command->getCommand() << endl;
             Race_Crew::SendCommand(command);
             break;
         }
         case 5: {
             Command *command = new Race_Command(Race_Crew::getRS(), this, "no_soft");
-            cout << "Driver radios message:" << command->getCommand() << endl;
+            cout << "Driver radios message: " << command->getCommand() << endl;
             Race_Crew::SendCommand(command);
             break;
         }

@@ -3,7 +3,7 @@
 
 #include "Race_Crew.h"
 
-class Strategy_Team : Race_Crew {
+class Strategy_Team : public Race_Crew {
 public:
     Strategy_Team(Radio_System* rs);
     virtual ~Strategy_Team();
