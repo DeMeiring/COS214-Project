@@ -3,11 +3,26 @@
 #include "Conc_Radio_System.h"
 #include <algorithm>
 
+Driver_Management::Driver_Management()
+{
+    costPerDriver.push_back(500000);
+    costPerDriver.push_back(400000);
+    costPerDriver.push_back(100000);
+    costPerDriver.push_back(300000);
+    costPerDriver.push_back(300000);
+
+    available_drivers.push_back("Liam");
+    available_drivers.push_back("Matt");
+    available_drivers.push_back("DeVilliers");
+    available_drivers.push_back("Dean");
+    available_drivers.push_back("Joseph");
+}
+
 void Driver_Management::showAvailableDrivers() {
 	std::vector<std::string>::iterator it = this->available_drivers.begin();
 	int count=0;
 	for(it = available_drivers.begin();it!=available_drivers.end();++it){
-        std::cout<<count<<":" <<(*it)<<" cost:"<<costPerDriver.at(count);
+        std::cout << count<< ": " << (*it) << "->" << " Cost: " << costPerDriver.at(count) << endl;
         count++;
 	}
 }

@@ -10,6 +10,7 @@ class Concrete_Base_Car_Measurements : public Base_Car_Measurements {
 private:
 	Engineering_Iterator* subject_iterator;  //car iterator
 	Engineering* component_subject;  //component of car
+	Statistics* stats;
 
 public:
     Concrete_Base_Car_Measurements(Engineering *car);
@@ -17,6 +18,7 @@ public:
 
 	void Observe_car();
 	
+	Statistics* getStats();
 	void set(Engineering* component);
 
 };

@@ -1,6 +1,5 @@
 #include "Testing_Stage.h"
 
-
 Testing_Stage::~Testing_Stage() {
     delete this->driver;
     delete this->car;
@@ -15,17 +14,42 @@ Testing_Stage::~Testing_Stage() {
 void Testing_Stage::TestingStage_main()
 {
     // dm->showAvailableDrivers();
-
     Driver_Management* dm = new Driver_Management();
 
-    cout << "===============================" << endl;
-    cout << "Available Drivers : " << dm->showAvailableDrivers() << endl;
-    cout << "===============================" << endl;
+    int budget;
+    cout << "----------------------------" << endl;
+    cout << " Enter a Driver's budget: " << endl;
+    cout << "----------------------------" << endl;
+    cin >> budget;
     cout << endl;
-    cout << "Please select a driver: " << endl;
-    int input;
 
-    dm->purchase_driver(input, )
+    for(int i = 0; i < 2; i++)
+    {
+        cout << "+===============================+" << endl;
+        dm->showAvailableDrivers();
+        cout << "+===============================+" << endl;
+        cout << endl;
+
+        cout << "++++++++++++++++++++++++++++" << endl;
+        cout << "Please select a driver: " << endl;
+        cout << "++++++++++++++++++++++++++++" << endl;
+        int input;
+        cin >> input;
+        cout << endl;
+
+        dm->purchase_driver(input, budget);
+    }
+
+
+    cout << "###########################################" << endl;
+    cout << "##                                       ##" << endl;
+    cout << "##          RUNNING THE TESTING          ##" << endl;
+    cout << "##                                       ##" << endl;
+    cout << "###########################################" << endl;
+
+    Concrete_Base_Car_Measurements* concBase = new Concrete_Base_Car_Measurements(this->car);
+
+    concBase->Observe_car();
 
 }
 

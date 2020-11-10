@@ -29,7 +29,7 @@ void Concrete_Base_Car_Measurements::Observe_car(){
     for(int i = 0; i < 4; i++) //change departments
     { 
         deptName = subject_iterator->CurrentDept()->getRnDName();
-        cout << "=========Department: "<< deptName << "===========" << endl;
+        cout << "==========Department: "<< deptName << "===========" << endl;
 
         for(int j = 0; j < 3; j++) // change components
         {
@@ -40,10 +40,11 @@ void Concrete_Base_Car_Measurements::Observe_car(){
             cout << ">> Component's Value: " << compValue << endl;
             cout << "--------------------------" << endl;
 
+            this->stats->ChangeValue(attributename, compValue, false, false);
             // get next component
             this->component_subject= this->subject_iterator->NextComp();
         }
-        cout << "=======================================" << endl;
+        cout << "=================================================" << endl;
 
         //get next department
         this->component_subject= this->subject_iterator->NextDept();
@@ -59,6 +60,11 @@ void Concrete_Base_Car_Measurements::set(Engineering* component)
     for(iter=indicators.begin();iter!=indicators.end();++iter){
         (*iter)->UpdateOverall_Stats(component->getStats());
     }
+}
+
+Statistics*Concrete_Base_Car_Measurements::getStats()
+{
+    return this->stats;
 }
 
 
