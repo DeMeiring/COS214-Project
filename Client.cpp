@@ -2,8 +2,9 @@
 
 Client::Client() {
     Stages.push_back(new Engineering_Stage(this));
-    Stages.push_back(new Testing_Stage(this));
-    Stages.push_back(new RaceDay_Stage(this));
+    //Stages.push_back(new Testing_Stage(this));
+    //Stages.push_back(new RaceDay_Stage(this));
+    stage = Stages[0];
 }
 
 Client::~Client() {
@@ -21,7 +22,7 @@ void Client::Kill() {
 void Client::run() {
     cout << "Welcome to The Raikkoning is coming's interactive F1 Sim" << endl;
     cout << "Please enter a team name" << endl;
-    getline(cin, teamName);
+    //getline(cin, teamName);
 
 	while(kill_switch)
 	    stage->RunStage();
