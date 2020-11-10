@@ -776,10 +776,38 @@ CMakeFiles/COS214_Project.dir/Statistics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Statistics.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\varsity S2\COS214\COS214 Project\Statistics.cpp" -o CMakeFiles\COS214_Project.dir\Statistics.cpp.s
 
+CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
+CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
+CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj: ../Strategy_Plan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.obj -c "E:\varsity S2\COS214\COS214 Project\Strategy_Plan.cpp"
+
+CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\varsity S2\COS214\COS214 Project\Strategy_Plan.cpp" > CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.i
+
+CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\varsity S2\COS214\COS214 Project\Strategy_Plan.cpp" -o CMakeFiles\COS214_Project.dir\Strategy_Plan.cpp.s
+
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Strategy_Stage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.obj -c "E:\varsity S2\COS214\COS214 Project\Strategy_Stage.cpp"
+
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\varsity S2\COS214\COS214 Project\Strategy_Stage.cpp" > CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.i
+
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\varsity S2\COS214\COS214 Project\Strategy_Stage.cpp" -o CMakeFiles\COS214_Project.dir\Strategy_Stage.cpp.s
+
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: ../Strategy_Team.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Strategy_Team.cpp.obj -c "E:\varsity S2\COS214\COS214 Project\Strategy_Team.cpp"
 
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.i: cmake_force
@@ -793,7 +821,7 @@ CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Teams.cpp.obj: ../Teams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/COS214_Project.dir/Teams.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/COS214_Project.dir/Teams.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Teams.cpp.obj -c "E:\varsity S2\COS214\COS214 Project\Teams.cpp"
 
 CMakeFiles/COS214_Project.dir/Teams.cpp.i: cmake_force
@@ -807,7 +835,7 @@ CMakeFiles/COS214_Project.dir/Teams.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj: ../Testing_Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Testing_Stage.cpp.obj -c "E:\varsity S2\COS214\COS214 Project\Testing_Stage.cpp"
 
 CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.i: cmake_force
@@ -821,7 +849,7 @@ CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Track.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Track.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Track.cpp.obj: ../Track.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/COS214_Project.dir/Track.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/COS214_Project.dir/Track.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Track.cpp.obj -c "E:\varsity S2\COS214\COS214 Project\Track.cpp"
 
 CMakeFiles/COS214_Project.dir/Track.cpp.i: cmake_force
@@ -835,7 +863,7 @@ CMakeFiles/COS214_Project.dir/Track.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Transport.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Transport.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Transport.cpp.obj: ../Transport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/COS214_Project.dir/Transport.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/COS214_Project.dir/Transport.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Transport.cpp.obj -c "E:\varsity S2\COS214\COS214 Project\Transport.cpp"
 
 CMakeFiles/COS214_Project.dir/Transport.cpp.i: cmake_force
@@ -849,7 +877,7 @@ CMakeFiles/COS214_Project.dir/Transport.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Tyres.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Tyres.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Tyres.cpp.obj: ../Tyres.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/COS214_Project.dir/Tyres.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/COS214_Project.dir/Tyres.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Tyres.cpp.obj -c "E:\varsity S2\COS214\COS214 Project\Tyres.cpp"
 
 CMakeFiles/COS214_Project.dir/Tyres.cpp.i: cmake_force
@@ -863,7 +891,7 @@ CMakeFiles/COS214_Project.dir/Tyres.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj: ../Unprepared.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/COS214_Project.dir/Unprepared.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Unprepared.cpp.obj -c "E:\varsity S2\COS214\COS214 Project\Unprepared.cpp"
 
 CMakeFiles/COS214_Project.dir/Unprepared.cpp.i: cmake_force
@@ -877,7 +905,7 @@ CMakeFiles/COS214_Project.dir/Unprepared.cpp.s: cmake_force
 CMakeFiles/COS214_Project.dir/Weather.cpp.obj: CMakeFiles/COS214_Project.dir/flags.make
 CMakeFiles/COS214_Project.dir/Weather.cpp.obj: CMakeFiles/COS214_Project.dir/includes_CXX.rsp
 CMakeFiles/COS214_Project.dir/Weather.cpp.obj: ../Weather.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/COS214_Project.dir/Weather.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/COS214_Project.dir/Weather.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project.dir\Weather.cpp.obj -c "E:\varsity S2\COS214\COS214 Project\Weather.cpp"
 
 CMakeFiles/COS214_Project.dir/Weather.cpp.i: cmake_force
@@ -940,6 +968,8 @@ COS214_Project_OBJECTS = \
 "CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Stage.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Statistics.cpp.obj" \
+"CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj" \
+"CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Teams.cpp.obj" \
 "CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj" \
@@ -1002,6 +1032,8 @@ COS214_Project.exe: CMakeFiles/COS214_Project.dir/Rookie.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Stage.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Statistics.cpp.obj
+COS214_Project.exe: CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj
+COS214_Project.exe: CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Teams.cpp.obj
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj
@@ -1014,7 +1046,7 @@ COS214_Project.exe: CMakeFiles/COS214_Project.dir/build.make
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/linklibs.rsp
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/objects1.rsp
 COS214_Project.exe: CMakeFiles/COS214_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Linking CXX executable COS214_Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\varsity S2\COS214\COS214 Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX executable COS214_Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\COS214_Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

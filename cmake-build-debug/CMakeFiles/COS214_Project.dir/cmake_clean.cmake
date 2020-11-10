@@ -48,6 +48,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj"
   "CMakeFiles/COS214_Project.dir/Stage.cpp.obj"
   "CMakeFiles/COS214_Project.dir/Statistics.cpp.obj"
+  "CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj"
+  "CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj"
   "CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj"
   "CMakeFiles/COS214_Project.dir/Teams.cpp.obj"
   "CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"

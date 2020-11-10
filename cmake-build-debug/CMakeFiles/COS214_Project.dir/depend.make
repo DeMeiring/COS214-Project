@@ -698,6 +698,32 @@ CMakeFiles/COS214_Project.dir/Stage.cpp.obj: ../Weather.h
 CMakeFiles/COS214_Project.dir/Statistics.cpp.obj: ../Statistics.cpp
 CMakeFiles/COS214_Project.dir/Statistics.cpp.obj: ../Statistics.h
 
+CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj: ../Strategy_Plan.cpp
+CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj: ../Strategy_Plan.h
+
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Aggressive.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Command.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Conservative.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Driver.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Engineering.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Engineering_Iterator.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Experienced.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Moderate.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Prepared.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Preparedness.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Pro.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../RaceDay_Strat.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Race_Command.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Race_Crew.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Risky.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Rookie.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Skill_Level.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Stage.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Statistics.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Strategy_Stage.cpp
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Strategy_Stage.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj: ../Unprepared.h
+
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: ../Command.h
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: ../Race_Command.h
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj: ../Race_Crew.h

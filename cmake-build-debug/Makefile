@@ -1465,6 +1465,60 @@ Statistics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Statistics.cpp.s
 .PHONY : Statistics.cpp.s
 
+Strategy_Plan.obj: Strategy_Plan.cpp.obj
+
+.PHONY : Strategy_Plan.obj
+
+# target to build an object file
+Strategy_Plan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj
+.PHONY : Strategy_Plan.cpp.obj
+
+Strategy_Plan.i: Strategy_Plan.cpp.i
+
+.PHONY : Strategy_Plan.i
+
+# target to preprocess a source file
+Strategy_Plan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.i
+.PHONY : Strategy_Plan.cpp.i
+
+Strategy_Plan.s: Strategy_Plan.cpp.s
+
+.PHONY : Strategy_Plan.s
+
+# target to generate assembly for a file
+Strategy_Plan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.s
+.PHONY : Strategy_Plan.cpp.s
+
+Strategy_Stage.obj: Strategy_Stage.cpp.obj
+
+.PHONY : Strategy_Stage.obj
+
+# target to build an object file
+Strategy_Stage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj
+.PHONY : Strategy_Stage.cpp.obj
+
+Strategy_Stage.i: Strategy_Stage.cpp.i
+
+.PHONY : Strategy_Stage.i
+
+# target to preprocess a source file
+Strategy_Stage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.i
+.PHONY : Strategy_Stage.cpp.i
+
+Strategy_Stage.s: Strategy_Stage.cpp.s
+
+.PHONY : Strategy_Stage.s
+
+# target to generate assembly for a file
+Strategy_Stage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project.dir\build.make CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.s
+.PHONY : Strategy_Stage.cpp.s
+
 Strategy_Team.obj: Strategy_Team.cpp.obj
 
 .PHONY : Strategy_Team.obj
@@ -1864,6 +1918,12 @@ help:
 	@echo ... Statistics.obj
 	@echo ... Statistics.i
 	@echo ... Statistics.s
+	@echo ... Strategy_Plan.obj
+	@echo ... Strategy_Plan.i
+	@echo ... Strategy_Plan.s
+	@echo ... Strategy_Stage.obj
+	@echo ... Strategy_Stage.i
+	@echo ... Strategy_Stage.s
 	@echo ... Strategy_Team.obj
 	@echo ... Strategy_Team.i
 	@echo ... Strategy_Team.s

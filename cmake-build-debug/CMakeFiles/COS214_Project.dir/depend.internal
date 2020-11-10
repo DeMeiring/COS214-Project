@@ -698,6 +698,32 @@ CMakeFiles/COS214_Project.dir/Stage.cpp.obj
 CMakeFiles/COS214_Project.dir/Statistics.cpp.obj
  E:/varsity S2/COS214/COS214 Project/Statistics.cpp
  E:/varsity S2/COS214/COS214 Project/Statistics.h
+CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj
+ E:/varsity S2/COS214/COS214 Project/Strategy_Plan.cpp
+ E:/varsity S2/COS214/COS214 Project/Strategy_Plan.h
+CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj
+ E:/varsity S2/COS214/COS214 Project/Aggressive.h
+ E:/varsity S2/COS214/COS214 Project/Command.h
+ E:/varsity S2/COS214/COS214 Project/Conservative.h
+ E:/varsity S2/COS214/COS214 Project/Driver.h
+ E:/varsity S2/COS214/COS214 Project/Engineering.h
+ E:/varsity S2/COS214/COS214 Project/Engineering_Iterator.h
+ E:/varsity S2/COS214/COS214 Project/Experienced.h
+ E:/varsity S2/COS214/COS214 Project/Moderate.h
+ E:/varsity S2/COS214/COS214 Project/Prepared.h
+ E:/varsity S2/COS214/COS214 Project/Preparedness.h
+ E:/varsity S2/COS214/COS214 Project/Pro.h
+ E:/varsity S2/COS214/COS214 Project/RaceDay_Strat.h
+ E:/varsity S2/COS214/COS214 Project/Race_Command.h
+ E:/varsity S2/COS214/COS214 Project/Race_Crew.h
+ E:/varsity S2/COS214/COS214 Project/Risky.h
+ E:/varsity S2/COS214/COS214 Project/Rookie.h
+ E:/varsity S2/COS214/COS214 Project/Skill_Level.h
+ E:/varsity S2/COS214/COS214 Project/Stage.h
+ E:/varsity S2/COS214/COS214 Project/Statistics.h
+ E:/varsity S2/COS214/COS214 Project/Strategy_Stage.cpp
+ E:/varsity S2/COS214/COS214 Project/Strategy_Stage.h
+ E:/varsity S2/COS214/COS214 Project/Unprepared.h
 CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj
  E:/varsity S2/COS214/COS214 Project/Command.h
  E:/varsity S2/COS214/COS214 Project/Race_Command.h

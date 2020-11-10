@@ -53,6 +53,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "E:/varsity S2/COS214/COS214 Project/Skill_Level.cpp" "E:/varsity S2/COS214/COS214 Project/cmake-build-debug/CMakeFiles/COS214_Project.dir/Skill_Level.cpp.obj"
   "E:/varsity S2/COS214/COS214 Project/Stage.cpp" "E:/varsity S2/COS214/COS214 Project/cmake-build-debug/CMakeFiles/COS214_Project.dir/Stage.cpp.obj"
   "E:/varsity S2/COS214/COS214 Project/Statistics.cpp" "E:/varsity S2/COS214/COS214 Project/cmake-build-debug/CMakeFiles/COS214_Project.dir/Statistics.cpp.obj"
+  "E:/varsity S2/COS214/COS214 Project/Strategy_Plan.cpp" "E:/varsity S2/COS214/COS214 Project/cmake-build-debug/CMakeFiles/COS214_Project.dir/Strategy_Plan.cpp.obj"
+  "E:/varsity S2/COS214/COS214 Project/Strategy_Stage.cpp" "E:/varsity S2/COS214/COS214 Project/cmake-build-debug/CMakeFiles/COS214_Project.dir/Strategy_Stage.cpp.obj"
   "E:/varsity S2/COS214/COS214 Project/Strategy_Team.cpp" "E:/varsity S2/COS214/COS214 Project/cmake-build-debug/CMakeFiles/COS214_Project.dir/Strategy_Team.cpp.obj"
   "E:/varsity S2/COS214/COS214 Project/Teams.cpp" "E:/varsity S2/COS214/COS214 Project/cmake-build-debug/CMakeFiles/COS214_Project.dir/Teams.cpp.obj"
   "E:/varsity S2/COS214/COS214 Project/Testing_Stage.cpp" "E:/varsity S2/COS214/COS214 Project/cmake-build-debug/CMakeFiles/COS214_Project.dir/Testing_Stage.cpp.obj"

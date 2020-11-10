@@ -28,6 +28,11 @@ add_executable(COS214_Project
         BluePrint.h
         Car_factory.cpp
         Car_factory.h
+        Class.h
+        Class2.h
+        Class3.h
+        Class4.h
+        Class5.h
         Client.cpp
         Client.h
         Command.cpp
@@ -46,6 +51,7 @@ add_executable(COS214_Project
         Driver.h
         Driver_Management.cpp
         Driver_Management.h
+        Dry.h
         Engineering.cpp
         Engineering.h
         Engineering_Iterator.cpp
@@ -54,9 +60,13 @@ add_executable(COS214_Project
         Engineering_Stage.h
         Experienced.cpp
         Experienced.h
+        Fast_Repair.h
+        Hard.h
         Individual_Component.cpp
         Individual_Component.h
         main.cpp
+        Main_race_tyres.h
+        Medium.h
         Moderate.cpp
         Moderate.h
         Monaco.cpp
@@ -77,12 +87,14 @@ add_executable(COS214_Project
         Pit_Crew.h
         Pit_Stop.cpp
         Pit_Stop.h
+        Pit_Strategy.h
         Prepared.cpp
         Prepared.h
         Preparedness.cpp
         Preparedness.h
         Pro.cpp
         Pro.h
+        Qualifying_tyres.h
         Race_Command.cpp
         Race_Command.h
         Race_Computations.cpp
@@ -95,16 +107,22 @@ add_executable(COS214_Project
         RaceDay_Strat.h
         Radio_System.cpp
         Radio_System.h
+        Raining.h
         Risky.cpp
         Risky.h
         Rookie.cpp
         Rookie.h
         Skill_Level.cpp
         Skill_Level.h
+        Slow_Repair.h
+        Soft.h
         Stage.cpp
         Stage.h
         Statistics.cpp
         Statistics.h
+        Strategy_Plan.cpp
+        Strategy_Plan.h
+        Strategy_Stage.cpp
         Strategy_Stage.h
         Strategy_Team.cpp
         Strategy_Team.h
@@ -121,4 +139,5 @@ add_executable(COS214_Project
         Unprepared.cpp
         Unprepared.h
         Weather.cpp
-        Weather.h)
+        Weather.h
+        Wet.h)

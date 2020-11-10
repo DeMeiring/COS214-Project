@@ -148,6 +148,21 @@
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Car_factory.h">
 			<Option target="COS214_Project"/>
 		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Class.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Class2.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Class3.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Class4.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Class5.h">
+			<Option target="COS214_Project"/>
+		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Client.cpp">
 			<Option target="COS214_Project"/>
 		</Unit>
@@ -202,6 +217,9 @@
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Driver_Management.h">
 			<Option target="COS214_Project"/>
 		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Dry.h">
+			<Option target="COS214_Project"/>
+		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Engineering.cpp">
 			<Option target="COS214_Project"/>
 		</Unit>
@@ -226,10 +244,22 @@
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Experienced.h">
 			<Option target="COS214_Project"/>
 		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Fast_Repair.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Hard.h">
+			<Option target="COS214_Project"/>
+		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Individual_Component.cpp">
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Individual_Component.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Main_race_tyres.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Medium.h">
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Moderate.cpp">
@@ -292,6 +322,9 @@
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Pit_Stop.h">
 			<Option target="COS214_Project"/>
 		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Pit_Strategy.h">
+			<Option target="COS214_Project"/>
+		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Prepared.cpp">
 			<Option target="COS214_Project"/>
 		</Unit>
@@ -308,6 +341,9 @@
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Pro.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Qualifying_tyres.h">
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/RaceDay_Stage.cpp">
@@ -349,6 +385,9 @@
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Radio_System.h">
 			<Option target="COS214_Project"/>
 		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Raining.h">
+			<Option target="COS214_Project"/>
+		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Risky.cpp">
 			<Option target="COS214_Project"/>
 		</Unit>
@@ -367,6 +406,12 @@
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Skill_Level.h">
 			<Option target="COS214_Project"/>
 		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Slow_Repair.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Soft.h">
+			<Option target="COS214_Project"/>
+		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Stage.cpp">
 			<Option target="COS214_Project"/>
 		</Unit>
@@ -377,6 +422,15 @@
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Statistics.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Strategy_Plan.cpp">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Strategy_Plan.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Strategy_Stage.cpp">
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Strategy_Stage.h">
@@ -428,6 +482,9 @@
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/Weather.h">
+			<Option target="COS214_Project"/>
+		</Unit>
+		<Unit filename="E:/varsity S2/COS214/COS214 Project/Wet.h">
 			<Option target="COS214_Project"/>
 		</Unit>
 		<Unit filename="E:/varsity S2/COS214/COS214 Project/main.cpp">
