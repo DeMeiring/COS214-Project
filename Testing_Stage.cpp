@@ -1,40 +1,78 @@
 #include "Testing_Stage.h"
-#include "Client.h"
 
-Testing_Stage::Testing_Stage(Client *cl) : Stage(cl)  {
-    Manager = new Driver_Management();
-}
 
 Testing_Stage::~Testing_Stage() {
-    if(Manager != nullptr)
-    {
-        delete Manager;
-        Manager = nullptr;
-    }
+    delete this->driver;
+    delete this->car;
+    delete this->observer;
+    delete this->concreteBase;
+    this->driver= nullptr;
+    this->car= nullptr;
+    this->observer= nullptr;
+    this->concreteBase= nullptr;
 }
 
-void Testing_Stage::TestingStage_main() {
+void Testing_Stage::TestingStage_main()
+{
+    // dm->showAvailableDrivers();
+
+    Driver_Management* dm = new Driver_Management();
+
+    cout << "===============================" << endl;
+    cout << "Available Drivers : " << dm->showAvailableDrivers() << endl;
+    cout << "===============================" << endl;
+    cout << endl;
+    cout << "Please select a driver: " << endl;
+    int input;
+
+    dm->purchase_driver(input, )
 
 }
 
-void Testing_Stage::pushDrivers() {
-     // get vector
-    User->setHired(Manager->getVector());
-}
-
-void Testing_Stage::pushOverall() {
-    // get overall
+Testing_Stage::Testing_Stage(Driver *driver, Engineering *car, Performance_Indicator *observer, Base_Car_Measurements *concreteBase) {
+    this->driver=driver;
+    this->car=car;
+    this->observer=observer;
+    this->concreteBase=concreteBase;
 
 }
 
-Stage* Testing_Stage::ChangeStage(int Stage) {
-    if(Stage==1)
-        Stage::getClient()->SetStage(Stage::getClient()->getStages()[1]);
-    else
-        Stage::getClient()->SetStage(Stage::getClient()->getStages()[3]);
-    return nullptr;
+void Testing_Stage::setDriver(Driver *driver)
+{
+    this->driver=driver;
 }
 
-void Testing_Stage::RunStage() {
-    TestingStage_main();
+void Testing_Stage::setCar(Engineering *car)
+{
+    this->car=car;
+}
+
+void Testing_Stage::setObserver(Performance_Indicator *observer)
+{
+    this->observer = observer;
+}
+
+void Testing_Stage::setConcreteBase(Base_Car_Measurements *concreteBase)
+{
+    this->concreteBase=concreteBase;
+}
+
+Driver *Testing_Stage::getDriver()
+{
+    return this->driver;
+}
+
+Engineering *Testing_Stage::getCar()
+{
+    return this->car;
+}
+
+Performance_Indicator *Testing_Stage::getObserver()
+{
+    return this->observer;
+}
+
+Base_Car_Measurements *Testing_Stage::getConcreteBase()
+{
+    return this->concreteBase;
 }
