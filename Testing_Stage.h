@@ -10,21 +10,23 @@
 
 using namespace std;
 
-class Testing_Stage : Stage {
+class Testing_Stage :public Stage {
     Driver* driver;
     Engineering* car;
     Performance_Indicator* observer;
     Base_Car_Measurements* concreteBase;
     Driver_Management* dm;
+    Client* cli;
 
 public:
-	Testing_Stage(Driver* driver,Engineering* car,Performance_Indicator* observer,Base_Car_Measurements* concreteBase);
+	Testing_Stage(Client *cl);
 	//setters
 	void setDriver(Driver* driver);
 	void setCar(Engineering*car);
     void setObserver(Performance_Indicator* observer);
     void setConcreteBase(Base_Car_Measurements*concreteBase);
-
+    virtual Stage* ChangeStage(int Stage);
+    void RunStage();
     //getters
     Driver* getDriver();
     Engineering* getCar();

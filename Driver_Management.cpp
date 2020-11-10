@@ -28,11 +28,20 @@ void Driver_Management::showAvailableDrivers() {
 }
 
 void Driver_Management::purchase_driver(int index, int budget) {
-    budget = budget - costPerDriver.at(index);
+    if(this->budget - costPerDriver.at(index)<=0){
+        cout<<"Can not afford the driver.";
+        cout<<endl;
+    }else{
+        this->budget = this->budget - costPerDriver.at(index);
 
-    Driver *purchasedDriver = new Driver(new Conc_Radio_System(), new Statistics(), available_drivers.at(index),costPerDriver.at(index));
+        Driver *purchasedDriver = new Driver(new Conc_Radio_System(), new Statistics(), available_drivers.at(index),costPerDriver.at(index));
 
-    hired_drivers.push_back(purchasedDriver);
+        hired_drivers.push_back(purchasedDriver);
+    }
+}
+
+int Driver_Management::getBudget() {
+    return this->budget;
 }
 
 int Driver_Management::release_driver(Driver* release) {
@@ -51,4 +60,8 @@ vector<Driver *> Driver_Management::getVector() {
 
 Driver_Management::~Driver_Management() {
 
+}
+
+void Driver_Management::SetBudget(int budget) {
+    this->budget=budget;
 }

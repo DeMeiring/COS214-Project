@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project
+# Install script for directory: E:/varsity S2/COS214/COS214 Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/liamb/OneDrive/Documents/University/COS214/Project/Git/COS214-Project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/varsity S2/COS214/COS214 Project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -27,7 +27,7 @@ void Concrete_Base_Car_Measurements::Observe_car(){
     string deptName;
 
     for(int i = 0; i < 4; i++) //change departments
-    { 
+    {
         deptName = subject_iterator->CurrentDept()->getRnDName();
         cout << "==========Department: "<< deptName << "===========" << endl;
 
@@ -41,16 +41,16 @@ void Concrete_Base_Car_Measurements::Observe_car(){
             cout << "--------------------------" << endl;
 
             this->stats->ChangeValue(attributename, compValue, false, false);
-            // get next component
-            this->component_subject= this->subject_iterator->NextComp();
+
+            setCompSubject(this->subject_iterator->NextComp());
         }
         cout << "=================================================" << endl;
 
         //get next department
-        this->component_subject= this->subject_iterator->NextDept();
-
+        setCompSubject(this->subject_iterator->NextDept());
     }
     set(this->component_subject);
+    cout<<"Testing passed without error/fail"<<endl;
 }
 
 void Concrete_Base_Car_Measurements::set(Engineering* component)
@@ -65,6 +65,12 @@ void Concrete_Base_Car_Measurements::set(Engineering* component)
 Statistics*Concrete_Base_Car_Measurements::getStats()
 {
     return this->stats;
+}
+
+void Concrete_Base_Car_Measurements::setCompSubject(Engineering *carComp) {
+        delete component_subject;
+        component_subject = nullptr;
+        this->component_subject = carComp;
 }
 
 

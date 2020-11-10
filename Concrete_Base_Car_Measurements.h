@@ -17,6 +17,8 @@ public:
 	virtual ~Concrete_Base_Car_Measurements();
 
 	void Observe_car();
+
+	void setCompSubject(Engineering* carComp);
 	
 	Statistics* getStats();
 	void set(Engineering* component);
